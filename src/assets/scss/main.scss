@@ -2,11 +2,11 @@
 @import "vendor/reset";
 
 body {
-	background-color: pink;
+	background-color: $grey;
 }
 
 .navigation {
-	background-color: $blue;
+	background-color: $pale-pink;
 }
 
 @import "blocks/header";
