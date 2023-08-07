@@ -1,0 +1,22 @@
+{
+  "pageTitle": "My Awesome Website",
+  "current_year": "2023",
+  "navItems": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "About",
+      "url": "/about"
+    },
+    {
+      "text": "Services",
+      "url": "/services"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact"
+    }
+  ]
+}

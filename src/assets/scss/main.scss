@@ -1,0 +1,12 @@
+@import "vars";
+@import "vendor/reset";
+
+body {
+	background-color: pink;
+}
+
+.navigation {
+	background-color: $blue;
+}
+
+@import "blocks/header";
