@@ -1,0 +1,14 @@
+.mainscreen {
+	max-width: 1276px;
+	height: 560px;
+	padding: 68px 0 0 105px;
+	margin-bottom: 48px;
+
+	border-radius: $border-radius;
+	background: url("../../assets/images/bg/mainscreen.png") center center/cover
+		no-repeat;
+
+	&__left {
+		max-width: 440px;
+	}
+}

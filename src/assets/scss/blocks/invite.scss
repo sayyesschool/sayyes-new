@@ -1,0 +1,118 @@
+.invite {
+	position: relative;
+
+	&__tabs {
+		display: flex;
+		padding-left: 756px;
+	}
+
+	&__tab {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 200px;
+		min-height: 55px;
+		margin-right: 10px;
+
+		background-color: $medium-magenta;
+		border-radius: $border-radius-sm $border-radius-sm 0 0;
+
+		font-size: 18px;
+		font-weight: 700;
+
+		&--active {
+			background-color: $yellow;
+		}
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		padding: 35px 106px 55px;
+
+		background-color: $yellow;
+		border-radius: $border-radius;
+	}
+
+	&__title {
+		max-width: 381px;
+		margin-bottom: 29px;
+	}
+
+	&__description {
+		max-width: 279px;
+
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__left {
+		flex-basis: 648px;
+	}
+
+	&__format {
+		max-width: 260px;
+		margin-bottom: 13px;
+
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+	}
+
+	&__radio-buttons {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 18px;
+	}
+
+	&__radio-btn {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 15px;
+	}
+
+	&__input-text {
+		display: block;
+		width: 400px;
+		padding: 11px 20px;
+		margin-bottom: 10px;
+
+		font-size: 18px;
+		border-radius: $border-radius;
+		border: none;
+	}
+
+	&__input-select {
+		width: 400px;
+		padding: 11px 20px;
+		margin: 10px 0 40px;
+
+		font-size: 18px;
+		border-radius: $border-radius;
+		border: none;
+	}
+
+	&__communication {
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 24px;
+
+		max-width: 181px;
+		margin-top: 10px;
+	}
+
+	&__policy {
+		font-size: 13px;
+		font-weight: 600;
+		line-height: 11px;
+
+		margin-top: 11px;
+	}
+
+	&__bg {
+		position: absolute;
+		bottom: 0;
+		left: 38%;
+		transform: translateX(-50%);
+	}
+}
