@@ -1,3 +1,96 @@
-<footer>
-    <p>&copy; {{ current_year }} My Website</p>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__wrapper">
+			<div class="footer__column">
+				<img src="./assets/images/logo-white.svg" alt="Say Yes" class="logo">
+				{% include '../components/phone-numbers.twig' %}
+				<div class="footer__call">
+					Заказать звонок
+					<br>
+					Напишите нам в WhatsApp</div>
+				<div class="footer__email">
+					<div class="footer__title">E-MAIL:</div>
+					<div class="footer__item-test">{{meta.email}}</div>
+				</div>
+				<div class="footer__address">
+					<div class="footer__title">Адрес школы</div>
+					<div class="footer__item">{{meta.address}}</div>
+				</div>
+                <div class="footer__policy">
+                    Политика конфиденциальности
+                    Договор-оферта
+                </div>
+			</div>
+			<div class="footer__column">
+				<div class="footer__about">
+					<div class="footer__title">О SAY YES</div>
+					<div class="footer__item">Кто мы</div>
+					<div class="footer__item">Преподаватели</div>
+					<div class="footer__item">Методика</div>
+					<div class="footer__item">Прогресс студентов</div>
+					<div class="footer__item">Вакансии</div>
+				</div>
+				<ul class="social">
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<img src="./assets/images/icons/telegram.svg" alt="Telecram">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<img src="./assets/images/icons/instagram.svg" alt="Instagram">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<img src="./assets/images/icons/youtube.svg" alt="YouTube">
+						</a>
+					</li>
+				</ul>
+                <div class="footer__copyright">
+                    © 2013–2023 SAY YES!
+                    <br>
+                    Все права защищены
+                </div>
+			</div>
+			<div class="footer__column">
+				<div class="footer__title">Курсы и программы школы</div>
+				<div class="footer__courses">
+					<div class="footer__subcolumn">
+						<div class="footer__item">Взрослым</div>
+						<div class="footer__item">Детям</div>
+						<div class="footer__item">Компаниям</div>
+						<div class="footer__item">Цены</div>
+					</div>
+					<div class="footer__subcolumn">
+						<div class="footer__item">Группа офлайн</div>
+						<div class="footer__item">Группа онлайн</div>
+						<div class="footer__item">Индивидуально офлайн</div>
+						<div class="footer__item">Индивидуально онлайн</div>
+						<div class="footer__item">Разговорный онлайн клуб</div>
+
+						<div class="footer__results-title">
+							Результаты проведения СОУТ
+						</div>
+					</div>
+				</div>
+				<div class="footer__license">
+					Лицензия на доп. образование
+					серия 77 Л01 №0007610
+				</div>
+                <div class="footer__developers">
+					<div class="footer__subcolumn">
+						<div class="footer__item">Сделано с</div>
+					</div>
+					<div class="footer__subcolumn">
+						<div class="footer_-designer">
+                            Дизайн сайта
+                            <br>
+                            Насибуллина Екатерина
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div>
 </footer>

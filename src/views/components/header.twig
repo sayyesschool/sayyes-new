@@ -1,31 +1,26 @@
 <header class="header">
-	<div class="header__overview">
-		<img src="./assets/images/logo-white.svg" alt="Say Yes" class="logo">
-		<button class="btn btn--transparent btn--uppercase btn--sm">Бесплатный урок</button>
-		<a href="#" class="header__link">Онлайн тест</a>
-		<a href="#" class="header__link">Обратный звонок</a>
-		<ul class="phone-numbers">
-			{% for item in meta.phonenumberItems %}
-				<li class="phone-numbers__item">
-					<img src="{{item.icon}}" alt="Contact" class="phone-numbers__icon">
-					<a href="#" class="phone-numbers__link">{{item.text}}</a>
-				</li>
-			{% endfor %}
-		</ul>
-		<div class="header__contacts">
-			<div class="header__city">Москва</div>
-			<div class="header__time">ПН-ПТ с 12:00 до 21:00</div>
+	<div class="container">
+		<div class="header__overview">
+			<img src="./assets/images/logo-white.svg" alt="Say Yes" class="logo">
+			<button class="btn btn--transparent btn--uppercase btn--sm">Бесплатный урок</button>
+			<a href="#" class="header__link">Онлайн тест</a>
+			<a href="#" class="header__link">Обратный звонок</a>
+			{% include '../components/phone-numbers.twig' %}
+			<div class="header__contacts">
+				<div class="header__city">Москва</div>
+				<div class="header__time">ПН-ПТ с 12:00 до 21:00</div>
+			</div>
+			<a href="#" class="header__link">Войти</a>
 		</div>
-		<a href="#" class="header__link">Войти</a>
-	</div>
 
-	<nav class="header__navigation">
-		<ul class="header__list">
-			{% for item in headerNavItems %}
-				<li class="header__item">
-					<a href="{{ item.url }}" class="header__sublink">{{ item.text }}</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</nav>
+		<nav class="header__navigation">
+			<ul class="header__list">
+				{% for item in headerNavItems %}
+					<li class="header__item">
+						<a href="{{ item.url }}" class="header__sublink">{{ item.text }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
 </header>

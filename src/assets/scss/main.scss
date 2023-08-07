@@ -5,9 +5,7 @@ body {
 	background-color: $pearl-white;
 	font-size: 24px;
 	color: $black;
-	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-		Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "Raleway", sans-serif;
 }
 
 *,
@@ -25,7 +23,9 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/social";
 @import "blocks/phone-numbers";
 @import "blocks/btn";
 @import "blocks/logo";
 @import "blocks/header";
+@import "blocks/footer";

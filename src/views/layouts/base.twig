@@ -6,18 +6,15 @@
 		<title>{{ pageTitle }}</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/styles.min.css">
 	</head>
 	<body>
-		<div class="container">
-			{% include '../components/header.twig' %}
+		{% include '../components/header.twig' %}
 
-			{% block content %}{% endblock %}
+		<div class="container">{% block content %}{% endblock %}</div>
 
-			{% include '../components/footer.twig' %}
-		</div>
-
+		{% include '../components/footer.twig' %}
 		<script src="assets/js/scripts.js"></script>
 	</body>
 </html>

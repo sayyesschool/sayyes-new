@@ -1,0 +1,116 @@
+.footer {
+	background-color: $white;
+	padding: 42px 0;
+
+	.logo {
+		width: 164px;
+		height: 54px;
+		margin-bottom: 18px;
+
+		background-color: $violent;
+	}
+
+	.phone-numbers {
+		font-size: 18px;
+		margin-bottom: 10px;
+
+		&__icon {
+			display: none;
+		}
+
+		&__link {
+			color: $black;
+			font-weight: 800;
+		}
+	}
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		font-size: 18px;
+	}
+
+	&__call {
+		margin-bottom: 25px;
+	}
+
+	&__email {
+		margin-bottom: 20px;
+	}
+
+	&__address {
+		max-width: 247px;
+	}
+
+	&__column {
+		flex-basis: 285px;
+
+		&:nth-child(2) {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		&:last-child {
+			flex-basis: 518px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+
+	&__item {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+
+		margin-bottom: 5px;
+
+		&--test {
+			margin-bottom: 25px;
+		}
+	}
+
+	&__title {
+		text-transform: uppercase;
+		font-weight: 800;
+		margin-bottom: 15px;
+
+		&--test {
+			margin-bottom: 5px;
+		}
+	}
+
+	&__results-title {
+		max-width: 172px;
+		font-weight: 700;
+		margin-top: 39px;
+	}
+
+	&__courses,
+	&__developers {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 12px;
+	}
+
+	&__license {
+		display: flex;
+		align-items: center;
+		width: 518px;
+		height: 75px;
+		padding: 0 54px 0 175px;
+
+		background-color: $pearl-white;
+		border-radius: $border-radius-sm;
+	}
+
+	&__policy,
+	&__copyright,
+	&__developers {
+		font-weight: 700;
+		margin-top: 60px;
+		padding-top: 35px;
+		border-top: 1px solid $pearl-white;
+	}
+}

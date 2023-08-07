@@ -1,0 +1,8 @@
+<ul class="phone-numbers">
+	{% for item in meta.phonenumberItems %}
+		<li class="phone-numbers__item">
+			<img src="{{item.icon}}" alt="Contact" class="phone-numbers__icon">
+			<a href="#" class="phone-numbers__link">{{item.text}}</a>
+		</li>
+	{% endfor %}
+</ul>
