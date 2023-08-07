@@ -1,22 +1,55 @@
 {
-  "pageTitle": "My Awesome Website",
-  "current_year": "2023",
-  "navItems": [
-    {
-      "text": "Home",
-      "url": "/"
-    },
-    {
-      "text": "About",
-      "url": "/about"
-    },
-    {
-      "text": "Services",
-      "url": "/services"
-    },
-    {
-      "text": "Contact",
-      "url": "/contact"
-    }
-  ]
+	"pageTitle": "Say Yes School",
+	"meta": {
+		"charset": "utf-8",
+		"pageTitle": "Say Yes School",
+		"description": "Изучение английского языка для взрослых и детей Say Yes. Метро Павелецкая, Белорусская, Улица 1905 года, Беговая (ЦАО, ЮАО). Английский с нуля до автоматизма — заявка на тестирование и пробный урок",
+		"phonenumberItems": [
+			{
+				"text": "+7 499 650-53-47",
+				"number": "74996505347",
+				"icon": "./assets/images/icons/phone-call.svg"
+			},
+			{
+				"text": "+7 929 554-65-99",
+				"number": "79295546599",
+				"icon": "./assets/images/icons/whats-app.svg"
+			}
+		],
+		"email": "info@sayes.ru",
+		"address": "г. Москва, м. Павелецкая, ул. Кожевническая, дом 14, корпус 1,  строение 2",
+		"copyright": "© 2013–2023 SAY YES!",
+		"license": "серия 77 Л01 №0007610",
+		"designer": "Насибуллина Екатерина"
+	},
+	"headerNavItems": [
+		{
+			"text": "О Say Yes",
+			"url": "/"
+		},
+		{
+			"text": "Взрослым",
+			"url": "/adults"
+		},
+		{
+			"text": "Детям",
+			"url": "/children"
+		},
+		{
+			"text": "Формы обучения",
+			"url": "/education"
+		},
+		{
+			"text": "Цены",
+			"url": "/price"
+		},
+		{
+			"text": "Компаниям",
+			"url": "/companies"
+		},
+		{
+			"text": "Контакты",
+			"url": "/contacts"
+		}
+	]
 }
