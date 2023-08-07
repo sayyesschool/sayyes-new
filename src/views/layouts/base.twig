@@ -4,17 +4,20 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ pageTitle }}</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/styles.min.css">
 	</head>
 	<body>
+		<div class="container">
+			{% include '../components/header.twig' %}
 
-		{% include '../components/header.twig' %}
-
-		<div class="content"> {% block content %}{% endblock %}
-			</div>
+			{% block content %}{% endblock %}
 
 			{% include '../components/footer.twig' %}
+		</div>
 
-			<script src="assets/js/scripts.js"></script>
-		</body>
-	</html>
+		<script src="assets/js/scripts.js"></script>
+	</body>
+</html>

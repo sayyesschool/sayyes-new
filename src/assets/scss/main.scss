@@ -2,11 +2,27 @@
 @import "vendor/reset";
 
 body {
-	background-color: $grey;
+	background-color: $pearl-white;
+	font-size: 24px;
+	color: $black;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+		Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.navigation {
-	background-color: $pale-pink;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1276px;
+	margin: 0 auto;
 }
 
 @import "blocks/header";
