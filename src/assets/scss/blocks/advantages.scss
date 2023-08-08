@@ -1,0 +1,68 @@
+.advantages {
+	padding: 88px 106px 100px;
+
+	background-color: $white;
+
+	.advantages-description {
+		margin-bottom: 23px;
+	}
+
+	&__practice {
+		display: flex;
+		justify-content: space-between;
+
+		margin: 58px 0 100px;
+	}
+
+	&__request {
+		max-width: 210px;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+
+    margin-top: auto;
+	}
+
+	&__link {
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+		text-decoration: underline;
+		color: $black;
+	}
+
+	&__dream-team {
+		display: flex;
+		justify-content: space-between;
+
+		margin: 38px 0 111px;
+	}
+
+  &__dream-team-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+	&__dream-team-right {
+		display: flex;
+		justify-content: space-between;
+
+		width: 732px;
+	}
+
+	&__blocks {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		max-width: 412px;
+	}
+
+  &__platform {
+    margin-bottom: 101px;
+  }
+
+  &__platform-title {
+    max-width: 425px;
+  }
+}

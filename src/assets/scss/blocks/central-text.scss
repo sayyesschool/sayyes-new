@@ -1,0 +1,22 @@
+.central-text {
+	max-width: 876px;
+  margin: 0 auto 130px;
+
+	text-align: center;
+
+	&__title {
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+
+		margin-bottom: 19px;
+	}
+
+	&__description {
+		max-width: 640px;
+		margin: 0 auto;
+
+		font-weight: 600;
+		line-height: 25px;
+	}
+}
