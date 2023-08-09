@@ -1,0 +1,70 @@
+.slider {
+	margin: 50px 0 208px;
+	position: relative;
+	max-width: 1164px;
+
+	&__arrows {
+		position: absolute;
+		top: -65px;
+		right: 0;
+	}
+
+	&__left-arrow,
+	&__right-arrow {
+		width: 60px;
+		height: 60px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 2.5px;
+
+		border-radius: 100%;
+		border: none;
+		background-color: $white;
+		font-weight: 600;
+		color: $grey;
+	}
+
+	&__slide {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+	}
+
+	&__right {
+		align-self: flex-end;
+	}
+
+	&__video {
+		position: relative;
+		margin-bottom: 20px;
+
+		.play {
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
+		}
+	}
+
+	&__dots {
+		position: absolute;
+		bottom: -20px;
+		right: 155px;
+		display: flex;
+		justify-content: space-between;
+		width: 100px;
+	}
+
+	&__dot {
+		width: 8px;
+		height: 8px;
+		background-color: transparent;
+		border: 2px solid $black;
+		border-radius: 100%;
+	}
+}

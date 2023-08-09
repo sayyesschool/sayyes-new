@@ -30,6 +30,10 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/about-person";
+@import "blocks/comment";
+@import "blocks/slider";
+@import "blocks/progress";
 @import "blocks/atmosphere";
 @import "blocks/platform";
 @import "blocks/dream-team";

@@ -1,0 +1,18 @@
+.progress {
+	margin-top: 150px;
+
+	&__title {
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+		margin-top: 23px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+		margin-top: 15px;
+		max-width: 627px;
+	}
+}

@@ -1,0 +1,25 @@
+.comment {
+	position: relative;
+	padding: 30px 68px;
+	max-width: 411px;
+
+	background-color: $violent;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+	color: $white;
+	border-radius: 0 $border-radius-sm $border-radius-sm $border-radius-sm;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: -6px;
+		left: 0;
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 6px 0 0 25px;
+		border-color: transparent transparent transparent $violent;
+	}
+}
