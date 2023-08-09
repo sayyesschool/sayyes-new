@@ -388,6 +388,153 @@ a {
     margin: 0 auto;
 }
 
+.about-person {
+    max-width: 412px;
+    padding: 50px 50px 25px;
+    background-color: #fffcff;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-person__title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.about-person__mini-title {
+    font-weight: 800;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.about-person__description {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.about-person__link {
+    display: inline-block;
+    color: #7831b2;
+    text-decoration: underline;
+    margin-bottom: 23px;
+}
+
+.comment {
+    position: relative;
+    padding: 30px 68px;
+    max-width: 411px;
+    background-color: #7831b2;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fffcff;
+    border-radius: 0 15px 15px 15px;
+}
+
+.comment::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 0 25px;
+    border-color: transparent transparent transparent #7831b2;
+}
+
+.slider {
+    margin: 50px 0 208px;
+    position: relative;
+    max-width: 1164px;
+}
+
+.slider__arrows {
+    position: absolute;
+    top: -65px;
+    right: 0;
+}
+
+.slider__left-arrow, .slider__right-arrow {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5px;
+    border-radius: 100%;
+    border: none;
+    background-color: #fffcff;
+    font-weight: 600;
+    color: #e5e3e2;
+}
+
+.slider__slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.slider__right {
+    align-self: flex-end;
+}
+
+.slider__video {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.slider__video .play {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.slider__dots {
+    position: absolute;
+    bottom: -20px;
+    right: 155px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.slider__dot {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 2px solid #262626;
+    border-radius: 100%;
+}
+
+.progress {
+    margin-top: 150px;
+}
+
+.progress__title {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 23px;
+}
+
+.progress__description {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 15px;
+    max-width: 627px;
+}
+
 .atmosphere {
     background-color: #fffcff;
     padding: 50px 0 100px;
