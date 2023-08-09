@@ -1,0 +1,61 @@
+.dream-team {
+	padding: 50px 0;
+  background-color: $white;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 44px;
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__description {
+		max-width: 295px;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+		margin-bottom: 23px;
+	}
+
+	&__link {
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+		text-decoration: underline;
+		color: $black;
+	}
+
+	&__offer {
+		max-width: 210px;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+		margin-top: auto;
+	}
+
+  &__img {
+    object-fit: contain;
+  }
+
+  &__right-content {
+    display: flex;
+    flex-direction: column;
+		justify-content: space-between;
+
+    .btn {
+      margin-top: auto;
+    }
+  }
+
+  &__blocks {
+    display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		max-width: 412px;
+  }
+}

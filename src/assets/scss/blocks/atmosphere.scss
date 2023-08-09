@@ -1,0 +1,67 @@
+.atmosphere {
+	background-color: $white;
+	padding: 50px 0 100px;
+
+	&__description {
+		margin: 23px 0 51px;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+		max-width: 570px;
+	}
+
+	&__trip {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		position: relative;
+	}
+
+	&__trip-text {
+		max-width: 122px;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+	}
+
+	&__trip-tip {
+		position: absolute;
+		top: 200px;
+		left: 100px;
+	}
+
+	&__celebrations {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	&__celebrations-list {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+		max-width: 207px;
+	}
+
+	&__celebrations-item {
+		margin-bottom: 15px;
+	}
+
+	&__celebrations-images {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&__celebration-img {
+		&:first-child {
+			margin-right: 20px;
+		}
+	}
+
+	&__celebrations-tip {
+		position: absolute;
+		bottom: 30px;
+		left: 370px;
+	}
+}

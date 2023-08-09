@@ -30,10 +30,14 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/atmosphere";
+@import "blocks/platform";
+@import "blocks/dream-team";
+@import "blocks/left-title";
+@import "blocks/section-container";
+@import "blocks/practice";
+@import "blocks/play";
 @import "blocks/advantage";
-@import "blocks/advantages-description";
-@import "blocks/advantages-title";
-@import "blocks/advantages";
 @import "blocks/central-text";
 @import "blocks/invite";
 @import "blocks/violent";
