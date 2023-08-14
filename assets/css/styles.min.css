@@ -388,6 +388,38 @@ a {
     margin: 0 auto;
 }
 
+.trial-lesson-mini {
+    max-width: 1276px;
+    padding: 76px 0 71px;
+    position: relative;
+    background-color: #ffd754;
+    border-radius: 30px;
+}
+
+.trial-lesson-mini__pen-icon, .trial-lesson-mini__hourglass-icon, .trial-lesson-mini__book-icon, .trial-lesson-mini__statue-of-liberty-icon {
+    position: absolute;
+}
+
+.trial-lesson-mini__pen-icon {
+    top: 47px;
+    left: 64px;
+}
+
+.trial-lesson-mini__hourglass-icon {
+    top: -42.5px;
+    right: 361px;
+}
+
+.trial-lesson-mini__book-icon {
+    bottom: 25px;
+    left: -50px;
+}
+
+.trial-lesson-mini__statue-of-liberty-icon {
+    bottom: 0;
+    right: 23px;
+}
+
 .about-person {
     max-width: 412px;
     padding: 50px 50px 25px;
@@ -709,6 +741,7 @@ a {
 
 .practice {
     padding: 88px 0 50px;
+    margin-top: 130px;
     background-color: #fffcff;
     border-radius: 30px 30px 0 0;
 }
@@ -763,7 +796,7 @@ a {
 
 .central-text {
     max-width: 876px;
-    margin: 0 auto 130px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -893,6 +926,10 @@ a {
 
 .violent {
     color: #7831b2;
+}
+
+.violent__underline {
+    text-decoration: underline;
 }
 
 .subtitle {
