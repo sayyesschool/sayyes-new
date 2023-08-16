@@ -1,0 +1,40 @@
+.being-student {
+	padding: 96px 105px 96px 100px;
+	margin-bottom: 184px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+
+	background-color: $white;
+	border-radius: $border-radius;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 55%;
+		left: 30%;
+		width: 285px;
+		height: 145px;
+		background: url("../../assets/images/short-video.svg") center
+			center/contain no-repeat;
+	}
+
+	.subtitle {
+		max-width: 340px;
+	}
+
+	.video {
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -10px;
+			left: -35px;
+			width: 507px;
+			height: 334px;
+			background: url("../../assets/images/being-student-border.svg")
+				center center/contain no-repeat;
+		}
+	}
+}
