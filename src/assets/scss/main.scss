@@ -30,6 +30,10 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/video";
+@import "blocks/feedback";
+@import "blocks/tabs";
+@import "blocks/lessons-type";
 @import "blocks/course-selection";
 @import "blocks/course";
 @import "blocks/courses";

@@ -25,9 +25,21 @@
 	}
 
 	&__link {
-    display: inline-block;
+		display: inline-block;
 		color: $violent;
 		text-decoration: underline;
-    margin-bottom: 23px;
+		margin-bottom: 23px;
+	}
+
+	&__tag {
+		display: inline-block;
+		padding: 7px 12px;
+		margin-bottom: 34px; 
+
+		border: 2px solid $black;
+		border-radius: 8.65px;
+		font-size: 13px;
+		font-weight: 600;
+		line-height: 20px;
 	}
 }

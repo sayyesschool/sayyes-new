@@ -1,0 +1,15 @@
+.feedback {
+  display: flex;
+  justify-content: space-between;
+	min-height: 525px;
+
+	&__left {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+	}
+
+	&__right {
+		align-self: flex-end;
+	}
+}
