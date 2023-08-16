@@ -1,0 +1,19 @@
+<section class="back-office">
+	<h2 class="subtitle">В бэк-офисе SAY YES! работает 24 человека.
+	</h2>
+	<p class="back-office__description">Главное, что объединяет нас — это любовь к людям и английскому языку. Каждый из нас работает для того, чтобы наши студенты были окружены заботой и самыми последними инновациями в обучении.
+	</p>
+
+	<div class="person-cards">
+		{% for person in personCards %}
+			<div class="person-card">
+				<img src="../assets/images/team/{{person.img}}.png" alt="{{person.name}}" class="person-card__img">
+				<div class="person-card__content">
+					<h3 class="person-card__name">{{person.name}}</h3>
+					<h4 class="person-card__post">{{person.post}}</h4>
+					<p class="person-card__description">{{person.about}}</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>

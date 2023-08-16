@@ -1,0 +1,59 @@
+.person-card {
+	max-width: 411px;
+	margin-bottom: 150px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	background-color: $white;
+	border-radius: $border-radius;
+
+	&__img {
+		width: 100%;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 50px;
+		flex-grow: 1;
+
+		&::before {
+			content: "";
+			position: absolute;
+			bottom: 60px;
+			left: -10px;
+			width: 48px;
+			height: 65px;
+			background: url("../../assets/images/lightning.svg") center
+				center/contain no-repeat;
+		}
+	}
+
+	&__name {
+		font-size: 24px;
+		font-weight: 800;
+		line-height: 25px;
+
+		margin-bottom: 14px;
+	}
+
+	&__post {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		margin-bottom: 40px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 25px;
+
+		max-width: 363px;
+		margin-top: auto;
+	}
+}

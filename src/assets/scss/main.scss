@@ -6,6 +6,7 @@ body {
 	font-size: 24px;
 	color: $black;
 	font-family: "Raleway", sans-serif;
+	overflow-x: hidden;
 }
 
 *,
@@ -30,6 +31,9 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/person-cards";
+@import "blocks/person-card";
+@import "blocks/back-office";
 @import "blocks/appeal";
 @import "blocks/appeal-founders";
 @import "blocks/being-student";
