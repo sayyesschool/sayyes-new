@@ -1,25 +1,44 @@
 .comment {
 	position: relative;
-	padding: 30px 68px;
-	max-width: 411px;
+	padding: 34px 49px 36px 60px;
+	max-width: 520px;
 
 	background-color: $violent;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 20px;
 	color: $white;
-	border-radius: 0 $border-radius-sm $border-radius-sm $border-radius-sm;
+	border-radius: $border-radius;
 
-	&::before {
-		content: "";
-		position: absolute;
-		top: -6px;
-		left: 0;
-		display: inline-block;
-		width: 0;
-		height: 0;
-		border-style: solid;
-		border-width: 6px 0 0 25px;
-		border-color: transparent transparent transparent $violent;
+	&__title {
+		max-width: 313px;
+		margin-bottom: 8px;
+
+		font-weight: 800;
+		line-height: 19px;
+	}
+
+	&--sm {
+		max-width: 411px;
+		padding: 30px 68px;
+
+		border-radius: $border-radius-sm;
+	}
+
+	&--angle {
+		border-top-left-radius: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -6px;
+			left: 0;
+			display: inline-block;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 6px 0 0 25px;
+			border-color: transparent transparent transparent $violent;
+		}
 	}
 }

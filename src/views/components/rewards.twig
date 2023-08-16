@@ -1,0 +1,14 @@
+<ul class="rewards">
+	{% for item in rewards %}
+		<li class="reward">
+			<div class="reward__titles">
+				<h3 class="reward__title">{{item.year}}</h3>
+				<h4 class="reward__subtitle">
+					<span class="reward__numbering">№
+						{{item.numbering}}</span>
+					{{item.nomination}}</h4>
+			</div>
+			<p class="reward__description">{{item.description}}</p>
+		</li>
+	{% endfor %}
+</ul>

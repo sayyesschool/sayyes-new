@@ -1,0 +1,43 @@
+.reward {
+	max-width: 736px;
+	padding: 35px 106px;
+
+	border-radius: $border-radius;
+	background-color: $white;
+	color: #000;
+
+	&:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	&__titles {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 5px;
+
+		font-weight: 800;
+	}
+
+	&__title {
+		font-size: 46px;
+		line-height: 45px;
+		margin-right: 38px;
+	}
+
+	&__subtitle {
+		font-size: 18px;
+		line-height: 20px;
+		max-width: 169px;
+	}
+
+	&__numbering {
+		display: block;
+		font-size: 24px;
+	}
+
+	&__description {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+	}
+}
