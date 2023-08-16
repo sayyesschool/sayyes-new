@@ -1,0 +1,38 @@
+.courses {
+	.subtitle {
+		max-width: 712px;
+		margin-bottom: 50px;
+	}
+
+	&__tabs {
+		max-width: 628px;
+		margin-bottom: 40px;
+		display: flex;
+		justify-content: space-between;
+
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+	}
+
+	&__tab {
+		width: 309px;
+		padding: 15px 62px;
+
+		&:first-child {
+			background-color: $yellow;
+			border-radius: $border-radius 0 0 $border-radius;
+		}
+
+		&:last-child {
+			background-color: $white;
+			border-radius: 0 $border-radius $border-radius 0;
+		}
+	}
+
+	&__course-blocks {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}

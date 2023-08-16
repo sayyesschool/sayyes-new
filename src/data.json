@@ -78,5 +78,114 @@
 			"nomination": "в номинации «Web-доверие»  ",
 			"description": "Нам доверяют: 8 из 10 наших студентов выбирают нас по рекомендациям и отзывам в Интернет."
 		}
+	],
+	"courses": [
+		{
+			"title": "Английский с нуля",
+			"description": "Даст уверенный старт и подготовит к Общему курсу",
+			"color": "black",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "9.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Основной курс Touchstone",
+			"description": "Доведет до уверенного среднего уровня.",
+			"color": "pink",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "9.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Продвинутый курс",
+			"description": "Поднимет уровень до свободного владения. Ведет ТОП русскоязычный или носитель языка.",
+			"color": "violent",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "10.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "1540 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Бизнес <br> курс",
+			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
+			"color": "black",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "10.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "индивидуально группа",
+					"lessonPrice": "1540 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Подготовка к экзаменам",
+			"description": "Подготовит к IELTS, TOEFL и другим экзаменам. ",
+			"color": "pink",
+			"list": [
+				{
+					"lessonType": "индивидуально <br>  онлайн и офлайн",
+					"lessonPrice": "1.650 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				}
+			]
+		}
 	]
 }
