@@ -1,0 +1,33 @@
+.appeal-founders {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 201px;
+
+	&__picture {
+		position: relative;
+		width: 520px;
+		height: 681px;
+
+		background-color: $medium-magenta;
+		border-radius: $border-radius;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 291px;
+			height: 141px;
+			background: url("../../assets/images/founders-3.svg") center
+				center/contain no-repeat;
+		}
+	}
+
+	&__img {
+		position: absolute;
+		bottom: 0;
+		left: -40px;
+	}
+}
