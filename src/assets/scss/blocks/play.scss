@@ -5,7 +5,7 @@
 
 	border-radius: 100%;
 	border: 2px solid $black;
-	background-color: transparent;
-	background: url("../../assets/images/icons/play.svg") center no-repeat;
+	background: url("../../assets/images/icons/play.svg") center no-repeat
+		#fffcff80;
 	cursor: pointer;
 }

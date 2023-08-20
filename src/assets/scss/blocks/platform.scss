@@ -3,23 +3,16 @@
 	padding: 50px 0;
 	position: relative;
 
+	.video {
+		z-index: 1;
+	}
+
 	&__description {
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 20px;
 		max-width: 425px;
 		margin: 23px 0 52px;
-	}
-
-	&__video {
-		position: relative;
-		z-index: 1;
-
-		.play {
-			position: absolute;
-			bottom: 20px;
-			right: 20px;
-		}
 	}
 
 	&__bg {
