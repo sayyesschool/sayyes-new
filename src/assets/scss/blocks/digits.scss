@@ -1,0 +1,47 @@
+.digits {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 216px;
+	}
+
+	&__list {
+		width: 834px;
+		display: grid;
+		grid-template-columns: 304px 1fr;
+		grid-template-rows: repeat(3, 300px);
+		gap: 20px;
+	}
+
+	&__item {
+		background-color: $yellow;
+		border-radius: $border-radius;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 63px 45px 45px;
+
+		&:nth-child(3) {
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+
+		&--default {
+			background-color: $yellow;
+		}
+
+		&--white {
+			background-color: $white;
+		}
+	}
+
+	&__title {
+		font-variant-numeric: lining-nums proportional-nums;
+		font-size: 120px;
+		font-weight: 700;
+		line-height: 60px;
+	}
+}
