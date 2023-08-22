@@ -1,5 +1,6 @@
 .person-cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(3, 412px);
+	gap: 20px;
+	margin-bottom: 150px;
 }

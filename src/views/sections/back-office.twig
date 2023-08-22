@@ -5,14 +5,22 @@
 	</p>
 
 	<div class="person-cards">
+		<div class="person-card person-card--text-card">
+			<h4 class="person-card__title">Команда мечты</h4>
+			<h5 class="person-card__subtitle">Создает для вас душевную атмосферу и обеспечивает комфорт в обучении</h5>
+		</div>
 		{% for person in personCards %}
-			<div class="person-card">
-				<img src="./assets/images/team/{{person.img}}.png" alt="{{person.name}}" class="person-card__img">
-				<div class="person-card__content">
-					<h3 class="person-card__name">{{person.name}}</h3>
-					<h4 class="person-card__post">{{person.post}}</h4>
-					<p class="person-card__description">{{person.about}}</p>
-				</div>
+			<div class="person-card person-card--{{person.type}}">
+				{% if person.type == 'pink-card' %}
+					<p class="person-card__text">{{person.text}}</p>
+				{% else %}
+					<img src="./assets/images/team/{{person.img}}.png" alt="{{person.name}}" class="person-card__img">
+					<div class="person-card__content">
+						<h3 class="person-card__name">{{person.name}}</h3>
+						<h4 class="person-card__post">{{person.post}}</h4>
+						<p class="person-card__description">{{person.about}}</p>
+					</div>
+				{% endif %}
 			</div>
 		{% endfor %}
 	</div>

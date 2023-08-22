@@ -1,0 +1,13 @@
+.text {
+	&--violent {
+		color: $violent;
+	}
+
+	&--underline {
+		text-decoration: underline;
+	}
+
+	&--bold {
+		font-weight: 800;
+	}
+}

@@ -1,6 +1,5 @@
 .person-card {
-	max-width: 411px;
-	margin-bottom: 150px;
+	max-width: 412px;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -55,5 +54,55 @@
 
 		max-width: 363px;
 		margin-top: auto;
+	}
+
+	&__text {
+		font-variant-numeric: lining-nums proportional-nums;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__title {
+		max-width: 339px;
+		margin-bottom: 18px;
+
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+	}
+
+	&__subtitle {
+		max-width: 287px;
+
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&--pink-card {
+		min-height: 410px;
+		padding: 53px 35px 53px 49px;
+		align-self: flex-start;
+
+		background-color: $pink;
+		color: $white;
+	}
+
+	&--text-card {
+		width: 412px;
+		display: block;
+		background-color: transparent;
+
+		&::before {
+			content: "";
+			width: 202px;
+			height: 129px;
+			position: absolute;
+			bottom: 100px;
+			right: 50px;
+			background: url("../../assets/images/superpower.png") center
+				center/cover no-repeat;
+		}
 	}
 }
