@@ -364,6 +364,7 @@ body {
     font-size: 24px;
     color: #262626;
     font-family: "Raleway", sans-serif;
+    font-variant-numeric: lining-nums proportional-nums;
     overflow-x: hidden;
 }
 
@@ -387,6 +388,37 @@ a {
 .container {
     max-width: 1276px;
     margin: 0 auto;
+}
+
+.subnav {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    width: 250px;
+    margin-top: -10px;
+    padding-top: 15px;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.subnav__content {
+    padding: 30px 0;
+    border-radius: 30px;
+    background-color: #fffcff;
+}
+
+.subnav__item:hover {
+    background-color: #f8f0ee;
+}
+
+.subnav__link {
+    display: block;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #262626;
 }
 
 .behind-the-scenes {
@@ -530,14 +562,12 @@ a {
 }
 
 .digits__title {
-    font-variant-numeric: lining-nums proportional-nums;
     font-size: 120px;
     font-weight: 700;
     line-height: 60px;
 }
 
 .digits__description {
-    font-variant-numeric: lining-nums proportional-nums;
     font-size: 24px;
     font-weight: 600;
     line-height: 25px;
@@ -605,7 +635,6 @@ a {
 }
 
 .person-card__text {
-    font-variant-numeric: lining-nums proportional-nums;
     font-size: 24px;
     font-weight: 600;
     line-height: 25px;
@@ -1791,6 +1820,19 @@ a {
     padding: 15px 30px;
 }
 
+.header__city {
+    margin-bottom: 5px;
+}
+
+.header__item {
+    position: relative;
+}
+
+.header__item:hover > .subnav {
+    opacity: 1;
+    visibility: visible;
+}
+
 .header__link {
     text-transform: uppercase;
     color: #fffcff;
@@ -1815,6 +1857,21 @@ a {
 
 .header__sublink {
     color: #262626;
+    transition: color 0.3s linear;
+}
+
+.header__sublink:hover {
+    color: #7831b2;
+}
+
+.header__link,
+.header .phone-numbers__link {
+    transition: color 0.3s linear;
+}
+
+.header__link:hover,
+.header .phone-numbers__link:hover {
+    color: #a68ad5;
 }
 
 .footer {
