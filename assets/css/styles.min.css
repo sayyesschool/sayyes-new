@@ -389,6 +389,94 @@ a {
     margin: 0 auto;
 }
 
+.behind-the-scenes {
+    padding: 100px 110px;
+    margin-bottom: 151px;
+    border-radius: 30px;
+    background-color: #fffcff;
+}
+
+.behind-the-scenes .subtitle {
+    max-width: 622px;
+    margin-bottom: 23px;
+}
+
+.behind-the-scenes__description {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
+    max-width: 829px;
+}
+
+.behind-the-scenes__gallery {
+    display: grid;
+    grid-template-areas: ". . . a a a a a a a" "b b b b b b c c c c" "d d d d d d c c c c" "e e e e f f f f f f" "e e e e g g g g g g";
+    gap: 20px;
+}
+
+.behind-the-scenes__item {
+    position: relative;
+}
+
+.behind-the-scenes__item:nth-child(1) {
+    grid-area: a;
+}
+
+.behind-the-scenes__item:nth-child(1)::before {
+    content: "";
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    top: 30px;
+    left: -225px;
+    background: url("../../assets/images/behind-the-scenes-tip-1.png") center center/cover no-repeat;
+}
+
+.behind-the-scenes__item:nth-child(2) {
+    grid-area: b;
+}
+
+.behind-the-scenes__item:nth-child(3) {
+    grid-area: c;
+}
+
+.behind-the-scenes__item:nth-child(4) {
+    grid-area: d;
+}
+
+.behind-the-scenes__item:nth-child(4)::before {
+    content: "";
+    width: 193px;
+    height: 119px;
+    position: absolute;
+    top: 230px;
+    right: -245px;
+    background: url("../../assets/images/behind-the-scenes-tip-2.png") center center/cover no-repeat;
+}
+
+.behind-the-scenes__item:nth-child(5) {
+    grid-area: e;
+}
+
+.behind-the-scenes__item:nth-child(6) {
+    grid-area: f;
+}
+
+.behind-the-scenes__item:nth-child(7) {
+    grid-area: g;
+}
+
+.behind-the-scenes__item:nth-child(7)::before {
+    content: "";
+    width: 153px;
+    height: 96px;
+    position: absolute;
+    top: 230px;
+    left: -245px;
+    background: url("../../assets/images/behind-the-scenes-tip-3.png") center center/cover no-repeat;
+}
+
 .digits {
     display: flex;
     justify-content: space-between;
