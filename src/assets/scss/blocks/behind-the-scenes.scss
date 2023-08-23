@@ -1,0 +1,97 @@
+.behind-the-scenes {
+	padding: 100px 110px;
+	margin-bottom: 151px;
+
+	border-radius: $border-radius;
+	background-color: $white;
+
+	.subtitle {
+		max-width: 622px;
+		margin-bottom: 23px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		margin-bottom: 10px;
+		max-width: 829px;
+	}
+
+	&__gallery {
+		display: grid;
+		grid-template-areas:
+			". . . a a a a a a a"
+			"b b b b b b c c c c"
+			"d d d d d d c c c c"
+			"e e e e f f f f f f"
+			"e e e e g g g g g g";
+		gap: 20px;
+	}
+
+	&__item {
+		position: relative;
+
+		&:nth-child(1) {
+			grid-area: a;
+
+			&::before {
+				content: "";
+				width: 155px;
+				height: 155px;
+				position: absolute;
+				top: 30px;
+				left: -225px;
+				background: url("../../assets/images/behind-the-scenes-tip-1.png")
+					center center/cover no-repeat;
+			}
+		}
+
+		&:nth-child(2) {
+			grid-area: b;
+		}
+
+		&:nth-child(3) {
+			grid-area: c;
+		}
+
+		&:nth-child(4) {
+			grid-area: d;
+
+			&::before {
+				content: "";
+				width: 193px;
+				height: 119px;
+				position: absolute;
+				top: 230px;
+				right: -245px;
+				background: url("../../assets/images/behind-the-scenes-tip-2.png")
+					center center/cover no-repeat;
+			}
+		}
+
+		&:nth-child(5) {
+			grid-area: e;
+		}
+
+		&:nth-child(6) {
+			grid-area: f;
+		}
+
+		&:nth-child(7) {
+			grid-area: g;
+
+			&::before {
+				content: "";
+				width: 153px;
+				height: 96px;
+				position: absolute;
+				top: 230px;
+				left: -245px;
+				background: url("../../assets/images/behind-the-scenes-tip-3.png")
+					center center/cover no-repeat;
+			}
+		}
+	}
+}

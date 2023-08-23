@@ -319,5 +319,35 @@
 			"description": "Рейтинг на Яндекс Отзывы",
 			"bg": "default"
 		}
+	],
+	"gallery": [
+		{
+			"title": "Say Yes",
+			"img": "gallery-1"
+		},
+		{
+			"title": "Say Yes",
+			"img": "gallery-2"
+		},
+		{
+			"title": "Say Yes",
+			"img": "gallery-3"
+		},
+		{
+			"title": "Say Yes",
+			"img": "gallery-4"
+		},
+		{
+			"title": "Say Yes",
+			"img": "gallery-5"
+		},
+		{
+			"title": "Say Yes",
+			"img": "gallery-6"
+		},
+		{
+			"title": "Say Yes",
+			"img": "gallery-7"
+		}
 	]
 }
