@@ -13,6 +13,21 @@
 		padding: 15px 30px;
 	}
 
+	&__city {
+		margin-bottom: 5px;
+	}
+
+	&__item {
+		position: relative;
+
+		&:hover {
+			> .subnav {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
 	&__link {
 		text-transform: uppercase;
 		color: $white;
@@ -37,5 +52,19 @@
 
 	&__sublink {
 		color: $black;
+		transition: color 0.3s linear;
+
+		&:hover {
+			color: $violent;
+		}
+	}
+
+	&__link,
+	.phone-numbers__link {
+		transition: color 0.3s linear;
+
+		&:hover {
+			color: $medium-magenta;
+		}
 	}
 }

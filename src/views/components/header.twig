@@ -17,7 +17,8 @@
 			<ul class="header__list">
 				{% for item in headerNavItems %}
 					<li class="header__item">
-						<a href="{{ item.url }}" class="header__sublink">{{ item.text }}</a>
+						<a href="{{item.url}}" class="header__sublink">{{item.text}}</a>
+						{% include '../components/subnav.twig' %}
 					</li>
 				{% endfor %}
 			</ul>

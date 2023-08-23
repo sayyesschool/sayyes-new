@@ -6,6 +6,7 @@ body {
 	font-size: 24px;
 	color: $black;
 	font-family: "Raleway", sans-serif;
+	font-variant-numeric: lining-nums proportional-nums;
 	overflow-x: hidden;
 }
 
@@ -31,6 +32,7 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/subnav";
 @import "blocks/behind-the-scenes";
 @import "blocks/digits";
 @import "blocks/person-cards";

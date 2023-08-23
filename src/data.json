@@ -26,19 +26,74 @@
 	"headerNavItems": [
 		{
 			"text": "О Say Yes",
-			"url": "./about.html"
+			"url": "./about.html",
+			"sublist": [
+				{ "text": "Кто мы", "url": "./about.html" },
+				{ "text": "Преподаватели", "url": "./about.html" },
+				{ "text": "Методика", "url": "./methodology.html" },
+				{ "text": "Прогресс студентов", "url": "./progress.html" },
+				{ "text": "Вакансии", "url": "./vacancies.html" }
+			]
 		},
 		{
 			"text": "Взрослым",
-			"url": "/adults"
+			"url": "/adults",
+			"sublist": [
+				{ "text": "Английский с нуля", "url": "./beginner.html" },
+				{ "text": "Основной курс", "url": "./basic-course.html" },
+				{ "text": "Продвинутый курс", "url": "./advanced-course.html" },
+				{ "text": "Бизнес курс", "url": "./business-course.html" },
+				{ "text": "Подготовка к экзаменам", "url": "./exams.html" },
+				{
+					"text": "Разговорный онлайн клуб",
+					"url": "./speaking-club.html"
+				}
+			]
 		},
 		{
 			"text": "Детям",
-			"url": "/children"
+			"url": "/children",
+			"sublist": [
+				{
+					"text": "Курс “Bright ideas”",
+					"description": "5–7 лет",
+					"url": "./bright-ideas.html"
+				},
+				{
+					"text": "Курс “Family and friends”",
+					"description": "7–10 лет",
+					"url": "./family-and-friends.html"
+				},
+				{
+					"text": "Курс “Go getter”",
+					"description": "11–16 лет",
+					"url": "./go-getter.html"
+				},
+				{
+					"text": "Подготовка к ОГЭ, ЕГЭ, YLE, KET, PET, FCE",
+					"url": "./preparation.html"
+				}
+			]
 		},
 		{
 			"text": "Формы обучения",
-			"url": "/education"
+			"url": "/education",
+			"sublist": [
+				{ "text": "Группа офлайн", "url": "./group-offline.html" },
+				{ "text": "Группа онлайн", "url": "./group-online.html" },
+				{
+					"text": "Индивидуально офлайн",
+					"url": "./individually-offline.html"
+				},
+				{
+					"text": "Индивидуально онлайн",
+					"url": "./individually-online.html"
+				},
+				{
+					"text": "Разговорный онлайн клуб",
+					"url": "./speaking-club.html"
+				}
+			]
 		},
 		{
 			"text": "Цены",
