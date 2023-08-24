@@ -29,7 +29,7 @@
 			"url": "./about.html",
 			"sublist": [
 				{ "text": "Кто мы", "url": "./about.html" },
-				{ "text": "Преподаватели", "url": "./about.html" },
+				{ "text": "Преподаватели", "url": "./teachers.html" },
 				{ "text": "Методика", "url": "./methodology.html" },
 				{ "text": "Прогресс студентов", "url": "./progress.html" },
 				{ "text": "Вакансии", "url": "./vacancies.html" }

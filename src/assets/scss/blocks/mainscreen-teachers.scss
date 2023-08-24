@@ -1,0 +1,22 @@
+.mainscreen-teachers {
+	text-align: center;
+	margin-top: 50px;
+
+	.title {
+		color: $black;
+		margin-bottom: 33px;
+	}
+
+  .btn {
+    display: block;
+    margin: 0 auto 70px; 
+  }
+
+	&__description {
+		font-weight: 600;
+		line-height: 25px;
+
+		margin: 0 auto 36px;
+		max-width: 590px;
+	}
+}
