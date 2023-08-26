@@ -32,13 +32,14 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/team-of-teachers";
 @import "blocks/split-image";
 @import "blocks/mainscreen-teachers";
 @import "blocks/subnav";
 @import "blocks/behind-the-scenes";
 @import "blocks/digits";
-@import "blocks/person-cards";
-@import "blocks/person-card";
+@import "blocks/cards";
+@import "blocks/card";
 @import "blocks/back-office";
 @import "blocks/appeal";
 @import "blocks/appeal-founders";

@@ -9,7 +9,10 @@
 
 	&__tab {
 		width: 309px;
-		padding: 15px 62px;
+		min-height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
 		&:first-child {
 			background-color: $yellow;
@@ -25,6 +28,13 @@
 			&:first-child {
         color: $white;
 				background-color: $violent;
+			}
+		}
+
+		&--magenta {
+			&:first-child {
+        color: $white;
+				background-color: $medium-magenta;
 			}
 		}
 	}

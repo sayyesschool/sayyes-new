@@ -1,0 +1,33 @@
+.team-of-teachers {
+	margin: 130px 0 100px;
+
+	.subtitle {
+		text-align: center;
+
+		margin: 0 auto 23px;
+		max-width: 881px;
+	}
+
+	.tabs {
+		margin: 0 auto 40px;
+	}
+
+	.cards {
+		margin-bottom: 50px;
+	}
+
+	.btn {
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+		text-align: center;
+
+		margin: 0 auto 71px;
+		max-width: 828px;
+	}
+}

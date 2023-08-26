@@ -25,16 +25,26 @@
 		background-color: transparent;
 		border: 2px solid $white;
 		color: $white;
+
+		&-black {
+			border-color: $black;
+			color: $black;
+		}
 	}
 
 	&--uppercase {
 		text-transform: uppercase;
 	}
 
-  &--sm {
-    min-width: 200px;
-    min-height: 40px;
-  }
+	&--md {
+		min-width: 312px;
+		min-height: 50px;
+	}
+
+	&--sm {
+		min-width: 200px;
+		min-height: 40px;
+	}
 
 	&--full {
 		width: 100%;

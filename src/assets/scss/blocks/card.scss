@@ -1,4 +1,4 @@
-.person-card {
+.card {
 	max-width: 412px;
 	position: relative;
 	display: flex;
@@ -15,20 +15,8 @@
 	&__content {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		padding: 50px;
+		padding: 50px 30px 50px 50px;
 		flex-grow: 1;
-
-		&::before {
-			content: "";
-			position: absolute;
-			bottom: 60px;
-			left: -10px;
-			width: 48px;
-			height: 65px;
-			background: url("../../assets/images/lightning.svg") center
-				center/contain no-repeat;
-		}
 	}
 
 	&__name {
@@ -53,7 +41,6 @@
 		line-height: 25px;
 
 		max-width: 363px;
-		margin-top: auto;
 	}
 
 	&__text {
@@ -79,7 +66,7 @@
 		line-height: 25px;
 	}
 
-	&--pink-card {
+	&--comment-card {
 		min-height: 410px;
 		padding: 53px 35px 53px 49px;
 		align-self: flex-start;
@@ -102,6 +89,29 @@
 			right: 50px;
 			background: url("../../assets/images/superpower.png") center
 				center/cover no-repeat;
+		}
+	}
+
+	&--teacher-card {
+		.btn {
+			margin-top: auto;
+		}
+		
+		.card__description {
+			margin-bottom: 40px;
+		}
+	}
+
+	&--team-card {
+		&::before {
+			content: "";
+			position: absolute;
+			bottom: 60px;
+			left: -10px;
+			width: 48px;
+			height: 65px;
+			background: url("../../assets/images/lightning.svg") center
+				center/contain no-repeat;
 		}
 	}
 }

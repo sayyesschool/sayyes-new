@@ -243,109 +243,109 @@
 			]
 		}
 	],
-	"personCards": [
+	"teamCards": [
 		{
 			"name": "Роман Сорочук",
 			"post": "Управляющий директор",
 			"about": "Очаровывает всех своей энергией и харизмой",
 			"img": "romanS",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Кристина Кремчанинова",
 			"post": "Академический директор",
 			"about": "Cвободно говорит на  китайском и французском",
 			"img": "kristinaK",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Мария Блисюк",
 			"post": "Методист офлайн обучения",
 			"about": "Научит преподавать группам не только весело, но и эффективно",
 			"img": "mariaB",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Валерия Илюкович",
 			"post": "Методист детского онлайн обучения",
 			"about": "Кроме знаний детской психологии, знает язык жестов",
 			"img": "valeriaI",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Ирина Морозова",
 			"post": "Методист индивидуального обучения",
 			"about": "Может легко поддержать разговор на японском языке",
 			"img": "irinaM",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Екатерина Петрякова",
 			"post": "Менеджер по работе с клиентами офлайн",
 			"about": "Окружает спокойствием, заботой и желанием помочь",
 			"img": "ekaterinaP",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Анастасия Жителева",
 			"post": "Менеджер по работе с клиентами офлайн",
 			"about": "Очаровывает улыбкой и профессионализмом с первого визита",
 			"img": "anastasiaJ",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"text": "Методисты школы имеют большой опыт работы по коммуникативной методике, организовывают образовательный процесс и следят за качеством обучения.",
-			"type": "pink-card"
+			"type": "comment-card"
 		},
 		{
 			"text": "Менеджеры школы — это «ангелы-хранители» наших студентов, готовые прийти на помощь и дать поддержку в процессе обучения.",
-			"type": "pink-card"
+			"type": "comment-card"
 		},
 		{
 			"name": "Алина Джумайло",
 			"post": "Менеджер по работе с клиентами онлайн",
 			"about": "Умеет находить подход к каждому клиенту",
 			"img": "alinaD",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Татьяна Андреева",
 			"post": "Менеджер по работе с клиентами онлайн",
 			"about": "Самый душевный и отзывчивый менеджер Школы",
 			"img": "tatyanaA",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Анна Олейник",
 			"post": "Контент менеджер, куратор спикинг клубов",
 			"about": "Организует спикинги, на которые выстраивается очередь",
 			"img": "annaO",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Дарья Мамцис",
 			"post": "Креативный менеджер",
 			"about": "Организует решение любой задачи Школы наилучшим способом",
 			"img": "daryaM",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Альбина Ванзина",
 			"post": "HR специалист",
 			"about": "Шаман нашего времени — помогает людям найти свое место в Школе",
 			"img": "albinaV",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
 			"name": "Екатерина Гаврикова",
 			"post": "Организатор мероприятий и пиар менеджер",
 			"about": "Организовывает незабываемые встречи для клиентов Школы!",
 			"img": "ekaterinaG",
-			"type": "default"
+			"type": "team-card"
 		},
 		{
-			"text": "Хотите стать членом нашей команды мечты? <br><br> <span class='text text--bold'>Напишите нам на почту info@sayes.ru</span>",
-			"type": "pink-card"
+			"text": "Хотите стать членом нашей команды мечты? <br><br> <span class='text text--weight-800'>Напишите нам на почту info@sayes.ru</span>",
+			"type": "comment-card"
 		}
 	],
 	"digits": [
@@ -403,6 +403,112 @@
 		{
 			"title": "Say Yes",
 			"img": "gallery-7"
+		}
+	],
+	"teacherCards1": [
+		{
+			"name": "Сабина Шейхова",
+			"merits": [
+				{ "merit": "Стаж", "description": "10 лет" },
+				{ "merit": "Сертификаты", "description": "TEFL/TESOL, FCE" }
+			],
+			"img": "teacher-1",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Роман Сорочук",
+			"merits": [{ "merit": "Стаж", "description": "11 лет" }],
+			"img": "teacher-2",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Милена Чернышевская",
+			"merits": [
+				{ "merit": "Стаж", "description": "3 года" },
+				{ "merit": "Сертификаты", "description": "IELTS" }
+			],
+			"img": "teacher-3",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Полина Полянская",
+			"merits": [
+				{ "merit": "Стаж", "description": "6 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "ELS Miami, ELS San Francisc"
+				}
+			],
+			"img": "teacher-4",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Мария Наливайкина",
+			"merits": [{ "merit": "Стаж", "description": "5 лет" }],
+			"img": "teacher-5",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Ульяна Шляпникова",
+			"merits": [{ "merit": "Стаж", "description": "5 лет" }],
+			"img": "teacher-6",
+			"type": "teacher-card"
+		}
+	],
+	"teacherCards2": [
+		{
+			"name": "Дарья Власова",
+			"merits": [
+				{ "merit": "Стаж", "description": "10 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "Cambridge English — First (FCE), Advanced (CAE)"
+				}
+			],
+			"img": "teacher-7",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Ирина Прихожева",
+			"merits": [{ "merit": "Стаж", "description": "9 лет" }],
+			"img": "teacher-8",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Екатерина Колбацкова",
+			"merits": [
+				{ "merit": "Стаж", "description": "6 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "TKT 3 Modules, How to prepare students for IELTS"
+				}
+			],
+			"img": "teacher-9",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Валентина Сальникова",
+			"merits": [{ "merit": "Стаж", "description": "9 лет" }],
+			"img": "teacher-10",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Филипп Кадена",
+			"merits": [
+				{ "merit": "Стаж", "description": "6 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "TKT Module 1, CELTA"
+				}
+			],
+			"img": "teacher-11",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Жанагуль Кенжебаева",
+			"merits": [{ "merit": "Стаж", "description": "7 лет" }],
+			"img": "teacher-12",
+			"type": "teacher-card"
 		}
 	]
 }
