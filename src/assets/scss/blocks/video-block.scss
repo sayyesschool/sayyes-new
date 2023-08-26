@@ -1,4 +1,4 @@
-.being-student {
+.video-block {
 	padding: 96px 105px 96px 100px;
 	margin-bottom: 184px;
 	display: flex;
@@ -21,6 +21,16 @@
 
 	.subtitle {
 		max-width: 340px;
+	}
+
+	&--methodology {
+		&::before {
+			background-image: url("../../assets/images/short-video.svg");
+		}
+
+		.subtitle {
+			max-width: 400px;
+		}
 	}
 
 	.video {

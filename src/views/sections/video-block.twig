@@ -1,0 +1,16 @@
+{% if section == 'about' %}
+	{% set subtitle = 'Быть нашим студентом — это...' %}
+	{% set videoImg = 'video-block-1' %}
+{% elseif section == 'methodology'  %}
+	{% set subtitle = 'Посмотрите короткое видео о нашем подходе к обучению' %}
+	{% set videoImg = 'video-block-2' %}
+	{% set mixin = 'methodology' %}
+{% endif %}
+
+<section class="video-block video-block--{{mixin}}">
+	<h2 class="subtitle">{{subtitle}}</h2>
+	<div class="video">
+		<img src="./assets/images/{{videoImg}}.png" alt="Офлайн" class="video__bg">
+		<button class="play"></button>
+	</div>
+</section>
