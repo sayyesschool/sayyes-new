@@ -1,0 +1,45 @@
+.text-block {
+	width: 412px;
+	padding: 41px 88px 46px 47px;
+	margin-bottom: 20px;
+
+	background-color: $white;
+	border-radius: $border-radius;
+
+	&__title {
+		margin-bottom: 78px;
+
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&--bg {
+		width: 844px;
+
+		.text-block__title {
+			max-width: 520px;
+			margin-bottom: 148px;
+		}
+
+		.text-block__description {
+			max-width: 320px;
+		}
+
+		&:last-child {
+			.text-block__title {
+				margin-bottom: 73px;
+			}
+		}
+	}
+
+	&--violent {
+		background-color: $medium-magenta;
+	}
+}

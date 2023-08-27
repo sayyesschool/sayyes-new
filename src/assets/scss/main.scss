@@ -32,6 +32,9 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/text-block";
+@import "blocks/text-blocks";
+@import "blocks/advantages";
 @import "blocks/methods";
 @import "blocks/effective-methods";
 @import "blocks/team-of-teachers";
