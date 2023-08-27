@@ -1,14 +1,17 @@
 .text-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 412px;
+	min-height: 350px;
 	padding: 41px 88px 46px 47px;
 	margin-bottom: 20px;
+	position: relative;
 
 	background-color: $white;
 	border-radius: $border-radius;
 
 	&__title {
-		margin-bottom: 78px;
-
 		font-size: 46px;
 		font-weight: 700;
 		line-height: 45px;
@@ -20,12 +23,12 @@
 		line-height: 25px;
 	}
 
-	&--bg {
+	&--big {
 		width: 844px;
+		min-height: 400px;
 
 		.text-block__title {
 			max-width: 520px;
-			margin-bottom: 148px;
 		}
 
 		.text-block__description {
@@ -33,13 +36,106 @@
 		}
 
 		&:last-child {
-			.text-block__title {
-				margin-bottom: 73px;
-			}
+			min-height: 300px;
+		}
+	}
+
+	&--sm-text {
+		justify-content: flex-end;
+		padding-right: 34px;
+
+		.text-block__title {
+			font-size: 32px;
+			font-weight: 700;
+			line-height: 30px;
+
+			margin-bottom: 25px;
+		}
+
+		.text-block__description {
+			max-width: 550px;
 		}
 	}
 
 	&--violent {
 		background-color: $medium-magenta;
+	}
+
+	&--yellow {
+		background-color: $yellow;
+	}
+	&--books-bg,
+	&--hourglass-bg,
+	&--comment-bg,
+	&--heart-bg,
+	&--diploma-bg,
+	&--leaves-bg {
+		&::before {
+			content: "";
+			position: absolute;
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&--books-bg {
+		&::before {
+			width: 288px;
+			height: 233px;
+			bottom: 30px;
+			right: -20px;
+			background-image: url("../../assets/images/text-blocks-bg/books-bg.svg");
+		}
+	}
+
+	&--hourglass-bg {
+		&::before {
+			width: 180px;
+			height: 210px;
+			top: -40px;
+			right: 10px;
+			background-image: url("../../assets/images/text-blocks-bg/hourglass-bg.svg");
+		}
+	}
+
+	&--comment-bg {
+		&::before {
+			width: 219px;
+			height: 187px;
+			top: -30px;
+			right: 5px;
+			background-image: url("../../assets/images/text-blocks-bg/comment-bg.svg");
+		}
+	}
+
+	&--heart-bg {
+		&::before {
+			width: 384px;
+			height: 365px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/heart-bg.svg");
+		}
+	}
+
+	&--diploma-bg {
+		&::before {
+			width: 189px;
+			height: 188px;
+			top: -20px;
+			right: -25px;
+			background-image: url("../../assets/images/text-blocks-bg/diploma-bg.svg");
+		}
+	}
+
+	&--leaves-bg {
+		&::before {
+			width: 211px;
+			height: 216px;
+			bottom: -20px;
+			right: -35px;
+			background-image: url("../../assets/images/text-blocks-bg/leaves-bg.svg");
+		}
 	}
 }
