@@ -1,0 +1,17 @@
+<section class="proposal">
+	<h2 class="subtitle">Мы предлагаем:</h2>
+	<div class="proposal__cards">
+		{% for card in proposal %}
+			<div class="proposal__card">
+				<h4 class="proposal__title">{{card.title}}</h4>
+				<ul class="proposal__list">
+					{% for cardItem in card.list %}
+						<li class="proposal__item">{{cardItem.property}}
+							<br>
+							{{cardItem.value}}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endfor %}
+	</div>
+</section>

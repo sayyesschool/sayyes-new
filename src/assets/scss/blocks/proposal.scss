@@ -1,0 +1,42 @@
+.proposal {
+	width: 1476px;
+	transform: translateX(-100px);
+	padding: 70px 100px 100px;
+	margin-bottom: 200px;
+
+	background-color: $medium-magenta;
+	border-radius: $border-radius;
+
+	.subtitle {
+		margin-bottom: 50px;
+	}
+
+	&__cards {
+		display: grid;
+		grid-template-columns: repeat(3, 410px);
+		grid-template-rows: repeat(2, 412px);
+		gap: 20px;
+	}
+
+	&__card {
+		padding: 48px 65px 41px 49px;
+
+		background-color: $white;
+		border-radius: $border-radius;
+	}
+
+	&__title {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 30px;
+
+		max-width: 265px;
+		margin-bottom: 116px;
+	}
+
+	&__list {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+}
