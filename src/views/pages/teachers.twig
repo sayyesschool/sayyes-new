@@ -1,9 +1,9 @@
 {% extends '../layouts/base.twig' %}
 
 {% block content %}
-	{% include '../sections/mainscreen-teachers.twig' %}
+	{% include '../sections/mainscreen-big.twig' with {section: 'teachers'} %}
 
-  {% include '../sections/team-of-teachers.twig' %}
+	{% include '../sections/team-of-teachers.twig' %}
 
 	{% include '../sections/trial-lesson.twig' %}
 {% endblock %}

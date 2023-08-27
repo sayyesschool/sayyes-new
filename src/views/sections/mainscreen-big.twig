@@ -1,13 +1,34 @@
-<section class="mainscreen-big">
-	{% if section == 'about' %}
-		<h1 class="title">Школа английского языка SAY YES! С нами вы скажете «Да!» свободе общения с миром.</h1>
-		<p class="mainscreen-big__description">Влюбляем в английский
-			<br>
-			и исполняем ваши мечты с 2013 года</p>
-		<img src="./assets/images/mainscreen-about.png" alt="Say Yes" class="mainscreen-big__img">
-	{% elseif section == 'methodology' %}
-		<h1 class="title">Методика школы SAY YES! — это оптимальный и современный способ изучения языков.</h1>
-		<p class="mainscreen-big__description">Мы выбираем комбинацию из коммуникативного подхода и собственных разработок в обучении.</p>
-		<img src="./assets/images/main-screen-big-methodology.png" alt="Say Yes" class="mainscreen-big__img">
-	{% endif %}
+{% if section == 'about' %}
+	{% set title = 'Школа английского языка SAY YES! С нами вы скажете «Да!» свободе общения с миром.' %}
+	{% set description = 'Влюбляем в английский <br> и исполняем ваши мечты с 2013 года' %}
+	{% set img = 'mainscreen-about' %}
+{% elseif section == 'methodology' %}
+	{% set title = 'Методика школы SAY YES! — это оптимальный и современный способ изучения языков.' %}
+	{% set description = 'Мы выбираем комбинацию из коммуникативного подхода и собственных разработок в обучении.' %}
+	{% set img = 'main-screen-big-methodology' %}
+{% elseif section == 'teachers' %}
+	{% set title = 'Сильные и харизматичные преподаватели SAY YES! — главная причина вашего прогресса.' %}
+	{% set description = 'Доверьте свой английский экспертам, кто прошел наш строгий отбор.' %}
+	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
+	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set mixin = 'teachers' %}
+{% elseif section == 'vacancies' %}
+	{% set title = 'Стань онлайн или офлайн преподавателем в SAY YES!' %}
+	{% set description = 'Приглашаем в команду увлеченных единомышленников для совместного роста и реализации.' %}
+	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
+	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
+	{% set btnText = 'Хочу работать преподавателем' %}
+	{% set mixin = 'vacancies' %}
+{% endif %}
+
+<section class="mainscreen-big mainscreen-big--{{mixin}}">
+	<h1 class="title">{{title}}</h1>
+	<p class="mainscreen-big__description">{{description}}</p>
+	<button class="btn btn--yellow">{{btnText}}</button>
+	<img src="./assets/images/{{img}}.png" alt="Say Yes" class="mainscreen-big__img">
+	<div class="split-image">
+		<img src="{{splitImg1}}" alt="Say Yes" class="split-image__first-img">
+		<img src="{{splitImg2}}" alt="Say Yes" class="split-image__second-img">
+	</div>
 </section>

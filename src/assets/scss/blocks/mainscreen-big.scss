@@ -8,6 +8,16 @@
 		max-width: 1240px;
 	}
 
+	.btn {
+		display: none;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.split-image {
+		display: none;
+	}
+
 	&__description {
 		text-align: center;
 		margin: 36px auto;
@@ -16,5 +26,20 @@
 		font-weight: 600;
 		line-height: 25px;
 		max-width: 590px;
+	}
+
+	&--teachers,
+	&--vacancies {
+		.btn {
+			display: block;
+		}
+
+		.split-image {
+			display: block;
+		}
+
+		.mainscreen-big__img {
+			display: none;
+		}
 	}
 }
