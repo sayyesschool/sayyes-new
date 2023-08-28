@@ -97,15 +97,15 @@
 		},
 		{
 			"text": "Цены",
-			"url": "/price.html"
+			"url": "./price.html"
 		},
 		{
 			"text": "Компаниям",
-			"url": "/companies.html"
+			"url": "./companies.html"
 		},
 		{
 			"text": "Контакты",
-			"url": "/contacts.html"
+			"url": "./contacts.html"
 		}
 	],
 	"rewards": [
