@@ -1,0 +1,25 @@
+.expectations-2 {
+	display: flex;
+	justify-content: space-between;
+  margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 339px;
+	}
+
+	.text-block {
+		margin-bottom: 0;
+		justify-content: flex-start;
+
+		.text-block__tip {
+			margin-top: 133px;
+		}
+	}
+
+	&__blocks {
+		flex-basis: 844px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}

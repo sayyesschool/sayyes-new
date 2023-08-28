@@ -1,6 +1,6 @@
 <section class="expectations">
 	<div class="text-blocks text-blocks--expectations">
-		<div class="">
+		<div>
 			<h2 class="subtitle">Ожидание от кандидатов</h2>
 			<p class="text-blocks__description">Мы готовы вкладываться в ваше развитие, но базовый опыт и знания необходимы уже со старта работы у нас в школе.</p>
 		</div>
@@ -10,26 +10,20 @@
 		</div>
 		<div class="text-blocks__columns">
 			<div class="text-blocks__left">
-				<div class="text-block text-block--sm-text text-block--comment-bg text-block--yellow">
-					<h4 class="text-block__title">Речь</h4>
-					<p class="text-block__description">У вас хорошее произношение, близкое к носителям языка.</p>
-				</div>
-				<div class="text-block text-block--sm-text text-block--diploma-bg text-block--yellow">
-					<h4 class="text-block__title">Ценности</h4>
-					<p class="text-block__description">Вы готовы стать частью корпоративной политики Школы и соблюдать этику Компании.</p>
-				</div>
+				{% for item in expectations1 %}
+					<div class="text-block {{item.class}}">
+						<h4 class="text-block__title">{{item.title}}</h4>
+						<p class="text-block__description">{{item.description}}</p>
+					</div>
+				{% endfor %}
 			</div>
 			<div class="text-blocks__right">
-				<div class="text-block text-block--sm-text text-block--big text-block--heart-bg text-block--yellow">
-					<h4 class="text-block__title">Личные качества</h4>
-					<p class="text-block__description">Вы энергичны и дружелюбны.
-						<br>
-						Вы обладаете способностью и желанием «заряжать» учеников.</p>
-				</div>
-				<div class="text-block text-block--sm-text text-block--big text-block--leaves-bg text-block--yellow">
-					<h4 class="text-block__title">Квалификация</h4>
-					<p class="text-block__description">У вас есть профильное образование или международные сертификаты.</p>
-				</div>
+				{% for item in expectations2 %}
+					<div class="text-block {{item.class}}">
+						<h4 class="text-block__title">{{item.title}}</h4>
+						<p class="text-block__description">{{item.description}}</p>
+					</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>

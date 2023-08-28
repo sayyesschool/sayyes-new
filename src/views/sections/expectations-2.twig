@@ -1,0 +1,12 @@
+<section class="expectations-2">
+	<h2 class="subtitle">Ожидание от кандидатов</h2>
+	<div class="expectations-2__blocks">
+		{% for item in expectations3 %}
+			<div class="text-block {{item.class}}">
+				<p class="text-block__tip">{{item.tip}}</p>
+				<h4 class="text-block__title">{{item.title}}</h4>
+				<p class="text-block__description">{{item.description}}</p>
+			</div>
+		{% endfor %}
+	</div>
+</section>

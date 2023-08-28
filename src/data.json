@@ -561,5 +561,78 @@
 				}
 			]
 		}
+	],
+	"advantages1": [
+		{
+			"title": "Онлайн платформа",
+			"description": "Нескучная домашка в интерактивном виде",
+			"class": "text-block--violent"
+		},
+		{
+			"title": "Визиты носителей",
+			"description": "Дополнительная практика языка в группе"
+		}
+	],
+	"advantages2": [
+		{
+			"title": "Современные пособия",
+			"description": "Используем новейшие пособия Oxford, Cambridge и Macmillan",
+			"class": "text-block--big text-block--books-bg"
+		},
+		{
+			"title": "Стандартизированная методика",
+			"description": "Практикуем один подход в офлайн и онлайн формате",
+			"class": "text-block--big"
+		}
+	],
+	"expectations1": [
+		{
+			"title": "Речь",
+			"description": "У вас хорошее произношение, близкое к носителям языка.",
+			"class": "text-block--sm-text text-block--comment-bg text-block--yellow"
+		},
+		{
+			"title": "Ценности",
+			"description": "Вы готовы стать частью корпоративной политики Школы и соблюдать этику Компании.",
+			"class": "text-block--sm-text text-block--diploma-bg text-block--yellow"
+		}
+	],
+	"expectations2": [
+		{
+			"title": "Личные качества",
+			"description": "Вы энергичны и дружелюбны. <br> Вы обладаете способностью и желанием «заряжать» учеников.",
+			"class": " text-block--sm-text text-block--big text-block--heart-bg text-block--yellow"
+		},
+		{
+			"title": "Квалификация",
+			"description": "У вас есть профильное образование или международные сертификаты.",
+			"class": "text-block--sm-text text-block--big text-block--leaves-bg text-block--yellow"
+		}
+	],
+	"expectations3": [
+		{
+			"title": "Отклик",
+			"description": "Отправьте резюме на вакансию школы английского языка SAY YES!",
+			"tip": "Шаг 1",
+			"class": "text-block--sm-text text-block--mail-bg"
+		},
+		{
+			"title": "Знакомство",
+			"description": "Пройдите индивидуальное онлайн собеседование",
+			"tip": "Шаг 2",
+			"class": "text-block--sm-text text-block--contact-bg"
+		},
+		{
+			"title": "Обучение",
+			"description": "Пройдите обучение у лучших методистов школы",
+			"tip": "Шаг 3",
+			"class": "text-block--sm-text text-block--cap-bg"
+		},
+		{
+			"title": "Сотрудничество",
+			"description": "Начните сотрудничество с одной из современных школ английского языка",
+			"tip": "Шаг 4",
+			"class": "text-block--sm-text text-block--note-bg"
+		}
 	]
 }

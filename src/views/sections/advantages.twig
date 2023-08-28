@@ -7,24 +7,20 @@
 		</div>
 		<div class="text-blocks__columns">
 			<div class="text-blocks__left">
-				<div class="text-block text-block--violent">
-					<h4 class="text-block__title">Онлайн платформа</h4>
-					<p class="text-block__description">Нескучная домашка в интерактивном виде</p>
-				</div>
-				<div class="text-block">
-					<h4 class="text-block__title">Визиты носителей</h4>
-					<p class="text-block__description">Дополнительная практика языка в группе</p>
-				</div>
+				{% for item in advantages1 %}
+					<div class="text-block {{item.class}}">
+						<h4 class="text-block__title">{{item.title}}</h4>
+						<p class="text-block__description">{{item.description}}</p>
+					</div>
+				{% endfor %}
 			</div>
 			<div class="text-blocks__right">
-				<div class="text-block text-block--big text-block--books-bg">
-					<h4 class="text-block__title">Современные пособия</h4>
-					<p class="text-block__description">Используем новейшие пособия Oxford, Cambridge и Macmillan</p>
-				</div>
-				<div class="text-block text-block--big">
-					<h4 class="text-block__title">Стандартизированная методика</h4>
-					<p class="text-block__description">Практикуем один подход в офлайн и онлайн формате</p>
-				</div>
+				{% for item in advantages2 %}
+					<div class="text-block {{item.class}}">
+						<h4 class="text-block__title">{{item.title}}</h4>
+						<p class="text-block__description">{{item.description}}</p>
+					</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
