@@ -32,6 +32,8 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/video-block";
+@import "blocks/student-reviews";
 @import "blocks/part-of-team";
 @import "blocks/expectations-2";
 @import "blocks/proposal";
@@ -51,7 +53,7 @@ a {
 @import "blocks/back-office";
 @import "blocks/appeal";
 @import "blocks/appeal-founders";
-@import "blocks/video-block";
+@import "blocks/video-section";
 @import "blocks/mainscreen-big";
 @import "blocks/video";
 @import "blocks/feedback";
