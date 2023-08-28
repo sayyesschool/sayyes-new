@@ -15,11 +15,16 @@
 	{% set mixin = 'teachers' %}
 {% elseif section == 'vacancies' %}
 	{% set title = 'Стань онлайн или офлайн преподавателем в SAY YES!' %}
-	{% set description = 'Приглашаем в команду увлеченных единомышленников для совместного роста и реализации.' %}
+	{% set description = 'Приглашаем в  команду увлеченных единомышленников для совместного роста и реализации.' %}
 	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
 	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
 	{% set btnText = 'Хочу работать преподавателем' %}
 	{% set mixin = 'vacancies' %}
+{% elseif section == 'progress' %}
+	{% set title = 'Отчёты о прогрессе студентов SAY YES!' %}
+	{% set description = 'Одна из важных особенностей нашей школы — это то, что мы замеряем разговорный навык наших студентов по прошествии некоторого времени обучения. Посмотрите, как студенты SAY YES! уверенно говорят на видео!' %}
+	{% set img = 'mainscreen-progress' %}
+	{% set mixin = 'progress' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">

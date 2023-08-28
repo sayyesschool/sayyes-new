@@ -42,4 +42,16 @@
 			display: none;
 		}
 	}
+
+	&--progress {
+		.title {
+			max-width: 690px;
+			margin: 0 auto;
+		}
+
+		.mainscreen-big__description {
+			max-width: 1000px;
+			margin-bottom: 70px;
+		}
+	}
 }
