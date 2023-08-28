@@ -1,0 +1,67 @@
+.contacts {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 100px 80px 110px;
+
+	background-color: $white;
+	border-radius: $border-radius;
+
+	.phone-numbers {
+		a {
+			color: $violent;
+			font-size: 24px;
+		}
+	}
+
+	&__info {
+		max-width: 400px;
+
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__title {
+		margin-bottom: 11px;
+		font-weight: 800;
+		line-height: 90%;
+		letter-spacing: 1.2px;
+		text-transform: uppercase;
+
+		margin-top: 30px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	&__address {
+		margin-bottom: 5px;
+	}
+
+	&__schedule-list {
+		max-width: 300px;
+		margin-bottom: 74px;
+
+		li {
+			display: flex;
+			justify-content: space-between;
+
+			&:first-child {
+				margin-bottom: 5px;
+			}
+
+			span {
+				&:first-child {
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
+	&__map {
+		border-radius: $border-radius;
+		overflow: hidden;
+	}
+}

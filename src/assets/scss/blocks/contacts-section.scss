@@ -1,0 +1,20 @@
+.contacts-section {
+	margin: 50px 0 150px;
+
+	.subtitle {
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 33px;
+	}
+
+	&__description {
+		margin: 0 auto;
+		margin-bottom: 70px;
+
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+}
