@@ -1,0 +1,62 @@
+.icon {
+	display: inline-block;
+
+	div {
+		display: none;
+
+		svg * {
+			fill: $black;
+		}
+	}
+
+	&--tg {
+		.icon__tg {
+			display: block;
+		}
+	}
+
+	&--ws {
+		.icon__ws {
+			display: block;
+		}
+	}
+
+	&--pc {
+		.icon__pc {
+			display: block;
+		}
+	}
+
+	&--yt {
+		.icon__yt {
+			display: block;
+		}
+	}
+
+	&--inst {
+		.icon__inst {
+			display: block;
+		}
+	}
+
+	&--email {
+		.icon__email {
+			display: block;
+		}
+	}
+
+	&--sm {
+		svg {
+			width: 15px;
+			height: 15px;
+		}
+	}
+
+	&--white {
+		div {
+			svg * {
+				fill: $white;
+			}
+		}
+	}
+}

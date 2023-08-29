@@ -1,5 +1,9 @@
 .social {
-  display: flex;
+	display: flex;
+
+	.icon--tg {
+		transform: translate(-2px, 2px);
+	}
 
 	&__item {
 		display: flex;

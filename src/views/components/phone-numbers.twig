@@ -1,7 +1,8 @@
 <ul class="phone-numbers">
 	{% for item in meta.phonenumberItems %}
+		{% set combinedClasses = item.icon ~ ' ' ~ classes %}
 		<li class="phone-numbers__item">
-			<img src="{{item.icon}}" alt="Contact" class="phone-numbers__icon">
+			{% include '../components/icon.twig' with {class: combinedClasses} %}
 			<a href="#" class="phone-numbers__link">{{item.text}}</a>
 		</li>
 	{% endfor %}

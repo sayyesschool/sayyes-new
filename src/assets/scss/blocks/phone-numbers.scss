@@ -3,11 +3,11 @@
 	font-weight: 700;
 	text-transform: uppercase;
 
-	&__icon {
-		margin-right: 10px;
-	}
-
 	&__item {
+		display: flex;
+		justify-content: space-between;
+		gap: 8px;
+
 		&:not(:last-child) {
 			margin-bottom: 2px;
 		}

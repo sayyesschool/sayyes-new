@@ -9,12 +9,12 @@
 			{
 				"text": "+7 499 650-53-47",
 				"number": "74996505347",
-				"icon": "./assets/images/icons/phone-call.svg"
+				"icon": "icon--pc"
 			},
 			{
 				"text": "+7 929 554-65-99",
 				"number": "79295546599",
-				"icon": "./assets/images/icons/whats-app.svg"
+				"icon": "icon--ws"
 			}
 		],
 		"email": "info@sayes.ru",
@@ -23,6 +23,11 @@
 		"license": "серия 77 Л01 №0007610",
 		"designer": "Насибуллина Екатерина"
 	},
+	"social": [
+		{ "icon": "icon--tg", "href": "#" },
+		{ "icon": "icon--inst", "href": "#" },
+		{ "icon": "icon--yt", "href": "#" }
+	],
 	"headerNavItems": [
 		{
 			"text": "О Say Yes",
@@ -691,6 +696,64 @@
 			"startLevel": "Beginner",
 			"teacher": "Светлана Тимонина",
 			"img": "video-block-8"
+		}
+	],
+	"contactUsCards": [
+		{
+			"name": "Роман Сорочук",
+			"post": "Управляющий директор",
+			"about": "Обратная связь на работу школы",
+			"img": "romanS",
+			"contacts": [
+				{
+					"icon": "icon--pc",
+					"value": "+7 925 091-58-19",
+					"link": "#"
+				},
+				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
+				{ "icon": "icon--email", "value": "sorochuk", "link": "#" }
+			],
+			"type": "team-card"
+		},
+		{
+			"name": "Анастасия Жителева",
+			"post": "Менеджер по работе с клиентами офлайн",
+			"about": "По вопросам офлайн обучения",
+			"img": "anastasiaJ",
+			"contacts": [
+				{
+					"icon": "icon--pc",
+					"value": "+7 929 507-38-55",
+					"link": "#"
+				},
+				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
+				{
+					"icon": "icon--email",
+					"value": "a.jiteleva@sayes.ru ",
+					"link": "#"
+				}
+			],
+			"type": "team-card"
+		},
+		{
+			"name": "Татьяна Андреева",
+			"post": "Менеджер по работе с клиентами онлайн",
+			"about": "По вопросам онлайн обучения",
+			"img": "tatyanaA",
+			"contacts": [
+				{
+					"icon": "icon--pc",
+					"value": "+7 926 737-11-27",
+					"link": "#"
+				},
+				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
+				{
+					"icon": "icon--email",
+					"value": "t.andreeva@sayes.ru ",
+					"link": "#"
+				}
+			],
+			"type": "team-card"
 		}
 	]
 }

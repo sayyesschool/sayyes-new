@@ -5,7 +5,7 @@
 			<button class="btn btn--transparent btn--uppercase btn--sm">Бесплатный урок</button>
 			<a href="#" class="header__link">Онлайн тест</a>
 			<a href="#" class="header__link">Обратный звонок</a>
-			{% include '../components/phone-numbers.twig' %}
+			{% include '../components/phone-numbers.twig' with {classes: 'icon--white icon--sm'}  %}
 			<div class="header__contacts">
 				<div class="header__city">Москва</div>
 				<div class="header__time">ПН-ПТ с 12:00 до 21:00</div>

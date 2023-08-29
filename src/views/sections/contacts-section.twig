@@ -7,7 +7,10 @@
 			<p class="contacts__address">г. Москва, ул. Кожевническая, дом 14, корпус 1,  строение 2</p>
 			<p class="contacts__address">5 минут пешком от метро  Павелецкая радиальная</p>
 			<h4 class="contacts__title">Телефон:</h4>
-			{% include '../components/phone-numbers.twig' %}
+			<div class="contacts__links">
+				{% include '../components/phone-numbers.twig' %}
+				{% include '../components/social.twig' %}
+			</div>
 			<h4 class="contacts__title">E-mail:</h4>
 			<a href="#" class="text text--violent">info@sayes.ru</a>
 			<h4 class="contacts__title">График работы</h4>
