@@ -1,0 +1,30 @@
+<section class="courses courses--offer">
+	<div class="section-container">
+		<h2 class="subtitle">Мы предлагаем курсы для взрослых и детей в различных форматах: офлайн в Москве, онлайн в группе и индивидуально.</h2>
+		<p class="courses__description">Выберите необходимое для вас обучение.</p>
+		<ul class="tabs">
+			<li class="tabs__tab">Курсы для взрослых</li>
+			<li class="tabs__tab">Курсы для детей</li>
+		</ul>
+		<ul class="courses__course-blocks">
+			{% for item in courses2 %}
+				<li class="course">
+					<div class="course__header course__header--{{item.color}}">
+						<h3 class="course__title">{{item.title}}</h3>
+						<p class="course__description">{{item.description}}</p>
+					</div>
+					<ul class="course__content">
+						{% for lesson in item.list %}
+							<li class="course__item">
+								<div class="course__lesson-type">{{lesson.lessonType}}</div>
+								<div class="course__lesson-price">{{lesson.lessonSince}}
+									<span class="course__accent">{{lesson.lessonPrice}}</span>
+									{{lesson.lessonTime}}</div>
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
