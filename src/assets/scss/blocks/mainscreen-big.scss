@@ -44,6 +44,21 @@
 		}
 	}
 
+	&--adults {
+		.btn {
+			display: block;
+		}
+
+		.title {
+			max-width: 1060px;
+			margin: 0 auto;
+		}
+
+		.mainscreen-big__description {
+			max-width: 590px;
+		}
+	}
+
 	&--progress {
 		.title {
 			max-width: 690px;

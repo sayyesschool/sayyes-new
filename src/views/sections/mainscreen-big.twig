@@ -3,7 +3,7 @@
 	{% set description = 'Влюбляем в английский <br> и исполняем ваши мечты с 2013 года' %}
 	{% set img = 'mainscreen-about' %}
 {% elseif page == 'methodology' %}
-	{% set title = 'Методика школы SAY YES! — это оптимальный и современный способ изучения языков.' %}
+	{% set title = 'Методика школы SA Y YES! — это оптимальный и современный способ изучения языков.' %}
 	{% set description = 'Мы выбираем комбинацию из коммуникативного подхода и собственных разработок в обучении.' %}
 	{% set img = 'main-screen-big-methodology' %}
 {% elseif page == 'teachers' %}
@@ -32,6 +32,12 @@
 	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
 	{% set btnText = 'Оставить заявку' %}
 	{% set mixin = 'price' %}
+{% elseif page == 'adults' %}
+	{% set title = 'Курсы английского языка SAY YES! для взрослых.' %}
+	{% set description = 'Оставьте заявку на обратный звонок, и мы подробно расскажем о курсах, форматах обучения и стоимости.' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set img = 'main-screen-adults' %}
+	{% set mixin = 'adults ' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">
