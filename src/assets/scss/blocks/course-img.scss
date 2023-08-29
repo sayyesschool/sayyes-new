@@ -1,0 +1,91 @@
+.course-img {
+	width: 628px;
+
+	// calc is needed to fix the problem with the pixel
+	border-radius: calc($border-radius + 3px);
+	background-color: $white;
+
+	&:not(&--white) {
+		color: $white;
+	}
+
+	&__img {
+		display: block;
+		border-radius: $border-radius;
+	}
+
+	&__title {
+		max-width: 349px;
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+
+		margin-bottom: 18px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 25px;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		min-height: 370px;
+		padding: 36px 36px 46px 48px;
+	}
+
+	&__list {
+		margin-top: auto;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+
+	&__accent {
+		font-weight: 800;
+	}
+
+	&--without-list {
+		.course-img__title {
+			max-width: 470px;
+			margin-bottom: 24px;
+
+			font-size: 32px;
+			font-weight: 800;
+			line-height: 35px;
+		}
+
+		.course-img__content {
+			padding: 42px 48px 46px;
+			min-height: auto;
+		}
+
+		.course-img__description {
+			font-weight: 600;
+		}
+	}
+
+	&--black {
+		background-color: $black;
+	}
+
+	&--white {
+		background-color: $white;
+	}
+
+	&--pink {
+		background-color: $pink;
+	}
+
+	&--violent {
+		background-color: $violent;
+	}
+}

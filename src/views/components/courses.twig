@@ -1,0 +1,18 @@
+{% for item in courses %}
+	<li class="course {{item.class}}">
+		<div class="course__header">
+			<h3 class="course__title">{{item.title}}</h3>
+			<p class="course__description">{{item.description}}</p>
+		</div>
+		<ul class="course__content">
+			{% for lesson in item.list %}
+				<li class="course__item">
+					<div class="course__lesson-type">{{lesson.lessonType}}</div>
+					<div class="course__lesson-price">{{lesson.lessonSince}}
+						<span class="course__accent">{{lesson.lessonPrice}}</span>
+						{{lesson.lessonTime}}</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</li>
+{% endfor %}

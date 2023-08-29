@@ -6,24 +6,7 @@
 			<li class="tabs__tab">Курсы для детей</li>
 		</ul>
 		<ul class="courses__course-blocks">
-			{% for item in courses %}
-				<li class="course">
-					<div class="course__header course__header--{{item.color}}">
-						<h3 class="course__title">{{item.title}}</h3>
-						<p class="course__description">{{item.description}}</p>
-					</div>
-					<ul class="course__content">
-						{% for lesson in item.list %}
-							<li class="course__item">
-								<div class="course__lesson-type">{{lesson.lessonType}}</div>
-								<div class="course__lesson-price">{{lesson.lessonSince}}
-									<span class="course__accent">{{lesson.lessonPrice}}</span>
-									{{lesson.lessonTime}}</div>
-							</li>
-						{% endfor %}
-					</ul>
-				</li>
-			{% endfor %}
+			{% include '../components/courses.twig' %}
 			<div class="course-selection">
 				<h3 class="course-selection__title">Затрудняетесь с выбором курса или ваша цель специфична?</h3>
 				<p class="course-selection__description">Подберем курс под ваши цели или создадим индивидуальный курс под вас!</p>

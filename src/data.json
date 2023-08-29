@@ -143,7 +143,7 @@
 		{
 			"title": "Английский с нуля",
 			"description": "Даст уверенный старт и подготовит к Общему курсу",
-			"color": "black",
+			"class": "course--black",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -168,7 +168,7 @@
 		{
 			"title": "Основной курс Touchstone",
 			"description": "Доведет до уверенного среднего уровня.",
-			"color": "pink",
+			"class": "course--pink",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -193,7 +193,7 @@
 		{
 			"title": "Продвинутый курс",
 			"description": "Поднимет уровень до свободного владения. Ведет ТОП русскоязычный или носитель языка.",
-			"color": "violent",
+			"class": "course--violent",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -218,7 +218,7 @@
 		{
 			"title": "Бизнес <br> курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
-			"color": "black",
+			"class": "course--black",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -237,7 +237,7 @@
 		{
 			"title": "Подготовка к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам. ",
-			"color": "pink",
+			"class": "course--pink course--fs",
 			"list": [
 				{
 					"lessonType": "индивидуально <br>  онлайн и офлайн",
@@ -252,7 +252,7 @@
 		{
 			"title": "Английский с нуля",
 			"description": "Даст уверенный старт и подготовит к Общему курсу",
-			"color": "black",
+			"class": "course--black",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -277,7 +277,7 @@
 		{
 			"title": "Основной курс Touchstone",
 			"description": "Доведет до уверенного среднего уровня.",
-			"color": "pink",
+			"class": "course--pink",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -302,7 +302,7 @@
 		{
 			"title": "Продвинутый курс",
 			"description": "Поднимет уровень до свободного владения. Ведет ТОП русскоязычный или носитель языка.",
-			"color": "violent",
+			"class": "course--violent",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -327,7 +327,7 @@
 		{
 			"title": "Бизнес <br> курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
-			"color": "black",
+			"class": "course--black",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -346,7 +346,7 @@
 		{
 			"title": "Подготовка к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам.",
-			"color": "black",
+			"class": "course--black",
 			"list": [
 				{
 					"lessonType": "индивидуально <br>  онлайн и офлайн",
@@ -359,11 +359,153 @@
 		{
 			"title": "Разговорный онлайн клуб",
 			"description": "Улучшит разговорные навыки!",
-			"color": "violent",
+			"class": "course--violent",
 			"list": [
 				{
 					"lessonType": "встреча в группе <br> онлайн",
-					"lessonPrice": "490 ₽/dcnhtxf"
+					"lessonPrice": "490 ₽",
+					"lessonTime": "/встреча"
+				}
+			]
+		}
+	],
+	"courses3": [
+		{
+			"title": "Груповое обучение в школе в Москве",
+			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
+			"class": "course-img--white course-img--without-list",
+			"img": "courses-1"
+		},
+		{
+			"title": "Обучение онлайн в мини-группах и индивидуально",
+			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе.",
+			"class": "course-img--white course-img--without-list",
+			"img": "courses-2"
+		}
+	],
+	"courses4": [
+		{
+			"title": "Английский с нуля",
+			"description": "Даст уверенный старт и подготовит к Общему курсу",
+			"class": "course-img--white",
+			"img": "courses-4",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "9.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Основной курс Touchstone",
+			"description": "Доведет до уверенного среднего уровня.",
+			"class": "course-img--pink",
+			"img": "courses-5",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "9.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Продвинутый курс",
+			"description": "Поднимет уровень до свободного владения. Ведет ТОП русскоязычный или носитель языка.",
+			"class": "course-img--violent",
+			"img": "courses-6",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "10.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "1540 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Бизнес <br> курс",
+			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
+			"class": "course-img--white",
+			"img": "courses-7",
+			"list": [
+				{
+					"lessonType": "офлайн группа",
+					"lessonPrice": "10.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "индивидуально группа",
+					"lessonPrice": "1540 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Подготовка к экзаменам",
+			"description": "Подготовит к IELTS, TOEFL и другим экзаменам.",
+			"class": "course-img--white",
+			"img": "courses-8",
+			"list": [
+				{
+					"lessonType": "индивидуально <br>  онлайн и офлайн",
+					"lessonPrice": "1.650 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				}
+			]
+		},
+		{
+			"title": "Разговорный онлайн клуб",
+			"description": "Улучшит разговорные навыки!",
+			"class": "course-img--violent",
+			"img": "courses-9",
+			"list": [
+				{
+					"lessonType": "встреча в группе <br> онлайн",
+					"lessonPrice": "940 ₽",
+					"lessonTime": "/встреча"
 				}
 			]
 		}
