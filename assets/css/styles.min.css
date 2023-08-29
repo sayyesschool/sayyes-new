@@ -390,6 +390,148 @@ a {
     margin: 0 auto;
 }
 
+.certificates {
+    margin-bottom: 150px;
+}
+
+.certificates .subtitle {
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.certificates .btn {
+    margin-top: 50px;
+}
+
+.certificates__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificates__text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 520px;
+}
+
+.certificates__text p:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.discounts {
+    margin-bottom: 150px;
+}
+
+.discounts .subtitle {
+    margin: 0 auto 23px;
+    text-align: center;
+}
+
+.discounts__description {
+    max-width: 402px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.discounts__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discounts__blocks .text-block__title {
+    max-width: 240px;
+}
+
+.discounts__ps {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon div {
+    display: none;
+}
+
+.icon div svg * {
+    fill: #262626;
+}
+
+.icon--tg .icon__tg {
+    display: block;
+}
+
+.icon--ws .icon__ws {
+    display: block;
+}
+
+.icon--pc .icon__pc {
+    display: block;
+}
+
+.icon--yt .icon__yt {
+    display: block;
+}
+
+.icon--inst .icon__inst {
+    display: block;
+}
+
+.icon--email .icon__email {
+    display: block;
+}
+
+.icon--sm svg {
+    width: 15px;
+    height: 15px;
+}
+
+.icon--white div svg * {
+    fill: #fffcff;
+}
+
+.contact-us {
+    margin-bottom: 150px;
+}
+
+.contact-us .subtitle {
+    margin-bottom: 50px;
+}
+
+.contact-us .card .card__content {
+    min-height: 410px;
+}
+
+.contact-us .card .card__post {
+    margin-bottom: auto;
+}
+
+.contact-us .card p.card__description {
+    margin-bottom: 14px;
+}
+
+.contact-us .card li {
+    color: #7831b2;
+    display: flex;
+    gap: 15px;
+}
+
+.contact-us__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contacts {
     width: 100%;
     display: flex;
@@ -399,9 +541,17 @@ a {
     border-radius: 30px;
 }
 
+.contacts .phone-numbers {
+    max-width: 240px;
+}
+
 .contacts .phone-numbers a {
     color: #7831b2;
     font-size: 24px;
+}
+
+.contacts .social__item:nth-child(2) {
+    display: none;
 }
 
 .contacts__info {
@@ -426,6 +576,12 @@ a {
 
 .contacts__address {
     margin-bottom: 5px;
+}
+
+.contacts__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contacts__schedule-list {
@@ -1443,15 +1599,15 @@ a {
     max-width: 590px;
 }
 
-.mainscreen-big--teachers .btn, .mainscreen-big--vacancies .btn {
+.mainscreen-big--teachers .btn, .mainscreen-big--vacancies .btn, .mainscreen-big--price .btn {
     display: block;
 }
 
-.mainscreen-big--teachers .split-image, .mainscreen-big--vacancies .split-image {
+.mainscreen-big--teachers .split-image, .mainscreen-big--vacancies .split-image, .mainscreen-big--price .split-image {
     display: block;
 }
 
-.mainscreen-big--teachers .mainscreen-big__img, .mainscreen-big--vacancies .mainscreen-big__img {
+.mainscreen-big--teachers .mainscreen-big__img, .mainscreen-big--vacancies .mainscreen-big__img, .mainscreen-big--price .mainscreen-big__img {
     display: none;
 }
 
@@ -1584,7 +1740,7 @@ a {
 }
 
 .course {
-    max-width: 520px;
+    width: 520px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -1657,29 +1813,10 @@ a {
     margin-bottom: 50px;
 }
 
-.courses__tabs {
-    max-width: 628px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 20px;
-}
-
-.courses__tab {
-    width: 309px;
-    padding: 15px 62px;
-}
-
-.courses__tab:first-child {
-    background-color: #ffd754;
-    border-radius: 30px 0 0 30px;
-}
-
-.courses__tab:last-child {
-    background-color: #fffcff;
-    border-radius: 0 30px 30px 0;
+.courses__description {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
 }
 
 .courses__course-blocks {
@@ -1687,6 +1824,25 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 40px;
+}
+
+.courses--offer .subtitle {
+    max-width: 881px;
+    margin: 0 auto 23px;
+    text-align: center;
+}
+
+.courses--offer .tabs {
+    margin: 0 auto;
+}
+
+.courses--offer .courses__description {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.courses--offer .course:last-of-type {
+    align-self: auto;
 }
 
 .reward {
@@ -2394,6 +2550,10 @@ a {
     display: flex;
 }
 
+.social .icon--tg {
+    transform: translate(-2px, 2px);
+}
+
 .social__item {
     display: flex;
     justify-content: center;
@@ -2421,8 +2581,10 @@ a {
     text-transform: uppercase;
 }
 
-.phone-numbers__icon {
-    margin-right: 10px;
+.phone-numbers__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .phone-numbers__item:not(:last-child) {
@@ -2575,7 +2737,7 @@ a {
     margin-bottom: 10px;
 }
 
-.footer .phone-numbers__icon {
+.footer .phone-numbers .icon {
     display: none;
 }
 
