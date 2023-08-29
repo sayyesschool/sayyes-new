@@ -38,6 +38,12 @@
 	{% set btnText = 'Оставить заявку' %}
 	{% set img = 'main-screen-adults' %}
 	{% set mixin = 'adults ' %}
+{% elseif page == 'children' %}
+	{% set title = 'Курсы английского языка SAY YES! для детей.' %}
+	{% set description = 'Оставьте заявку на обратный звонок, и мы подробно расскажем о курсах, форматах обучения и стоимости.' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set img = 'main-screen-children' %}
+	{% set mixin = 'children' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">
