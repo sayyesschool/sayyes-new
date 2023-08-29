@@ -1,0 +1,38 @@
+.discounts {
+	margin-bottom: 150px;
+
+	.subtitle {
+		margin: 0 auto 23px;
+		text-align: center;
+	}
+
+	&__description {
+		max-width: 402px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__blocks {
+		display: flex;
+		justify-content: space-between;
+
+		.text-block__title {
+			max-width: 240px;
+		}
+	}
+
+	&__ps {
+		max-width: 680px;
+		margin: 0 auto;
+
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+}

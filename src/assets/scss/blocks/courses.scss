@@ -6,6 +6,12 @@
 		margin-bottom: 50px;
 	}
 
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
 	&__course-blocks {
 		display: flex;
 		justify-content: space-between;

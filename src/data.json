@@ -875,5 +875,22 @@
 			],
 			"type": "team-card"
 		}
+	],
+	"discounts": [
+		{
+			"title": "Покупка всего курса",
+			"description": "Оплачивайте по три или шесть месяцев сразу и учитесь выгоднее.*",
+			"class": "text-block--sm-text text-block--diploma-bg"
+		},
+		{
+			"title": "Приведи друга",
+			"description": "Рекомендуйте нас друзьям, и мы подарим вам и другу 2 урока к любому курсу!*",
+			"class": "text-block--sm-text text-block--diploma-bg"
+		},
+		{
+			"title": "Семейное обучение",
+			"description": "Учите английский всей семьёй и получите постоянную скидку 20%.*",
+			"class": "text-block--sm-text text-block--diploma-bg"
+		}
 	]
 }
