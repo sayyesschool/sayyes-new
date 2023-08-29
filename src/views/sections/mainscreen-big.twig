@@ -1,30 +1,37 @@
-{% if section == 'about' %}
+{% if page == 'about' %}
 	{% set title = 'Школа английского языка SAY YES! С нами вы скажете «Да!» свободе общения с миром.' %}
 	{% set description = 'Влюбляем в английский <br> и исполняем ваши мечты с 2013 года' %}
 	{% set img = 'mainscreen-about' %}
-{% elseif section == 'methodology' %}
+{% elseif page == 'methodology' %}
 	{% set title = 'Методика школы SAY YES! — это оптимальный и современный способ изучения языков.' %}
 	{% set description = 'Мы выбираем комбинацию из коммуникативного подхода и собственных разработок в обучении.' %}
 	{% set img = 'main-screen-big-methodology' %}
-{% elseif section == 'teachers' %}
+{% elseif page == 'teachers' %}
 	{% set title = 'Сильные и харизматичные преподаватели SAY YES! — главная причина вашего прогресса.' %}
 	{% set description = 'Доверьте свой английский экспертам, кто прошел наш строгий отбор.' %}
 	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
 	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
 	{% set btnText = 'Оставить заявку' %}
 	{% set mixin = 'teachers' %}
-{% elseif section == 'vacancies' %}
+{% elseif page == 'vacancies' %}
 	{% set title = 'Стань онлайн или офлайн преподавателем в SAY YES!' %}
 	{% set description = 'Приглашаем в  команду увлеченных единомышленников для совместного роста и реализации.' %}
 	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
 	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
 	{% set btnText = 'Хочу работать преподавателем' %}
 	{% set mixin = 'vacancies' %}
-{% elseif section == 'progress' %}
+{% elseif page == 'progress' %}
 	{% set title = 'Отчёты о прогрессе студентов SAY YES!' %}
 	{% set description = 'Одна из важных особенностей нашей школы — это то, что мы замеряем разговорный навык наших студентов по прошествии некоторого времени обучения. Посмотрите, как студенты SAY YES! уверенно говорят на видео!' %}
 	{% set img = 'mainscreen-progress' %}
 	{% set mixin = 'progress' %}
+{% elseif page == 'price' %}
+	{% set title = 'Стоимость обучения в школе английского языка SAY YES!' %}
+	{% set description = 'Оставьте заявку на обратный звонок, и мы подробно расскажем о ценах на курсы и действующих акциях.' %}
+	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
+	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set mixin = 'price' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">
