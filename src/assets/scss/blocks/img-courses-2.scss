@@ -7,10 +7,15 @@
 	}
 
 	.course-selection {
+		width: 628px;
 		align-self: flex-start;
 
 		&__title {
 			max-width: 320px;
+		}
+
+		&__description {
+			max-width: initial;
 		}
 	}
 
