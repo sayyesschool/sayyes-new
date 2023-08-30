@@ -1,6 +1,12 @@
+{% if page == 'adults' %}
+	{% set courses = courses3 %}
+{% elseif page == 'children' %}
+	{% set courses = courses5 %}
+{% endif %}
+
 <section class="img-courses">
 	<h2 class="subtitle">Наша школа предлагает курсы английского языка для разных уровней знаний и в разнообразных форматах:</h2>
 	<ul class="img-courses__blocks">
-		{% include '../components/img-courses.twig' with {courses: courses3} %}
+		{% include '../components/img-courses.twig' with {courses} %}
 	</ul>
 </section>

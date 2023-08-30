@@ -1,6 +1,14 @@
+{% if page == 'adults' %}
+	{% set courses = courses4 %}
+{% elseif page == 'children' %}
+	{% set courses = courses6 %}
+{% elseif page == 'education' %}
+	{% set courses = courses7 %}
+{% endif %}
+
 <section class="img-courses-2">
 	<h2 class="subtitle">Выберите необходимое для вас обучение:</h2>
 	<ul class="img-courses__blocks">
-		{% include '../components/img-courses.twig' with {courses: courses4} %}
+		{% include '../components/img-courses.twig' with {courses} %}
 	</ul>
 </section>
