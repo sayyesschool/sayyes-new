@@ -44,6 +44,13 @@
 	{% set btnText = 'Оставить заявку' %}
 	{% set img = 'main-screen-children' %}
 	{% set mixin = 'children' %}
+{% elseif page == 'education' %}
+	{% set title = 'Формы обучения в школе SAY YES! для взрослых и детей.' %}
+	{% set description = 'Оставьте заявку на обратный звонок,  и мы подробно расскажем о курсах, формах обучения и стоимости.' %}
+	{% set splitImg1 = './assets/images/teachers/split-1.jpg' %}
+	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set mixin = 'education' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">

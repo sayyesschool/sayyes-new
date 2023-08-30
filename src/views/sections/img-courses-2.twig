@@ -10,5 +10,13 @@
 	<h2 class="subtitle">Выберите необходимое для вас обучение:</h2>
 	<ul class="img-courses__blocks">
 		{% include '../components/img-courses.twig' with {courses} %}
+
+		{% if page == 'education' %}
+			<div class="course-selection">
+				<h3 class="course-selection__title">Затрудняетесь с выбором формы обучения?</h3>
+				<p class="course-selection__description">Подберем для вас удобный курс и формат обучения!</p>
+				<button class="btn btn--violent">Оставить заявку</button>
+			</div>
+		{% endif %}
 	</ul>
 </section>

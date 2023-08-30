@@ -6,6 +6,14 @@
 		margin-bottom: 49px;
 	}
 
+	.course-selection {
+		align-self: flex-start;
+
+		&__title {
+			max-width: 320px;
+		}
+	}
+
 	&__blocks {
 		display: flex;
 		flex-wrap: wrap;
