@@ -1,3 +1,5 @@
+{% set btnColor = 'yellow' %}
+
 {% if page == 'about' %}
 	{% set title = 'Школа английского языка SAY YES! С нами вы скажете «Да!» свободе общения с миром.' %}
 	{% set description = 'Влюбляем в английский <br> и исполняем ваши мечты с 2013 года' %}
@@ -51,12 +53,19 @@
 	{% set splitImg2 = './assets/images/teachers/split-2.jpg' %}
 	{% set btnText = 'Оставить заявку' %}
 	{% set mixin = 'education' %}
+{% elseif page == 'companies' %}
+	{% set title = 'Корпоративное обучение английскому языку в SAY YES!' %}
+	{% set description = 'Предлагаем компаниям лучшее соотношение цены и качества.' %}
+	{% set img = 'main-screen-companies' %}
+	{% set btnText = 'Оставить заявку на звонок' %}
+	{% set btnColor = 'black' %}
+	{% set mixin = 'companies' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">
 	<h1 class="title">{{title}}</h1>
 	<p class="mainscreen-big__description">{{description}}</p>
-	<button class="btn btn--yellow">{{btnText}}</button>
+	<button class="btn btn--{{btnColor}}">{{btnText}}</button>
 	<img src="./assets/images/{{img}}.png" alt="Say Yes" class="mainscreen-big__img">
 	<div class="split-image">
 		<img src="{{splitImg1}}" alt="Say Yes" class="split-image__first-img">
