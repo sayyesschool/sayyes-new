@@ -3,34 +3,14 @@
 	margin-bottom: 184px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	position: relative;
 
 	background-color: $white;
 	border-radius: $border-radius;
 
-	&::before {
-		content: "";
-		position: absolute;
-		top: 55%;
-		left: 30%;
-		width: 285px;
-		height: 145px;
-		background: url("../../assets/images/short-video.svg") center
-			center/contain no-repeat;
-	}
-
 	.subtitle {
 		max-width: 340px;
-	}
-
-	&--methodology {
-		&::before {
-			background-image: url("../../assets/images/short-video.svg");
-		}
-
-		.subtitle {
-			max-width: 400px;
-		}
 	}
 
 	.video {
@@ -45,6 +25,43 @@
 			height: 334px;
 			background: url("../../assets/images/being-student-border.svg")
 				center center/contain no-repeat;
+		}
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 55%;
+		left: 30%;
+		width: 285px;
+		height: 145px;
+		background: url("../../assets/images/short-video.svg") center
+			center/contain no-repeat;
+	}
+
+	&--methodology {
+		&::before {
+			background-image: url("../../assets/images/short-video.svg");
+		}
+
+		.subtitle {
+			max-width: 400px;
+		}
+	}
+
+	&--companies {
+		.subtitle {
+			max-width: 600px;
+		}
+
+		.video {
+			&::before {
+				content: none;
+			}
+		}
+
+		&::before {
+			content: none;
 		}
 	}
 }

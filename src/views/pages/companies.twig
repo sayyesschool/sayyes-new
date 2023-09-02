@@ -3,5 +3,7 @@
 {% block content %}
 	{% include '../sections/mainscreen-big.twig' with { page: 'companies' } %}
 
-	{% include '../sections/trial-lesson.twig' %}
+	{% include '../sections/video-section.twig' with {page: 'companies'} %}
+
+	{% include '../sections/history.twig' %}
 {% endblock %}

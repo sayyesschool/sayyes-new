@@ -1,10 +1,14 @@
-{% if section == 'about' %}
+{% if page == 'about' %}
 	{% set subtitle = 'Быть нашим студентом — это...' %}
 	{% set videoImg = 'video-block-1' %}
-{% elseif section == 'methodology'  %}
+{% elseif page == 'methodology'  %}
 	{% set subtitle = 'Посмотрите короткое видео о нашем подходе к обучению' %}
 	{% set videoImg = 'video-block-2' %}
 	{% set mixin = 'methodology' %}
+{% elseif page == 'companies'  %}
+	{% set subtitle = 'Роман Сорочук коротко расскажет о преимуществах нашего обучения и процессе работы с компаниями.' %}
+	{% set videoImg = 'video-block-3' %}
+	{% set mixin = 'companies' %}
 {% endif %}
 
 <section class="video-section video-section--{{mixin}}">
