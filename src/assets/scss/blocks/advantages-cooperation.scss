@@ -1,0 +1,56 @@
+.advantages-cooperation {
+	margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 882px;
+		margin-bottom: 50px;
+	}
+
+	.btn {
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__blocks {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+
+	&__column {
+		.text-block {
+			min-height: 480px;
+			justify-content: flex-end;
+			padding-right: 30px;
+
+			.text-block__description {
+				font-size: 32px;
+				line-height: 30px;
+			}
+		}
+
+		&:first-child {
+			.text-block {
+				&:first-child {
+					min-height: 260px;
+				}
+
+				&:last-child {
+					min-height: 200px;
+				}
+			}
+		}
+
+		&:last-child {
+			.text-block {
+				&:first-child {
+					min-height: 200px;
+				}
+
+				&:last-child {
+					min-height: 260px;
+				}
+			}
+		}
+	}
+}

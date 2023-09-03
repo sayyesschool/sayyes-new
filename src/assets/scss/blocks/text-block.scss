@@ -82,11 +82,16 @@
 	&--leaves-bg,
 	&--mail-bg,
 	&--contact-bg,
+	&--contacts-bg,
 	&--cap-bg,
 	&--cap-sm-bg,
 	&--note-bg,
+	&--note-2-bg,
+	&--notes-bg,
 	&--person-bg,
-	&--briefcase-bg {
+	&--briefcase-bg,
+	&--webcam-bg,
+	&--video-bg {
 		&::before {
 			content: "";
 			position: absolute;
@@ -178,11 +183,21 @@
 
 	&--contact-bg {
 		&::before {
-			width: 252px;
-			height: 202px;
+			width: 171px;
+			height: 132px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/contact-bg.svg");
+		}
+	}
+
+	&--contacts-bg {
+		&::before {
+			width: 171px;
+			height: 132px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/contacts-bg.svg");
 		}
 	}
 
@@ -216,6 +231,26 @@
 		}
 	}
 
+	&--notes-bg {
+		&::before {
+			width: 153px;
+			height: 117px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/notes-bg.svg");
+		}
+	}
+
+	&--note-2-bg {
+		&::before {
+			width: 155px;
+			height: 168px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/note-2-bg.svg");
+		}
+	}
+
 	&--person-bg {
 		&::before {
 			width: 182px;
@@ -233,6 +268,26 @@
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/briefcase-bg.svg");
+		}
+	}
+
+	&--video-bg {
+		&::before {
+			width: 270px;
+			height: 236px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/video-bg.svg");
+		}
+	}
+
+	&--webcam-bg {
+		&::before {
+			width: 137px;
+			height: 131px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/webcam-bg.svg");
 		}
 	}
 }
