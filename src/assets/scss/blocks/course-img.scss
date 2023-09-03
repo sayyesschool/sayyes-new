@@ -73,6 +73,22 @@
 		}
 	}
 
+	&--sm {
+		width: 412px;
+
+		.course-img__title {
+			font-size: 24px;
+			font-weight: 800;
+			line-height: 25px;
+
+			margin-bottom: 10px;
+		}
+		.course-img__content {
+			padding: 44px 25px 46px 49px;
+			min-height: auto;
+		}
+	}
+
 	&--black {
 		background-color: $black;
 	}

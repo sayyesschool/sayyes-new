@@ -690,6 +690,26 @@
 			]
 		}
 	],
+	"educationFormats": [
+		{
+			"title": "В школе в Москве ",
+			"description": "Наш офис находится в 7 минутах от метро Павелецкая",
+			"class": "course-img--white course-img--without-list course-img--sm",
+			"img": "format-1"
+		},
+		{
+			"title": "В офисе вашей компании",
+			"description": "Преподаватель приезжает к вам офис в удобное вам время",
+			"class": "course-img--white course-img--without-list course-img--sm",
+			"img": "format-2"
+		},
+		{
+			"title": "Обучение онлайн",
+			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе",
+			"class": "course-img--white course-img--without-list course-img--sm",
+			"img": "format-3"
+		}
+	],
 	"teamCards": [
 		{
 			"name": "Роман Сорочук",
