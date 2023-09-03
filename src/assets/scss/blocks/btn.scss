@@ -36,6 +36,11 @@
 		text-transform: uppercase;
 	}
 
+	&--big {
+		min-width: 520px;
+		min-height: 60px;
+	}
+
 	&--md {
 		min-width: 312px;
 		min-height: 50px;

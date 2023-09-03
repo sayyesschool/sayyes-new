@@ -1,0 +1,23 @@
+<section class="cooperation">
+	<h2 class="subtitle">Сотрудничать с SAY YES! — выгодно</h2>
+	<div class="cooperation__block">
+		<div class="cooperation__preview">
+			<div class="person__info">
+				<h3 class="cooperation__name">Роман Сорочук</h3>
+				<div class="cooperation__person-about">Руководитель корпоративного направления</div>
+			</div>
+			<img src="./assets/images/roman.png" alt="Say Yes" class="cooperation__img">
+		</div>
+		<div class="cooperation__content">
+			<ul class="cooperation__list">
+				{% for item in cooperation %}
+					<li class="cooperation__item">
+						<h4 class="cooperation__item-title">{{item.title}}</h4>
+						<p class="cooperation__item-description">{{item.description}}</p>
+					</li>
+				{% endfor %}
+			</ul>
+			<button class="btn btn--big btn--violent">Рассчитать точную стоимость обучения</button>
+		</div>
+	</div>
+</section>
