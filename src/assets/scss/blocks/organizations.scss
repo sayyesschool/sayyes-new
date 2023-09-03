@@ -1,0 +1,39 @@
+.organizations {
+	margin-bottom: 180px;
+
+	.subtitle {
+		margin-bottom: 48px;
+	}
+
+	.slider {
+		margin: 0;
+		max-width: 1276px;
+	}
+
+	.slider__arrows {
+		top: -80px;
+	}
+
+	.slider__dots {
+		bottom: -35px;
+		right: 50%;
+		transform: translateX(50%);
+	}
+
+	&__list {
+		display: flex;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		width: 196px;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		background-color: $white;
+		border-radius: 20px;
+	}
+}
