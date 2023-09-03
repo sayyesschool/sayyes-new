@@ -1214,5 +1214,27 @@
 			"description": "Учите английский всей семьёй и получите постоянную скидку 20%.*",
 			"class": "text-block--sm-text text-block--diploma-bg"
 		}
+	],
+	"educationDirections": [
+		{
+			"title": "Общий курс",
+			"description": "Обучение разговорному английскому языку",
+			"class": "text-block--sm-text text-block--yellow text-block--cap-sm-bg"
+		},
+		{
+			"title": "Бизнес курс",
+			"description": "Обучение деловому английскому для работы",
+			"class": "text-block--sm-text text-block--yellow text-block--briefcase-bg"
+		},
+		{
+			"title": "Курсы для профессионалов",
+			"description": "Программы для конкретных профессий и должностей",
+			"class": "text-block--sm-text text-block--yellow text-block--person-bg"
+		},
+		{
+			"title": "Погружение в среду",
+			"description": "Разговорные клубы с носителями английского языка",
+			"class": "text-block--sm-text text-block--yellow text-block--comments-bg"
+		}
 	]
 }

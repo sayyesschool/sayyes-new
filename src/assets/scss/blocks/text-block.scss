@@ -72,16 +72,21 @@
 	&--yellow {
 		background-color: $yellow;
 	}
+
 	&--books-bg,
 	&--hourglass-bg,
 	&--comment-bg,
+	&--comments-bg,
 	&--heart-bg,
 	&--diploma-bg,
 	&--leaves-bg,
 	&--mail-bg,
 	&--contact-bg,
 	&--cap-bg,
-	&--note-bg {
+	&--cap-sm-bg,
+	&--note-bg,
+	&--person-bg,
+	&--briefcase-bg {
 		&::before {
 			content: "";
 			position: absolute;
@@ -118,6 +123,16 @@
 			top: -30px;
 			right: 5px;
 			background-image: url("../../assets/images/text-blocks-bg/comment-bg.svg");
+		}
+	}
+
+	&--comments-bg {
+		&::before {
+			width: 217px;
+			height: 175px;
+			top: -0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/comments-bg.svg");
 		}
 	}
 
@@ -171,6 +186,16 @@
 		}
 	}
 
+	&--cap-sm-bg {
+		&::before {
+			width: 192px;
+			height: 190px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/cap-bg.svg");
+		}
+	}
+
 	&--cap-bg {
 		&::before {
 			width: 269px;
@@ -188,6 +213,26 @@
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/note-bg.svg");
+		}
+	}
+
+	&--person-bg {
+		&::before {
+			width: 182px;
+			height: 190px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/person-bg.svg");
+		}
+	}
+
+	&--briefcase-bg {
+		&::before {
+			width: 203px;
+			height: 172px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/briefcase-bg.svg");
 		}
 	}
 }
