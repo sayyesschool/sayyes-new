@@ -978,6 +978,86 @@
 			"type": "teacher-card"
 		}
 	],
+	"teacherCards3": [
+		{
+			"name": "Сабина Шейхова",
+			"merits": [
+				{ "merit": "Стаж", "description": "10 лет" },
+				{ "merit": "Сертификаты", "description": "TEFL/TESOL, FCE" }
+			],
+			"img": "teacher-1",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Роман Сорочук",
+			"merits": [{ "merit": "Стаж", "description": "11 лет" }],
+			"img": "teacher-2",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Милена Чернышевская",
+			"merits": [
+				{ "merit": "Стаж", "description": "3 года" },
+				{ "merit": "Сертификаты", "description": "IELTS" }
+			],
+			"img": "teacher-3",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Полина Полянская",
+			"merits": [
+				{ "merit": "Стаж", "description": "6 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "ELS Miami, ELS San Francisc"
+				}
+			],
+			"img": "teacher-4",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Мария Наливайкина",
+			"merits": [{ "merit": "Стаж", "description": "5 лет" }],
+			"img": "teacher-5",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Ульяна Шляпникова",
+			"merits": [{ "merit": "Стаж", "description": "5 лет" }],
+			"img": "teacher-6",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Дарья Власова",
+			"merits": [
+				{ "merit": "Стаж", "description": "10 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "Cambridge English — First (FCE), Advanced (CAE)"
+				}
+			],
+			"img": "teacher-7",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Ирина Прихожева",
+			"merits": [{ "merit": "Стаж", "description": "9 лет" }],
+			"img": "teacher-8",
+			"type": "teacher-card"
+		},
+		{
+			"name": "Екатерина Колбацкова",
+			"merits": [
+				{ "merit": "Стаж", "description": "6 лет" },
+				{
+					"merit": "Сертификаты",
+					"description": "TKT 3 Modules, How to prepare students for IELTS"
+				}
+			],
+			"img": "teacher-9",
+			"type": "teacher-card"
+		}
+	],
 	"proposal": [
 		{
 			"title": "Достойный доход",
@@ -1272,7 +1352,7 @@
 		},
 		{
 			"title": "Разные варианты оплаты",
-			"description": "Оплачивать обучение может как компания,  так и сами сотрудники на выгодных условиях. Возможны и гибридные варианты."
+			"description": "Оплачивать обучение может как компания, так и сами сотрудники на выгодных условиях. Возможны и гибридные варианты."
 		}
 	]
 }

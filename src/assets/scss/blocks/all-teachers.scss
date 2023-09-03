@@ -1,0 +1,33 @@
+.all-teachers {
+	margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 880px;
+		margin-bottom: 30px;
+	}
+
+	.btn {
+		display: block;
+		margin: 0 auto;
+
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.cards {
+		margin-bottom: 50px;
+	}
+
+	&__description {
+		max-width: 950px;
+		margin-bottom: 10px;
+
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		&:last-of-type {
+			margin-bottom: 50px;
+		}
+	}
+}
