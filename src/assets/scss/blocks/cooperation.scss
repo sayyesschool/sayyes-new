@@ -1,19 +1,11 @@
 .cooperation {
-	margin-bottom: 150px;
-
-	.subtitle {
-		margin-bottom: 50px;
-	}
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
 
 	.btn {
 		font-size: 18px;
 		font-weight: 700;
-	}
-
-	&__block {
-		display: flex;
-		justify-content: space-between;
-		gap: 20px;
 	}
 
 	&__preview {
@@ -47,7 +39,6 @@
 	&__img {
 		position: absolute;
 		bottom: 0;
-		left: -142px;
 	}
 
 	&__content {
@@ -65,17 +56,6 @@
 	&__item {
 		margin-bottom: 25px;
 		position: relative;
-
-		&::before {
-			content: "";
-			width: 46px;
-			height: 44px;
-			position: absolute;
-			top: 0;
-			left: -65px;
-			background: url("../../assets/images/check.svg") center
-				center/contain no-repeat;
-		}
 	}
 
 	&__item-title {
@@ -90,5 +70,56 @@
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 25px;
+	}
+
+	&--profitable-cooperation {
+		.cooperation__img {
+			left: -142px;
+		}
+
+		.cooperation__item {
+			&::before {
+				content: "";
+				width: 46px;
+				height: 44px;
+				position: absolute;
+				top: 0;
+				left: -65px;
+				background: url("../../assets/images/check.svg") center
+					center/contain no-repeat;
+			}
+		}
+	}
+
+	&--getting-started {
+		.cooperation__person-about {
+			max-width: 200px;
+		}
+
+		.cooperation__img {
+			left: -52px;
+		}
+
+		.cooperation__content {
+			align-self: flex-end;
+			padding: 44px 74px 51px 142px;
+		}
+
+		.cooperation__list {
+			counter-reset: myCounter;
+		}
+
+		.cooperation__item {
+			&::before {
+				content: "Шаг " counter(myCounter) ".";
+				counter-increment: myCounter;
+				position: absolute;
+				top: 3px;
+				left: -94px;
+				font-size: 24px;
+				font-weight: 800;
+				line-height: 20px;
+			}
+		}
 	}
 }

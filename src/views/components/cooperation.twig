@@ -1,0 +1,36 @@
+{% if section == 'profitable-cooperation' %}
+	{% set name = 'Роман Сорочук' %}
+	{% set aboutPerson = 'Руководитель корпоративного направления' %}
+	{% set img = './assets/images/roman.png' %}
+	{% set list = cooperation %}
+	{% set btnText  = 'Рассчитать точную стоимость обучения' %}
+	{% set mixin = 'cooperation--profitable-cooperation' %}
+{% elseif section == 'getting-started' %}
+	{% set name = 'Анастасия Жителева' %}
+	{% set aboutPerson = 'Менеджер по работе с клиентами офлайн' %}
+	{% set img = './assets/images/anastasia.png' %}
+	{% set list = gettingStarted %}
+	{% set btnText  = 'Заполнить заявку на обучение' %}
+	{% set mixin = 'cooperation--getting-started ' %}
+{% endif %}
+
+<div class="cooperation {{mixin}}">
+	<div class="cooperation__preview">
+		<div class="person__info">
+			<h3 class="cooperation__name">{{name}}</h3>
+			<div class="cooperation__person-about">{{aboutPerson}}</div>
+		</div>
+		<img src="{{img}}" alt="{{name}}" class="cooperation__img">
+	</div>
+	<div class="cooperation__content">
+		<ul class="cooperation__list">
+			{% for item in list %}
+				<li class="cooperation__item">
+					<h4 class="cooperation__item-title">{{item.title}}</h4>
+					<p class="cooperation__item-description">{{item.description}}</p>
+				</li>
+			{% endfor %}
+		</ul>
+		<button class="btn btn--big btn--violent">{{btnText}}</button>
+	</div>
+</div>
