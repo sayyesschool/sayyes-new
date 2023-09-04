@@ -1428,5 +1428,23 @@
 			"name": "Бизнес-школа РСПП",
 			"img": "organization-18"
 		}
+	],
+	"reviews": [
+		{
+			"name": "МТС",
+			"img": "review-1"
+		},
+		{
+			"name": "2GIS",
+			"img": "review-2"
+		},
+		{
+			"name": "Газпромбанк",
+			"img": "review-3"
+		},
+		{
+			"name": "Love Radio",
+			"img": "review-4"
+		}
 	]
 }

@@ -1,0 +1,41 @@
+.reviews {
+	margin-bottom: 230px;
+
+	.subtitle {
+		max-width: 650px;
+		margin-bottom: 30px;
+	}
+
+	.slider {
+		margin: 0;
+		max-width: 1276px;
+	}
+
+	.slider__arrows {
+		top: -60px;
+	}
+
+	.slider__dots {
+		bottom: -70px;
+		right: 50%;
+		transform: translateX(50%);
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		width: 304px;
+		height: 464px;
+	}
+
+	&__name {
+		font-size: 24px;
+		font-weight: 800;
+		line-height: 25px;
+
+		margin-left: 20px;
+	}
+}
