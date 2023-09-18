@@ -3,12 +3,37 @@
 	height: 560px;
 	padding: 68px 0 0 105px;
 	margin-bottom: 48px;
+	color: white;
 
 	border-radius: $border-radius;
 	background: url("../../assets/images/bg/mainscreen.png") center center/cover
 		no-repeat;
 
+	.title {
+		margin-bottom: 18px;
+	}
+
+	.btn {
+		margin-top: 84px;
+		font-size: 18px;
+	}
+
 	&__left {
 		max-width: 440px;
+	}
+
+	&__text {
+		max-width: 270px;
+
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	&__speaking-club {
+		.title {
+			margin-bottom: 38px;
+		}
+
+		background-image: url("../../assets/images/bg/mainscreen-2.png");
 	}
 }

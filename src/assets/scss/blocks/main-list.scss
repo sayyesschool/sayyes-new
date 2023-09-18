@@ -1,27 +1,27 @@
 .main-list {
 	color: $white;
-	margin-top: 18px;
 	margin-left: 25px;
+	font-size: 18px;
 
 	&__item {
 		margin-bottom: 10px;
-    position: relative;
+		position: relative;
 
 		&::before {
 			content: "";
-      display: inline-block;
+			display: inline-block;
 			width: 10px;
 			height: 18px;
-      position: absolute;
-      top: 50%;
-      left: -20px;
-      transform: translateY(-50%);
+			position: absolute;
+			top: 50%;
+			left: -20px;
+			transform: translateY(-50%);
 			background: url("../../assets/images/icons/pic.svg") center
 				center/cover no-repeat;
 		}
 	}
 
-  &__primary {
-    color: $yellow;
-  }
+	&__primary {
+		color: $yellow;
+	}
 }

@@ -1,7 +1,7 @@
 {% extends '../layouts/base.twig' %}
 
 {% block content %}
-	{% include '../sections/mainscreen.twig' %}
+	{% include '../sections/mainscreen.twig' with {page: 'main'} %}
 
 	{% include '../sections/trial-lesson.twig' %}
 
