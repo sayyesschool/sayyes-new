@@ -74,6 +74,7 @@
 	}
 
 	&--books-bg,
+	&--books-2-bg,
 	&--hourglass-bg,
 	&--comment-bg,
 	&--comments-bg,
@@ -82,12 +83,15 @@
 	&--leaves-bg,
 	&--mail-bg,
 	&--contact-bg,
+	&--contact-2-bg,
 	&--contacts-bg,
+	&--contacts-2-bg,
 	&--cap-bg,
 	&--cap-sm-bg,
 	&--note-bg,
 	&--note-2-bg,
 	&--notes-bg,
+	&--notes-2-bg,
 	&--person-bg,
 	&--briefcase-bg,
 	&--webcam-bg,
@@ -95,7 +99,12 @@
 	&--format-bg,
 	&--video-bg,
 	&--fire-bg,
+	&--student-bg,
+	&--student-2-bg,
+	&--family-bg,
 	&--levels-bg {
+		overflow: hidden;
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -105,12 +114,68 @@
 		}
 	}
 
+	&--discount-bg,
+	&--discount-2-bg,
+	&--free-lessons-bg {
+		overflow: hidden;
+
+		&::after {
+			content: "";
+			position: absolute;
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&--discount-bg {
+		&::after {
+			width: 153px;
+			height: 94px;
+			top: 56px;
+			left: 38px;
+			background-image: url("../../assets/images/text-blocks-bg/discount-bg.svg");
+		}
+	}
+
+	&--discount-2-bg {
+		&::after {
+			width: 147px;
+			height: 84px;
+			top: 60px;
+			left: 40px;
+			background-image: url("../../assets/images/text-blocks-bg/discount-2-bg.svg");
+		}
+	}
+
+	&--free-lessons-bg {
+		&::after {
+			width: 117px;
+			height: 69px;
+			top: 73px;
+			left: 42px;
+			background-image: url("../../assets/images/text-blocks-bg/free-lessons-bg.svg");
+		}
+	}
+
 	&--books-bg {
 		&::before {
 			width: 288px;
 			height: 233px;
 			bottom: 30px;
 			right: -20px;
+			background-image: url("../../assets/images/text-blocks-bg/books-bg.svg");
+		}
+	}
+
+	&--books-2-bg {
+		overflow: hidden;
+
+		&::before {
+			width: 225px;
+			height: 182px;
+			top: 5px;
+			right: -44px;
 			background-image: url("../../assets/images/text-blocks-bg/books-bg.svg");
 		}
 	}
@@ -189,7 +254,16 @@
 		&::before {
 			width: 176px;
 			height: 181px;
-			border-top-right-radius: $border-radius;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/contact-bg.svg");
+		}
+	}
+
+	&--contact-2-bg {
+		&::before {
+			width: 176px;
+			height: 181px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/contact-bg.svg");
@@ -198,8 +272,18 @@
 
 	&--contacts-bg {
 		&::before {
-			width: 171px;
-			height: 132px;
+			width: 194px;
+			height: 199px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/contacts-bg.svg");
+		}
+	}
+
+	&--contacts-2-bg {
+		&::before {
+			width: 194px;
+			height: 199px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/contacts-bg.svg");
@@ -240,6 +324,16 @@
 		&::before {
 			width: 153px;
 			height: 117px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/notes-bg.svg");
+		}
+	}
+
+	&--notes-2-bg {
+		&::before {
+			width: 265px;
+			height: 203px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/notes-bg.svg");
@@ -290,7 +384,6 @@
 		&::before {
 			width: 176px;
 			height: 166px;
-			border-top-right-radius: $border-radius;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/format-bg.svg");
@@ -311,7 +404,6 @@
 		&::before {
 			width: 190px;
 			height: 155px;
-			border-top-right-radius: $border-radius;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/webcam-2-bg.svg");
@@ -322,7 +414,6 @@
 		&::before {
 			width: 208px;
 			height: 150px;
-			border-top-right-radius: $border-radius;
 			top: 0px;
 			right: 0px;
 			background-image: url("../../assets/images/text-blocks-bg/levels-bg.svg");
@@ -336,6 +427,37 @@
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/fire-bg.svg");
+		}
+	}
+
+	&--student-bg {
+		&::before {
+			width: 179px;
+			height: 207px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/student-bg.svg");
+		}
+	}
+
+	&--student-2-bg {
+		&::before {
+			width: 195px;
+			height: 221px;
+			top: -6px;
+			right: -19px;
+			transform: rotate(-22deg);
+			background-image: url("../../assets/images/text-blocks-bg/student-bg.svg");
+		}
+	}
+
+	&--family-bg {
+		&::before {
+			width: 203px;
+			height: 207px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/family-bg.svg");
 		}
 	}
 }
