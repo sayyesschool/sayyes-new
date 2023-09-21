@@ -177,8 +177,8 @@
 
 	&--mail-bg {
 		&::before {
-			width: 254px;
-			height: 204px;
+			width: 176px;
+			height: 179px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/mail-bg.svg");
@@ -187,8 +187,9 @@
 
 	&--contact-bg {
 		&::before {
-			width: 171px;
-			height: 132px;
+			width: 176px;
+			height: 181px;
+			border-top-right-radius: $border-radius;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/contact-bg.svg");
@@ -217,8 +218,8 @@
 
 	&--cap-bg {
 		&::before {
-			width: 269px;
-			height: 216px;
+			width: 209px;
+			height: 207px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/cap-bg.svg");
@@ -227,8 +228,8 @@
 
 	&--note-bg {
 		&::before {
-			width: 192px;
-			height: 216px;
+			width: 128px;
+			height: 188px;
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/note-bg.svg");
