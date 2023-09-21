@@ -1469,5 +1469,27 @@
 			"name": "Love Radio",
 			"img": "review-4"
 		}
+	],
+	"shortlyAboutClub": [
+		{
+			"title": "Уровни",
+			"description": "Обучение разговорному английскому языку",
+			"class": "text-block--sm-text text-block--yellow text-block--levels-bg"
+		},
+		{
+			"title": "Темы",
+			"description": "Актуальные, «на злобу дня» ",
+			"class": "text-block--sm-text text-block--yellow text-block--fire-bg"
+		},
+		{
+			"title": "Ведущие",
+			"description": "Русскоязычные и носители языка",
+			"class": "text-block--sm-text text-block--yellow text-block--webcam-2-bg"
+		},
+		{
+			"title": "Формат",
+			"description": "Онлайн встречи в ZOOM",
+			"class": "text-block--sm-text text-block--yellow text-block--format-bg"
+		}
 	]
 }

@@ -91,7 +91,11 @@
 	&--person-bg,
 	&--briefcase-bg,
 	&--webcam-bg,
-	&--video-bg {
+	&--webcam-2-bg,
+	&--format-bg,
+	&--video-bg,
+	&--fire-bg,
+	&--levels-bg {
 		&::before {
 			content: "";
 			position: absolute;
@@ -281,6 +285,17 @@
 		}
 	}
 
+	&--format-bg {
+		&::before {
+			width: 176px;
+			height: 166px;
+			border-top-right-radius: $border-radius;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/format-bg.svg");
+		}
+	}
+
 	&--webcam-bg {
 		&::before {
 			width: 137px;
@@ -288,6 +303,38 @@
 			top: 0;
 			right: 0;
 			background-image: url("../../assets/images/text-blocks-bg/webcam-bg.svg");
+		}
+	}
+
+	&--webcam-2-bg {
+		&::before {
+			width: 190px;
+			height: 155px;
+			border-top-right-radius: $border-radius;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/webcam-2-bg.svg");
+		}
+	}
+
+	&--levels-bg {
+		&::before {
+			width: 208px;
+			height: 150px;
+			border-top-right-radius: $border-radius;
+			top: 0px;
+			right: 0px;
+			background-image: url("../../assets/images/text-blocks-bg/levels-bg.svg");
+		}
+	}
+
+	&--fire-bg {
+		&::before {
+			width: 156px;
+			height: 168px;
+			top: 0;
+			right: 0;
+			background-image: url("../../assets/images/text-blocks-bg/fire-bg.svg");
 		}
 	}
 }
