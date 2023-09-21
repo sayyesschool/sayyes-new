@@ -1,4 +1,4 @@
-.proposal {
+.big-cards {
 	width: 1476px;
 	transform: translateX(-100px);
 	padding: 70px 100px 100px;
@@ -9,6 +9,7 @@
 
 	.subtitle {
 		margin-bottom: 50px;
+		max-width: 660px;
 	}
 
 	&__cards {
@@ -30,13 +31,37 @@
 		font-weight: 700;
 		line-height: 30px;
 
-		max-width: 265px;
-		margin-bottom: 116px;
+		max-width: 280px;
+		position: absolute;
 	}
 
 	&__list {
+		margin-top: 205px;
+
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 25px;
+	}
+
+	&--speaking-club {
+		background-color: $violent;
+
+		.subtitle {
+			color: $white;
+		}
+
+		.big-cards__card {
+			padding-right: 15px;
+		}
+
+		.big-cards__title {
+			max-width: 310px;
+		}
+
+		.big-cards__list {
+			margin-top: 115px;
+			// max-width: none;
+			// margin-bottom: 55px;
+		}
 	}
 }
