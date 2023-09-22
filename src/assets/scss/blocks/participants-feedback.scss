@@ -1,0 +1,62 @@
+.participants-feedback {
+	.subtitle {
+		margin-bottom: 25px;
+	}
+
+	.slider {
+		max-width: none;
+	}
+
+	.slider__arrows {
+		top: -85px;
+	}
+
+	.slider__dots {
+		bottom: -35px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&__description {
+		max-width: 520px;
+
+		line-height: 25px;
+		font-weight: 600;
+	}
+
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__card {
+		width: 628px;
+		min-height: 625px;
+		padding: 50px 40px 50px 50px;
+		display: flex;
+		flex-direction: column;
+
+		background-color: $white;
+		border-radius: $border-radius;
+	}
+
+	&__text {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__author {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		margin-top: auto;
+	}
+
+	&__link {
+		color: $black;
+		font-size: 24px;
+		font-weight: 800;
+		line-height: 25px;
+	}
+}
