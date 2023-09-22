@@ -1567,5 +1567,76 @@
 			"tip": "Шаг 4",
 			"class": "text-block--sm-text text-block--contacts-2-bg"
 		}
+	],
+	"clubMetingCards": [
+		{
+			"img": {
+				"src": "./assets/images/meetings/meeting-1.png",
+				"alt": "Say Yes"
+			},
+			"tags": [
+				{
+					"text": "Intermediate"
+				},
+				{
+					"text": "Офлайн",
+					"class": "tag--violent tag--no-border"
+				}
+			],
+			"date": "28 мая в 15:00 МСК",
+			"title": "Friends: a legendary sitcom",
+			"teacher": {
+				"name": "Анастасия Стецюк",
+				"url": "#"
+			},
+			"time": "90 минут",
+			"price": "590 руб."
+		},
+		{
+			"img": {
+				"src": "./assets/images/meetings/meeting-2.png",
+				"alt": "Say Yes"
+			},
+			"tags": [
+				{
+					"text": "Pre-intermediate"
+				},
+				{
+					"text": "Онлайн",
+					"class": "tag--yellow tag--no-border"
+				}
+			],
+			"date": "04 июня в 15:00 МСК",
+			"title": "How to be an interesting person?",
+			"teacher": {
+				"name": "Yahya Ceesay",
+				"url": "#"
+			},
+			"time": "60 минут",
+			"price": "490 руб."
+		},
+		{
+			"img": {
+				"src": "./assets/images/meetings/meeting-3.png",
+				"alt": "Say Yes"
+			},
+			"tags": [
+				{
+					"text": "Pre-intermediate"
+				},
+				{
+					"text": "Онлайн",
+					"class": "tag--yellow tag--no-border"
+				}
+			],
+			"date": "15 июня в 19:00 МСК",
+			"title": "How to stay calm",
+			"teacher": {
+				"name": "Abigail Richards",
+				"url": "#"
+			},
+			"time": "60 минут",
+			"price": "490 руб."
+		}
 	]
 }

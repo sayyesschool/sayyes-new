@@ -1,0 +1,41 @@
+.meetings {
+	background-color: $yellow;
+	border-radius: $border-radius;
+
+	width: 1476px;
+	transform: translateX(-100px);
+	padding: 70px 100px;
+	margin-bottom: 150px;
+
+	.subtitle {
+		margin-bottom: 20px;
+	}
+
+	.slider {
+		margin: 0;
+		max-width: 1276px;
+	}
+
+	.slider__dots {
+		bottom: -35px;
+		right: 50%;
+		transform: translateX(50%);
+		width: 40px;
+	}
+
+	.slider__arrows {
+		top: -75px;
+	}
+
+	&__description {
+		max-width: 740px;
+		margin-bottom: 50px;
+
+		font-weight: 600;
+	}
+
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+}

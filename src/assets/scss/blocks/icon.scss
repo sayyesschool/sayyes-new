@@ -45,6 +45,18 @@
 		}
 	}
 
+	&--teacher {
+		.icon__teacher {
+			display: block;
+		}
+	}
+
+	&--time {
+		.icon__time{
+			display: block;
+		}
+	}
+
 	&--sm {
 		svg {
 			width: 15px;

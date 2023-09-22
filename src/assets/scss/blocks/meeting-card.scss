@@ -1,0 +1,74 @@
+.meeting-card {
+	width: 412px;
+	min-height: 735px;
+
+	background-color: $white;
+	border-radius: $border-radius;
+
+	.tags {
+		margin-bottom: 30px;
+	}
+
+
+	&__content {
+		min-height: 435px;
+		padding: 0 34px 50px 47px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__img {
+		margin-bottom: 30px;
+	}
+
+	&__info {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		margin-bottom: 10px;
+	}
+
+	&__title {
+		font-size: 32px;
+		font-weight: 800;
+		line-height: 30px;
+
+		margin-bottom: 25px;
+	}
+
+	&__list {
+		margin-bottom: 25px;
+		margin-top: auto;
+	}
+
+	&__list-item {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		display: flex;
+		align-items: center;
+		gap: 20px;
+
+		&:not(:last-child) {
+			margin-bottom: 6px;
+		}
+	}
+
+	&__name {
+		color: $black;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	&__price {
+		font-size: 32px;
+		font-weight: 800;
+		line-height: 30px;
+
+		margin-bottom: 35px;
+	}
+}
