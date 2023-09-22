@@ -39,8 +39,10 @@
 			center/contain no-repeat;
 	}
 
-	&--methodology {
+	&--methodology,
+	&--speaking-club {
 		&::before {
+			// пока не могу поставить нужное свг, т.к. они разделены на части
 			background-image: url("../../assets/images/short-video.svg");
 		}
 
@@ -70,5 +72,9 @@
 		.subtitle {
 			max-width: 560px;
 		}
+	}
+
+	&--speaking-club {
+		background-color: $yellow;
 	}
 }
