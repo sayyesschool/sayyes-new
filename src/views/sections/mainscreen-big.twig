@@ -60,6 +60,12 @@
 	{% set btnText = 'Оставить заявку на звонок' %}
 	{% set btnColor = 'black' %}
 	{% set mixin = 'companies' %}
+{% elseif page == 'adults-courses' %}
+	{% set title = 'Курсы английского языка для начинающих' %}
+	{% set description = 'Курс «Английский с нуля» подходит тем, кто раньше никогда не изучал английский язык или помнит совсем мало.' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set img = 'main-screen-adults-courses' %}
+	{% set mixin = 'adults-courses ' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">

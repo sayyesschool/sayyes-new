@@ -44,11 +44,11 @@
 			"text": "Взрослым",
 			"url": "./adults.html",
 			"sublist": [
-				{ "text": "Английский с нуля", "url": "./beginner.html" },
-				{ "text": "Основной курс", "url": "./basic-course.html" },
-				{ "text": "Продвинутый курс", "url": "./advanced-course.html" },
-				{ "text": "Бизнес курс", "url": "./business-course.html" },
-				{ "text": "Подготовка к экзаменам", "url": "./exams.html" },
+				{ "text": "Английский с нуля", "url": "./adults-courses.html" },
+				{ "text": "Основной курс", "url": "./adults-courses.html" },
+				{ "text": "Продвинутый курс", "url": "./adults-courses.html" },
+				{ "text": "Бизнес курс", "url": "./adults-courses.html" },
+				{ "text": "Подготовка к экзаменам", "url": "./adults-courses.html" },
 				{
 					"text": "Разговорный онлайн клуб",
 					"url": "./speaking-club.html"
