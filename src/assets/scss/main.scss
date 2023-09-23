@@ -32,6 +32,8 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/stars";
+@import "blocks/course-feedback";
 @import "blocks/learning-form";
 @import "blocks/about-course";
 @import "blocks/club-events";
