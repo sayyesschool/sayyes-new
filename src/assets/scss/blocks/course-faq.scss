@@ -1,0 +1,13 @@
+.course-faq {
+	margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 800px;
+		margin-bottom: 50px;
+	}
+
+	&__block {
+		display: flex;
+		justify-content: space-between;
+	}
+}

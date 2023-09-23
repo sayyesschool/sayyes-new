@@ -5,14 +5,7 @@
 		<li class="tabs__tab tabs__tab--violent">Об оплате</li>
 		<li class="tabs__tab tabs__tab--violent">О технических проблемах</li>
 	</ul>
-	<ul class="accordion">
-		{% for item in faq %}
-			<li class="accordion__item {{item.status}}">
-				<button class="accordion__title">{{item.title}}</button>
-				<p class="accordion__content">{{item.description}}</p>
-			</li>
-		{% endfor %}
-	</ul>
+	{% include '../components/accordion.twig' with { list: faq } %}
 	<p class="faq__not-found">Не нашли ответа на свой вопрос? Задайте его нам:</p>
 	<button class="btn btn--violent">Обратный звонок</button>
 </section>
