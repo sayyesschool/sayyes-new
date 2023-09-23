@@ -1,6 +1,8 @@
 {% for item in courses %}
 	<li class="course-img {{item.class}}">
-		<img src="./assets/images/courses/{{item.img}}.png" alt="Say Yes" class="course-img__img">
+		{% if page != "adults-courses" %}
+			<img src="./assets/images/courses/{{item.img}}.png" alt="Say Yes" class="course-img__img">
+		{% endif %}
 		<div class="course-img__content">
 			<h3 class="course-img__title">{{item.title}}</h3>
 			<p class="course-img__description">{{item.description}}</p>

@@ -1,0 +1,26 @@
+.learning-form {
+	margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 650px;
+	}
+
+	.course-img__content {
+		min-height: 320px;
+	}
+
+	&__description {
+		max-width: 700px;
+		margin-bottom: 50px;
+
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__blocks {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}

@@ -48,7 +48,10 @@
 				{ "text": "Основной курс", "url": "./adults-courses.html" },
 				{ "text": "Продвинутый курс", "url": "./adults-courses.html" },
 				{ "text": "Бизнес курс", "url": "./adults-courses.html" },
-				{ "text": "Подготовка к экзаменам", "url": "./adults-courses.html" },
+				{
+					"text": "Подготовка к экзаменам",
+					"url": "./adults-courses.html"
+				},
 				{
 					"text": "Разговорный онлайн клуб",
 					"url": "./speaking-club.html"
@@ -686,6 +689,64 @@
 					"lessonPrice": "450 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/встреча"
+				}
+			]
+		}
+	],
+	"courses8": [
+		{
+			"title": "Офлайн группа",
+			"description": "Живое общение с единомышленниками в центре Москвы",
+			"class": "course-img--white",
+			"img": "courses-6",
+			"list": [
+				{
+					"lessonType": "Стоимость обучения",
+					"lessonPrice": "9.000 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				}
+			]
+		},
+		{
+			"title": "Онлайн группа",
+			"description": "Удобство онлайн обучения и доступная стоимость",
+			"class": "course-img--pink",
+			"img": "courses-2",
+			"list": [
+				{
+					"lessonType": "Стоимость обучения",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				}
+			]
+		},
+		{
+			"title": "Офлайн индивидуально",
+			"description": "Если вы предпочитаете личный контакт и персональный подход",
+			"class": "course-img--violent",
+			"img": "courses-8",
+			"list": [
+				{
+					"lessonType": "Стоимость обучения",
+					"lessonPrice": "1.540 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				}
+			]
+		},
+		{
+			"title": "Онлайн индивидуально",
+			"description": "Уроки в любом месте и в удобное для вас время",
+			"class": "course-img--white",
+			"img": "courses-14",
+			"list": [
+				{
+					"lessonType": "Стоимость обучения",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
 				}
 			]
 		}
