@@ -40,7 +40,8 @@
 	}
 
 	&--methodology,
-	&--speaking-club {
+	&--speaking-club,
+	&--offline {
 		&::before {
 			// пока не могу поставить нужное свг, т.к. они разделены на части
 			background-image: url("../../assets/images/short-video.svg");

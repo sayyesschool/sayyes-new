@@ -17,6 +17,10 @@
 	{% set subtitle = 'Посмотрите, как проходят встречи нашего разговорного клуба' %}
 	{% set videoImg = 'video-block-5' %}
 	{% set mixin = 'speaking-club' %}
+{% elseif page == 'offline'  %}
+	{% set subtitle = 'Посмотрите видео о методике школы' %}
+	{% set videoImg = 'video-block-2' %}
+	{% set mixin = 'offline' %}
 {% endif %}
 
 <section class="video-section video-section--{{mixin}}">
