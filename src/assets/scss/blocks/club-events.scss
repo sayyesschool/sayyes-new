@@ -1,0 +1,60 @@
+.club-events {
+	min-height: 325px;
+	padding: 60px 100px 55px;
+	margin-bottom: 200px;
+	display: flex;
+	justify-content: space-between;
+
+	background-color: $yellow;
+	border-radius: $border-radius;
+
+	.btn {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	&__info {
+		max-width: 500px;
+	}
+
+	&__title {
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+
+		margin-bottom: 25px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+
+	&__form {
+		max-width: 412px;
+	}
+
+	&__input {
+		background-color: $white;
+		border-radius: $border-radius;
+		border: none;
+		color: $grey;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 20px;
+
+		padding: 11px 20px;
+		width: 100%;
+		margin-bottom: 10px;
+
+		&:last-of-type {
+			margin-bottom: 40px;
+		}
+	}
+
+	&__policy {
+		font-size: 13px;
+		font-weight: 600;
+	}
+}
