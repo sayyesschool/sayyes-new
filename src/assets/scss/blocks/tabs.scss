@@ -13,6 +13,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background-color: $white;
 
 		&:first-child {
 			background-color: $yellow;
@@ -26,16 +27,28 @@
 
 		&--violent {
 			&:first-child {
-        color: $white;
+				color: $white;
 				background-color: $violent;
 			}
 		}
 
 		&--magenta {
 			&:first-child {
-        color: $white;
+				color: $white;
 				background-color: $medium-magenta;
 			}
+		}
+	}
+
+	&--big {
+		max-width: 100%;
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+
+		.tabs__tab {
+			width: 100%;
+			min-height: 60px;
 		}
 	}
 }
