@@ -87,7 +87,7 @@
 			"text": "Формы обучения",
 			"url": "./education.html",
 			"sublist": [
-				{ "text": "Группа офлайн", "url": "./group-offline.html" },
+				{ "text": "Группа офлайн", "url": "./offline.html" },
 				{ "text": "Группа онлайн", "url": "./group-online.html" },
 				{
 					"text": "Индивидуально офлайн",

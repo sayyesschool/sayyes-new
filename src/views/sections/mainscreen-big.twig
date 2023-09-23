@@ -66,6 +66,12 @@
 	{% set btnText = 'Оставить заявку' %}
 	{% set img = 'main-screen-adults-courses' %}
 	{% set mixin = 'adults-courses ' %}
+{% elseif page == 'offline' %}
+	{% set title = 'Обучение английскому языку в группе офлайн в Москве' %}
+	{% set description = 'Если вы живете в Москве и цените личное общение и командный дух, то данный формат для вас!' %}
+	{% set btnText = 'Оставить заявку' %}
+	{% set img = 'mainscreen-offline' %}
+	{% set mixin = 'offline ' %}
 {% endif %}
 
 <section class="mainscreen-big mainscreen-big--{{mixin}}">
