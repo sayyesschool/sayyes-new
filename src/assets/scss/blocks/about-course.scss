@@ -1,0 +1,28 @@
+.about-course {
+	margin-bottom: 150px;
+	display: flex;
+	justify-content: space-between;
+
+	&__title {
+		max-width: 560px;
+		font-size: 46px;
+		font-weight: 700;
+		line-height: 45px;
+	}
+
+	&__info {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		max-width: 630px;
+	}
+
+	&__text {
+		margin-bottom: 35px;
+	}
+
+	&__purpose {
+		font-weight: 700;
+	}
+}
