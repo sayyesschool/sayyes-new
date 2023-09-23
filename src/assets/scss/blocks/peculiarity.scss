@@ -1,0 +1,39 @@
+.peculiarity {
+	margin-bottom: 150px;
+
+	.subtitle {
+		max-width: 580px;
+		margin-bottom: 50px;
+	}
+
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__card {
+		background-color: $yellow;
+		border-radius: $border-radius;
+
+		width: 304px;
+		min-height: 300px;
+		padding: 45px 35px 45px 45px;
+	}
+
+	&__title {
+		max-width: 250px;
+		position: absolute;
+
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 25px;
+	}
+
+	&__description {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
+
+		margin-top: 100px;
+	}
+}
