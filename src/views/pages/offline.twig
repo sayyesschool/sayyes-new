@@ -1,9 +1,15 @@
 {% extends '../layouts/base.twig' %}
 
 {% block content %}
- {% include '../sections/mainscreen-big.twig' with {page: 'offline'} %}
+	{% include '../sections/mainscreen-big.twig' with {page: 'offline'} %}
 
 	{% include '../sections/about-course.twig' with {page: 'offline'} %}
+
+	{% include '../sections/offline-shortly.twig' %}
+
+	{% include '../sections/trial-lesson-mini.twig' %}
+
+	{% include '../sections/about-course.twig' with {page: 'offline-2'} %}
 
 	{% include '../sections/course-faq.twig' %}
 
