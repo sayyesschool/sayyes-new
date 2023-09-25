@@ -1,4 +1,12 @@
-<section class="advantages">
+{% if page == 'methodology' %}
+	{% set title = 'Важные факты о преимуществах обучения в SAY YES!' %}
+	{% set mixin = 'advantages__methodology' %}
+{% elseif page == 'adults-courses' %}
+	{% set title = 'Важные факты о курсе Английский с нуля' %}
+	{% set mixin = 'advantages__adults-courses' %}
+{% endif %}
+
+<section class="advantages {{mixin}}">
 	<div class="text-blocks">
 		<h2 class="subtitle">Важные факты о преимуществах обучения в SAY YES!</h2>
 		<div class="text-block">

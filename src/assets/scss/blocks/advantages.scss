@@ -1,3 +1,10 @@
 .advantages {
 	margin-bottom: 130px;
+
+	&__adults-courses {
+		.text-block--violent {
+			color: $white;
+			background-color: $violent;
+		}
+	}
 }
