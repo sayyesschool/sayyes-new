@@ -65,21 +65,21 @@
 				{
 					"text": "Курс “Bright ideas”",
 					"description": "5–7 лет",
-					"url": "./bright-ideas.html"
+					"url": "./children-courses.html"
 				},
 				{
 					"text": "Курс “Family and friends”",
 					"description": "7–10 лет",
-					"url": "./family-and-friends.html"
+					"url": "./children-courses.html"
 				},
 				{
 					"text": "Курс “Go getter”",
 					"description": "11–16 лет",
-					"url": "./go-getter.html"
+					"url": "./children-courses.html"
 				},
 				{
 					"text": "Подготовка к ОГЭ, ЕГЭ, YLE, KET, PET, FCE",
-					"url": "./preparation.html"
+					"url": "./children-courses.html"
 				}
 			]
 		},
