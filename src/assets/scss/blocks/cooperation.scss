@@ -4,6 +4,9 @@
 	gap: 20px;
 
 	.btn {
+		display: block;
+		margin: 35px auto 50px;
+
 		font-size: 18px;
 		font-weight: 700;
 	}
@@ -43,55 +46,26 @@
 
 	&__content {
 		flex-basis: 736px;
-		padding: 60px 42px 50px 114px;
 
 		background-color: $white;
 		border-radius: $border-radius;
-	}
-
-	&__list {
-		margin-bottom: 60px;
-	}
-
-	&__item {
-		margin-bottom: 25px;
-		position: relative;
-	}
-
-	&__item-title {
-		font-size: 24px;
-		font-weight: 800;
-		line-height: 25px;
-
-		margin-bottom: 15px;
-	}
-
-	&__item-description {
-		font-size: 24px;
-		font-weight: 600;
-		line-height: 25px;
 	}
 
 	&--profitable-cooperation {
 		.cooperation__img {
 			left: -142px;
 		}
-
-		.cooperation__item {
-			&::before {
-				content: "";
-				width: 46px;
-				height: 44px;
-				position: absolute;
-				top: 0;
-				left: -65px;
-				background: url("../../assets/images/check.svg") center
-					center/contain no-repeat;
-			}
-		}
 	}
 
 	&--getting-started {
+		.list {
+			padding: 38px 90px 41px 143px;
+		}
+
+		.btn {
+			margin-top: 50px
+		}
+
 		.cooperation__person-about {
 			max-width: 200px;
 		}
@@ -102,24 +76,6 @@
 
 		.cooperation__content {
 			align-self: flex-end;
-			padding: 44px 74px 51px 142px;
-		}
-
-		.cooperation__list {
-			counter-reset: myCounter;
-		}
-
-		.cooperation__item {
-			&::before {
-				content: "Шаг " counter(myCounter) ".";
-				counter-increment: myCounter;
-				position: absolute;
-				top: 3px;
-				left: -94px;
-				font-size: 24px;
-				font-weight: 800;
-				line-height: 20px;
-			}
 		}
 	}
 }

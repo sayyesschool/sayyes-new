@@ -32,6 +32,8 @@ a {
 	margin: 0 auto;
 }
 
+@import "blocks/list";
+@import "blocks/course-results";
 @import "blocks/peculiarity";
 @import "blocks/offline-shortly";
 @import "blocks/course-faq";

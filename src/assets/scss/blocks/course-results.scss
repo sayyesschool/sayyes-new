@@ -1,0 +1,46 @@
+.course-results {
+	.subtitle {
+		max-width: 750px;
+		margin-bottom: 25px;
+	}
+
+	.list {
+		width: 628px;
+		padding: 34px 55px 50px 127px;
+	}
+
+	.list__item {
+		&::before {
+			left: -77px;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__description {
+		max-width: 594px;
+		position: relative;
+
+		&::after {
+			content: "";
+			width: 328px;
+			height: 192px;
+			position: absolute;
+			top: 139px;
+			left: 119px;
+			background: url("../../assets/images/free.svg") center center/cover
+				no-repeat;
+		}
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+	}
+}
