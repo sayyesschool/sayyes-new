@@ -698,7 +698,6 @@
 			"title": "Офлайн группа",
 			"description": "Живое общение с единомышленниками в центре Москвы",
 			"class": "big-course--white",
-			"img": "courses-6",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -712,7 +711,6 @@
 			"title": "Онлайн группа",
 			"description": "Удобство онлайн обучения и доступная стоимость",
 			"class": "big-course--pink",
-			"img": "courses-2",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -726,7 +724,6 @@
 			"title": "Офлайн индивидуально",
 			"description": "Если вы предпочитаете личный контакт и персональный подход",
 			"class": "big-course--violent",
-			"img": "courses-8",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -740,13 +737,48 @@
 			"title": "Онлайн индивидуально",
 			"description": "Уроки в любом месте и в удобное для вас время",
 			"class": "big-course--white",
-			"img": "courses-14",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
+				}
+			]
+		}
+	],
+	"courses9": [
+		{
+			"title": "Офлайн индивидуально",
+			"description": "Если вы хотите личный контакт и персональный подход для своего ребенка",
+			"class": "big-course--white",
+			"list": [
+				{
+					"lessonType": "Стоимость обучения",
+					"lessonPrice": "1.540 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				},
+				{
+					"lessonType": "Длительность урока",
+					"lessonTime": "45 минут"
+				}
+			]
+		},
+		{
+			"title": "Онлайн индивидуально",
+			"description": "Уроки в любом месте и в удобное для родителя время",
+			"class": "big-course--violent",
+			"list": [
+				{
+					"lessonType": "Стоимость обучения",
+					"lessonPrice": "542 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок"
+				},
+				{
+					"lessonType": "Длительность урока",
+					"lessonTime": "25 минут"
 				}
 			]
 		}
