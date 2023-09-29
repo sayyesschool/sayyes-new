@@ -376,13 +376,13 @@
 		{
 			"title": "Груповое обучение в школе в Москве",
 			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
-			"class": "course-img--white course-img--without-list",
+			"class": "big-course--white big-course--without-list",
 			"img": "courses-1"
 		},
 		{
 			"title": "Обучение онлайн в мини-группах и индивидуально",
 			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе.",
-			"class": "course-img--white course-img--without-list",
+			"class": "big-course--white big-course--without-list",
 			"img": "courses-2"
 		}
 	],
@@ -390,7 +390,7 @@
 		{
 			"title": "Английский с нуля",
 			"description": "Даст уверенный старт и подготовит к Общему курсу",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-4",
 			"list": [
 				{
@@ -416,7 +416,7 @@
 		{
 			"title": "Основной курс Touchstone",
 			"description": "Доведет до уверенного среднего уровня.",
-			"class": "course-img--pink",
+			"class": "big-course--pink",
 			"img": "courses-5",
 			"list": [
 				{
@@ -442,7 +442,7 @@
 		{
 			"title": "Продвинутый курс",
 			"description": "Поднимет уровень до свободного владения. Ведет ТОП русскоязычный или носитель языка.",
-			"class": "course-img--violent",
+			"class": "big-course--violent",
 			"img": "courses-6",
 			"list": [
 				{
@@ -468,7 +468,7 @@
 		{
 			"title": "Бизнес <br> курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-7",
 			"list": [
 				{
@@ -488,7 +488,7 @@
 		{
 			"title": "Подготовка к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам.",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-8",
 			"list": [
 				{
@@ -502,7 +502,7 @@
 		{
 			"title": "Разговорный онлайн клуб",
 			"description": "Улучшит разговорные навыки!",
-			"class": "course-img--violent",
+			"class": "big-course--violent",
 			"img": "courses-9",
 			"list": [
 				{
@@ -515,15 +515,15 @@
 	],
 	"courses5": [
 		{
-			"title": "Груповое обучение в школе в Москве",
+			"title": "Индивидуальное обучение в школе в Москве",
 			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
-			"class": "course-img--white course-img--without-list",
+			"class": "big-course--white big-course--without-list",
 			"img": "courses-1"
 		},
 		{
-			"title": "Обучение онлайн в мини-группах и индивидуально",
+			"title": "Индивидуальное обучение онлайн",
 			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе.",
-			"class": "course-img--white course-img--without-list",
+			"class": "big-course--white big-course--without-list",
 			"img": "courses-3"
 		}
 	],
@@ -531,7 +531,7 @@
 		{
 			"title": "Курс “Bright ideas”",
 			"description": "Познакомит ребенка с азами языка в игровой форме и привьет любовь к языку.",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-10",
 			"list": [
 				{
@@ -557,7 +557,7 @@
 		{
 			"title": "Курс “Family and friends”",
 			"description": "Курс английского для начальной школы соответствует завершенному уровню Elementary.",
-			"class": "course-img--pink",
+			"class": "big-course--pink",
 			"img": "courses-11",
 			"list": [
 				{
@@ -583,7 +583,7 @@
 		{
 			"title": "Курс “Go getter”",
 			"description": "По окончании курса слушатели владеют языком на уровне Upper-Intermediate.",
-			"class": "course-img--violent",
+			"class": "big-course--violent",
 			"img": "courses-12",
 			"list": [
 				{
@@ -609,7 +609,7 @@
 		{
 			"title": "Подготовка к ОГЭ, ЕГЭ, YLE, KET, PET, FCE",
 			"description": "Подготовит вашего ребенка к успешной сдаче российских и международных экзаменов",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-13",
 			"list": [
 				{
@@ -625,7 +625,7 @@
 		{
 			"title": "Группа офлайн",
 			"description": "Занятия проходят в школе в Москве по расписанию: утро/день/вечер/выходной день.",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-6",
 			"list": [
 				{
@@ -639,7 +639,7 @@
 		{
 			"title": "Группа онлайн",
 			"description": "Занятия проходят в мини-группах на платформе Zoom с имитацией офлайн класса.",
-			"class": "course-img--pink",
+			"class": "big-course--pink",
 			"img": "courses-2",
 			"list": [
 				{
@@ -653,7 +653,7 @@
 		{
 			"title": "Индивидуально офлайн",
 			"description": "Занятия проходят в школе в Москве по выбранному расписанию.",
-			"class": "course-img--violent",
+			"class": "big-course--violent",
 			"img": "courses-8",
 			"list": [
 				{
@@ -667,7 +667,7 @@
 		{
 			"title": "Индивидуально онлайн",
 			"description": "Занятия проходят на платформе Школы по выбранному расписанию.",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-14",
 			"list": [
 				{
@@ -681,7 +681,7 @@
 		{
 			"title": "Разговорный онлайн клуб",
 			"description": "Встречи проходят на платформе Zoom по расписанию Клуба.",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-9",
 			"list": [
 				{
@@ -697,7 +697,7 @@
 		{
 			"title": "Офлайн группа",
 			"description": "Живое общение с единомышленниками в центре Москвы",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-6",
 			"list": [
 				{
@@ -711,7 +711,7 @@
 		{
 			"title": "Онлайн группа",
 			"description": "Удобство онлайн обучения и доступная стоимость",
-			"class": "course-img--pink",
+			"class": "big-course--pink",
 			"img": "courses-2",
 			"list": [
 				{
@@ -725,7 +725,7 @@
 		{
 			"title": "Офлайн индивидуально",
 			"description": "Если вы предпочитаете личный контакт и персональный подход",
-			"class": "course-img--violent",
+			"class": "big-course--violent",
 			"img": "courses-8",
 			"list": [
 				{
@@ -739,7 +739,7 @@
 		{
 			"title": "Онлайн индивидуально",
 			"description": "Уроки в любом месте и в удобное для вас время",
-			"class": "course-img--white",
+			"class": "big-course--white",
 			"img": "courses-14",
 			"list": [
 				{
@@ -755,19 +755,19 @@
 		{
 			"title": "В школе в Москве ",
 			"description": "Наш офис находится в 7 минутах от метро Павелецкая",
-			"class": "course-img--white course-img--without-list course-img--sm",
+			"class": "big-course--white big-course--without-list big-course--sm",
 			"img": "format-1"
 		},
 		{
 			"title": "В офисе вашей компании",
 			"description": "Преподаватель приезжает к вам офис в удобное вам время",
-			"class": "course-img--white course-img--without-list course-img--sm",
+			"class": "big-course--white big-course--without-list big-course--sm",
 			"img": "format-2"
 		},
 		{
 			"title": "Обучение онлайн",
 			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе",
-			"class": "course-img--white course-img--without-list course-img--sm",
+			"class": "big-course--white big-course--without-list big-course--sm",
 			"img": "format-3"
 		}
 	],

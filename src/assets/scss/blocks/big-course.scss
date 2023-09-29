@@ -1,4 +1,4 @@
-.course-img {
+.big-course {
 	width: 628px;
 
 	// calc is needed to fix the problem with the pixel
@@ -54,7 +54,7 @@
 	}
 
 	&--without-list {
-		.course-img__title {
+		.big-course__title {
 			max-width: 470px;
 			margin-bottom: 24px;
 
@@ -63,12 +63,12 @@
 			line-height: 35px;
 		}
 
-		.course-img__content {
+		.big-course__content {
 			padding: 42px 48px 46px;
 			min-height: auto;
 		}
 
-		.course-img__description {
+		.big-course__description {
 			font-weight: 600;
 		}
 	}
@@ -76,14 +76,14 @@
 	&--sm {
 		width: 412px;
 
-		.course-img__title {
+		.big-course__title {
 			font-size: 24px;
 			font-weight: 800;
 			line-height: 25px;
 
 			margin-bottom: 10px;
 		}
-		.course-img__content {
+		.big-course__content {
 			padding: 44px 25px 46px 49px;
 			min-height: auto;
 		}
