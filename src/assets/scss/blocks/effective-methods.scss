@@ -3,16 +3,19 @@
 
 	position: relative;
 
-	.methods {
-		&::before {
-			content: "";
-			position: absolute;
-			top: -189px;
-			right: 169px;
-			width: 243px;
-			height: 160px;
-			background: url("../../assets/images/decoration/notes/combination-of-techniques.svg")
-				center center/contain no-repeat;
-		}
+	.subtitle {
+		max-width: 715px;
+		margin-bottom: 100px;
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 170px;
+		width: 243px;
+		height: 160px;
+		background: url("../../assets/images/decoration/notes/combination-of-techniques.svg")
+			center center/contain no-repeat;
 	}
 }
