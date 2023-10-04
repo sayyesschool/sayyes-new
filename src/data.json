@@ -1412,7 +1412,7 @@
 		{
 			"title": "Общий курс",
 			"description": "Обучение разговорному английскому языку",
-			"class": "text-block--sm-text text-block--yellow text-block--cap-sm-bg"
+			"class": "text-block--sm-text text-block--yellow text-block--cap-2-bg"
 		},
 		{
 			"title": "Бизнес курс",
@@ -1841,9 +1841,9 @@
 	],
 	"childrenAdvantages": [
 		{
-			"title": "Уроки построены на интересах вашего  ребенка",
+			"title": "Уроки построены на интересах вашего ребенка",
 			"description": "Включаем в программу обсуждение любимых игр, мультфильмов и книг. Даже непоседе не удастся заскучать!",
-			"class": "text-block--sm-text text-block--cap-sm-bg"
+			"class": "text-block--sm-text text-block--cap-2-bg"
 		},
 		{
 			"title": "Талантливые педагоги с профильным образованием",

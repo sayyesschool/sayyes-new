@@ -12,8 +12,8 @@
 		right: -42%;
 		width: 508px;
 		height: 560px;
-		background: url("../../assets/images/red-square.svg") center
-			center/contain no-repeat;
+		background: url("../../assets/images/decoration/elements/red-square.svg")
+			center center/contain no-repeat;
 		z-index: -1;
 	}
 
@@ -28,5 +28,11 @@
 
 		margin: 23px 0 51px;
 		max-width: 501px;
+	}
+
+	&__note {
+		position: absolute;
+    top: 165px;
+    right: 88px;
 	}
 }

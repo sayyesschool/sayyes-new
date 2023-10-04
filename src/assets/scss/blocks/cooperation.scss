@@ -62,8 +62,31 @@
 			padding: 38px 90px 41px 143px;
 		}
 
+		.list--ol {
+			.list__description {
+				display: inline-block;
+				position: relative;
+			}
+
+			.list__item {
+				&:nth-child(4),
+				&:nth-child(5) {
+					.list__description::after {
+						content: "";
+						width: 63px;
+						height: 44px;
+						position: absolute;
+						top: -10px;
+						right: -78px;
+						background: url("../../assets/images/decoration/notes/free.svg")
+							center center/contain no-repeat;
+					}
+				}
+			}
+		}
+
 		.btn {
-			margin-top: 50px
+			margin-top: 50px;
 		}
 
 		.cooperation__person-about {

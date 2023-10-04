@@ -20,6 +20,27 @@
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 25px;
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			width: 50px;
+			height: 38px;
+			background: url("../../assets/images/icons/quotes.svg") center
+				center/contain no-repeat;
+		}
+
+		&::before {
+			top: -16px;
+			left: -68px;
+		}
+
+		&::after {
+			bottom: -18px;
+			right: -1px;
+			transform: rotate(180deg);
+		}
 	}
 
 	&__description {

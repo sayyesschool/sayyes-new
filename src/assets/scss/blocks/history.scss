@@ -42,6 +42,19 @@
 		}
 	}
 
+	&__note {
+		position: absolute;
+		top: -655px;
+		right: 112px;
+	}
+
+	&__confetti {
+		position: absolute;
+		top: -620px;
+		right: -138px;
+		z-index: 1;
+	}
+
 	&__img {
 		position: absolute;
 		top: -300%;

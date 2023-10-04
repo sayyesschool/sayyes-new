@@ -11,6 +11,7 @@
 
 	.subtitle {
 		max-width: 340px;
+		align-self: flex-start;
 	}
 
 	.video {
@@ -31,20 +32,19 @@
 	&::before {
 		content: "";
 		position: absolute;
-		top: 55%;
-		left: 30%;
-		width: 285px;
-		height: 145px;
-		background: url("../../assets/images/short-video.svg") center
-			center/contain no-repeat;
+		top: 296px;
+		left: 333px;
+		width: 337px;
+		height: 155px;
+		background: url("../../assets/images/decoration/notes/shortly-video.svg")
+			center center/contain no-repeat;
 	}
 
 	&--methodology,
 	&--speaking-club,
 	&--offline {
 		&::before {
-			// пока не могу поставить нужное свг, т.к. они разделены на части
-			background-image: url("../../assets/images/short-video.svg");
+			background-image: url("../../assets/images/decoration/notes/only-1.5-min.svg");
 		}
 
 		.subtitle {
@@ -65,7 +65,11 @@
 		}
 
 		&::before {
-			content: none;
+			width: 192px;
+			height: 42px;
+			top: 357px;
+			left: 97px;
+			background-image: url("../../assets/images/decoration/notes/only-1.5-min-2.svg");
 		}
 	}
 

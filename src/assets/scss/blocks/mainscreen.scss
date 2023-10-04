@@ -18,6 +18,16 @@
 		font-size: 18px;
 	}
 
+	&__description {
+		position: relative;
+	}
+
+	&__note {
+		position: absolute;
+		bottom: -95px;
+		right: -30px;
+	}
+
 	&__left {
 		max-width: 440px;
 	}

@@ -7,8 +7,8 @@
 	&__item {
 		position: relative;
 
-    &:not(:last-child) {
-      margin-bottom: 25px;
+		&:not(:last-child) {
+			margin-bottom: 25px;
 		}
 	}
 
@@ -35,7 +35,7 @@
 				position: absolute;
 				top: 0;
 				left: -65px;
-				background: url("../../assets/images/check.svg") center
+				background: url("../../assets/images/icons/check.svg") center
 					center/contain no-repeat;
 			}
 		}
