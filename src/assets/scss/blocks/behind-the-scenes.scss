@@ -72,6 +72,11 @@
 				background: url("../../assets/images/decoration/notes/celebration.svg")
 					center center/cover no-repeat;
 			}
+
+			.behind-the-scenes__img {
+				width: 736px;
+				height: 420px;
+			}
 		}
 
 		&:nth-child(2) {
@@ -86,6 +91,11 @@
 				left: -132px;
 				background: url("../../assets/images/decoration/elements/petard.svg")
 					center center/cover no-repeat;
+			}
+
+			.behind-the-scenes__img {
+				width: 626px;
+				height: 410px;
 			}
 		}
 
@@ -102,6 +112,11 @@
 				background: url("../../assets/images/decoration/elements/bat.svg")
 					center center/cover no-repeat;
 			}
+
+			.behind-the-scenes__img {
+				width: 412px;
+				height: 580px;
+			}
 		}
 
 		&:nth-child(4) {
@@ -116,6 +131,11 @@
 				right: -238px;
 				background: url("../../assets/images/decoration/notes/fun.svg")
 					center center/cover no-repeat;
+			}
+
+			.behind-the-scenes__img {
+				width: 626px;
+				height: 410px;
 			}
 		}
 
@@ -132,10 +152,20 @@
 				background: url("../../assets/images/decoration/elements/star-cup.svg")
 					center center/cover no-repeat;
 			}
+
+			.behind-the-scenes__img {
+				width: 412px;
+				height: 580px;
+			}
 		}
 
 		&:nth-child(6) {
 			grid-area: f;
+
+			.behind-the-scenes__img {
+				width: 626px;
+				height: 410px;
+			}
 		}
 
 		&:nth-child(7) {
@@ -151,6 +181,17 @@
 				background: url("../../assets/images/decoration/notes/awards.svg")
 					center center/cover no-repeat;
 			}
+
+			.behind-the-scenes__img {
+				width: 626px;
+				height: 410px;
+			}
 		}
+	}
+
+	&__img {
+		display: block;
+		object-fit: cover;
+		border-radius: $border-radius;
 	}
 }

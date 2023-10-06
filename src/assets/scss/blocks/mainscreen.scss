@@ -6,8 +6,8 @@
 	color: white;
 
 	border-radius: $border-radius;
-	background: url("../../assets/images/bg/mainscreen.png") center center/cover
-		no-repeat;
+	background: url("../../assets/images/mainscreens/mainscreen-1.jpg") center
+		center/cover no-repeat;
 
 	.title {
 		margin-bottom: 18px;
@@ -44,6 +44,6 @@
 			margin-bottom: 38px;
 		}
 
-		background-image: url("../../assets/images/bg/mainscreen-2.png");
+		background-image: url("../../assets/images/mainscreens/mainscreen-8.jpg");
 	}
 }

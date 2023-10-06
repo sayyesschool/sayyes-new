@@ -2,10 +2,10 @@
 	<h2 class="subtitle">Лучшие показатели нашей работы — это студенты, уверенно владеющие языком.</h2>
 	<p class="student-reviews__description">Наши ученики рассказывают о своих результатах и процессе обучения в SAY YES! на английском.</p>
 	<div class="student-reviews__reviews">
-		{% for person in videoBlocks %}
+		{% for person in studentReviews %}
 			<div class="video-block">
 				<div class="video">
-					<img src="./assets/images/video-blocks/{{person.img}}.png" alt="Say Yes" class="video__bg">
+					<img src="./assets/images/student-reviews/{{person.img}}.jpg" alt="Say Yes" class="video__bg">
 					<button class="play"></button>
 				</div>
 				<div class="video-block__content">

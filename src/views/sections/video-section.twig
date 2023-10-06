@@ -1,32 +1,32 @@
 {% if page == 'about' %}
 	{% set subtitle = 'Быть нашим студентом — это...' %}
-	{% set videoImg = 'video-block-1' %}
+	{% set videoImg = 'video-section-1' %}
 {% elseif page == 'methodology'  %}
 	{% set subtitle = 'Посмотрите короткое видео о нашем подходе к обучению' %}
-	{% set videoImg = 'video-block-2' %}
+	{% set videoImg = 'video-section-2' %}
 	{% set mixin = 'methodology' %}
 {% elseif page == 'companies'  %}
 	{% set subtitle = 'Роман Сорочук коротко расскажет о преимуществах нашего обучения и процессе работы с компаниями.' %}
-	{% set videoImg = 'video-block-3' %}
+	{% set videoImg = 'video-section-3' %}
 	{% set mixin = 'companies' %}
 {% elseif page == 'companies-2'  %}
 	{% set subtitle = 'Посмотрите короткое видео о нашем подходе к корпоративному обучению.' %}
-	{% set videoImg = 'video-block-4' %}
+	{% set videoImg = 'video-section-4' %}
 	{% set mixin = 'companies-2' %}
 {% elseif page == 'speaking-club'  %}
 	{% set subtitle = 'Посмотрите, как проходят встречи нашего разговорного клуба' %}
-	{% set videoImg = 'video-block-5' %}
+	{% set videoImg = 'video-section-5' %}
 	{% set mixin = 'speaking-club' %}
 {% elseif page == 'offline'  %}
 	{% set subtitle = 'Посмотрите видео о методике школы' %}
-	{% set videoImg = 'video-block-2' %}
+	{% set videoImg = 'video-section-2' %}
 	{% set mixin = 'offline' %}
 {% endif %}
 
 <section class="video-section video-section--{{mixin}}">
 	<h2 class="subtitle">{{subtitle}}</h2>
 	<div class="video">
-		<img src="./assets/images/{{videoImg}}.png" alt="Офлайн" class="video__bg">
+		<img src="./assets/images/video-sections/{{videoImg}}.jpg" alt="Офлайн" class="video__bg">
 		<button class="play"></button>
 	</div>
 </section>

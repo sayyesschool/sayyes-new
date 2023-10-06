@@ -18,6 +18,30 @@
 		position: relative;
 	}
 
+	&__trip-img,
+	&__celebration-img,
+	&__celebration-2-img {
+		display: block;
+		object-fit: cover;
+		border-radius: $border-radius;
+	}
+
+	&__trip-img {
+		width: 736px;
+		height: 420px;
+	}
+
+	&__celebration-img {
+		width: 304px;
+		height: 440px;
+		margin-right: 20px;
+	}
+
+	&__celebration-2-img {
+		width: 412px;
+		height: 580px;
+	}
+
 	&__trip-text {
 		max-width: 122px;
 		font-size: 18px;
@@ -52,12 +76,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
-	}
-
-	&__celebration-img {
-		&:first-child {
-			margin-right: 20px;
-		}
 	}
 
 	&__celebrations-tip {

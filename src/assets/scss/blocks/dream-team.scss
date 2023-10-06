@@ -1,6 +1,6 @@
 .dream-team {
 	padding: 50px 0;
-  background-color: $white;
+	background-color: $white;
 
 	&__content {
 		display: flex;
@@ -38,24 +38,28 @@
 		margin-top: auto;
 	}
 
-  &__img {
-    object-fit: contain;
-  }
+	&__img {
+		width: 302px;
+		height: 580px;
+		object-fit: contain;
 
-  &__right-content {
-    display: flex;
-    flex-direction: column;
+		border-radius: $border-radius;
+	}
+
+	&__right-content {
+		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
 
-    .btn {
-      margin-top: auto;
-    }
-  }
+		.btn {
+			margin-top: auto;
+		}
+	}
 
-  &__blocks {
-    display: flex;
+	&__blocks {
+		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		max-width: 412px;
-  }
+	}
 }

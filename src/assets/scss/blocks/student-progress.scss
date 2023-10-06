@@ -1,6 +1,11 @@
 .student-progress {
 	margin-top: 150px;
 
+	.video {
+		width: 736px;
+		height: 420px;
+	}
+
 	&__title {
 		font-size: 46px;
 		font-weight: 700;

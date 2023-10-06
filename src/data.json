@@ -377,13 +377,13 @@
 			"title": "Груповое обучение в школе в Москве",
 			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
 			"class": "big-course--white big-course--without-list",
-			"img": "courses-1"
+			"img": "course-1"
 		},
 		{
 			"title": "Обучение онлайн в мини-группах и индивидуально",
 			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе.",
 			"class": "big-course--white big-course--without-list",
-			"img": "courses-2"
+			"img": "course-2"
 		}
 	],
 	"courses4": [
@@ -391,7 +391,7 @@
 			"title": "Английский с нуля",
 			"description": "Даст уверенный старт и подготовит к Общему курсу",
 			"class": "big-course--white",
-			"img": "courses-4",
+			"img": "course-4",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -417,7 +417,7 @@
 			"title": "Основной курс Touchstone",
 			"description": "Доведет до уверенного среднего уровня.",
 			"class": "big-course--pink",
-			"img": "courses-5",
+			"img": "course-5",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -443,7 +443,7 @@
 			"title": "Продвинутый курс",
 			"description": "Поднимет уровень до свободного владения. Ведет ТОП русскоязычный или носитель языка.",
 			"class": "big-course--violent",
-			"img": "courses-6",
+			"img": "course-6",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -469,7 +469,7 @@
 			"title": "Бизнес <br> курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
 			"class": "big-course--white",
-			"img": "courses-7",
+			"img": "course-7",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -489,7 +489,7 @@
 			"title": "Подготовка к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам.",
 			"class": "big-course--white",
-			"img": "courses-8",
+			"img": "course-8",
 			"list": [
 				{
 					"lessonType": "индивидуально <br>  онлайн и офлайн",
@@ -503,7 +503,7 @@
 			"title": "Разговорный онлайн клуб",
 			"description": "Улучшит разговорные навыки!",
 			"class": "big-course--violent",
-			"img": "courses-9",
+			"img": "course-9",
 			"list": [
 				{
 					"lessonType": "встреча в группе <br> онлайн",
@@ -518,13 +518,13 @@
 			"title": "Индивидуальное обучение в школе в Москве",
 			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
 			"class": "big-course--white big-course--without-list",
-			"img": "courses-1"
+			"img": "course-1"
 		},
 		{
 			"title": "Индивидуальное обучение онлайн",
 			"description": "Мы обучаем онлайн в группах в Zoom или индивидуально на собственной платформе.",
 			"class": "big-course--white big-course--without-list",
-			"img": "courses-3"
+			"img": "course-3"
 		}
 	],
 	"courses6": [
@@ -532,7 +532,7 @@
 			"title": "Курс “Bright ideas”",
 			"description": "Познакомит ребенка с азами языка в игровой форме и привьет любовь к языку.",
 			"class": "big-course--white",
-			"img": "courses-10",
+			"img": "course-10",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -558,7 +558,7 @@
 			"title": "Курс “Family and friends”",
 			"description": "Курс английского для начальной школы соответствует завершенному уровню Elementary.",
 			"class": "big-course--pink",
-			"img": "courses-11",
+			"img": "course-11",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -584,7 +584,7 @@
 			"title": "Курс “Go getter”",
 			"description": "По окончании курса слушатели владеют языком на уровне Upper-Intermediate.",
 			"class": "big-course--violent",
-			"img": "courses-12",
+			"img": "course-12",
 			"list": [
 				{
 					"lessonType": "офлайн группа",
@@ -610,7 +610,7 @@
 			"title": "Подготовка к ОГЭ, ЕГЭ, YLE, KET, PET, FCE",
 			"description": "Подготовит вашего ребенка к успешной сдаче российских и международных экзаменов",
 			"class": "big-course--white",
-			"img": "courses-13",
+			"img": "course-13",
 			"list": [
 				{
 					"lessonType": "индивидуально",
@@ -626,7 +626,7 @@
 			"title": "Группа офлайн",
 			"description": "Занятия проходят в школе в Москве по расписанию: утро/день/вечер/выходной день.",
 			"class": "big-course--white",
-			"img": "courses-6",
+			"img": "course-6",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -640,7 +640,7 @@
 			"title": "Группа онлайн",
 			"description": "Занятия проходят в мини-группах на платформе Zoom с имитацией офлайн класса.",
 			"class": "big-course--pink",
-			"img": "courses-2",
+			"img": "course-2",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -654,7 +654,7 @@
 			"title": "Индивидуально офлайн",
 			"description": "Занятия проходят в школе в Москве по выбранному расписанию.",
 			"class": "big-course--violent",
-			"img": "courses-8",
+			"img": "course-8",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -668,7 +668,7 @@
 			"title": "Индивидуально онлайн",
 			"description": "Занятия проходят на платформе Школы по выбранному расписанию.",
 			"class": "big-course--white",
-			"img": "courses-14",
+			"img": "course-14",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -682,7 +682,7 @@
 			"title": "Разговорный онлайн клуб",
 			"description": "Встречи проходят на платформе Zoom по расписанию Клуба.",
 			"class": "big-course--white",
-			"img": "courses-9",
+			"img": "course-9",
 			"list": [
 				{
 					"lessonType": "Стоимость обучения",
@@ -808,49 +808,49 @@
 			"name": "Роман Сорочук",
 			"post": "Управляющий директор",
 			"about": "Очаровывает всех своей энергией и харизмой",
-			"img": "romanS",
+			"img": "worker-1",
 			"type": "team-card"
 		},
 		{
 			"name": "Кристина Кремчанинова",
 			"post": "Академический директор",
 			"about": "Cвободно говорит на  китайском и французском",
-			"img": "kristinaK",
+			"img": "worker-2",
 			"type": "team-card"
 		},
 		{
 			"name": "Мария Блисюк",
 			"post": "Методист офлайн обучения",
 			"about": "Научит преподавать группам не только весело, но и эффективно",
-			"img": "mariaB",
+			"img": "worker-3",
 			"type": "team-card"
 		},
 		{
 			"name": "Валерия Илюкович",
 			"post": "Методист детского онлайн обучения",
 			"about": "Кроме знаний детской психологии, знает язык жестов",
-			"img": "valeriaI",
+			"img": "worker-4",
 			"type": "team-card"
 		},
 		{
 			"name": "Ирина Морозова",
 			"post": "Методист индивидуального обучения",
 			"about": "Может легко поддержать разговор на японском языке",
-			"img": "irinaM",
+			"img": "worker-5",
 			"type": "team-card"
 		},
 		{
 			"name": "Екатерина Петрякова",
 			"post": "Менеджер по работе с клиентами офлайн",
 			"about": "Окружает спокойствием, заботой и желанием помочь",
-			"img": "ekaterinaP",
+			"img": "worker-6",
 			"type": "team-card"
 		},
 		{
 			"name": "Анастасия Жителева",
 			"post": "Менеджер по работе с клиентами офлайн",
 			"about": "Очаровывает улыбкой и профессионализмом с первого визита",
-			"img": "anastasiaJ",
+			"img": "worker-7",
 			"type": "team-card"
 		},
 		{
@@ -865,42 +865,42 @@
 			"name": "Алина Джумайло",
 			"post": "Менеджер по работе с клиентами онлайн",
 			"about": "Умеет находить подход к каждому клиенту",
-			"img": "alinaD",
+			"img": "worker-8",
 			"type": "team-card"
 		},
 		{
 			"name": "Татьяна Андреева",
 			"post": "Менеджер по работе с клиентами онлайн",
 			"about": "Самый душевный и отзывчивый менеджер Школы",
-			"img": "tatyanaA",
+			"img": "worker-9",
 			"type": "team-card"
 		},
 		{
 			"name": "Анна Олейник",
 			"post": "Контент менеджер, куратор спикинг клубов",
 			"about": "Организует спикинги, на которые выстраивается очередь",
-			"img": "annaO",
+			"img": "worker-10",
 			"type": "team-card"
 		},
 		{
 			"name": "Дарья Мамцис",
 			"post": "Креативный менеджер",
 			"about": "Организует решение любой задачи Школы наилучшим способом",
-			"img": "daryaM",
+			"img": "worker-11",
 			"type": "team-card"
 		},
 		{
 			"name": "Альбина Ванзина",
 			"post": "HR специалист",
 			"about": "Шаман нашего времени — помогает людям найти свое место в Школе",
-			"img": "albinaV",
+			"img": "worker-12",
 			"type": "team-card"
 		},
 		{
 			"name": "Екатерина Гаврикова",
 			"post": "Организатор мероприятий и пиар менеджер",
 			"about": "Организовывает незабываемые встречи для клиентов Школы!",
-			"img": "ekaterinaG",
+			"img": "worker-13",
 			"type": "team-card"
 		},
 		{
@@ -938,31 +938,31 @@
 	"gallery": [
 		{
 			"title": "Say Yes",
-			"img": "gallery-1"
+			"img": "bts-1"
 		},
 		{
 			"title": "Say Yes",
-			"img": "gallery-2"
+			"img": "bts-2"
 		},
 		{
 			"title": "Say Yes",
-			"img": "gallery-3"
+			"img": "bts-3"
 		},
 		{
 			"title": "Say Yes",
-			"img": "gallery-4"
+			"img": "bts-4"
 		},
 		{
 			"title": "Say Yes",
-			"img": "gallery-5"
+			"img": "bts-5"
 		},
 		{
 			"title": "Say Yes",
-			"img": "gallery-6"
+			"img": "bts-6"
 		},
 		{
 			"title": "Say Yes",
-			"img": "gallery-7"
+			"img": "bts-7"
 		}
 	],
 	"teacherCards1": [
@@ -1275,62 +1275,62 @@
 			"class": "text-block--sm-text text-block--note-bg"
 		}
 	],
-	"videoBlocks": [
+	"studentReviews": [
 		{
 			"name": "Анастасия Король",
 			"description": "«Теперь я общаюсь даже с иностранными партнёрами на работе!»",
 			"startLevel": "Elementary",
 			"teacher": "Ирина Прихожева",
-			"img": "video-block-1"
+			"img": "review-1"
 		},
 		{
 			"name": "Лариса Муслюмова",
 			"description": "«Здесь ты можешь забыть о скучной грамматике и наслаждаться общением».",
 			"startLevel": "Beginner",
 			"teacher": "Мария Наливайкина",
-			"img": "video-block-2"
+			"img": "review-2"
 		},
 		{
 			"name": "Виктория Фалеева",
 			"description": "«Если хочешь говорить по-английски бегло — приходи в SAY YES! Я пришла и ни о чем не жалею!»",
 			"startLevel": "Beginner",
 			"teacher": "Мария Наливайкина",
-			"img": "video-block-3"
+			"img": "review-3"
 		},
 		{
 			"name": "Юлия Русак",
 			"description": "«Первое, что я могу сказать о SAY YES!, это то, что учить английский здесь весело и позитивно!»",
 			"startLevel": "Beginner",
 			"teacher": "Полина Ангаткина",
-			"img": "video-block-4"
+			"img": "review-4"
 		},
 		{
 			"name": "Александр Бубликов",
 			"description": "«Учить язык после долгого перерыва — сложно, но очень интересно!»",
 			"startLevel": "Beginner",
 			"teacher": "Почерней Ирина",
-			"img": "video-block-5"
+			"img": "review-5"
 		},
 		{
 			"name": "Галина Романова",
 			"description": "«Учусь в школе SAY YES! 6 месяцев и мой муж уже замечает мой прогресс!»",
 			"startLevel": "Pre-intermediate",
 			"teacher": "Ирина Прихожева",
-			"img": "video-block-6"
+			"img": "review-6"
 		},
 		{
 			"name": "Елена Ребеченкова",
 			"description": "«Удивительно, что уже через три урока я вспомнила многое, что учила до этого».",
 			"startLevel": "Beginner",
 			"teacher": "Ксения Михайлова",
-			"img": "video-block-7"
+			"img": "review-7"
 		},
 		{
 			"name": "Салеха Мамедханова",
 			"description": "«Сотрудники школы всегда приветливы и добры».",
 			"startLevel": "Beginner",
 			"teacher": "Светлана Тимонина",
-			"img": "video-block-8"
+			"img": "review-8"
 		}
 	],
 	"contactUsCards": [
@@ -1338,7 +1338,7 @@
 			"name": "Роман Сорочук",
 			"post": "Управляющий директор",
 			"about": "Обратная связь на работу школы",
-			"img": "romanS",
+			"img": "worker-1",
 			"contacts": [
 				{
 					"icon": "icon--pc",
@@ -1354,7 +1354,7 @@
 			"name": "Анастасия Жителева",
 			"post": "Менеджер по работе с клиентами офлайн",
 			"about": "По вопросам офлайн обучения",
-			"img": "anastasiaJ",
+			"img": "worker-7",
 			"contacts": [
 				{
 					"icon": "icon--pc",
@@ -1374,7 +1374,7 @@
 			"name": "Татьяна Андреева",
 			"post": "Менеджер по работе с клиентами онлайн",
 			"about": "По вопросам онлайн обучения",
-			"img": "tatyanaA",
+			"img": "worker-9",
 			"contacts": [
 				{
 					"icon": "icon--pc",
@@ -1664,7 +1664,7 @@
 	"clubMetingCards": [
 		{
 			"img": {
-				"src": "./assets/images/meetings/meeting-1.png",
+				"src": "meeting-1",
 				"alt": "Say Yes"
 			},
 			"tags": [
@@ -1687,7 +1687,7 @@
 		},
 		{
 			"img": {
-				"src": "./assets/images/meetings/meeting-2.png",
+				"src": "meeting-2",
 				"alt": "Say Yes"
 			},
 			"tags": [
@@ -1710,7 +1710,7 @@
 		},
 		{
 			"img": {
-				"src": "./assets/images/meetings/meeting-3.png",
+				"src": "meeting-3",
 				"alt": "Say Yes"
 			},
 			"tags": [

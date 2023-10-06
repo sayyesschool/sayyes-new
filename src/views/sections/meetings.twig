@@ -4,14 +4,13 @@
 
 	<div class="slider">
 		<div class="slider__arrows">
-			<button class="slider__left-arrow"><</button>
-      <button class="slider__right-arrow">></button>
+			<button class="slider__left-arrow"><</button><buttonclass="slider__right-arrow">></button>
 		</div>
 		<div class="slider__slide">
 			<div class="meetings__cards">
 				{% for item in clubMetingCards %}
 					<div class="meeting-card">
-						<img src="{{item.img.src}}" alt="{{item.img.alt}}" class="meeting-card__img"/>
+						<img src="./assets/images/meetings/{{item.img.src}}.jpg" alt="{{item.img.alt}}" class="meeting-card__img"/>
 						<div class="meeting-card__content">
 							<div class="tags">
 								{% for tag in item.tags %}
