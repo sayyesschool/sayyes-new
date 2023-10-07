@@ -78,7 +78,9 @@
 	&--hourglass-bg,
 	&--comment-bg,
 	&--comments-bg,
+	&--comments-2-bg,
 	&--heart-bg,
+	&--heart-2-bg,
 	&--diploma-bg,
 	&--leaves-bg,
 	&--mail-bg,
@@ -107,7 +109,9 @@
 	&--lightning-bg,
 	&--clock-bg,
 	&--rubles-bg,
-	&--calendar-bg {
+	&--calendar-bg,
+	&--woman-bg,
+	&--target-bg {
 		overflow: hidden;
 
 		&::before {
@@ -215,12 +219,34 @@
 		}
 	}
 
+	&--comments-2-bg {
+		&::before {
+			width: 308px;
+			height: 242px;
+			top: -50px;
+			right: -75px;
+			transform: rotate(-5deg);
+			background-image: url("../../assets/images/decoration/elements/comments.svg");
+		}
+	}
+
 	&--heart-bg {
 		&::before {
 			width: 388px;
 			height: 369px;
 			top: -17px;
 			right: -64px;
+			background-image: url("../../assets/images/decoration/elements/heart.svg");
+		}
+	}
+
+	&--heart-2-bg {
+		&::before {
+			width: 194px;
+			height: 184px;
+			top: -5px;
+			right: -34px;
+			transform: rotate(-17deg);
 			background-image: url("../../assets/images/decoration/elements/heart.svg");
 		}
 	}
@@ -513,6 +539,26 @@
 			top: 3px;
 			right: -50px;
 			background-image: url("../../assets/images/decoration/elements/calendar.svg");
+		}
+	}
+
+	&--woman-bg {
+		&::before {
+			width: 160px;
+			height: 188px;
+			top: -3px;
+			right: -5px;
+			background-image: url("../../assets/images/decoration/elements/woman.svg");
+		}
+	}
+
+	&--target-bg {
+		&::before {
+			width: 242px;
+			height: 218px;
+			top: -40px;
+			right: -78px;
+			background-image: url("../../assets/images/decoration/elements/target.svg");
 		}
 	}
 }
