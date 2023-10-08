@@ -9,11 +9,6 @@
 	background-color: $white;
 	border-radius: $border-radius;
 
-	.subtitle {
-		max-width: 340px;
-		align-self: flex-start;
-	}
-
 	.video {
 		position: relative;
 
@@ -40,6 +35,16 @@
 			center center/contain no-repeat;
 	}
 
+	&__info {
+		max-width: 340px;
+		align-self: flex-start;
+	}
+
+	&__description {
+		font-weight: 600;
+		line-height: 25px;
+	}
+
 	&__bg {
 		width: 100%;
 		height: 100%;
@@ -54,14 +59,14 @@
 			background-image: url("../../assets/images/decoration/notes/only-1.5-min.svg");
 		}
 
-		.subtitle {
+		.video-section__info {
 			max-width: 400px;
 		}
 	}
 
 	&--companies,
 	&--companies-2 {
-		.subtitle {
+		.video-section__info {
 			max-width: 600px;
 		}
 
@@ -81,12 +86,47 @@
 	}
 
 	&--companies-2 {
-		.subtitle {
+		.video-section__info {
 			max-width: 560px;
 		}
 	}
 
 	&--speaking-club {
 		background-color: $yellow;
+	}
+
+	&--children-courses {
+		margin-bottom: 250px;
+
+		background-color: $violent;
+		color: $white;
+
+		.subtitle {
+			margin-bottom: 33px;
+		}
+
+		.video {
+			&::before {
+				content: none;
+			}
+		}
+
+		&::before {
+			width: 260px;
+			height: 115px;
+			top: 323px;
+			left: 355px;
+			background-image: url("../../assets/images/decoration/notes/only-2-min.svg");
+		}
+
+		.video-section__info {
+			max-width: 480px;
+		}
+
+		.video-section__description {
+			&:not(:last-of-type) {
+				margin-bottom: 22px;
+			}
+		}
 	}
 }

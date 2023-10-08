@@ -21,10 +21,20 @@
 	{% set subtitle = 'Посмотрите видео о методике школы' %}
 	{% set videoImg = 'video-section-2' %}
 	{% set mixin = 'offline' %}
+{% elseif page == 'children-courses'  %}
+	{% set subtitle = 'Занятия онлайн — это удобно!' %}
+	{% set description = ['Обучение в комфортной и безопасной для вашего ребенка обстановке.', 'Экономия времени на поездках к репетитору или в школу.'] %}
+	{% set videoImg = 'video-section-6' %}
+	{% set mixin = 'children-courses' %}
 {% endif %}
 
 <section class="video-section video-section--{{mixin}}">
-	<h2 class="subtitle">{{subtitle}}</h2>
+	<div class="video-section__info">
+		<h2 class="subtitle">{{subtitle}}</h2>
+		{% for paragraph in description %}
+			<p class="video-section__description">{{paragraph}}</p>
+		{% endfor %}
+	</div>
 	<div class="video">
 		<img src="./assets/images/video-sections/{{videoImg}}.jpg" alt="Офлайн" class="video__bg">
 		<button class="play"></button>
