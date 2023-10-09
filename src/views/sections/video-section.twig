@@ -21,11 +21,16 @@
 	{% set subtitle = 'Посмотрите видео о методике школы' %}
 	{% set videoImg = 'video-section-2' %}
 	{% set mixin = 'offline' %}
-{% elseif page == 'children-courses'  %}
+{% elseif page == 'children-courses' %}
 	{% set subtitle = 'Занятия онлайн — это удобно!' %}
 	{% set description = ['Обучение в комфортной и безопасной для вашего ребенка обстановке.', 'Экономия времени на поездках к репетитору или в школу.'] %}
 	{% set videoImg = 'video-section-6' %}
 	{% set mixin = 'children-courses' %}
+{% elseif page == 'children-courses-2' %}
+	{% set subtitle = 'Единственная онлайн-школа, где снимают отчеты о прогрессе учеников на видео' %}
+	{% set description = ['Посмотрите не просто отзывы наших юных студентов, а то, как они говорят на английском'] %}
+	{% set videoImg = 'video-section-7' %}
+	{% set mixin = 'children-courses-2' %}
 {% endif %}
 
 <section class="video-section video-section--{{mixin}}">

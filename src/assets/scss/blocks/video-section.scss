@@ -95,7 +95,8 @@
 		background-color: $yellow;
 	}
 
-	&--children-courses {
+	&--children-courses,
+	&--children-courses-2 {
 		margin-bottom: 250px;
 
 		background-color: $violent;
@@ -126,6 +127,24 @@
 		.video-section__description {
 			&:not(:last-of-type) {
 				margin-bottom: 22px;
+			}
+		}
+	}
+
+	&--children-courses-2 {
+		&::before {
+			content: none;
+		}
+
+		.video {
+			&::before {
+				content: "";
+				width: 605px;
+				height: 370px;
+				top: -35px;
+				left: -27px;
+				background: url("../../assets/images/decoration/elements/being-student-border-2.svg")
+					center center/contain no-repeat;
 			}
 		}
 	}
