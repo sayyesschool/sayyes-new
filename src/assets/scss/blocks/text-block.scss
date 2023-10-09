@@ -77,11 +77,13 @@
 	&--books-2-bg,
 	&--hourglass-bg,
 	&--comment-bg,
+	&--comment-2-bg,
 	&--comments-bg,
 	&--comments-2-bg,
 	&--heart-bg,
 	&--heart-2-bg,
 	&--diploma-bg,
+	&--diploma-2-bg,
 	&--leaves-bg,
 	&--mail-bg,
 	&--contact-bg,
@@ -111,7 +113,8 @@
 	&--rubles-bg,
 	&--calendar-bg,
 	&--woman-bg,
-	&--target-bg {
+	&--target-bg,
+	&--casting-bg {
 		overflow: hidden;
 
 		&::before {
@@ -209,6 +212,16 @@
 		}
 	}
 
+	&--comment-2-bg {
+		&::before {
+			width: 197px;
+			height: 168px;
+			top: -17px;
+			right: -25px;
+			background-image: url("../../assets/images/decoration/elements/comment.svg");
+		}
+	}
+
 	&--comments-bg {
 		&::before {
 			width: 270px;
@@ -257,6 +270,17 @@
 			height: 205px;
 			top: -20px;
 			right: -30px;
+			background-image: url("../../assets/images/decoration/elements/diploma.svg");
+		}
+	}
+
+	&--diploma-2-bg {
+		&::before {
+			width: 192px;
+			height: 191px;
+			top: -20px;
+			right: -10px;
+			transform: rotate(7deg);
 			background-image: url("../../assets/images/decoration/elements/diploma.svg");
 		}
 	}
@@ -559,6 +583,16 @@
 			top: -40px;
 			right: -78px;
 			background-image: url("../../assets/images/decoration/elements/target.svg");
+		}
+	}
+
+	&--casting-bg {
+		&::before {
+			width: 174px;
+			height: 180px;
+			top: -15px;
+			right: 11px;
+			background-image: url("../../assets/images/decoration/elements/casting.svg");
 		}
 	}
 }

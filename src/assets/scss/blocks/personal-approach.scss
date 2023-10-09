@@ -1,0 +1,46 @@
+.personal-approach {
+	width: 1476px;
+	padding: 100px;
+	margin-bottom: 150px;
+	transform: translateX(-100px);
+
+	background-color: $violent;
+	border-radius: $border-radius;
+	color: $white;
+
+	.subtitle {
+		max-width: 750px;
+		margin-bottom: 22px;
+	}
+
+	.slider {
+		max-width: 1276px;
+		margin-bottom: 100px;
+	}
+
+	.slider__arrows {
+		top: -80px;
+	}
+
+	.text-block {
+		justify-content: flex-start;
+		padding-top: 150px;
+	}
+
+	&__description {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 25px;
+
+		margin-bottom: 50px;
+		max-width: 650px;
+	}
+
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+
+		color: $black;
+	}
+}

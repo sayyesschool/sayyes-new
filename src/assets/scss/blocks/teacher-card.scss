@@ -1,0 +1,39 @@
+.teacher-card {
+	display: flex;
+
+	background-color: $white;
+	border-radius: $border-radius;
+	color: $black;
+
+	.video {
+		width: 412px;
+		margin: 0;
+
+		.play {
+			bottom: 30px;
+			left: 30px;
+		}
+	}
+
+	.list {
+		padding: 30px 42px 25px 65px;
+	}
+
+	&__info {
+		width: 864px;
+		padding: 60px 100px 0px 65px;
+	}
+
+	&__title {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 30px;
+
+		margin-bottom: 20px;
+	}
+
+	&__description {
+		font-weight: 600;
+		line-height: 25px;
+	}
+}
