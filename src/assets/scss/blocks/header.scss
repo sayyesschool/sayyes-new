@@ -1,16 +1,32 @@
-.header {
+.main-header {
 	font-size: 14px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
 
 	&__overview {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-
 		color: $white;
 		background-color: #5e288a;
 		border-radius: $border-radius-sm;
+		width: 1276px;
+		height: 65px;
+		margin: 0 auto;
+		transition: 0.2s linear all;
 
-		padding: 15px 30px;
+		&.expanded {
+			width: 100%;
+			border-radius: 0;
+		}
+
+		.container {
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 30px;
+		}
 	}
 
 	&__city {
@@ -39,12 +55,23 @@
 	}
 
 	&__navigation {
-		max-width: 750px;
-		margin: 12px auto 14px auto;
+		transition: 0.2s linear all;
+		z-index: -1;
+
+		&.collapsed {
+			position: relative;
+			transform: translateY(-100%);
+		}
+
+		height: 40px;
 		font-weight: 700;
+		background-color: $pearl-white;
 	}
 
 	&__list {
+		height: 100%;
+		max-width: 750px;
+		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
