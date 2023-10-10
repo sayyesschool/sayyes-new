@@ -135,4 +135,10 @@
 			color: $white;
 		}
 	}
+
+	&__adults-courses {
+		.slider__dots {
+			bottom: -40px;
+		}
+	}
 }
