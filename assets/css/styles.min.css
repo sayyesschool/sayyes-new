@@ -391,6 +391,232 @@ a {
     margin: 0 auto;
 }
 
+.convenient-oc {
+    margin-bottom: 150px;
+}
+
+.convenient-oc .subtitle {
+    max-width: 540px;
+    margin-bottom: 50px;
+}
+
+.convenient-oc__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.convenient-oc__description {
+    max-width: 557px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.convenient-oc__paragraph {
+    margin-bottom: 15px;
+}
+
+.convenient-oc__img {
+    width: 628px;
+    height: 355px;
+    border-radius: 30px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.result-children {
+    margin-bottom: 150px;
+}
+
+.result-children .subtitle {
+    max-width: 1000px;
+    margin-bottom: 25px;
+}
+
+.result-children .slider {
+    max-width: 1276px;
+}
+
+.result-children .slider__arrows {
+    top: -80px;
+}
+
+.result-children .slider__dots {
+    bottom: -30px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.result-children__description {
+    font-weight: 600;
+    max-width: 660px;
+    margin-bottom: 50px;
+}
+
+.result-children__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher-card {
+    display: flex;
+    background-color: #fffcff;
+    border-radius: 30px;
+    color: #262626;
+}
+
+.teacher-card .video {
+    width: 412px;
+    margin: 0;
+}
+
+.teacher-card .video .play {
+    bottom: 30px;
+    left: 30px;
+}
+
+.teacher-card .list {
+    padding: 30px 42px 25px 65px;
+}
+
+.teacher-card__info {
+    width: 864px;
+    padding: 60px 100px 0px 65px;
+}
+
+.teacher-card__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.teacher-card__description {
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.personal-approach {
+    width: 1476px;
+    padding: 100px;
+    margin-bottom: 150px;
+    transform: translateX(-100px);
+    background-color: #7831b2;
+    border-radius: 30px;
+    color: #fffcff;
+}
+
+.personal-approach .subtitle {
+    max-width: 750px;
+    margin-bottom: 22px;
+}
+
+.personal-approach .slider {
+    max-width: 1276px;
+    margin-bottom: 100px;
+}
+
+.personal-approach .slider__arrows {
+    top: -80px;
+}
+
+.personal-approach .text-block {
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.personal-approach__description {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 50px;
+    max-width: 650px;
+}
+
+.personal-approach__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #262626;
+}
+
+.features {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+.features .btn {
+    display: block;
+    margin: 50px auto 0;
+}
+
+.features::before {
+    content: "";
+    width: 402px;
+    height: 50px;
+    position: absolute;
+    top: -128px;
+    right: 304px;
+    background: url("../../assets/images/decoration/notes/results-report.svg") center center/cover no-repeat;
+}
+
+.features::after {
+    content: "";
+    width: 498px;
+    height: 622px;
+    transform: rotate(-4deg);
+    position: absolute;
+    z-index: -1;
+    top: -283px;
+    right: -166px;
+    background: url("../../assets/images/decoration/elements/diary.svg") center center/cover no-repeat;
+}
+
+.features__img {
+    display: block;
+    width: 412px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.features__info {
+    width: 100%;
+    padding: 70px 138px;
+    background-color: #fffcff;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.features__title {
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.features__list {
+    margin-bottom: 25px;
+    padding-left: 35px;
+}
+
+.features__item {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.features__item::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    background-color: #262626;
+    border-radius: 50%;
+}
+
 .children-advantages {
     margin-bottom: 150px;
 }
@@ -733,7 +959,7 @@ a {
     display: inline-block;
     width: 148px;
     height: 20px;
-    background: url("../../assets/images/pictures/stars.svg") center center/contain no-repeat;
+    background: url("../../assets/images/icons/stars.svg") center center/contain no-repeat;
 }
 
 .course-feedback {
@@ -756,7 +982,8 @@ a {
 }
 
 .course-feedback .slider__arrows {
-    top: -235px;
+    top: -80px;
+    right: -5px;
 }
 
 .course-feedback .slider__dots {
@@ -864,6 +1091,10 @@ a {
 
 .course-feedback__offline .course-feedback__rating {
     color: #fffcff;
+}
+
+.course-feedback__adults-courses .slider__dots {
+    bottom: -40px;
 }
 
 .learning-form {
@@ -2015,6 +2246,53 @@ a {
     line-height: 25px;
 }
 
+.video-block-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 628px;
+    min-height: 685px;
+    background-color: #fffcff;
+    border-radius: 30px;
+}
+
+.video-block-2 .video {
+    margin: 0;
+    height: 355px;
+}
+
+.video-block-2__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 40px 35px 46px 48px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.video-block-2__title {
+    color: #262626;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.video-block-2__subtitle {
+    margin-bottom: 30px;
+}
+
+.video-block-2__btn {
+    border: none;
+    background-color: transparent;
+    color: #7831b2;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0;
+}
+
 .video-block {
     display: flex;
     flex-direction: column;
@@ -2289,11 +2567,11 @@ a {
     background-color: #ffd754;
 }
 
-.text-block--books-bg, .text-block--books-2-bg, .text-block--hourglass-bg, .text-block--comment-bg, .text-block--comments-bg, .text-block--heart-bg, .text-block--diploma-bg, .text-block--leaves-bg, .text-block--mail-bg, .text-block--contact-bg, .text-block--contact-2-bg, .text-block--contacts-bg, .text-block--contacts-2-bg, .text-block--cap-bg, .text-block--cap-2-bg, .text-block--note-bg, .text-block--note-2-bg, .text-block--notes-bg, .text-block--notes-2-bg, .text-block--person-bg, .text-block--briefcase-bg, .text-block--webcam-bg, .text-block--webcam-2-bg, .text-block--format-bg, .text-block--video-bg, .text-block--fire-bg, .text-block--student-bg, .text-block--student-2-bg, .text-block--family-bg, .text-block--levels-bg, .text-block--levels-2-bg, .text-block--lightning-bg, .text-block--clock-bg, .text-block--rubles-bg, .text-block--calendar-bg {
+.text-block--books-bg, .text-block--books-2-bg, .text-block--hourglass-bg, .text-block--comment-bg, .text-block--comment-2-bg, .text-block--comments-bg, .text-block--comments-2-bg, .text-block--heart-bg, .text-block--heart-2-bg, .text-block--diploma-bg, .text-block--diploma-2-bg, .text-block--leaves-bg, .text-block--mail-bg, .text-block--contact-bg, .text-block--contact-2-bg, .text-block--contacts-bg, .text-block--contacts-2-bg, .text-block--cap-bg, .text-block--cap-2-bg, .text-block--note-bg, .text-block--note-2-bg, .text-block--notes-bg, .text-block--notes-2-bg, .text-block--person-bg, .text-block--briefcase-bg, .text-block--webcam-bg, .text-block--webcam-2-bg, .text-block--format-bg, .text-block--video-bg, .text-block--fire-bg, .text-block--student-bg, .text-block--student-2-bg, .text-block--family-bg, .text-block--levels-bg, .text-block--levels-2-bg, .text-block--lightning-bg, .text-block--clock-bg, .text-block--rubles-bg, .text-block--calendar-bg, .text-block--woman-bg, .text-block--target-bg, .text-block--casting-bg {
     overflow: hidden;
 }
 
-.text-block--books-bg::before, .text-block--books-2-bg::before, .text-block--hourglass-bg::before, .text-block--comment-bg::before, .text-block--comments-bg::before, .text-block--heart-bg::before, .text-block--diploma-bg::before, .text-block--leaves-bg::before, .text-block--mail-bg::before, .text-block--contact-bg::before, .text-block--contact-2-bg::before, .text-block--contacts-bg::before, .text-block--contacts-2-bg::before, .text-block--cap-bg::before, .text-block--cap-2-bg::before, .text-block--note-bg::before, .text-block--note-2-bg::before, .text-block--notes-bg::before, .text-block--notes-2-bg::before, .text-block--person-bg::before, .text-block--briefcase-bg::before, .text-block--webcam-bg::before, .text-block--webcam-2-bg::before, .text-block--format-bg::before, .text-block--video-bg::before, .text-block--fire-bg::before, .text-block--student-bg::before, .text-block--student-2-bg::before, .text-block--family-bg::before, .text-block--levels-bg::before, .text-block--levels-2-bg::before, .text-block--lightning-bg::before, .text-block--clock-bg::before, .text-block--rubles-bg::before, .text-block--calendar-bg::before {
+.text-block--books-bg::before, .text-block--books-2-bg::before, .text-block--hourglass-bg::before, .text-block--comment-bg::before, .text-block--comment-2-bg::before, .text-block--comments-bg::before, .text-block--comments-2-bg::before, .text-block--heart-bg::before, .text-block--heart-2-bg::before, .text-block--diploma-bg::before, .text-block--diploma-2-bg::before, .text-block--leaves-bg::before, .text-block--mail-bg::before, .text-block--contact-bg::before, .text-block--contact-2-bg::before, .text-block--contacts-bg::before, .text-block--contacts-2-bg::before, .text-block--cap-bg::before, .text-block--cap-2-bg::before, .text-block--note-bg::before, .text-block--note-2-bg::before, .text-block--notes-bg::before, .text-block--notes-2-bg::before, .text-block--person-bg::before, .text-block--briefcase-bg::before, .text-block--webcam-bg::before, .text-block--webcam-2-bg::before, .text-block--format-bg::before, .text-block--video-bg::before, .text-block--fire-bg::before, .text-block--student-bg::before, .text-block--student-2-bg::before, .text-block--family-bg::before, .text-block--levels-bg::before, .text-block--levels-2-bg::before, .text-block--lightning-bg::before, .text-block--clock-bg::before, .text-block--rubles-bg::before, .text-block--calendar-bg::before, .text-block--woman-bg::before, .text-block--target-bg::before, .text-block--casting-bg::before {
     content: "";
     position: absolute;
     background-position: center center;
@@ -2373,11 +2651,28 @@ a {
     background-image: url("../../assets/images/decoration/elements/comment.svg");
 }
 
+.text-block--comment-2-bg::before {
+    width: 197px;
+    height: 168px;
+    top: -17px;
+    right: -25px;
+    background-image: url("../../assets/images/decoration/elements/comment.svg");
+}
+
 .text-block--comments-bg::before {
     width: 270px;
     height: 212px;
     top: -33px;
     right: -46px;
+    background-image: url("../../assets/images/decoration/elements/comments.svg");
+}
+
+.text-block--comments-2-bg::before {
+    width: 308px;
+    height: 242px;
+    top: -50px;
+    right: -75px;
+    transform: rotate(-5deg);
     background-image: url("../../assets/images/decoration/elements/comments.svg");
 }
 
@@ -2389,11 +2684,29 @@ a {
     background-image: url("../../assets/images/decoration/elements/heart.svg");
 }
 
+.text-block--heart-2-bg::before {
+    width: 194px;
+    height: 184px;
+    top: -5px;
+    right: -34px;
+    transform: rotate(-17deg);
+    background-image: url("../../assets/images/decoration/elements/heart.svg");
+}
+
 .text-block--diploma-bg::before {
     width: 208px;
     height: 205px;
     top: -20px;
     right: -30px;
+    background-image: url("../../assets/images/decoration/elements/diploma.svg");
+}
+
+.text-block--diploma-2-bg::before {
+    width: 192px;
+    height: 191px;
+    top: -20px;
+    right: -10px;
+    transform: rotate(7deg);
     background-image: url("../../assets/images/decoration/elements/diploma.svg");
 }
 
@@ -2620,6 +2933,30 @@ a {
     top: 3px;
     right: -50px;
     background-image: url("../../assets/images/decoration/elements/calendar.svg");
+}
+
+.text-block--woman-bg::before {
+    width: 160px;
+    height: 188px;
+    top: -3px;
+    right: -5px;
+    background-image: url("../../assets/images/decoration/elements/woman.svg");
+}
+
+.text-block--target-bg::before {
+    width: 242px;
+    height: 218px;
+    top: -40px;
+    right: -78px;
+    background-image: url("../../assets/images/decoration/elements/target.svg");
+}
+
+.text-block--casting-bg::before {
+    width: 174px;
+    height: 180px;
+    top: -15px;
+    right: 11px;
+    background-image: url("../../assets/images/decoration/elements/casting.svg");
 }
 
 .text-blocks {
@@ -3349,11 +3686,6 @@ a {
     border-radius: 30px;
 }
 
-.video-section .subtitle {
-    max-width: 340px;
-    align-self: flex-start;
-}
-
 .video-section .video {
     position: relative;
 }
@@ -3378,6 +3710,16 @@ a {
     background: url("../../assets/images/decoration/notes/shortly-video.svg") center center/contain no-repeat;
 }
 
+.video-section__info {
+    max-width: 340px;
+    align-self: flex-start;
+}
+
+.video-section__description {
+    font-weight: 600;
+    line-height: 25px;
+}
+
 .video-section__bg {
     width: 100%;
     height: 100%;
@@ -3390,11 +3732,11 @@ a {
     background-image: url("../../assets/images/decoration/notes/only-1.5-min.svg");
 }
 
-.video-section--methodology .subtitle, .video-section--speaking-club .subtitle, .video-section--offline .subtitle {
+.video-section--methodology .video-section__info, .video-section--speaking-club .video-section__info, .video-section--offline .video-section__info {
     max-width: 400px;
 }
 
-.video-section--companies .subtitle, .video-section--companies-2 .subtitle {
+.video-section--companies .video-section__info, .video-section--companies-2 .video-section__info {
     max-width: 600px;
 }
 
@@ -3410,12 +3752,55 @@ a {
     background-image: url("../../assets/images/decoration/notes/only-1.5-min-2.svg");
 }
 
-.video-section--companies-2 .subtitle {
+.video-section--companies-2 .video-section__info {
     max-width: 560px;
 }
 
 .video-section--speaking-club {
     background-color: #ffd754;
+}
+
+.video-section--children-courses, .video-section--children-courses-2 {
+    margin-bottom: 250px;
+    background-color: #7831b2;
+    color: #fffcff;
+}
+
+.video-section--children-courses .subtitle, .video-section--children-courses-2 .subtitle {
+    margin-bottom: 33px;
+}
+
+.video-section--children-courses .video::before, .video-section--children-courses-2 .video::before {
+    content: none;
+}
+
+.video-section--children-courses::before, .video-section--children-courses-2::before {
+    width: 260px;
+    height: 115px;
+    top: 323px;
+    left: 355px;
+    background-image: url("../../assets/images/decoration/notes/only-2-min.svg");
+}
+
+.video-section--children-courses .video-section__info, .video-section--children-courses-2 .video-section__info {
+    max-width: 480px;
+}
+
+.video-section--children-courses .video-section__description:not(:last-of-type), .video-section--children-courses-2 .video-section__description:not(:last-of-type) {
+    margin-bottom: 22px;
+}
+
+.video-section--children-courses-2::before {
+    content: none;
+}
+
+.video-section--children-courses-2 .video::before {
+    content: "";
+    width: 605px;
+    height: 370px;
+    top: -35px;
+    left: -27px;
+    background: url("../../assets/images/decoration/elements/being-student-border-2.svg") center center/contain no-repeat;
 }
 
 .mainscreen-big {
