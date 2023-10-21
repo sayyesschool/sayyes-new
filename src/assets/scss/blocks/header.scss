@@ -6,6 +6,15 @@
 	width: 100%;
 	z-index: 100;
 
+	.btn {
+		transition: 0.3s linear;
+
+		&:hover {
+			color: $medium-magenta;
+			border-color: $medium-magenta;
+		}
+	}
+
 	&__overview {
 		color: $white;
 		background-color: #5e288a;

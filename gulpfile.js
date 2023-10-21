@@ -67,7 +67,6 @@ function scripts() {
 	return gulp
 		.src(path.src.js)
 		.pipe(plumber())
-		.pipe(concat("scripts.js"))
 		.pipe(uglify())
 		.pipe(gulp.dest(path.build.js))
 		.pipe(browserSync.stream());

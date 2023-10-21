@@ -50,65 +50,6 @@
 		flex-basis: 648px;
 	}
 
-	&__format {
-		max-width: 260px;
-		margin-bottom: 13px;
-
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 20px;
-	}
-
-	&__radio-buttons {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 18px;
-	}
-
-	&__radio-btn {
-		font-size: 18px;
-		font-weight: 500;
-		line-height: 15px;
-	}
-
-	&__input-text {
-		display: block;
-		width: 400px;
-		padding: 11px 20px;
-		margin-bottom: 10px;
-
-		font-size: 18px;
-		border-radius: $border-radius;
-		border: none;
-	}
-
-	&__input-select {
-		width: 400px;
-		padding: 11px 20px;
-		margin: 10px 0 40px;
-
-		font-size: 18px;
-		border-radius: $border-radius;
-		border: none;
-	}
-
-	&__communication {
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 24px;
-
-		max-width: 181px;
-		margin-top: 10px;
-	}
-
-	&__policy {
-		font-size: 13px;
-		font-weight: 600;
-		line-height: 11px;
-
-		margin-top: 11px;
-	}
-
 	&__bg {
 		position: absolute;
 		bottom: 0;

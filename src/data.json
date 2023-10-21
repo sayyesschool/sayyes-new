@@ -23,6 +23,7 @@
 		"license": "серия 77 Л01 №0007610",
 		"designer": "Насибуллина Екатерина"
 	},
+	"modals": ["feedback", "call-back", "successful"],
 	"social": [
 		{ "icon": "icon--tg", "href": "#" },
 		{ "icon": "icon--inst", "href": "#" },
@@ -1997,7 +1998,11 @@
 	],
 	"childrenReviews": [
 		{
-			"parent": { "name": "Ольга", "icon": "icon--inst icon--sm", "url": "#" },
+			"parent": {
+				"name": "Ольга",
+				"icon": "icon--inst icon--sm",
+				"url": "#"
+			},
 			"baby": "Мама ученицы Кати, 10 лет",
 			"description": "«Всем привет! Моя дочь Катюша в 4 классе, где-то полгода назад мы начали заниматься в языковой школе Say Yes! Изначально я относилась немного скептически к идее...»",
 			"img": "review-1"

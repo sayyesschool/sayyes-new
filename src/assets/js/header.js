@@ -1,4 +1,4 @@
-const header = () => {
+export const header = () => {
 	const header = document.querySelector(".main-header__overview");
 	const navigation = document.querySelector(".main-header__navigation");
 	let lastScrollY = window.scrollY;
