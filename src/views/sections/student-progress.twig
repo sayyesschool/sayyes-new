@@ -15,31 +15,31 @@
 			<button class="slider__left-arrow"><</button>
 			<button class="slider__right-arrow">></button>
 		</div>
-		<div class="slider__slide">
-			<div class="feedback">
-				<div class="feedback__left">
-					<div class="video">
-						<img src="./assets/images/student-progress/slide-1.jpg" alt="Анастасия Король" class="video__bg">
-						<button class="play"></button>
+		{% for item in studentsAboutProgress %}
+			<div class="slider__slide">
+				<div class="feedback">
+					<div class="feedback__left">
+						<div class="video">
+							<img src="./assets/images/student-progress/{{item.img}}.jpg" alt="Анастасия Король" class="video__bg">
+							<button class="play"></button>
+						</div>
+						<div class="comment comment--sm comment--angle">
+							<p class="commet__description">{{item.comment}}</p>
+						</div>
 					</div>
-					<div class="comment comment--sm comment--angle">
-						<p class="commet__description">«Теперь я общаюсь даже с иностранными партнерами на работе!»</p>
-					</div>
-				</div>
-				<div class="feedback__right">
-					<div class="about-person">
-						<h3 class="about-person__title">Цените живое общение и живете в Москве?</h3>
-						<p class="about-person__description">Освоила закономерности и логику построения предложений, начала понимать на слух речь носителей на своем уровне лексики.</p>
-						<h4 class="about-person__mini-title">Преподаватель:</h4>
-						<a href="#" class="about-person__link">Ирина Прихожева</a>
-						<h4 class="about-person__mini-title">Преподаватель:</h4>
-						<a href="#" class="about-person__link">Ирина Прихожева</a>
+					<div class="feedback__right">
+						<div class="about-person">
+							<h3 class="about-person__title">{{item.name}}</h3>
+							<p class="about-person__description">{{item.description}}</p>
+							<h4 class="about-person__mini-title">Преподаватель:</h4>
+							<a href="#" class="about-person__link">{{item.teacher}}</a>
+							<h4 class="about-person__mini-title">Курс:</h4>
+							<a href="#" class="about-person__link">{{item.course}}</a>
+						</div>
 					</div>
 				</div>
 			</div>
-
-
-		</div>
+		{% endfor %}
 		<ul class="slider__dots">
 			<li class="slider__dot"></li>
 			<li class="slider__dot"></li>
