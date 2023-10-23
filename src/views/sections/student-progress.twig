@@ -21,7 +21,7 @@
 					<div class="feedback__left">
 						<div class="video">
 							<img src="./assets/images/student-progress/{{item.img}}.jpg" alt="Анастасия Король" class="video__bg">
-							<button class="play"></button>
+							<button class="play" id="{{item.videoId}}"></button>
 						</div>
 						<div class="comment comment--sm comment--angle">
 							<p class="commet__description">{{item.comment}}</p>
@@ -39,6 +39,7 @@
 					</div>
 				</div>
 			</div>
+			{% include '../components/video-modal.twig' with {url: item.videoUrl, id: item.videoId} %}
 		{% endfor %}
 		<ul class="slider__dots">
 			<li class="slider__dot"></li>

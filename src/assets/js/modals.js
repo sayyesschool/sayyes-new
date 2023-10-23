@@ -19,6 +19,9 @@ export const modals = () => {
 	const bindModal = (triggerSelector, modalSelector) => {
 		const trigger = document.querySelector(triggerSelector);
 		const modal = document.querySelector(modalSelector);
+
+		if (!(trigger || modal)) return;
+
 		const close = modal.querySelector(".window__close");
 		const header = document.querySelector(".main-header");
 		const scroll = calcScroll();
@@ -31,7 +34,14 @@ export const modals = () => {
 		};
 
 		const closeModal = () => {
+			const youtubeVideo = modal.querySelector("#youtubeVideo");
+
+			if (youtubeVideo) {
+				youtubeVideo.src = youtubeVideo.src;
+			}
+
 			modal.classList.remove("active");
+
 			setTimeout(() => {
 				document.body.style.overflow = "";
 				header.style.paddingRight = "0px";
@@ -50,6 +60,16 @@ export const modals = () => {
 		});
 	};
 
+	// header
 	bindModal("#free-lesson", ".overlay--feedback");
 	bindModal("#call-back", ".overlay--call-back");
+
+	//videos
+	const videosCount = 22;
+
+	[...Array(videosCount)].forEach((item, index) => {
+		const videoId = index + 1;
+
+		bindModal(`#video-${videoId}`, `.overlay--video-${videoId}`);
+	});
 };

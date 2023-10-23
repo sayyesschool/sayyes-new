@@ -19,10 +19,11 @@
 				<img src="./assets/images/atmosphere/atmosphere-2.jpg" alt="Отмечаем праздники вместе" class="atmosphere__celebration-img">
 				<div class="video">
 					<img src="./assets/images/atmosphere/atmosphere-3.jpg" alt="Отмечаем праздники вместе" class="atmosphere__celebration-2-img">
-					<button class="play"></button>
+					<button class="play" id="video-2"></button>
 				</div>
 			</div>
 			<img src="./assets/images/decoration/notes/celebrating-completion.svg" alt="Отмечаем завевершение обучения" class="atmosphere__celebrations-tip">
 		</div>
 	</div>
+	{% include '../components/video-modal.twig' with {url: "https://www.youtube.com/embed/CgqpaS5eoGQ", id: "video-2", vertical: 'true'} %}
 </section>

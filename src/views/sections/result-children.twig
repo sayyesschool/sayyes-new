@@ -12,7 +12,7 @@
 					<div class="video-block-2">
 						<div class="video">
 							<img src="./assets/images/children-reviews/{{item.img}}.jpg" alt="Say Yes" class="video__bg">
-							<button class="play"></button>
+							<button class="play" id="{{item.videoId}}"></button>
 						</div>
 						<div class="video-block-2__content">
 							<a href="{{item.parent.url}}" class="video-block-2__title">
@@ -24,6 +24,7 @@
 							<button class="video-block-2__btn">Развернуть</button>
 						</div>
 					</div>
+					{% include '../components/video-modal.twig' with {url: item.videoUrl, id: item.videoId} %}
 				{% endfor %}
 			</div>
 		</div>

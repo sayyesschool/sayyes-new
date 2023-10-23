@@ -1282,56 +1282,72 @@
 			"description": "«Теперь я общаюсь даже с иностранными партнёрами на работе!»",
 			"startLevel": "Elementary",
 			"teacher": "Ирина Прихожева",
-			"img": "review-1"
+			"img": "review-1",
+			"videoId": "video-13",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"name": "Лариса Муслюмова",
 			"description": "«Здесь ты можешь забыть о скучной грамматике и наслаждаться общением».",
 			"startLevel": "Beginner",
 			"teacher": "Мария Наливайкина",
-			"img": "review-2"
+			"img": "review-2",
+			"videoId": "video-14",
+			"videoUrl": "https://www.youtube.com/embed/5jmAozBOM_c"
 		},
 		{
 			"name": "Виктория Фалеева",
 			"description": "«Если хочешь говорить по-английски бегло — приходи в SAY YES! Я пришла и ни о чем не жалею!»",
 			"startLevel": "Beginner",
 			"teacher": "Мария Наливайкина",
-			"img": "review-3"
+			"img": "review-3",
+			"videoId": "video-15",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"name": "Юлия Русак",
 			"description": "«Первое, что я могу сказать о SAY YES!, это то, что учить английский здесь весело и позитивно!»",
 			"startLevel": "Beginner",
 			"teacher": "Полина Ангаткина",
-			"img": "review-4"
+			"img": "review-4",
+			"videoId": "video-16",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"name": "Александр Бубликов",
 			"description": "«Учить язык после долгого перерыва — сложно, но очень интересно!»",
 			"startLevel": "Beginner",
 			"teacher": "Почерней Ирина",
-			"img": "review-5"
+			"img": "review-5",
+			"videoId": "video-17",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"name": "Галина Романова",
 			"description": "«Учусь в школе SAY YES! 6 месяцев и мой муж уже замечает мой прогресс!»",
 			"startLevel": "Pre-intermediate",
 			"teacher": "Ирина Прихожева",
-			"img": "review-6"
+			"img": "review-6",
+			"videoId": "video-18",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"name": "Елена Ребеченкова",
 			"description": "«Удивительно, что уже через три урока я вспомнила многое, что учила до этого».",
 			"startLevel": "Beginner",
 			"teacher": "Ксения Михайлова",
-			"img": "review-7"
+			"img": "review-7",
+			"videoId": "video-19",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"name": "Салеха Мамедханова",
 			"description": "«Сотрудники школы всегда приветливы и добры».",
 			"startLevel": "Beginner",
 			"teacher": "Светлана Тимонина",
-			"img": "review-8"
+			"img": "review-8",
+			"videoId": "video-20",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		}
 	],
 	"contactUsCards": [
@@ -2005,7 +2021,9 @@
 			},
 			"baby": "Мама ученицы Кати, 10 лет",
 			"description": "«Всем привет! Моя дочь Катюша в 4 классе, где-то полгода назад мы начали заниматься в языковой школе Say Yes! Изначально я относилась немного скептически к идее...»",
-			"img": "review-1"
+			"img": "review-1",
+			"videoId": "video-21",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		},
 		{
 			"parent": {
@@ -2015,7 +2033,9 @@
 			},
 			"baby": "Мама ученицы Маши, 12 лет",
 			"description": "«Меня зовут Ирина, моя дочь Маша занимается в школе Say Yes! В этом году мы решили заняться английским дополнительно, потому что появились проблемы в школе...»",
-			"img": "review-2"
+			"img": "review-2",
+			"videoId": "video-22",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		}
 	],
 	"studentsAboutProgress": [
@@ -2026,7 +2046,9 @@
 			"teacher": "Ирина Прихожева",
 			"course": "Интенсивный английский",
 			"img": "slide-1",
-			"comment": "«Теперь я общаюсь даже с иностранными партнерами на работе!»"
+			"comment": "«Теперь я общаюсь даже с иностранными партнерами на работе!»",
+			"videoId": "video-3",
+			"videoUrl": "https://www.youtube.com/embed/6ISA01NE2rY"
 		}
 	]
 }
