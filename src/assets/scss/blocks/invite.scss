@@ -1,34 +1,10 @@
 .invite {
 	position: relative;
 
-	&__tabs {
-		display: flex;
-		padding-left: 756px;
-	}
-
-	&__tab {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-width: 200px;
-		min-height: 55px;
-		margin-right: 10px;
-
-		background-color: $medium-magenta;
-		border-radius: $border-radius-sm $border-radius-sm 0 0;
-
-		font-size: 18px;
-		font-weight: 700;
-
-		&--active {
-			background-color: $yellow;
-		}
-	}
-
 	&__content {
 		display: flex;
 		justify-content: space-between;
-		padding: 35px 106px 55px;
+    padding: 42px 106px 88px;
 
 		background-color: $yellow;
 		border-radius: $border-radius;
@@ -53,7 +29,18 @@
 	&__bg {
 		position: absolute;
 		bottom: 0;
-		left: 38%;
+		left: 37%;
 		transform: translateX(-50%);
+	}
+
+	&--children {
+		.invite__content {
+			padding: 41px 106px 138px;
+			background-color: $medium-magenta;
+		}
+
+		.invite__bg {
+			left: 440px;
+		}
 	}
 }

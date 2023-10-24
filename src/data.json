@@ -143,6 +143,78 @@
 			"description": "Нам доверяют: 8 из 10 наших студентов выбирают нас по рекомендациям и отзывам в Интернет."
 		}
 	],
+	"childrenCourses": [
+		{
+			"title": "Курс “Bright ideas”",
+			"description": "Познакомит ребенка с азами языка в игровой форме и привьет любовь к языку.",
+			"class": "course--black",
+			"list": [
+				{
+					"lessonType": "онлайн индивидуально",
+					"lessonPrice": "542 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				},
+				{
+					"lessonType": "офлайн индивидуально",
+					"lessonPrice": "1.550 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				}
+			]
+		},
+		{
+			"title": "Курс “Family and friends”",
+			"description": "Курс английского для начальной школы. Курс соответствует завершенному уровню Elementary.",
+			"class": "course--pink",
+			"list": [
+				{
+					"lessonType": "онлайн индивидуально",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				},
+				{
+					"lessonType": "офлайн индивидуально",
+					"lessonPrice": "1.550 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				}
+			]
+		},
+		{
+			"title": "Курс “Go getter”",
+			"description": "По окончании курса слушатели владеют языком на уровне Upper-Intermediate.",
+			"class": "course--violent",
+			"list": [
+				{
+					"lessonType": "онлайн индивидуально",
+					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				},
+				{
+					"lessonType": "офлайн индивидуально",
+					"lessonPrice": "1.550 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				}
+			]
+		},
+		{
+			"title": "Подготовка к ОГЭ, ЕГЭ, YLE, KET, PET, FCE",
+			"description": "Подготовит вашего ребенка к успешной сдаче российских и международных экзаменов",
+			"class": "course--black",
+			"list": [
+				{
+					"lessonType": "индивидуально онлайн и офлайн",
+					"lessonPrice": "1.650 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				}
+			]
+		}
+	],
 	"courses": [
 		{
 			"title": "Английский с нуля",
