@@ -1,6 +1,8 @@
 export const accordion = () => {
 	const list = document.querySelector(".accordion");
 
+	if (!list) return;
+
 	const open = (item, desc) => {
 		desc.style.height = `${desc.scrollHeight}px`;
 		item.classList.add("accordion__item--active");
