@@ -33,7 +33,11 @@ a {
 	margin: 0 auto;
 }
 
-@import "blocks/modal";
+@import "blocks/about-teacher";
+@import "blocks/feedback-block";
+@import "blocks/teacher-block";
+@import "blocks/youtube-video";
+@import "blocks/overlay";
 @import "blocks/feedback-form";
 @import "blocks/convenient-oc";
 @import "blocks/result-children";

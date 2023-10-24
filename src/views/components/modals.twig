@@ -1,14 +1,3 @@
 {% for modal in modals %}
-	<div class="overlay overlay--{{modal}}">
-		<div class="window window--{{modal}}">
-			{% if modal == 'feedback' %}
-				{% include '../components/feedback-modal.twig' %}
-			{% elseif modal == 'call-back' %}
-				{% include '../components/callback-modal.twig' %}
-			{% elseif modal == 'successful' %}
-				{% include '../components/successful-modal.twig' %}
-			{% endif %}
-			<button class="window__close">+</button>
-		</div>
-	</div>
+	{% include '../components/modal.twig' with {modal, id: modal} %}
 {% endfor %}

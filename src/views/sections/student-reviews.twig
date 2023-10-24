@@ -25,7 +25,7 @@
 					</ul>
 				</div>
 			</div>
-			{% include '../components/video-modal.twig' with {url: person.videoUrl, id: person.videoId} %}
+			{% include '../components/modal.twig' with {modal: 'video', url: person.videoUrl, id: person.videoId} %}
 		{% endfor %}
 	</div>
 	<button class="btn btn--yellow">Показать ещё</button>

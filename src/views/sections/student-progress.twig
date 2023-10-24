@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-			{% include '../components/video-modal.twig' with {url: item.videoUrl, id: item.videoId} %}
+			{% include '../components/modal.twig' with {modal: 'video', url: item.videoUrl, id: item.videoId} %}
 		{% endfor %}
 		<ul class="slider__dots">
 			<li class="slider__dot"></li>

@@ -24,7 +24,7 @@
 							<button class="video-block-2__btn">Развернуть</button>
 						</div>
 					</div>
-					{% include '../components/video-modal.twig' with {url: item.videoUrl, id: item.videoId} %}
+					{% include '../components/modal.twig' with {modal: 'video', url: item.videoUrl, id: item.videoId} %}
 				{% endfor %}
 			</div>
 		</div>

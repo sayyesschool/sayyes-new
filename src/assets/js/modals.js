@@ -22,7 +22,7 @@ export const modals = () => {
 
 		if (!(trigger || modal)) return;
 
-		const close = modal.querySelector(".window__close");
+		const close = modal.querySelector(".overlay__close");
 		const header = document.querySelector(".main-header");
 		const scroll = calcScroll();
 
@@ -61,8 +61,8 @@ export const modals = () => {
 	};
 
 	// header
-	bindModal("#free-lesson", ".overlay--feedback");
-	bindModal("#call-back", ".overlay--call-back");
+	bindModal("#feedback", ".overlay--feedback");
+	bindModal("#callback", ".overlay--callback");
 
 	//videos
 	const videosCount = 22;
@@ -71,5 +71,14 @@ export const modals = () => {
 		const videoId = index + 1;
 
 		bindModal(`#video-${videoId}`, `.overlay--video-${videoId}`);
+	});
+
+	// teachers
+	const teachersCount = 12;
+
+	[...Array(teachersCount)].forEach((item, index) => {
+		const teacherId = index + 1;
+
+		bindModal(`#teacher-${teacherId}`, `.overlay--teacher-${teacherId}`);
 	});
 };

@@ -52,5 +52,5 @@
 		<img src="./assets/images/video-sections/{{videoImg}}.jpg" alt="Офлайн" class="video__bg">
 		<button class="play" id="{{videoId}}"></button>
 	</div>
-	{% include '../components/video-modal.twig' with {url: "https://www.youtube.com/embed/6ISA01NE2rY", id: videoId} %}
+	{% include '../components/modal.twig' with {modal: 'video', url: "https://www.youtube.com/embed/6ISA01NE2rY", id: videoId} %}
 </section>
