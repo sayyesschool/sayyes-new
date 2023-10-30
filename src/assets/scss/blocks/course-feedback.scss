@@ -21,7 +21,7 @@
 		right: -5px;
 	}
 
-	.slider__dots {
+	.slider__pagination {
 		bottom: -100px;
 		left: 50%;
 		transform: translateX(-50%);
@@ -137,7 +137,7 @@
 	}
 
 	&__adults-courses {
-		.slider__dots {
+		.slider__pagination {
 			bottom: -40px;
 		}
 	}
