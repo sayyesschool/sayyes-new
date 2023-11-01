@@ -1,0 +1,6 @@
+const modals=()=>{const o=(e,t)=>{e=document.querySelector(e);const o=document.querySelector(t);if(e||o){var d,c,t=o.querySelector(".overlay__close");const r=document.querySelector(".main-header"),a=((d=document.createElement("div")).style.cssText=`
+      width: 50px;
+      height: 50px;
+      overflow-y: scroll;
+      visibility: hidden;
+    `,document.body.appendChild(d),c=d.offsetWidth-d.clientWidth,d.remove(),c);const l=()=>{var e=o.querySelector("#youtubeVideo");e&&(e.src=e.src),o.classList.remove("active"),setTimeout(()=>{document.body.style.overflow="",r.style.paddingRight="0px",document.body.style.paddingRight="0px"},300)};e.addEventListener("click",()=>{o.classList.add("active"),document.body.style.overflow="hidden",r.style.paddingRight=a+"px",document.body.style.paddingRight=a+"px"}),t.addEventListener("click",l),o.addEventListener("click",e=>{e.target===o&&l()})}};o("#feedback",".overlay--feedback"),o("#callback",".overlay--callback");[...Array(22)].forEach((e,t)=>{t+=1;o("#video-"+t,".overlay--video-"+t)});[...Array(12)].forEach((e,t)=>{t+=1;o("#teacher-"+t,".overlay--teacher-"+t)})};export{modals};

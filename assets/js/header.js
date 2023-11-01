@@ -1,0 +1,1 @@
+const header=()=>{const l=document.querySelector(".main-header__overview"),r=document.querySelector(".main-header__navigation");let t=window.scrollY;window.addEventListener("scroll",()=>{var e=window.scrollY,o=e>t;l.classList.toggle("expanded",0!==e),r.classList.toggle("collapsed",o),t=e})};export{header};
