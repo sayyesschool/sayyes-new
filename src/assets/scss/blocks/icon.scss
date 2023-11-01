@@ -1,5 +1,7 @@
 .icon {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 	div {
 		display: none;
@@ -11,37 +13,37 @@
 
 	&--tg {
 		.icon__tg {
-			display: block;
+			display: flex;
 		}
 	}
 
 	&--ws {
 		.icon__ws {
-			display: block;
+			display: flex;
 		}
 	}
 
 	&--pc {
 		.icon__pc {
-			display: block;
+			display: flex;
 		}
 	}
 
 	&--yt {
 		.icon__yt {
-			display: block;
+			display: flex;
 		}
 	}
 
 	&--inst {
 		.icon__inst {
-			display: block;
+			display: flex;
 		}
 	}
 
 	&--email {
 		.icon__email {
-			display: block;
+			display: flex;
 		}
 	}
 
@@ -53,7 +55,7 @@
 
 	&--time {
 		.icon__time{
-			display: block;
+			display: flex;
 		}
 	}
 

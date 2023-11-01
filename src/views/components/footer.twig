@@ -1,69 +1,84 @@
 <footer class="footer">
-	<div class="container">
+	<div class="section-container">
 		<div class="footer__wrapper">
 			<div class="footer__column">
-				<img src="./assets/images/logo-white.svg" alt="Say Yes" class="logo">
+				{% include '../components/logo.twig' %}
 				{% include '../components/phone-numbers.twig' %}
-				<div class="footer__call">
-					Заказать звонок
-					<br>
-					Напишите нам в WhatsApp</div>
+				<ul class="footer__call">
+					<li class="footer__call-item">
+						<a href="#" class="footer__link">Заказать звонок</a>
+					</li>
+					<li class="footer__call-item">
+						<a href="#" class="footer__link">Напишите нам в WhatsApp</a>
+					</li>
+				</ul>
 				<div class="footer__email">
 					<div class="footer__title">E-MAIL:</div>
-					<div class="footer__item-test">{{meta.email}}</div>
+					<div class="footer__item">
+						<a href="#" class="footer__link">{{meta.email}}</a>
+					</div>
 				</div>
 				<div class="footer__address">
 					<div class="footer__title">Адрес школы</div>
 					<div class="footer__item">{{meta.address}}</div>
 				</div>
-				<div class="footer__policy">Политика конфиденциальности Договор-оферта</div>
+				<div class="footer__policy">
+					<p>Политика конфиденциальности</p>
+					<p>Договор-оферта</p>
+				</div>
 			</div>
 			<div class="footer__column">
-				<div class="footer__about">
-					<div class="footer__title">О SAY YES</div>
-					<div class="footer__item">Кто мы</div>
-					<div class="footer__item">Преподаватели</div>
-					<div class="footer__item">Методика</div>
-					<div class="footer__item">Прогресс студентов</div>
-					<div class="footer__item">Вакансии</div>
-				</div>
-				{% include '../components/social.twig' %}
 				<div class="footer__copyright">
-					© 2013–2023 SAY YES!
-					<br>
-					Все права защищены
+					<p>© 2013–2023 SAY YES!</p>
+					<p>Все права защищены</p>
+				</div>
+			</div>
+			<div class="footer__column">
+				<ul class="footer__about">
+					<div class="footer__title">О SAY YES</div>
+					{% for item in footerNavItems.about %}
+						<li class="footer__item">
+							<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
+						</li>
+					{% endfor %}
+				</ul>
+				{% include '../components/social.twig' %}
+				<div class="footer__with-love">
+					Сделано с
+					<img src="./assets/images/decoration/elements/heart-2.svg" alt="С любовью" class="footer__with-love-img">
 				</div>
 			</div>
 			<div class="footer__column">
 				<div class="footer__title">Курсы и программы школы</div>
 				<div class="footer__courses">
-					<div class="footer__subcolumn">
-						<div class="footer__item">Взрослым</div>
-						<div class="footer__item">Детям</div>
-						<div class="footer__item">Компаниям</div>
-						<div class="footer__item">Цены</div>
-					</div>
-					<div class="footer__subcolumn">
-						<div class="footer__item">Группа офлайн</div>
-						<div class="footer__item">Группа онлайн</div>
-						<div class="footer__item">Индивидуально офлайн</div>
-						<div class="footer__item">Индивидуально онлайн</div>
-						<div class="footer__item">Разговорный онлайн клуб</div>
-
+					<ul class="footer__subcolumn">
+						{% for item in footerNavItems.courses %}
+							<li class="footer__item">
+								<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
+							</li>
+						{% endfor %}
+					</ul>
+					<ul class="footer__subcolumn">
+						{% for item in footerNavItems.programms %}
+							<li class="footer__item">
+								<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
+							</li>
+						{% endfor %}
 						<div class="footer__results-title">Результаты проведения СОУТ</div>
+					</ul>
+				</div>
+				<div class="license">
+					<img src="./assets/images/pictures/license.png" alt="Лицензия 77 Л01 №0007610" class="license__img">
+					<div class="license__info">
+						<h4 class="license__title">Лицензия на доп. образование</h4>
+						<p class="license__series">серия 77 Л01 №0007610</p>
 					</div>
 				</div>
-				<div class="footer__license">Лицензия на доп. образование серия 77 Л01 №0007610
-				</div>
-				<div class="footer__developers">
-					<div class="footer__subcolumn">
-						<div class="footer__item">Сделано с</div>
-					</div>
-					<div class="footer__subcolumn">
-						<div class="footer_-designer">Дизайн сайта<br>Насибуллина Екатерина</div>
-					</div>
+				<div class="footer__designer">
+					<p>Дизайн сайта</p>
+					<p>Насибуллина Екатерина</p>
 				</div>
 			</div>
 		</div>
-		<div>
+	</div>
 </footer>
