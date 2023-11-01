@@ -1,47 +1,61 @@
 .digits {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 140px;
+	margin-bottom: 100px;
 
 	.subtitle {
-		max-width: 216px;
+		max-width: 190px;
+		font-size: 40px;
+		line-height: 42px;
 	}
 
 	&__list {
-		width: 854px;
-		display: flex;
-		flex-wrap: wrap;
+		width: 764px;
+		display: grid;
+		gap: 20px;
+		grid-template-areas:
+			"a a a b b b b b"
+			"c c c c c d d d"
+			"e e e e e d d d";
 	}
 
 	&__item {
 		background-color: $yellow;
 		border-radius: $border-radius;
 
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		width: 304px;
-		min-height: 300px;
-		padding: 63px 45px 45px;
-		margin: 10px;
+		min-height: 200px;
+		padding: 45px 0 0 45px;
 
-		&:nth-child(6n + 2),
-		&:nth-child(6n + 4) {
-			width: 520px;
+		&:nth-child(1) {
+			grid-area: a;
 		}
 
-		&:nth-child(3n + 3) {
-			width: 100%;
-		}
-
-		&:first-child,
 		&:nth-child(2) {
-			margin-top: 0;
+			grid-area: b;
 		}
 
-		&:nth-child(3n + 2),
-		&:nth-child(3n + 3) {
-			margin-right: 0;
+		&:nth-child(3) {
+			grid-area: c;
+			display: flex;
+			min-height: 150px;
+
+			.digits__title {
+				margin-right: 70px;
+			}
+		}
+
+		&:nth-child(4) {
+			grid-area: d;
+		}
+
+		&:nth-child(5) {
+			grid-area: e;
+			display: flex;
+			min-height: 150px;
+
+			.digits__title {
+				margin-right: 45px;
+			}
 		}
 
 		&--default {
@@ -54,14 +68,18 @@
 	}
 
 	&__title {
-		font-size: 120px;
+		font-size: 70px;
 		font-weight: 700;
 		line-height: 60px;
+
+		margin-bottom: 10px;
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
+
+		max-width: 140px;
 	}
 }

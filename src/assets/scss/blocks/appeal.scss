@@ -1,44 +1,45 @@
 .appeal {
-	padding: 93px 90px 47px 105px;
-	max-width: 738px;
+	padding: 70px 100px;
+	width: 764px;
 
 	background-color: $white;
 	border-radius: $border-radius;
 
 	&__title {
-		font-size: 46px;
+		font-size: 42px;
 		font-weight: 700;
-		line-height: 45px;
+		line-height: 40px;
 
-		margin-bottom: 33px;
+		margin-bottom: 40px;
+		max-width: 470px;
 	}
 
 	&__text {
 		position: relative;
-		max-width: 541px;
+		padding-left: 60px;
 
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 
 		&::before,
 		&::after {
 			content: "";
 			position: absolute;
-			width: 50px;
-			height: 38px;
+			width: 45px;
+			height: 33px;
 			background: url("../../assets/images/icons/quotes.svg") center
 				center/contain no-repeat;
 		}
 
 		&::before {
-			top: -16px;
-			left: -68px;
+			top: -15px;
+			left: 0px;
 		}
 
 		&::after {
-			bottom: -18px;
-			right: -1px;
+			bottom: -10px;
+			right: 0px;
 			transform: rotate(180deg);
 		}
 	}

@@ -125,19 +125,19 @@
 			},
 			{
 				"text": "Преподаватели",
-				"url": "/teachers.html"
+				"url": "./teachers.html"
 			},
 			{
 				"text": "Методика",
-				"url": "/methodology.html"
+				"url": "./methodology.html"
 			},
 			{
 				"text": "Прогресс студентов",
-				"url": "/progress.html"
+				"url": "./progress.html"
 			},
 			{
 				"text": "Вакансии",
-				"url": "/vacancies.html"
+				"url": "./vacancies.html"
 			}
 		],
 		"courses": [
@@ -147,15 +147,15 @@
 			},
 			{
 				"text": "Детям",
-				"url": "/children.html"
+				"url": "./children.html"
 			},
 			{
 				"text": "Компаниям",
-				"url": "/companies.html"
+				"url": "./companies.html"
 			},
 			{
 				"text": "Цены",
-				"url": "/price.html"
+				"url": "./price.html"
 			}
 		],
 		"programms": [
@@ -165,19 +165,19 @@
 			},
 			{
 				"text": "Группа онлайн",
-				"url": "/online.html"
+				"url": "./online.html"
 			},
 			{
 				"text": "Индивидуально офлайн",
-				"url": "/individually-offline.html"
+				"url": "./individually-offline.html"
 			},
 			{
 				"text": "Индивидуально онлайн",
-				"url": "/individually-online.html"
+				"url": "./individually-online.html"
 			},
 			{
 				"text": "Разговорный онлайн клуб",
-				"url": "/speaking-club.html"
+				"url": "./speaking-club.html"
 			}
 		]
 	},
@@ -1052,14 +1052,14 @@
 			"bg": "default"
 		},
 		{
-			"title": "85",
-			"description": "сильных и харизматичных преподавателей",
+			"title": "2000+",
+			"description": "уроков каждый месяц",
 			"bg": "white"
 		},
 		{
-			"title": "2000+",
-			"description": "уроков каждый месяц",
-			"bg": "default"
+			"title": "85",
+			"description": "сильных и харизматичных преподавателей",
+			"bg": "white"
 		},
 		{
 			"title": "80%",
@@ -1068,7 +1068,7 @@
 		},
 		{
 			"title": "5.0",
-			"description": "Рейтинг на Яндекс Отзывы",
+			"description": "рейтинг на Яндекс Отзывы",
 			"bg": "default"
 		}
 	],
@@ -1100,6 +1100,10 @@
 		{
 			"title": "Say Yes",
 			"img": "bts-7"
+		},
+		{
+			"title": "Say Yes",
+			"img": "bts-8"
 		}
 	],
 	"teacherCards1": [

@@ -10,7 +10,7 @@
 
 	&__img {
 		width: 100%;
-		height: 400px;
+		height: 370px;
 		display: block;
 		object-fit: cover;
 		border-radius: $border-radius;
@@ -19,30 +19,30 @@
 	&__content {
 		display: flex;
 		flex-direction: column;
-		padding: 50px 30px 50px 50px;
+		padding: 35px 30px 45px 50px;
 		flex-grow: 1;
 	}
 
 	&__name {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 800;
-		line-height: 25px;
+		line-height: 20px;
 
-		margin-bottom: 14px;
+		margin-bottom: 5px;
 	}
 
 	&__post {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 
-		margin-bottom: 40px;
+		margin-bottom: 55px;
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 500;
-		line-height: 25px;
+		line-height: 20px;
 
 		max-width: 363px;
 	}
@@ -54,29 +54,33 @@
 	}
 
 	&__title {
-		max-width: 339px;
+		max-width: 300px;
 		margin-bottom: 18px;
 
-		font-size: 46px;
+		font-size: 42px;
 		font-weight: 700;
-		line-height: 45px;
+		line-height: 40px;
 	}
 
 	&__subtitle {
-		max-width: 287px;
-
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
+
+		max-width: 287px;
 	}
 
 	&--comment-card {
-		min-height: 410px;
-		padding: 53px 35px 53px 49px;
+		min-height: 370px;
+		padding: 50px 35px 50px 50px;
 		align-self: flex-start;
 
 		background-color: $pink;
 		color: $white;
+
+		&:last-of-type {
+			margin-top: 60px;
+		}
 	}
 
 	&--text-card {
@@ -87,10 +91,10 @@
 		&::before {
 			content: "";
 			position: absolute;
-			width: 201px;
-			height: 129px;
-			bottom: 108px;
-			right: 65px;
+			width: 181px;
+			height: 116px;
+			bottom: 100px;
+			right: 55px;
 			background: url("../../assets/images/decoration/notes/superpowers.svg")
 				center center/cover no-repeat;
 		}
@@ -110,10 +114,10 @@
 		&::before {
 			content: "";
 			position: absolute;
-			bottom: 61px;
-			left: -15px;
-			width: 52px;
-			height: 69px;
+			bottom: 47px;
+			left: -12px;
+			width: 40px;
+			height: 55px;
 			background: url("../../assets/images/decoration/elements/lightning.svg")
 				center center/contain no-repeat;
 		}

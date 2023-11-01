@@ -1,6 +1,6 @@
 .video-section {
-	padding: 96px 105px 96px 100px;
-	margin-bottom: 184px;
+	padding: 65px 60px 65px;
+	margin-bottom: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -9,16 +9,22 @@
 	background-color: $white;
 	border-radius: $border-radius;
 
+	.subtitle {
+		font-size: 42px;
+	}
+
 	.video {
 		position: relative;
+		width: 568px;
+		height: 310px;
 
 		&::before {
 			content: "";
 			position: absolute;
-			top: -10px;
-			left: -35px;
-			width: 507px;
-			height: 334px;
+			top: -21px;
+			left: -42px;
+			width: 664px;
+			height: 356px;
 			background: url("../../assets/images/decoration/elements/being-student-border.svg")
 				center center/contain no-repeat;
 		}
@@ -27,22 +33,22 @@
 	&::before {
 		content: "";
 		position: absolute;
-		top: 296px;
-		left: 333px;
-		width: 337px;
-		height: 155px;
+		top: 241px;
+		left: 255px;
+		width: 330px;
+		height: 135px;
 		background: url("../../assets/images/decoration/notes/shortly-video.svg")
 			center center/contain no-repeat;
 	}
 
 	&__info {
-		max-width: 340px;
+		max-width: 430px;
 		align-self: flex-start;
 	}
 
 	&__description {
-		font-weight: 600;
-		line-height: 25px;
+		font-weight: 700;
+		line-height: 40px;
 	}
 
 	&__bg {
