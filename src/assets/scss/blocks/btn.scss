@@ -1,7 +1,7 @@
 .btn {
 	display: inline-block;
-	min-height: 60px;
-	min-width: 400px;
+	min-height: 50px;
+	min-width: 372px;
 	text-align: center;
 
 	background-color: $black;
@@ -38,12 +38,11 @@
 
 	&--big {
 		min-width: 520px;
-		min-height: 60px;
 	}
 
 	&--md {
-		min-width: 312px;
-		min-height: 50px;
+		min-width: 273px;
+		min-height: 40px;
 	}
 
 	&--sm {
@@ -55,5 +54,3 @@
 		width: 100%;
 	}
 }
-
-// btn--transparent btn--uppercase

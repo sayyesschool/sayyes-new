@@ -5,14 +5,14 @@
 		color: $black;
 		text-align: center;
 
-		max-width: 800px;
+		max-width: 840px;
 		margin: 0 auto;
 	}
 
 	.btn {
 		display: none;
 		margin: 0 auto;
-		margin-bottom: 70px;
+		margin-bottom: 50px;
 	}
 
 	.split-image {
@@ -21,7 +21,7 @@
 
 	&__description {
 		text-align: center;
-		margin: 20px auto 50px;
+		margin: 15px auto 25px;
 
 		font-size: 18px;
 		font-weight: 600;
@@ -35,6 +35,22 @@
 		display: block;
 		object-fit: cover;
 		border-radius: $border-radius;
+	}
+
+	&--companies,
+	&--adults,
+	&--methodology {
+		.title {
+			max-width: 880px;
+		}
+	}
+
+	&--progress,
+	&--children,
+	&--education {
+		.title {
+			max-width: 680px;
+		}
 	}
 
 	&--teachers,
@@ -64,22 +80,12 @@
 			display: block;
 		}
 
-		.title {
-			max-width: 1060px;
-			margin: 0 auto;
-		}
-
 		.mainscreen-big__description {
 			max-width: 590px;
 		}
 	}
 
 	&--progress {
-		.title {
-			max-width: 690px;
-			margin: 0 auto;
-		}
-
 		.mainscreen-big__description {
 			max-width: 1000px;
 			margin-bottom: 70px;
