@@ -234,7 +234,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "офлайн группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -259,7 +259,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "офлайн группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -284,7 +284,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "офлайн группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "1540 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -292,7 +292,7 @@
 			]
 		},
 		{
-			"title": "Бизнес <br> курс",
+			"title": "Бизнес курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
 			"class": "course--black",
 			"list": [
@@ -303,7 +303,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "индивидуально группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "1540 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -316,7 +316,7 @@
 			"class": "course--pink course--fs",
 			"list": [
 				{
-					"lessonType": "индивидуально <br>  онлайн и офлайн",
+					"lessonType": "индивидуально онлайн и офлайн",
 					"lessonPrice": "1.650 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок."
@@ -401,7 +401,7 @@
 			]
 		},
 		{
-			"title": "Бизнес <br> курс",
+			"title": "Бизнес курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
 			"class": "course--black",
 			"list": [
@@ -539,7 +539,7 @@
 			]
 		},
 		{
-			"title": "Бизнес <br> курс",
+			"title": "Бизнес курс",
 			"description": "Курс делового английского для карьеры и бизнеса. Ведет ТОП преподаватель.",
 			"class": "big-course--white",
 			"img": "course-7",

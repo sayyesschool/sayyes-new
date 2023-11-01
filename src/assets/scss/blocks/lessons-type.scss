@@ -1,6 +1,5 @@
 .lessons-type {
-	max-width: 1164px;
-	margin-bottom: 146px;
+	margin-bottom: 100px;
 
 	position: relative;
 	z-index: 1;
@@ -8,8 +7,8 @@
 	&::before {
 		content: "";
 		position: absolute;
-		top: 6%;
-		right: -42%;
+		top: -35px;
+		right: -319px;
 		width: 508px;
 		height: 560px;
 		background: url("../../assets/images/decoration/elements/red-square.svg")
@@ -18,8 +17,8 @@
 	}
 
 	.video {
-		width: 736px;
-		height: 420px;
+		width: 568px;
+		height: 310px;
 	}
 
 	.tabs {
@@ -27,17 +26,17 @@
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 
-		margin: 23px 0 51px;
-		max-width: 501px;
+		margin: 20px 0 25px;
+		max-width: 400px;
 	}
 
 	&__note {
 		position: absolute;
-		top: 165px;
-		right: 88px;
+		top: 55px;
+		right: 280px;
 	}
 }

@@ -1,23 +1,22 @@
 .student-progress {
-	margin-top: 150px;
+	margin: 150px 0 85px 60px;
+	width: 1058px;
 
-	.video {
-		width: 736px;
-		height: 420px;
+	.slider {
+		margin-top: -30px;
 	}
 
-	&__title {
-		font-size: 46px;
-		font-weight: 700;
-		line-height: 45px;
-		margin-top: 23px;
+	.subtitle {
+		max-width: 640px;
+		margin-bottom: 20px;
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
-		margin-top: 15px;
-		max-width: 627px;
+		line-height: 20px;
+
+		margin-top: 10px;
+		max-width: 500px;
 	}
 }

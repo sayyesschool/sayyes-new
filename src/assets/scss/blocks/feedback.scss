@@ -1,9 +1,15 @@
 .feedback {
+	min-height: 375px;
   display: flex;
-  justify-content: space-between;
-	min-height: 525px;
+	gap: 20px;
 
-	&__left {
+	.video {
+		width: 568px;
+		height: 310px;
+	}
+
+
+	&__video {
 		display: flex;
 		flex-direction: column;
 		align-items: end;

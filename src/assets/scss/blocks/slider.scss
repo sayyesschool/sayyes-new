@@ -1,11 +1,11 @@
 .slider {
-	padding-top: 80px;
-	margin: 50px 0 208px;
+	padding-top: 70px;
 	position: relative;
 	max-width: 1164px;
 
 	&__arrows {
 		display: flex;
+		gap: 5px;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -13,7 +13,7 @@
 
 	&__left-arrow {
 		&::before {
-			top: 26%;
+			top: 29%;
 			left: 45%;
 			transform: rotate(45deg);
 		}
@@ -27,7 +27,7 @@
 
 	&__right-arrow {
 		&::before {
-			top: 26%;
+			top: 29%;
 			left: 50%;
 			transform: rotate(-45deg);
 		}
@@ -45,16 +45,16 @@
 		&::after {
 			content: "";
 			position: absolute;
-			width: 3px;
-			height: 18px;
+			width: 2px;
+			height: 12px;
 			border-radius: 5px;
 			background-color: $black;
 		}
 
 		position: relative;
 		display: inline-block;
-		width: 60px;
-		height: 60px;
+		width: 50px;
+		height: 50px;
 
 		border-radius: 100%;
 		border: none;
@@ -69,7 +69,7 @@
 	}
 
 	&__pagination {
-		padding-left: 80%;
+		padding-left: 75%;
 		margin-top: 20px;
 
 		.swiper-pagination-bullet {

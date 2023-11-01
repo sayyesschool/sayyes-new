@@ -5,14 +5,17 @@
 			<p class="course__description">{{item.description}}</p>
 		</div>
 		<ul class="course__content">
-			{% for lesson in item.list %}
-				<li class="course__item">
-					<div class="course__lesson-type">{{lesson.lessonType}}</div>
-					<div class="course__lesson-price">{{lesson.lessonSince}}
-						<span class="course__accent">{{lesson.lessonPrice}}</span>
-						{{lesson.lessonTime}}</div>
-				</li>
-			{% endfor %}
+			<div class="course__lesson-cost">Стоимость обучения:</div>
+			<ul class="course__list">
+				{% for lesson in item.list %}
+					<li class="course__item">
+						<div class="course__lesson-type">{{lesson.lessonType}}</div>
+						<div class="course__lesson-price">{{lesson.lessonSince}}
+							<span class="course__accent">{{lesson.lessonPrice}}</span>
+							{{lesson.lessonTime}}</div>
+					</li>
+				{% endfor %}
+			</ul>
 		</ul>
 	</li>
 {% endfor %}

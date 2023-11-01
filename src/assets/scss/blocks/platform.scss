@@ -1,6 +1,6 @@
 .platform {
 	background-color: $white;
-	padding: 50px 0;
+	padding: 10px 0 10px;
 	position: relative;
 
 	.subtitle {
@@ -9,7 +9,7 @@
 
 	.video {
 		z-index: 1;
-		height: 580px;
+		height: 500px;
 	}
 
 	&__description {
@@ -28,9 +28,4 @@
 		border-radius: $border-radius;
 	}
 
-	&__bg {
-		position: absolute;
-		top: 41px;
-		right: -96px;
-	}
 }

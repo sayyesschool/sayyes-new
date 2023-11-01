@@ -1,43 +1,28 @@
 .reward {
-	max-width: 736px;
-	padding: 35px 106px;
+	max-width: 372px;
+	padding: 30px 40px;
 
 	border-radius: $border-radius;
 	background-color: $white;
-	color: #000;
-
-	&:not(:last-child) {
-		margin-bottom: 20px;
-	}
-
-	&__titles {
-		display: flex;
-		align-items: flex-start;
-		margin-bottom: 5px;
-
-		font-weight: 800;
-	}
+	color: $black;
+	font-weight: 800;
 
 	&__title {
-		font-size: 46px;
-		line-height: 45px;
-		margin-right: 38px;
+		font-size: 42px;
+		line-height: 40px;
+		margin-bottom: 5px;
 	}
 
 	&__subtitle {
-		font-size: 18px;
-		line-height: 20px;
-		max-width: 169px;
-	}
-
-	&__numbering {
-		display: block;
-		font-size: 24px;
+		font-size: 16px;
+		line-height: 15px;
+		max-width: 170px;
+		margin-bottom: 20px;
 	}
 
 	&__description {
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: 600;
-		line-height: 20px;
+		line-height: 15px;
 	}
 }

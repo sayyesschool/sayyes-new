@@ -1,7 +1,7 @@
 .tabs,
 .subtabs {
 	&__nav {
-		max-width: 628px;
+		max-width: 568px;
 		display: flex;
 		justify-content: space-between;
 
@@ -10,10 +10,10 @@
 		line-height: 20px;
 
 		&--feedback {
-			padding-left: 756px;
+			padding-left: 747px;
 
 			.tabs__tab {
-				min-width: 200px;
+				min-width: 230px;
 				min-height: 55px;
 
 				background-color: $yellow;
@@ -27,7 +27,7 @@
 
 		&--courses,
 		&--courses-2 {
-			margin: 0 0 40px 50px;
+			margin-bottom: 40px;
 
 			.tabs__tab {
 				background-color: $yellow;
@@ -128,16 +128,20 @@
 	}
 
 	&__tab {
-		width: 309px;
+		width: 279px;
 		min-height: 50px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-right: 10px;
 		background-color: $white;
 		border: none;
 		font-size: 18px;
-		font-weight: 700;
+		font-weight: 600;
+		line-height: 20px;
+
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
 	}
 
 	&__item {

@@ -1,7 +1,5 @@
 .trial-lesson-mini {
-	max-width: 1276px;
-	padding: 76px 0 71px;
-	margin-bottom: 150px;
+	padding: 60px 175px 40px;
 	position: relative;
 
 	background-color: $yellow;
@@ -21,16 +19,16 @@
 
 	&__hourglass-icon {
 		top: -42.5px;
-		right: 361px;
+		right: 300px;
 	}
 
 	&__book-icon {
-		bottom: 25px;
-		left: -50px;
+		bottom: -20px;
+    left: -20px;
 	}
 
 	&__statue-of-liberty-icon {
-		bottom: 0;
-		right: 23px;
+    bottom: -25px;
+    right: 35px;
 	}
 }

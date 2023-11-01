@@ -1,14 +1,22 @@
 .trial-lesson {
-	margin: 48px 0 130px 0;
+	margin-bottom: 100px;
 
-	&__title {
+	.subtitle {
 		max-width: 701px;
-		margin: 0 0 28px 107px;
+		margin-left: 50px;
+		line-height: 40px;
+		font-size: 42px;
+
+		margin-bottom: 20px;
 	}
 
 	&__description {
+		font-size: 18px;
 		font-weight: 600;
-		max-width: 538px;
-		margin: 0 0 11px 107px;
+    max-width: 380px;
+		line-height: 20px;
+
+		margin-left: 50px;
+		margin-bottom: -20px;
 	}
 }

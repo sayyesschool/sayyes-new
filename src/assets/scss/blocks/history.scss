@@ -1,64 +1,65 @@
 .history {
-	margin: 146px 0 151px;
+	margin: 100px 0 100px;
 
 	.subtitle {
 		max-width: 921px;
-		margin-bottom: 51px;
+		margin-bottom: 40px;
 	}
 
 	&__columns {
+		margin-top: -100px;
 		display: flex;
-		justify-content: space-between;
+		gap: 20px;
 		align-items: flex-end;
 	}
 
 	&__left {
+		width: 764px;
+		display: flex;
+		gap: 20px;
+		flex-wrap: wrap;
 		position: relative;
 		z-index: 1;
 	}
 
 	&__right {
+		width: 372px;
 		position: relative;
 
 		&::before,
 		&::after {
 			content: "";
-			width: 192px;
-			height: 413px;
+			width: 137px;
+			height: 301px;
 			position: absolute;
-			background: url("../../assets/images/decoration/elements/branch.svg") center
-				center/cover no-repeat;
+			background: url("../../assets/images/decoration/elements/branch.svg")
+				center center/cover no-repeat;
 		}
 
 		&::before {
-			top: -365px;
-			left: -140px;
+			top: 70px;
+			left: -70px;
 		}
 
 		&::after {
 			transform: scaleX(-1);
-			top: -365px;
-			right: -90px;
+			top: 90px;
+			right: -55px;
 		}
 	}
 
 	&__note {
 		position: absolute;
-		top: -655px;
-		right: 112px;
-	}
-
-	&__confetti {
-		position: absolute;
-		top: -620px;
-		right: -138px;
-		z-index: 1;
+		width: 148px;
+		height: 146px;
+		top: -165px;
+		right: 40px;
 	}
 
 	&__img {
-		position: absolute;
-		top: -300%;
-		left: -60%;
-		z-index: 1;
+		position: relative;
+		right: 62px;
+		width: 452px;
+		height: 336px;
 	}
 }

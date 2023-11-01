@@ -1,6 +1,6 @@
 .practice {
-	padding: 88px 0 50px;
-	margin-top: 130px;
+	padding: 95px 0 30px;
+	margin-top: 100px;
 
 	background-color: $white;
 	border-radius: $border-radius $border-radius 0 0;
@@ -12,20 +12,20 @@
 	&__content {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 58px;
+		margin-top: 40px;
 	}
 
 	&__description {
-		max-width: 311px;
+		max-width: 380px;
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 20px;
 	}
 
 	&__img {
-		width: 736px;
-		height: 420px;
-		object-fit: contain;
+		width: 666px;
+		height: 360px;
+		object-fit: cover;
 
 		border-radius: $border-radius;
 	}

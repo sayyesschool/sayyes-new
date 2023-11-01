@@ -29,8 +29,13 @@ a {
 }
 
 .container {
-	max-width: 1276px;
+	max-width: 1280px;
 	margin: 0 auto;
+
+	.trial-lesson-mini {
+		margin-right: 62px;
+		margin-left: 62px;
+	}
 }
 
 @import "blocks/about-teacher";

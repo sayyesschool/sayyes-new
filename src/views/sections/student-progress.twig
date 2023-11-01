@@ -1,6 +1,6 @@
 <section class="student-progress">
 	<div class="section-container">
-		<h2 class="student-progress__title">Наши ученики рассказывают
+		<h2 class="subtitle">Наши ученики рассказывают
 			<span class="text text--violent">о своем прогрессе</span>
 		</h2>
 		<p class="student-progress__description">
@@ -19,7 +19,7 @@
 			{% for item in studentsAboutProgress %}
 				<div class="slider__slide swiper-slide">
 					<div class="feedback">
-						<div class="feedback__left">
+						<div class="feedback__video">
 							<div class="video">
 								<img src="./assets/images/student-progress/{{item.img}}.jpg" alt="Анастасия Король" class="video__bg">
 								<button class="play" id="{{item.videoId}}"></button>
@@ -28,15 +28,14 @@
 								<p class="commet__description">{{item.comment}}</p>
 							</div>
 						</div>
-						<div class="feedback__right">
-							<div class="about-person">
-								<h3 class="about-person__title">{{item.name}}</h3>
-								<p class="about-person__description">{{item.description}}</p>
-								<h4 class="about-person__mini-title">Преподаватель:</h4>
-								<a href="#" class="about-person__link">{{item.teacher}}</a>
-								<h4 class="about-person__mini-title">Курс:</h4>
-								<a href="#" class="about-person__link">{{item.course}}</a>
-							</div>
+						<div class="about-person">
+							<h3 class="about-person__title">{{item.name}}</h3>
+							<h4 class="about-person__mini-title">Прогресс за 3 месяца</h4>
+							<p class="about-person__description">{{item.description}}</p>
+							<h4 class="about-person__mini-title">Преподаватель:</h4>
+							<a href="#" class="about-person__link">{{item.teacher}}</a>
+							<h4 class="about-person__mini-title">Курс:</h4>
+							<a href="#" class="about-person__link">{{item.course}}</a>
 						</div>
 					</div>
 				</div>

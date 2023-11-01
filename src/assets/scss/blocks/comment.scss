@@ -1,26 +1,35 @@
 .comment {
+	width: 100%;
 	position: relative;
-	padding: 34px 49px 36px 60px;
-	max-width: 520px;
+	z-index: 1;
+	padding: 34px 45px 40px 40px;
 
 	background-color: $violent;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 600;
 	line-height: 20px;
 	color: $white;
 	border-radius: $border-radius;
 
 	&__title {
-		max-width: 313px;
-		margin-bottom: 8px;
+		margin-bottom: 30px;
 
 		font-weight: 800;
 		line-height: 19px;
 	}
 
+	&__description {
+		line-height: 15px;
+
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+
 	&--sm {
-		max-width: 411px;
-		padding: 30px 68px;
+		font-style: italic;
+		max-width: 276px;
+		padding: 15px 32px;
 
 		border-radius: $border-radius-sm;
 	}
