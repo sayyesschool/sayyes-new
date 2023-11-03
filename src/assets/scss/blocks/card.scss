@@ -127,4 +127,26 @@
 				center center/contain no-repeat;
 		}
 	}
+
+	&--contact-card {
+		.card__content {
+			padding: 35px 100px 30px 50px;
+			min-height: 280px;
+		}
+
+		.card__post {
+			margin-bottom: auto;
+		}
+
+		.card__description {
+			margin-bottom: 10px;
+		}
+
+		li {
+			color: $violent;
+
+			display: flex;
+			gap: 15px;
+		}
+	}
 }

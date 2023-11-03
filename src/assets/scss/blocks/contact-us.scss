@@ -1,29 +1,8 @@
 .contact-us {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
-		margin-bottom: 50px;
-	}
-
-	.card {
-		.card__content {
-			min-height: 410px;
-		}
-
-		.card__post {
-			margin-bottom: auto;
-		}
-
-		p.card__description {
-			margin-bottom: 14px;
-		}
-
-		li {
-			color: $violent;
-
-			display: flex;
-			gap: 15px;
-		}
+		margin-bottom: 40px;
 	}
 
 	&__cards {

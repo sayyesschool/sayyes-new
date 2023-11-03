@@ -1548,7 +1548,11 @@
 					"link": "#"
 				},
 				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
-				{ "icon": "icon--email", "value": "sorochuk", "link": "#" }
+				{
+					"icon": "icon--email",
+					"value": "r.sorochuk@sayes.ru",
+					"link": "#"
+				}
 			],
 			"type": "team-card"
 		},
