@@ -79,16 +79,37 @@
 		.btn {
 			display: block;
 		}
+	}
 
+	&--progress,
+	&--vacancies {
 		.mainscreen-big__description {
-			max-width: 590px;
+			max-width: 650px;
 		}
 	}
 
-	&--progress {
+	&--methodology {
 		.mainscreen-big__description {
-			max-width: 1000px;
-			margin-bottom: 70px;
+			max-width: 520px;
+		}
+	}
+
+	&--companies {
+		.mainscreen-big__description {
+			max-width: 450px;
+		}
+	}
+
+	&--price {
+		.mainscreen-big__description {
+			max-width: 340px;
+		}
+	}
+
+	&--adults,
+	&--children {
+		.mainscreen-big__description {
+			max-width: 460px;
 		}
 	}
 }

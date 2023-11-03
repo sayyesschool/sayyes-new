@@ -1,30 +1,15 @@
 <section class="expectations">
-	<div class="text-blocks text-blocks--expectations">
-		<div>
-			<h2 class="subtitle">Ожидание от кандидатов</h2>
-			<p class="text-blocks__description">Мы готовы вкладываться в ваше развитие, но базовый опыт и знания необходимы уже со старта работы у нас в школе.</p>
-		</div>
-		<div class="text-block text-block--sm-text text-block--hourglass-bg text-block--yellow">
-			<h4 class="text-block__title">Опыт</h4>
-			<p class="text-block__description">Вы преподаете английский взрослым или детям не менее одного года.</p>
-		</div>
-		<div class="text-blocks__columns">
-			<div class="text-blocks__left">
-				{% for item in expectations1 %}
-					<div class="text-block {{item.class}}">
-						<h4 class="text-block__title">{{item.title}}</h4>
-						<p class="text-block__description">{{item.description}}</p>
-					</div>
-				{% endfor %}
-			</div>
-			<div class="text-blocks__right">
-				{% for item in expectations2 %}
-					<div class="text-block {{item.class}}">
-						<h4 class="text-block__title">{{item.title}}</h4>
-						<p class="text-block__description">{{item.description}}</p>
-					</div>
-				{% endfor %}
-			</div>
+	<div class="section-container">
+		<h2 class="subtitle">Ожидание от кандидатов</h2>
+		<p class="expectations__description">Мы готовы вкладываться в ваше развитие, но базовый опыт и знания необходимы уже со старта работы у нас в школе.</p>
+
+		<div class="text-blocks text-blocks--expectations">
+			{% for item in expectations1 %}
+				<div class="text-block {{item.class}}">
+					<h4 class="text-block__title">{{item.title}}</h4>
+					<p class="text-block__description">{{item.description}}</p>
+				</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>

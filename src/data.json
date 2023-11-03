@@ -1370,18 +1370,18 @@
 			]
 		},
 		{
-			"title": "Онлайн или офлайн в Москве",
-			"list": [
-				{ "property": "Формат занятости выбираете вы.", "value": "" }
-			]
-		},
-		{
 			"title": "Удобный онлайн класс",
 			"list": [
 				{
 					"property": "Платформа с готовыми уроками и автоматической проверкой ДЗ.",
 					"value": ""
 				}
+			]
+		},
+		{
+			"title": "Онлайн или офлайн в Москве",
+			"list": [
+				{ "property": "Формат занятости выбираете вы.", "value": "" }
 			]
 		}
 	],
@@ -1400,62 +1400,65 @@
 		{
 			"title": "Современные пособия",
 			"description": "Используем новейшие пособия Oxford, Cambridge и Macmillan",
-			"class": "text-block--big text-block--books-bg"
+			"class": "text-block--books-bg"
 		},
 		{
 			"title": "Стандартизированная методика",
 			"description": "Практикуем один подход в офлайн и онлайн формате",
-			"class": "text-block--big"
+			"class": ""
 		}
 	],
 	"expectations1": [
 		{
+			"title": "Квалификация",
+			"description": "У вас есть профильное образование или международные сертификаты.",
+			"class": "text-block--diploma-bg text-block--yellow"
+		},
+		{
+			"title": "Личные качества",
+			"description": "Вы энергичны и дружелюбны. Вы обладаете способностью и желанием «заряжать» учеников.",
+			"class": " text-block--heart-bg text-block--yellow"
+		},
+		{
+			"title": "Опыт",
+			"description": "Вы преподаете английский взрослым или детям не менее одного года.",
+			"class": "text-block--clock-2-bg text-block--yellow"
+		},
+		{
 			"title": "Речь",
 			"description": "У вас хорошее произношение, близкое к носителям языка.",
-			"class": "text-block--sm-text text-block--comment-bg text-block--yellow"
+			"class": "text-block--comment-bg text-block--yellow"
 		},
 		{
 			"title": "Ценности",
 			"description": "Вы готовы стать частью корпоративной политики Школы и соблюдать этику Компании.",
-			"class": "text-block--sm-text text-block--diploma-bg text-block--yellow"
+			"class": "text-block--leaves-bg text-block--yellow"
 		}
 	],
 	"expectations2": [
 		{
-			"title": "Личные качества",
-			"description": "Вы энергичны и дружелюбны. <br> Вы обладаете способностью и желанием «заряжать» учеников.",
-			"class": " text-block--sm-text text-block--big text-block--heart-bg text-block--yellow"
-		},
-		{
-			"title": "Квалификация",
-			"description": "У вас есть профильное образование или международные сертификаты.",
-			"class": "text-block--sm-text text-block--big text-block--leaves-bg text-block--yellow"
-		}
-	],
-	"expectations3": [
-		{
 			"title": "Отклик",
 			"description": "Отправьте резюме на вакансию школы английского языка SAY YES!",
 			"tip": "Шаг 1",
-			"class": "text-block--sm-text text-block--mail-bg"
+			"class": "text-block--mail-bg"
 		},
 		{
 			"title": "Знакомство",
 			"description": "Пройдите индивидуальное онлайн собеседование",
 			"tip": "Шаг 2",
-			"class": "text-block--sm-text text-block--contact-bg"
+			"class": "text-block--contact-bg"
 		},
 		{
 			"title": "Обучение",
 			"description": "Пройдите обучение у лучших методистов школы",
 			"tip": "Шаг 3",
-			"class": "text-block--sm-text text-block--cap-bg"
+			"class": "text-block--cap-bg"
 		},
 		{
 			"title": "Сотрудничество",
 			"description": "Начните сотрудничество с одной из современных школ английского языка",
 			"tip": "Шаг 4",
-			"class": "text-block--sm-text text-block--note-bg"
+			"class": "text-block--note-bg"
 		}
 	],
 	"studentReviews": [
@@ -1594,39 +1597,39 @@
 		{
 			"title": "Покупка всего курса",
 			"description": "Оплачивайте по три или шесть месяцев сразу и учитесь выгоднее.*",
-			"class": "text-block--sm-text text-block--books-2-bg text-block--discount-bg"
+			"class": "text-block--books-2-bg text-block--discount-bg"
 		},
 		{
 			"title": "Приведи друга",
 			"description": "Рекомендуйте нас друзьям, и мы подарим вам и другу 2 урока к любому курсу!*",
-			"class": "text-block--sm-text text-block--student-bg text-block--free-lessons-bg"
+			"class": "text-block--student-bg text-block--free-lessons-bg"
 		},
 		{
 			"title": "Семейное обучение",
 			"description": "Учите английский всей семьёй и получите постоянную скидку 20%.*",
-			"class": "text-block--sm-text text-block--family-bg text-block--discount-2-bg"
+			"class": "text-block--family-bg text-block--discount-2-bg"
 		}
 	],
 	"educationDirections": [
 		{
 			"title": "Общий курс",
 			"description": "Обучение разговорному английскому языку",
-			"class": "text-block--sm-text text-block--yellow text-block--cap-2-bg"
+			"class": "text-block--yellow text-block--cap-2-bg"
 		},
 		{
 			"title": "Бизнес курс",
 			"description": "Обучение деловому английскому для работы",
-			"class": "text-block--sm-text text-block--yellow text-block--briefcase-bg"
+			"class": "text-block--yellow text-block--briefcase-bg"
 		},
 		{
 			"title": "Курсы для профессионалов",
 			"description": "Программы для конкретных профессий и должностей",
-			"class": "text-block--sm-text text-block--yellow text-block--person-bg"
+			"class": "text-block--yellow text-block--person-bg"
 		},
 		{
 			"title": "Погружение в среду",
 			"description": "Разговорные клубы с носителями английского языка",
-			"class": "text-block--sm-text text-block--yellow text-block--comments-bg"
+			"class": "text-block--yellow text-block--comments-bg"
 		}
 	],
 	"cooperation": [
@@ -1766,22 +1769,22 @@
 		{
 			"title": "Уровни",
 			"description": "Обучение разговорному английскому языку",
-			"class": "text-block--sm-text text-block--yellow text-block--levels-bg"
+			"class": "text-block--yellow text-block--levels-bg"
 		},
 		{
 			"title": "Темы",
 			"description": "Актуальные, «на злобу дня» ",
-			"class": "text-block--sm-text text-block--yellow text-block--fire-bg"
+			"class": "text-block--yellow text-block--fire-bg"
 		},
 		{
 			"title": "Ведущие",
 			"description": "Русскоязычные и носители языка",
-			"class": "text-block--sm-text text-block--yellow text-block--webcam-2-bg"
+			"class": "text-block--yellow text-block--webcam-2-bg"
 		},
 		{
 			"title": "Формат",
 			"description": "Онлайн встречи в ZOOM",
-			"class": "text-block--sm-text text-block--yellow text-block--format-bg"
+			"class": "text-block--yellow text-block--format-bg"
 		}
 	],
 	"clubBigCards": [
@@ -1839,25 +1842,25 @@
 			"title": "Регистрация",
 			"description": "Выбирайте встречу вашего уровня и оплачивайте участие. Данные для входа вам придут на почту.",
 			"tip": "Шаг 1",
-			"class": "text-block--sm-text text-block--student-2-bg"
+			"class": "text-block--student-2-bg"
 		},
 		{
 			"title": "Подготовка",
 			"description": "Чтобы встреча прошла еще эффективнее, мы пришлем вам на почту материалы для ознакомления.",
 			"tip": "Шаг 2",
-			"class": "text-block--sm-text text-block--notes-2-bg"
+			"class": "text-block--notes-2-bg"
 		},
 		{
 			"title": "Знакомство",
 			"description": "Выходите в онлайн в установленное время, по ссылке в письме.",
 			"tip": "Шаг 3",
-			"class": "text-block--sm-text text-block--contact-2-bg"
+			"class": "text-block--contact-2-bg"
 		},
 		{
 			"title": "Общение",
 			"description": "Благодаря «кабинетам» в ZOOM вы будете много общаться и получите много практики языка.",
 			"tip": "Шаг 4",
-			"class": "text-block--sm-text text-block--contacts-2-bg"
+			"class": "text-block--contacts-2-bg"
 		}
 	],
 	"clubMetingCards": [
@@ -2042,22 +2045,22 @@
 		{
 			"title": "Уроки построены на интересах вашего ребенка",
 			"description": "Включаем в программу обсуждение любимых игр, мультфильмов и книг. Даже непоседе не удастся заскучать!",
-			"class": "text-block--sm-text text-block--heart-2-bg"
+			"class": "text-block--heart-2-bg"
 		},
 		{
 			"title": "Талантливые педагоги с профильным образованием",
 			"description": "Преподавателей отбираем  по опыту и дипломам, а также по отзывам родителей учеников.",
-			"class": "text-block--sm-text text-block--woman-bg"
+			"class": "text-block--woman-bg"
 		},
 		{
 			"title": "Разговорный онлайн-клуб с носителями языка",
 			"description": "Организовываем дополнительную практику “живого” языка. Общение на английском с ровесниками и море позитивных эмоций.",
-			"class": "text-block--sm-text text-block--comments-2-bg"
+			"class": "text-block--comments-2-bg"
 		},
 		{
 			"title": "Программа для конкретных целей",
 			"description": "Повышение успеваемости в школе? Нужно «разговорить» ребенка или «почистить» грамматику? Работаем над вашей целью до получения результата.",
-			"class": "text-block--sm-text text-block--target-bg"
+			"class": "text-block--target-bg"
 		}
 	],
 	"personalApproachSlider": [
@@ -2081,17 +2084,17 @@
 		{
 			"title": "Строгий кастинг педагогов",
 			"description": "Отбор проходит только 1 из 50 преподавателей",
-			"class": "text-block--sm-text text-block--white text-block--casting-bg"
+			"class": "text-block--white text-block--casting-bg"
 		},
 		{
 			"title": "Профильное образование",
 			"description": "Проверяем наличие  дипломов, сертификатов и профессионального образования",
-			"class": "text-block--sm-text text-block--diploma-2-bg"
+			"class": "text-block--diploma-2-bg"
 		},
 		{
 			"title": "Контроль качества обучения",
 			"description": "Регулярно собираем отзывы и контролируем результат и качество обучения",
-			"class": "text-block--sm-text text-block--comment-2-bg"
+			"class": "text-block--comment-2-bg"
 		}
 	],
 	"courseFeedbackAdults": [

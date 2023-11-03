@@ -1,46 +1,49 @@
 .big-cards {
-	width: 1476px;
-	transform: translateX(-100px);
-	padding: 70px 100px 100px;
-	margin-bottom: 200px;
+	padding: 65px 62px 80px;
+	margin-bottom: 100px;
 
 	background-color: $medium-magenta;
 	border-radius: $border-radius;
 
 	.subtitle {
-		margin-bottom: 50px;
+		margin-bottom: 45px;
 		max-width: 660px;
 	}
 
 	&__cards {
 		display: grid;
-		grid-template-columns: repeat(3, 410px);
-		grid-template-rows: repeat(2, 412px);
+		grid-template-columns: repeat(3, 372px);
+		grid-template-rows: repeat(2, 245px);
 		gap: 20px;
 	}
 
 	&__card {
-		padding: 48px 65px 41px 49px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 45px 45px 45px 50px;
 
 		background-color: $white;
 		border-radius: $border-radius;
 	}
 
 	&__title {
-		font-size: 32px;
 		font-weight: 700;
-		line-height: 30px;
+		line-height: 25px;
 
-		max-width: 280px;
-		position: absolute;
+		max-width: 210px;
 	}
 
 	&__list {
-		margin-top: 205px;
-
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin-bottom: 5px;
+		}
 	}
 
 	&--speaking-club {
@@ -60,8 +63,6 @@
 
 		.big-cards__list {
 			margin-top: 115px;
-			// max-width: none;
-			// margin-bottom: 55px;
 		}
 	}
 }

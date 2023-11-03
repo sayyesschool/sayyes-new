@@ -1,68 +1,33 @@
 .text-block {
+	// чтобы не разбивать цикл в twig файле, мне пришлось использовать тут трансформацию, так как в другом случае потребывалось бы делит цикл и добавлять несколько контейнеров в вёрстку
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	width: 412px;
-	min-height: 350px;
-	padding: 41px 88px 46px 47px;
-	margin-bottom: 20px;
+	width: 372px;
+	min-height: 190px;
+	padding: 40px 50px 40px 48px;
 	position: relative;
 
 	background-color: $white;
 	border-radius: $border-radius;
 
 	&__title {
-		font-size: 46px;
 		font-weight: 700;
 		line-height: 45px;
 
-		margin-top: 35px;
+		margin-top: auto;
+		margin-bottom: 5px;
 	}
 
 	&__tip {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 800;
-		line-height: 25px;
+		line-height: 20px;
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
-	}
-
-	&--big {
-		width: 844px;
-		min-height: 400px;
-
-		.text-block__title {
-			max-width: 520px;
-		}
-
-		.text-block__description {
-			max-width: 320px;
-		}
-
-		&:last-child {
-			min-height: 300px;
-		}
-	}
-
-	&--sm-text {
-		justify-content: flex-end;
-		padding-right: 34px;
-
-		.text-block__title {
-			font-size: 32px;
-			font-weight: 700;
-			line-height: 30px;
-
-			margin-bottom: 25px;
-		}
-
-		.text-block__description {
-			max-width: 550px;
-		}
+		line-height: 20px;
 	}
 
 	&--violent {
@@ -110,6 +75,7 @@
 	&--levels-2-bg,
 	&--lightning-bg,
 	&--clock-bg,
+	&--clock-2-bg,
 	&--rubles-bg,
 	&--calendar-bg,
 	&--woman-bg,
@@ -204,10 +170,10 @@
 
 	&--comment-bg {
 		&::before {
-			width: 225px;
-			height: 192px;
-			top: -31px;
-			right: 3px;
+			width: 114px;
+			height: 97px;
+			top: -15px;
+			right: -4px;
 			background-image: url("../../assets/images/decoration/elements/comment.svg");
 		}
 	}
@@ -245,10 +211,10 @@
 
 	&--heart-bg {
 		&::before {
-			width: 388px;
-			height: 369px;
-			top: -17px;
-			right: -64px;
+			width: 226px;
+			height: 215px;
+			top: -18px;
+			right: -18px;
 			background-image: url("../../assets/images/decoration/elements/heart.svg");
 		}
 	}
@@ -266,10 +232,10 @@
 
 	&--diploma-bg {
 		&::before {
-			width: 208px;
-			height: 205px;
-			top: -20px;
-			right: -30px;
+			width: 133px;
+			height: 124px;
+			top: -21px;
+			right: 0px;
 			background-image: url("../../assets/images/decoration/elements/diploma.svg");
 		}
 	}
@@ -287,30 +253,30 @@
 
 	&--leaves-bg {
 		&::before {
-			width: 217px;
-			height: 222px;
-			bottom: -19px;
-			right: -37px;
+			width: 104px;
+			height: 106px;
+			top: -10px;
+			right: -19px;
 			background-image: url("../../assets/images/decoration/elements/leaves.svg");
 		}
 	}
 
 	&--mail-bg {
 		&::before {
-			width: 258px;
-			height: 208px;
-			top: -29px;
-			right: -82px;
+			width: 157px;
+			height: 122px;
+			top: -22px;
+			right: -12px;
 			background-image: url("../../assets/images/decoration/elements/mail.svg");
 		}
 	}
 
 	&--contact-bg {
 		&::before {
-			width: 253px;
-			height: 206px;
-			top: -25px;
-			right: -79px;
+			width: 154px;
+			height: 123px;
+			top: -12px;
+			right: -9px;
 			background-image: url("../../assets/images/decoration/elements/person.svg");
 		}
 	}
@@ -357,20 +323,20 @@
 
 	&--cap-bg {
 		&::before {
-			width: 269px;
-			height: 216px;
-			top: -10px;
-			right: -60px;
+			width: 187px;
+			height: 150px;
+			top: -25px;
+			right: -35px;
 			background-image: url("../../assets/images/decoration/elements/cap.svg");
 		}
 	}
 
 	&--note-bg {
 		&::before {
-			width: 267px;
-			height: 218px;
-			top: -31px;
-			right: -68px;
+			width: 200px;
+			height: 164px;
+			top: -60px;
+			right: -21px;
 			background-image: url("../../assets/images/decoration/elements/note-with-pen.svg");
 		}
 	}
@@ -543,6 +509,16 @@
 			top: -46px;
 			right: -51px;
 			background-image: url("../../assets/images/decoration/elements/clock.svg");
+		}
+	}
+
+	&--clock-2-bg {
+		&::before {
+			width: 110px;
+			height: 110px;
+			top: -26px;
+			right: 2px;
+			background-image: url("../../assets/images/decoration/elements/clock-2.svg");
 		}
 	}
 
