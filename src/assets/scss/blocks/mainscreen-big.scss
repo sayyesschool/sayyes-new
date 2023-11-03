@@ -81,6 +81,12 @@
 		}
 	}
 
+	&--progress {
+		.mainscreen-big__description {
+		margin-bottom: 30px;
+		}
+	}
+
 	&--progress,
 	&--vacancies {
 		.mainscreen-big__description {
