@@ -31,13 +31,25 @@
 		margin-bottom: 45px;
 	}
 
-	&--expectations {
-		.subtitle {
-			margin-bottom: 20px;
-		}
+	&--methodology {
+		.text-block {
+			min-height: 195px;
 
-		.text-blocks__description {
-			margin-bottom: 45px;
+			.text-block__title {
+				max-width: 220px;
+			}
+
+			&:nth-child(2) {
+				overflow: hidden;
+
+				.text-block__title {
+					margin-top: 0;
+				}
+
+				.text-block__description {
+					margin-bottom: auto;
+				}
+			}
 		}
 	}
 }

@@ -1,10 +1,10 @@
 .text-block {
-	// чтобы не разбивать цикл в twig файле, мне пришлось использовать тут трансформацию, так как в другом случае потребывалось бы делит цикл и добавлять несколько контейнеров в вёрстку
+	// чтобы не разбивать цикл в twig файле, мне пришлось использовать тут трансформацию, так как в другом случае потребывалось бы делить цикл и добавлять несколько контейнеров в вёрстку
 	display: flex;
 	flex-direction: column;
 	width: 372px;
 	min-height: 190px;
-	padding: 40px 50px 40px 48px;
+	padding: 40px 50px 45px 48px;
 	position: relative;
 
 	background-color: $white;
@@ -12,10 +12,10 @@
 
 	&__title {
 		font-weight: 700;
-		line-height: 45px;
+		line-height: 25px;
 
 		margin-top: auto;
-		margin-bottom: 5px;
+		margin-bottom: 15px;
 	}
 
 	&__tip {
@@ -142,8 +142,8 @@
 		&::before {
 			width: 288px;
 			height: 233px;
-			bottom: 35px;
-			right: -20px;
+			bottom: -20px;
+			right: -55px;
 			background-image: url("../../assets/images/decoration/elements/books.svg");
 		}
 	}

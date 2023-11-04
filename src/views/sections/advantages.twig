@@ -1,35 +1,21 @@
 {% if page == 'methodology' %}
 	{% set title = 'Важные факты о преимуществах обучения в SAY YES!' %}
-	{% set mixin = 'advantages__methodology' %}
+	{% set mixin = 'text-blocks--methodology' %}
 {% elseif page == 'adults-courses' %}
 	{% set title = 'Важные факты о курсе Английский с нуля' %}
-	{% set mixin = 'advantages__adults-courses' %}
+	{% set mixin = 'text-blocks--adults-courses' %}
 {% endif %}
 
 <section class="advantages {{mixin}}">
-	<div class="text-blocks">
-		<h2 class="subtitle">Обучение в SAY YES! — это больше, чем занятия с преподавателем. Сотрудничая с SAY YES! вы также получаете:</h2>
-		<div class="text-block">
-			<h4 class="text-block__title">75 % практика языка</h4>
-			<p class="text-block__description">Бóльшую часть занятия говорит студент</p>
-		</div>
-		<div class="text-blocks__columns">
-			<div class="text-blocks__left">
-				{% for item in advantages1 %}
-					<div class="text-block {{item.class}}">
-						<h4 class="text-block__title">{{item.title}}</h4>
-						<p class="text-block__description">{{item.description}}</p>
-					</div>
-				{% endfor %}
-			</div>
-			<div class="text-blocks__right">
-				{% for item in advantages2 %}
-					<div class="text-block {{item.class}}">
-						<h4 class="text-block__title">{{item.title}}</h4>
-						<p class="text-block__description">{{item.description}}</p>
-					</div>
-				{% endfor %}
-			</div>
+	<div class="section-container">
+		<h2 class="subtitle">Важные факты о преимуществах обучения языку в SAY YES!</h2>
+		<div class="text-blocks">
+			{% for item in advantages %}
+				<div class="text-block {{item.class}}">
+					<h4 class="text-block__title">{{item.title}}</h4>
+					<p class="text-block__description">{{item.description}}</p>
+				</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>
