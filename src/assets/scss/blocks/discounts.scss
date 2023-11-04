@@ -1,48 +1,38 @@
 .discounts {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
-		margin: 0 auto 23px;
+		margin: 0 auto 20px;
 		text-align: center;
 	}
 
 	.text-block {
-		justify-content: flex-start;
-		padding-top: 175px;
-		min-height: 410px;
-
-		.text-block__title {
-			max-width: 235px;
-		}
+		min-height: 370px;
 	}
 
 	&__description {
-		max-width: 402px;
+		max-width: 400px;
 		margin: 0 auto;
-		margin-bottom: 50px;
+		margin-bottom: 45px;
 
 		text-align: center;
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 	}
 
 	&__blocks {
 		display: flex;
 		justify-content: space-between;
-
-		.text-block__title {
-			max-width: 240px;
-		}
 	}
 
 	&__ps {
 		max-width: 680px;
-		margin: 0 auto;
+		margin: 35px auto 0;
 
 		text-align: center;
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 	}
 }

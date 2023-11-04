@@ -3,13 +3,13 @@
 
 	.subtitle {
 		max-width: 712px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 	}
 
 	&__course-blocks {
@@ -22,7 +22,7 @@
 	&--offer {
 		.subtitle {
 			max-width: 881px;
-			margin: 0 auto 23px;
+			margin: 0 auto 20px;
 
 			text-align: center;
 		}
@@ -33,7 +33,7 @@
 
 		.courses__description {
 			text-align: center;
-			margin-bottom: 70px;
+			margin-bottom: 40px;
 		}
 	}
 }

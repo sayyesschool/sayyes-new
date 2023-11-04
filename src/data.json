@@ -486,7 +486,7 @@
 		{
 			"title": "Подготовка к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам.",
-			"class": "course--black",
+			"class": "course--pink",
 			"list": [
 				{
 					"lessonType": "индивидуально <br>  онлайн и офлайн",
