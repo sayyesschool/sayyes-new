@@ -512,7 +512,7 @@
 	"courses3": [
 		{
 			"title": "Груповое обучение в школе в Москве",
-			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
+			"description": "Наш офис находится в 7 минутах пешком от метро Павелецкая.",
 			"class": "big-course--white big-course--without-list",
 			"img": "course-1"
 		},
@@ -543,7 +543,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "офлайн группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -569,7 +569,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "офлайн группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -595,8 +595,8 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "офлайн группа",
-					"lessonPrice": "1540 ₽",
+					"lessonType": "индивидуально",
+					"lessonPrice": "1.540 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
 				}
@@ -615,15 +615,21 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "индивидуально группа",
-					"lessonPrice": "1540 ₽",
+					"lessonType": "онлайн группа",
+					"lessonPrice": "7.200 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/мес."
+				},
+				{
+					"lessonType": "индивидуально",
+					"lessonPrice": "1.540 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
 				}
 			]
 		},
 		{
-			"title": "Подготовка к экзаменам",
+			"title": "Курс подготовки к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам.",
 			"class": "big-course--white",
 			"img": "course-8",
@@ -644,7 +650,7 @@
 			"list": [
 				{
 					"lessonType": "встреча в группе <br> онлайн",
-					"lessonPrice": "940 ₽",
+					"lessonPrice": "490 ₽",
 					"lessonTime": "/встреча"
 				}
 			]
@@ -653,7 +659,7 @@
 	"courses5": [
 		{
 			"title": "Индивидуальное обучение в школе в Москве",
-			"description": "Наш офис находится в 7 минутах от метро Павелецкая.",
+			"description": "Наш офис находится в 7 минутах пешком от метро Павелецкая.",
 			"class": "big-course--white big-course--without-list",
 			"img": "course-1"
 		},
@@ -672,20 +678,14 @@
 			"img": "course-10",
 			"list": [
 				{
-					"lessonType": "офлайн группа",
-					"lessonPrice": "9.000 ₽",
-					"lessonSince": "от",
-					"lessonTime": "/мес."
-				},
-				{
-					"lessonType": "онлайн группа",
-					"lessonPrice": "7.200 ₽",
-					"lessonSince": "от",
-					"lessonTime": "/мес."
-				},
-				{
-					"lessonType": "офлайн группа",
+					"lessonType": "онлайн индивидуально",
 					"lessonPrice": "542 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				},
+				{
+					"lessonType": "офлайн индивидуально",
+					"lessonPrice": "1.550 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
 				}
@@ -698,20 +698,14 @@
 			"img": "course-11",
 			"list": [
 				{
-					"lessonType": "офлайн группа",
-					"lessonPrice": "9.000 ₽",
-					"lessonSince": "от",
-					"lessonTime": "/мес."
-				},
-				{
-					"lessonType": "онлайн группа",
-					"lessonPrice": "7.200 ₽",
-					"lessonSince": "от",
-					"lessonTime": "/мес."
-				},
-				{
-					"lessonType": "офлайн группа",
+					"lessonType": "онлайн индивидуально",
 					"lessonPrice": "950 ₽",
+					"lessonSince": "от",
+					"lessonTime": "/урок."
+				},
+				{
+					"lessonType": "офлайн индивидуально",
+					"lessonPrice": "1.550 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
 				}
@@ -724,23 +718,17 @@
 			"img": "course-12",
 			"list": [
 				{
-					"lessonType": "офлайн группа",
-					"lessonPrice": "10.000 ₽",
-					"lessonSince": "от",
-					"lessonTime": "/мес."
-				},
-				{
-					"lessonType": "онлайн группа",
-					"lessonPrice": "7.200 ₽",
-					"lessonSince": "от",
-					"lessonTime": "/мес."
-				},
-				{
-					"lessonType": "индивидуально",
+					"lessonType": "онлайн индивидуально",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
+					"lessonTime": "/урок."
+				},
+				{
+					"lessonType": "офлайн индивидуально",
+					"lessonPrice": "1.550 ₽",
+					"lessonSince": "от",
 					"lessonTime": "/урок"
-				}
+				} 
 			]
 		},
 		{
@@ -750,11 +738,11 @@
 			"img": "course-13",
 			"list": [
 				{
-					"lessonType": "индивидуально",
+					"lessonType": "индивидуально онлайн и офлайн",
 					"lessonPrice": "1.650 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
-				}
+				} 
 			]
 		}
 	],
@@ -766,7 +754,7 @@
 			"img": "course-6",
 			"list": [
 				{
-					"lessonType": "Стоимость обучения",
+					"lessonType": "",
 					"lessonPrice": "9.000 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/мес."
@@ -780,7 +768,7 @@
 			"img": "course-2",
 			"list": [
 				{
-					"lessonType": "Стоимость обучения",
+					"lessonType": "",
 					"lessonPrice": "7.200 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/мес."
@@ -794,7 +782,7 @@
 			"img": "course-8",
 			"list": [
 				{
-					"lessonType": "Стоимость обучения",
+					"lessonType": "",
 					"lessonPrice": "1.650 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -808,7 +796,7 @@
 			"img": "course-14",
 			"list": [
 				{
-					"lessonType": "Стоимость обучения",
+					"lessonType": "",
 					"lessonPrice": "950 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -822,7 +810,7 @@
 			"img": "course-9",
 			"list": [
 				{
-					"lessonType": "Стоимость обучения",
+					"lessonType": "",
 					"lessonPrice": "450 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/встреча"
@@ -923,7 +911,7 @@
 	"educationFormats": [
 		{
 			"title": "В школе в Москве ",
-			"description": "Наш офис находится в 7 минутах от метро Павелецкая",
+			"description": "Наш офис находится в 7 минутах пешком от метро Павелецкая.",
 			"class": "big-course--white big-course--without-list big-course--sm",
 			"img": "format-1"
 		},

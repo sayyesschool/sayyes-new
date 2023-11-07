@@ -1,5 +1,5 @@
 .big-course {
-	width: 628px;
+	width: 568px;
 
 	// calc is needed to fix the problem with the pixel
 	border-radius: calc($border-radius + 3px);
@@ -11,44 +11,63 @@
 
 	&__img {
 		width: 100%;
+		height: 270px;
 		display: block;
 		object-fit: cover;
 		border-radius: $border-radius;
 	}
 
 	&__title {
-		max-width: 349px;
-		font-size: 46px;
-		font-weight: 700;
-		line-height: 45px;
+		font-size: 24px;
+		font-weight: 800;
+		line-height: 25px;
 
-		margin-bottom: 18px;
+		margin-bottom: 5px;
 	}
 
 	&__description {
-		font-size: 24px;
-		font-weight: 700;
-		line-height: 25px;
+		font-weight: 600;
 	}
 
 	&__content {
 		display: flex;
 		flex-direction: column;
-		min-height: 370px;
-		padding: 36px 36px 46px 48px;
+		min-height: 220px;
+		padding: 24px 25px 36px 40px;
+
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	&__info {
+		display: flex;
+		margin-top: auto;
+	}
+
+	&__lesson-cost {
+		max-width: 176px;
+		font-weight: 700;
 	}
 
 	&__list {
-		margin-top: auto;
+		font-weight: 600;
+		flex-grow: 1;
 	}
 
 	&__item {
 		display: flex;
-		justify-content: space-between;
 
 		&:not(:last-child) {
-			margin-bottom: 10px;
+			margin-bottom: 5px;
 		}
+	}
+
+	&__lesson-type {
+		flex-basis: 167px;
+	}
+
+	&__lesson-price {
+		align-self: flex-end;
 	}
 
 	&__accent {
@@ -57,37 +76,35 @@
 
 	&--without-list {
 		.big-course__title {
-			max-width: 470px;
-			margin-bottom: 24px;
-
-			font-size: 32px;
-			font-weight: 800;
-			line-height: 35px;
+			max-width: 410px;
+			margin-bottom: 10px;
 		}
 
 		.big-course__content {
-			padding: 42px 48px 46px;
+			padding: 33px 38px 37px;
 			min-height: auto;
 		}
 
 		.big-course__description {
-			font-weight: 600;
+			max-width: 400px;
 		}
 	}
 
 	&--sm {
-		width: 412px;
+		width: 372px;
+
+		.big-course__img {
+			height: 370px;
+		}
 
 		.big-course__title {
-			font-size: 24px;
-			font-weight: 800;
-			line-height: 25px;
-
 			margin-bottom: 10px;
+			font-size: 18px;
+			line-height: 20px;
 		}
+
 		.big-course__content {
-			padding: 44px 25px 46px 49px;
-			min-height: auto;
+			padding: 34px 39px 46px;
 		}
 	}
 
