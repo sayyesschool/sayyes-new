@@ -2,12 +2,14 @@
 	padding: 65px 62px 80px;
 	margin-bottom: 100px;
 
-	background-color: $medium-magenta;
+	background-color: $violent;
 	border-radius: $border-radius;
 
 	.subtitle {
 		margin-bottom: 45px;
 		max-width: 660px;
+
+		color: $white;
 	}
 
 	&__cards {
@@ -47,22 +49,17 @@
 	}
 
 	&--speaking-club {
-		background-color: $violent;
-
-		.subtitle {
-			color: $white;
-		}
-
-		.big-cards__card {
-			padding-right: 15px;
+		.big-cards__cards {
+			grid-template-rows: repeat(2, 320px);
 		}
 
 		.big-cards__title {
-			max-width: 310px;
+			max-width: 273px;
+			margin-bottom: 20px;
 		}
 
-		.big-cards__list {
-			margin-top: 115px;
+		.big-cards__card {
+			justify-content: flex-start;
 		}
 	}
 }

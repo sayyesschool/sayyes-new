@@ -728,7 +728,7 @@
 					"lessonPrice": "1.550 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
-				} 
+				}
 			]
 		},
 		{
@@ -742,7 +742,7 @@
 					"lessonPrice": "1.650 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
-				} 
+				}
 			]
 		}
 	],
@@ -1760,7 +1760,7 @@
 	"shortlyAboutClub": [
 		{
 			"title": "Уровни",
-			"description": "Обучение разговорному английскому языку",
+			"description": "От Elementary до Advanced",
 			"class": "text-block--yellow text-block--levels-bg"
 		},
 		{

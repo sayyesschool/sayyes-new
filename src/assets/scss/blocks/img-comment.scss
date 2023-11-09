@@ -7,13 +7,6 @@
 		position: relative;
 		width: 370px;
 		height: 500px;
-
-		background: rgb(118, 101, 170);
-		background: linear-gradient(
-			183deg,
-			rgba(118, 101, 170, 1) 0%,
-			rgba(58, 44, 99, 1) 40%
-		);
 		border-radius: $border-radius;
 
 		&::before {
@@ -30,6 +23,13 @@
 
 	&--about {
 		.img-comment__picture {
+			background: rgb(118, 101, 170);
+			background: linear-gradient(
+				183deg,
+				rgba(118, 101, 170, 1) 0%,
+				rgba(58, 44, 99, 1) 40%
+			);
+
 			&::before {
 				top: 50px;
 				left: 160px;
@@ -43,23 +43,38 @@
 	}
 
 	&--speaking-club {
-		.img-comment__picture {
-			height: 750px;
+		.appeal {
+			.appeal__title {
+				max-width: 510px;
+			}
 
-			background-color: $violent;
+			.appeal__text {
+				padding-left: 0;
 
-			&::before {
-				top: 55px;
-				right: 55px;
-				width: 158px;
-				height: 168px;
-				background: url("../../assets/images/decoration/notes/casey-speaker.svg")
-					center center/contain no-repeat;
+				&::before,
+				&::after {
+					content: none;
+				}
 			}
 		}
 
 		.img-comment__img {
-			left: 0;
+			left: -7px;
+		}
+
+		.img-comment__picture {
+			height: 450px;
+
+			background-color: $violent;
+
+			&::before {
+				top: 45px;
+				right: 30px;
+				width: 143px;
+				height: 151px;
+				background: url("../../assets/images/decoration/notes/casey-speaker.svg")
+					center center/contain no-repeat;
+			}
 		}
 	}
 }

@@ -1,18 +1,13 @@
 .faq {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
 		max-width: 435px;
-		margin-bottom: 50px;
-	}
-
-	.tabs {
-		margin-bottom: 35px;
-		font-size: 24px;
+		margin-bottom: 30px;
 	}
 
 	.accordion {
-		margin-bottom: 50px;
+		margin-bottom: 35px;
 	}
 
 	.btn {
@@ -21,12 +16,12 @@
 	}
 
 	&__not-found {
-		font-size: 32px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 35px;
+		line-height: 20px;
 
-		margin: 0 auto 50px;
-		max-width: 555px;
+		margin: 0 auto 30px;
+		max-width: 350px;
 		text-align: center;
 	}
 }

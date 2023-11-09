@@ -10,6 +10,10 @@
 		center/cover no-repeat;
 
 	.title {
+		font-size: 68px;
+		font-weight: 700;
+		line-height: 60px;
+
 		margin-bottom: 25px;
 	}
 
@@ -24,8 +28,8 @@
 
 	&__note {
 		position: absolute;
-    bottom: -100px;
-    right: -105px;
+		bottom: -100px;
+		right: -105px;
 	}
 
 	&__left {
@@ -39,7 +43,9 @@
 		line-height: 20px;
 	}
 
-	&__speaking-club {
+	&--speaking-club {
+		padding: 68px 0 0 106px;
+		
 		.title {
 			margin-bottom: 38px;
 		}

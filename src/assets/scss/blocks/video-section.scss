@@ -93,6 +93,10 @@
 
 	&--speaking-club {
 		background-color: $yellow;
+
+		.video-section__info {
+			max-width: 450px;
+		}
 	}
 
 	&--children-courses,

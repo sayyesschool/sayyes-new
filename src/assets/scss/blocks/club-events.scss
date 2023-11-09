@@ -1,9 +1,11 @@
 .club-events {
-	min-height: 325px;
-	padding: 60px 100px 55px;
-	margin-bottom: 200px;
+	min-height: 305px;
+	padding: 40px 60px;
+	margin-bottom: 150px;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
 
 	background-color: $yellow;
 	border-radius: $border-radius;
@@ -13,26 +15,39 @@
 		margin-bottom: 10px;
 	}
 
+	&::before {
+		content: "";
+		position: absolute;
+		width: 642px;
+		height: 271px;
+		top: 135px;
+		left: -30px;
+		background: url("../../assets/images/decoration/elements/letter-sending.svg")
+			center center/cover no-repeat;
+	}
+
 	&__info {
 		max-width: 500px;
 	}
 
 	&__title {
-		font-size: 46px;
+		font-size: 42px;
 		font-weight: 700;
-		line-height: 45px;
+		line-height: 40px;
 
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 	}
 
 	&__description {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
+
+		max-width: 400px;
 	}
 
 	&__form {
-		max-width: 412px;
+		max-width: 475px;
 	}
 
 	&__input {
@@ -54,7 +69,8 @@
 	}
 
 	&__policy {
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 600;
+		line-height: 15px;
 	}
 }

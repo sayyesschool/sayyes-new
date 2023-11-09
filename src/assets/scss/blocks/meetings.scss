@@ -2,18 +2,15 @@
 	background-color: $yellow;
 	border-radius: $border-radius;
 
-	width: 1476px;
-	transform: translateX(-100px);
-	padding: 70px 100px;
-	margin-bottom: 150px;
+	padding: 65px 0 90px;
+	margin-bottom: 100px;
 
 	.subtitle {
 		margin-bottom: 20px;
 	}
 
 	.slider {
-		margin: 0;
-		max-width: 1280px;
+		padding-top: 40px;
 	}
 
 	.slider__pagination {
@@ -24,14 +21,15 @@
 	}
 
 	.slider__arrows {
-		top: -75px;
+		top: -30px;
 	}
 
 	&__description {
-		max-width: 740px;
-		margin-bottom: 50px;
+		max-width: 550px;
 
+		font-size: 18px;
 		font-weight: 600;
+		line-height: 20px;
 	}
 
 	&__cards {

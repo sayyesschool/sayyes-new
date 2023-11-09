@@ -28,4 +28,12 @@
 		flex-wrap: wrap;
 		gap: 20px;
 	}
+
+	&--speaking-club {
+		.text-block {
+			.text-block__tip {
+				margin-bottom: 30px;
+			}
+		}
+	}
 }
