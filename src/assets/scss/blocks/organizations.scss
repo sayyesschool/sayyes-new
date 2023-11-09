@@ -1,17 +1,12 @@
 .organizations {
-	margin-bottom: 180px;
-
-	.subtitle {
-		margin-bottom: 48px;
-	}
+	margin-bottom: 130px;
 
 	.slider {
-		margin: 0;
-		max-width: 1280px;
+		padding-top: 45px;
 	}
 
 	.slider__arrows {
-		top: -80px;
+		top: -25px;
 	}
 
 	.slider__pagination {
@@ -27,8 +22,8 @@
 	}
 
 	&__item {
-		width: 196px;
-		height: 200px;
+		width: 176px;
+		height: 175px;
 		display: flex;
 		justify-content: center;
 		align-items: center;

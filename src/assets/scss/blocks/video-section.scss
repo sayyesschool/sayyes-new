@@ -73,7 +73,7 @@
 	&--companies,
 	&--companies-2 {
 		.video-section__info {
-			max-width: 600px;
+			max-width: 530px;
 		}
 
 		.video {
@@ -83,17 +83,11 @@
 		}
 
 		&::before {
-			width: 192px;
-			height: 42px;
-			top: 357px;
-			left: 97px;
+			width: 173px;
+			height: 38px;
+			top: 338px;
+			left: 60px;
 			background-image: url("../../assets/images/decoration/notes/only-1.5-min-2.svg");
-		}
-	}
-
-	&--companies-2 {
-		.video-section__info {
-			max-width: 560px;
 		}
 	}
 

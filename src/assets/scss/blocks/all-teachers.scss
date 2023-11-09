@@ -1,9 +1,9 @@
 .all-teachers {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
 		max-width: 880px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	.btn {
@@ -15,19 +15,19 @@
 	}
 
 	.cards {
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 
 	&__description {
-		max-width: 950px;
+		max-width: 720px;
 		margin-bottom: 10px;
 
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 
 		&:last-of-type {
-			margin-bottom: 50px;
+			margin-bottom: 40px;
 		}
 	}
 }

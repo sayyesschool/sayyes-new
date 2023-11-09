@@ -1,56 +1,19 @@
 .advantages-cooperation {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
-		max-width: 882px;
-		margin-bottom: 50px;
+		max-width: 800px;
+		margin-bottom: 45px;
 	}
 
 	.btn {
 		display: block;
-		margin: 0 auto;
+		margin: 20px auto 0;
 	}
 
 	&__blocks {
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 30px;
-	}
-
-	&__column {
-		.text-block {
-			min-height: 480px;
-			justify-content: flex-end;
-			padding-right: 30px;
-
-			.text-block__description {
-				font-size: 32px;
-				line-height: 30px;
-			}
-		}
-
-		&:first-child {
-			.text-block {
-				&:first-child {
-					min-height: 260px;
-				}
-
-				&:last-child {
-					min-height: 200px;
-				}
-			}
-		}
-
-		&:last-child {
-			.text-block {
-				&:first-child {
-					min-height: 200px;
-				}
-
-				&:last-child {
-					min-height: 260px;
-				}
-			}
-		}
 	}
 }

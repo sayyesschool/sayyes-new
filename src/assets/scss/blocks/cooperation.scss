@@ -5,16 +5,16 @@
 
 	.btn {
 		display: block;
-		margin: 35px auto 50px;
+		margin: 30px auto 50px;
 
 		font-size: 18px;
 		font-weight: 700;
 	}
 
 	&__preview {
-		flex-basis: 520px;
-		min-height: 750px;
-		padding: 50px 38px 0 0;
+		flex-basis: 371px;
+		min-height: 510px;
+		padding: 38px 15px 0 0;
 		display: flex;
 		justify-content: flex-end;
 		position: relative;
@@ -23,30 +23,33 @@
 		border-radius: $border-radius;
 	}
 
+	&__info {
+		font-size: 16px;
+		line-height: 15px;
+		font-style: italic;
+		font-weight: 500;
+	}
+
 	&__name {
 		font-weight: 700;
-		margin-bottom: 10px;
-		font-style: italic;
-		font-size: 18px;
-		line-height: 20px;
+		margin-bottom: 5px;
 	}
 
 	&__person-about {
-		font-weight: 500;
 		max-width: 160px;
-		font-style: italic;
-		font-size: 18px;
-		line-height: 20px;
 	}
 
 	&__img {
+		width: 362px;
+		height: 440px;
 		display: block;
+		object-fit: cover;
 		position: absolute;
 		bottom: 0;
 	}
 
 	&__content {
-		flex-basis: 736px;
+		flex-basis: 764px;
 
 		background-color: $white;
 		border-radius: $border-radius;
@@ -54,13 +57,28 @@
 
 	&--profitable-cooperation {
 		.cooperation__img {
-			left: -142px;
+			left: -55px;
 		}
 	}
 
 	&--getting-started {
 		.list {
-			padding: 38px 90px 41px 143px;
+			padding: 59px 40px 0px 174px;
+		}
+
+		.cooperation__preview {
+			min-height: 450px;
+			padding-right: 47px;
+		}
+
+		.cooperation__img {
+			width: 300px;
+			height: 366px;
+			left: -20px;
+		}
+
+		.cooperation__person-about {
+			max-width: 175px;
 		}
 
 		.list--ol {
@@ -84,22 +102,6 @@
 					}
 				}
 			}
-		}
-
-		.btn {
-			margin-top: 50px;
-		}
-
-		.cooperation__person-about {
-			max-width: 200px;
-		}
-
-		.cooperation__img {
-			left: -52px;
-		}
-
-		.cooperation__content {
-			align-self: flex-end;
 		}
 	}
 }

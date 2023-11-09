@@ -1,18 +1,16 @@
 .reviews {
-	margin-bottom: 230px;
+	margin-bottom: 150px;
 
 	.subtitle {
-		max-width: 650px;
-		margin-bottom: 30px;
+		max-width: 580px;
 	}
 
 	.slider {
-		margin: 0;
-		max-width: 1280px;
+		padding-top: 30px;
 	}
 
 	.slider__arrows {
-		top: -60px;
+		top: -25px;
 	}
 
 	.slider__pagination {
@@ -24,18 +22,25 @@
 	&__list {
 		display: flex;
 		justify-content: space-between;
+		gap: 20px;
 	}
 
 	&__item {
-		width: 304px;
-		height: 464px;
+		width: 274px;
+	}
+
+	&__img {
+		width: 274px;
+		height: 380px;
+		display: block;
+		object-fit: cover;
 	}
 
 	&__name {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 800;
-		line-height: 25px;
+		line-height: 20px;
 
-		margin-left: 20px;
+		margin-left: 5px;
 	}
 }
