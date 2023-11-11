@@ -1,19 +1,18 @@
 .course-feedback {
-	margin-bottom: 250px;
+	margin-bottom: 135px;
 
 	.subtitle {
 		max-width: 470px;
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 	}
 
 	.btn {
-		margin: 50px auto 0;
+		margin: 30px auto 0;
 		display: block;
 	}
 
 	.slider {
-		max-width: 100%;
-		margin-bottom: 0;
+		padding-top: 45px;
 	}
 
 	.slider__arrows {
@@ -28,43 +27,34 @@
 	}
 
 	&__description {
-		max-width: 590px;
-		margin-bottom: 50px;
+		max-width: 440px;
 
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 	}
 
 	&__rating {
-		margin: 0 0 50px 50px;
+		margin: 0 0 17px 48px;
 		display: flex;
 		align-items: center;
-		gap: 30px;
+		gap: 14px;
 	}
 
 	&__rating-value {
-		font-size: 68px;
+		font-size: 46px;
 		font-weight: 700;
 		line-height: 70px;
 	}
 
-	&__rating-info {
-		margin-top: 7px;
-
-		font-size: 24px;
+	&__zoon {
+		font-size: 18px;
 		font-weight: 800;
-		line-height: 25px;
-	}
-
-	&__rating-zoon {
-		margin-top: 7px;
+		line-height: 20px;
 	}
 
 	&__block {
-		padding: 36px 100px 60px;
-		width: 1476px;
-		transform: translateX(-100px);
+		padding: 33px 62px 50px;
 
 		border-radius: $border-radius;
 		background-color: $yellow;
@@ -76,9 +66,9 @@
 	}
 
 	&__card {
-		width: 628px;
-		min-height: 625px;
-		padding: 50px 40px 50px 50px;
+		width: 568px;
+		min-height: 460px;
+		padding: 46px 40px 44px 49px;
 		display: flex;
 		flex-direction: column;
 
@@ -87,12 +77,12 @@
 	}
 
 	&__paragraph {
-		font-size: 24px;
+		font-size: 16px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 
 		&:not(:last-of-type) {
-			margin-bottom: 20px;
+			margin-bottom: 5px;
 		}
 	}
 
@@ -101,29 +91,29 @@
 
 		text-decoration: underline;
 		color: $violent;
-		font-size: 24px;
+		font-size: 16px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 15px;
 	}
 
 	&__info {
-		margin-top: 60px;
+		margin-top: 35px;
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-end;
 	}
 
 	&__author {
-		margin-bottom: 5px;
-
-		font-size: 24px;
+		font-size: 16px;
 		font-weight: 800;
-		line-height: 25px;
+		line-height: 20px;
 	}
 
 	&__date {
-		font-size: 24px;
+		font-size: 16px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
+		color: lighten($black, 50%);
 	}
 
 	&__offline {

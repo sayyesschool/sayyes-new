@@ -1,8 +1,7 @@
 .big-course {
 	width: 568px;
 
-	// calc is needed to fix the problem with the pixel
-	border-radius: calc($border-radius + 3px);
+	border-radius: $border-radius;
 	background-color: $white;
 
 	&:not(&--white) {

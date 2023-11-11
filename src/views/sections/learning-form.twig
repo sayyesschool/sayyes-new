@@ -1,5 +1,5 @@
 {% if page == 'adults-courses' %}
-	{% set title = 'Отзывы о курсе Английский с нуля' %}
+	{% set title = 'Формы обучения на курсе Английский с нуля' %}
 	{% set description = 'Вы можете проходить курс английского языка с нуля в различных форматах. Продолжительность и стоимость курса зависят от интенсивности и формата обучения.' %}
 	{% set courses = courses8 %}
 {% elseif page == 'children-courses'  %}
@@ -10,9 +10,11 @@
 {% endif %}
 
 <section class="learning-form {{mixin}}">
-	<h2 class="subtitle">{{title}}</h2>
-	<p class="learning-form__description">{{description}}</p>
-	<ul class="learning-form__blocks">
-		{% include '../components/big-courses.twig' with {courses, withoutImg: true} %}
-	</ul>
+	<div class="section-container">
+		<h2 class="subtitle">{{title}}</h2>
+		<p class="learning-form__description">{{description}}</p>
+		<ul class="learning-form__blocks">
+			{% include '../components/big-courses.twig' with {courses, withoutImg: true,} %}
+		</ul>
+	</div>
 </section>

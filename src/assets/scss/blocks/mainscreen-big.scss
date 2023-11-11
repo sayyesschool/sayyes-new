@@ -50,7 +50,8 @@
 
 	&--progress,
 	&--children,
-	&--education {
+	&--education,
+	&--adults-courses {
 		.title {
 			max-width: 680px;
 		}
@@ -120,6 +121,12 @@
 	&--children {
 		.mainscreen-big__description {
 			max-width: 460px;
+		}
+	}
+
+	&--adults-courses {
+		.mainscreen-big__description {
+			max-width: 380px;
 		}
 	}
 }

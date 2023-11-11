@@ -23,7 +23,8 @@
 		font-weight: 600;
 	}
 
-	&--ul {
+	&--ul,
+	&--ul-sm {
 		.list__item {
 			&::before {
 				content: "";
@@ -34,6 +35,18 @@
 				left: -65px;
 				background: url("../../assets/images/icons/check.svg") center
 					center/contain no-repeat;
+			}
+		}
+	}
+
+	&--ul-sm {
+		padding: 38px 80px 45px 106px;
+
+		.list__item {
+			&::before {
+				width: 37px;
+				height: 37px;
+				left: -55px;
 			}
 		}
 	}
