@@ -1,13 +1,13 @@
 .knowledge-check {
-	padding: 75px 107px;
-	margin-bottom: 150px;
+	padding: 56px 59px 64px;
+	margin-bottom: 100px;
 
 	background-color: $yellow;
 	border-radius: $border-radius;
 
 	.subtitle {
-		max-width: 1000px;
-		margin-bottom: 55px;
+		max-width: 900px;
+		margin-bottom: 35px;
 	}
 
 	.btn {
@@ -18,30 +18,24 @@
 	.list {
 		position: relative;
 		padding: 0;
-		margin-left: 65px;
-		max-width: 350px;
+		margin-left: 55px;
+		max-width: 280px;
 
 		background-color: transparent;
 
+		.list__title {
+			display: none;
+		}
+
 		&::after {
 			content: "";
-			width: 249px;
-			height: 145px;
+			width: 254px;
+			height: 148px;
 			position: absolute;
-			top: 221px;
-			left: 49px;
+			top: 144px;
+			left: 198px;
 			background: url("../../assets/images/decoration/notes/free-2.svg")
 				center center/cover no-repeat;
-		}
-	}
-
-	.list__title {
-		display: none;
-	}
-
-	.list__item {
-		&:not(:last-child) {
-			margin-bottom: 20px;
 		}
 	}
 
@@ -52,7 +46,7 @@
 
 	&__form {
 		padding: 50px;
-		max-width: 520px;
+		max-width: 568px;
 
 		background-color: #ffdf76;
 		border-radius: $border-radius;
@@ -67,12 +61,12 @@
 		font-weight: normal;
 		line-height: 20px;
 
-		padding: 11px 20px;
+		padding: 10px 20px;
 		width: 100%;
 		margin-bottom: 10px;
 
 		&:last-of-type {
-			margin-bottom: 30px;
+			margin-bottom: 35px;
 		}
 	}
 

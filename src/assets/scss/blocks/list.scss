@@ -51,6 +51,15 @@
 		}
 	}
 
+	&--central-marker {
+		.list__item {
+			&::before {
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
 	&--ol {
 		counter-reset: myCounter;
 

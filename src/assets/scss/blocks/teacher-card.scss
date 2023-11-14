@@ -6,7 +6,8 @@
 	color: $black;
 
 	.video {
-		width: 412px;
+		width: 372px;
+		height: 425px;
 		margin: 0;
 
 		.play {
@@ -15,25 +16,51 @@
 		}
 	}
 
-	.list {
-		padding: 30px 42px 25px 65px;
-	}
-
 	&__info {
-		width: 864px;
-		padding: 60px 100px 0px 65px;
+		width: 687px;
+		padding: 47px 60px 0px 48px;
 	}
 
 	&__title {
-		font-size: 32px;
+		font-size: 24px;
 		font-weight: 700;
-		line-height: 30px;
+		line-height: 25px;
+
+		margin-bottom: 15px;
+	}
+
+	&__description {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 20px;
 
 		margin-bottom: 20px;
 	}
 
-	&__description {
+	&__list {
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
+
+		padding-left: 15px;
+	}
+
+	&__list-item {
+		position: relative;
+
+		&::before {
+			content: "";
+			width: 4px;
+			height: 4px;
+			position: absolute;
+			top: 8px;
+			left: -14px;
+			background-color: #262626;
+			border-radius: 50%;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
 	}
 }

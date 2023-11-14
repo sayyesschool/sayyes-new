@@ -182,8 +182,8 @@
 		&::before {
 			width: 197px;
 			height: 168px;
-			top: -17px;
-			right: -25px;
+			top: -12px;
+			right: -33px;
 			background-image: url("../../assets/images/decoration/elements/comment.svg");
 		}
 	}
@@ -200,12 +200,11 @@
 
 	&--comments-2-bg {
 		&::before {
-			width: 308px;
-			height: 242px;
-			top: -50px;
-			right: -75px;
-			transform: rotate(-5deg);
-			background-image: url("../../assets/images/decoration/elements/comments.svg");
+			width: 302px;
+			height: 222px;
+			bottom: 13px;
+			right: -120px;
+			background-image: url("../../assets/images/decoration/elements/comments-2.svg");
 		}
 	}
 
@@ -221,10 +220,10 @@
 
 	&--heart-2-bg {
 		&::before {
-			width: 194px;
-			height: 184px;
-			top: -5px;
-			right: -34px;
+			width: 188px;
+			height: 178px;
+			bottom: -7px;
+			right: -42px;
 			transform: rotate(-17deg);
 			background-image: url("../../assets/images/decoration/elements/heart.svg");
 		}
@@ -245,7 +244,7 @@
 			width: 192px;
 			height: 191px;
 			top: -20px;
-			right: -10px;
+			right: -35px;
 			transform: rotate(7deg);
 			background-image: url("../../assets/images/decoration/elements/diploma.svg");
 		}
@@ -544,20 +543,20 @@
 
 	&--woman-bg {
 		&::before {
-			width: 160px;
-			height: 188px;
-			top: -3px;
-			right: -5px;
+			width: 159px;
+			height: 187px;
+			bottom: -3px;
+			right: -4px;
 			background-image: url("../../assets/images/decoration/elements/woman.svg");
 		}
 	}
 
 	&--target-bg {
 		&::before {
-			width: 242px;
-			height: 218px;
-			top: -40px;
-			right: -78px;
+			width: 207px;
+			height: 187px;
+			bottom: -6px;
+			right: -52px;
 			background-image: url("../../assets/images/decoration/elements/target.svg");
 		}
 	}
@@ -566,8 +565,8 @@
 		&::before {
 			width: 174px;
 			height: 180px;
-			top: -15px;
-			right: 11px;
+			top: -4px;
+			right: -6px;
 			background-image: url("../../assets/images/decoration/elements/casting.svg");
 		}
 	}

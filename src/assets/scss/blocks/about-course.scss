@@ -25,4 +25,10 @@
 	&__purpose {
 		font-weight: 700;
 	}
+
+	&--children-courses {
+		.about-course__title {
+			max-width: 500px;
+		}
+	}
 }

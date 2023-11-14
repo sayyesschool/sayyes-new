@@ -14,9 +14,10 @@
 	{% set title = 'Курс “Bright ideas” разработан для детей 5-7 лет, кто только начинает знакомиться с английским языком.' %}
 	{% set text = 'Обучение происходит с погружением в англоязычную среду через интерактивные игры, песни, мультфильмы и повторение за преподавателем.' %}
 	{% set purpose = 'Цель данного курса — заинтересовать ребенка изучением английского, а также заложить качественные основы языка для дальнейшего обучения.' %}
+	{% set mixin = 'about-course--children-courses' %}
 {% endif %}
 
-<section class="about-course">
+<section class="about-course {{mixin}}">
 	<h3 class="about-course__title">{{title}}</h3>
 	<div class="about-course__info">
 		<p class="about-course__text">{{text}}</p>

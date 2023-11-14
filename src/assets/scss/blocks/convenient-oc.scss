@@ -1,9 +1,9 @@
 .convenient-oc {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
 		max-width: 540px;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 	}
 
 	&__content {
@@ -12,19 +12,22 @@
 	}
 
 	&__description {
-		max-width: 557px;
+		max-width: 500px;
 
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 	}
 
 	&__paragraph {
-		margin-bottom: 15px;
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
 	}
 
 	&__img {
-		width: 628px;
-		height: 355px;
+		width: 568px;
+		height: 310px;
 		border-radius: $border-radius;
 		object-fit: cover;
 	}

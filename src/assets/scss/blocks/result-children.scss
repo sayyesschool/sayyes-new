@@ -1,17 +1,9 @@
 .result-children {
-	margin-bottom: 150px;
+	margin-bottom: 135px;
 
 	.subtitle {
 		max-width: 1000px;
-		margin-bottom: 25px;
-	}
-
-	.slider {
-		max-width: 1280px;
-	}
-
-	.slider__arrows {
-		top: -80px;
+		margin-bottom: 20px;
 	}
 
 	.slider__pagination {
@@ -21,9 +13,11 @@
 	}
 
 	&__description {
+		font-size: 18px;
 		font-weight: 600;
-		max-width: 660px;
-		margin-bottom: 50px;
+		line-height: 20px;
+
+		max-width: 500px;
 	}
 
 	&__cards {
