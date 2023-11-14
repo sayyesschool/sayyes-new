@@ -8,6 +8,7 @@
 {% elseif page == 'education' %}
 	{% set title = 'Наша школа предлагает курсы английского языка для разных уровней знаний и в разнообразных форматах.' %}
 	{% set courses = courses7 %}
+	{% set withoutPrice = true %}
 	{% set mixin = 'img-courses-2--education' %}
 {% endif %}
 
@@ -15,7 +16,7 @@
 	<div class="section-container">
 		<h2 class="subtitle">{{title}}</h2>
 		<ul class="img-courses-2__blocks">
-			{% include '../components/big-courses.twig' with {courses} %}
+			{% include '../components/big-courses.twig' with {courses, withoutPrice} %}
 			{% if page == 'education' %}
 				<div class="course-selection">
 					<h3 class="course-selection__title">Затрудняетесь с выбором формы обучения?</h3>

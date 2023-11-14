@@ -32,7 +32,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 220px;
-		padding: 24px 25px 36px 40px;
+		padding: 24px 31px 36px 39px;
 
 		font-size: 18px;
 		line-height: 20px;
@@ -44,7 +44,7 @@
 	}
 
 	&__lesson-cost {
-		max-width: 176px;
+		width: 176px;
 		font-weight: 700;
 	}
 
@@ -55,18 +55,15 @@
 
 	&__item {
 		display: flex;
+		justify-content: space-between;
 
 		&:not(:last-child) {
 			margin-bottom: 5px;
 		}
 	}
 
-	&__lesson-type {
-		flex-basis: 167px;
-	}
-
 	&__lesson-price {
-		align-self: flex-end;
+		width: 156px;
 	}
 
 	&__accent {
@@ -75,7 +72,7 @@
 
 	&--without-list {
 		.big-course__title {
-			max-width: 410px;
+			max-width: 340px;
 			margin-bottom: 10px;
 		}
 

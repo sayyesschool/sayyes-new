@@ -9,7 +9,7 @@
 
 			{% if withoutInfo != true %}
 				<div class="big-course__info">
-					<div class="big-course__lesson-cost">Стоимость обучения:</div>
+					{% if withoutPrice != true %}<div class="big-course__lesson-cost">Стоимость обучения:</div>{% endif %}
 					<ul class="big-course__list">
 						{% for lesson in item.list %}
 							<li class="big-course__item">

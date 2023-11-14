@@ -34,14 +34,16 @@
 			min-height: 235px;
 		}
 
-		.big-course__title {
-			max-width: 390px;
+		.big-course__lesson-type {
+			max-width: 163px;
 		}
 
-		.big-course--without-list {
-			.big-course__title {
-				max-width: 340px;
-			}
+		.big-course__lesson-price {
+			align-self: flex-end;
+		}
+
+		.big-course__title {
+			max-width: 390px;
 		}
 	}
 
@@ -52,15 +54,11 @@
 
 		.big-course__content {
 			min-height: 180px;
+			padding-bottom: 46px;
 		}
 
-		.big-course__lesson-cost {
-			max-width: none;
-		}
-
-		.big-course__lesson-type {
-			flex-basis: auto;
-			flex-grow: 1;
+		.big-course__description {
+			max-width: 470px;
 		}
 	}
 }
