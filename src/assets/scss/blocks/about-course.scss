@@ -31,4 +31,16 @@
 			max-width: 500px;
 		}
 	}
+
+	&--offline {
+		.about-course__title {
+			max-width: 530px;
+		}
+	}
+
+	&--offline-2 {
+		.about-course__title {
+			max-width: 490px;
+		}
+	}
 }

@@ -52,7 +52,8 @@
 	&--children,
 	&--education,
 	&--adults-courses,
-	&--children-courses {
+	&--children-courses,
+	&--offline {
 		.title {
 			max-width: 680px;
 		}
@@ -109,6 +110,12 @@
 		.mainscreen-big__description {
 			max-width: 520px;
 			margin-bottom: 50px;
+		}
+	}
+
+	&--offline {
+		.mainscreen-big__description {
+			max-width: 470px;
 		}
 	}
 

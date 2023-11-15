@@ -1,84 +1,31 @@
 .offline-shortly {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 
 	.subtitle {
 		max-width: 495px;
 		margin-bottom: 50px;
 	}
 
-	.btn {
-		display: block;
-		margin: 0 auto;
-	}
+	.text-block {
+		padding-right: 110px;
 
-	&__blocks {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 30px;
-	}
-
-	&__column {
-		.text-block {
-			min-height: 480px;
-			justify-content: flex-end;
-			padding-right: 30px;
-
-			.text-block__title {
-				max-width: 215px;
-				margin-bottom: 20px;
-				margin-top: 0;
-
-				font-size: 24px;
-				font-weight: 700;
-				line-height: 25px;
-			}
-
-			.text-block__description {
-				max-width: 200px;
-
-				font-size: 18px;
-				font-weight: 600;
-				line-height: 20px;
-			}
-		}
-
-		&:first-child {
-			.text-block {
-				&:first-child {
-					min-height: 260px;
-				}
-
-				&:last-child {
-					min-height: 200px;
-				}
-			}
-		}
-
-		&:last-child {
-			.text-block {
-				&:first-child {
-					min-height: 200px;
-				}
-
-				&:last-child {
-					min-height: 260px;
-				}
-			}
+		.text-block__title {
+			margin-top: 0;
 		}
 	}
 
 	&__info,
 	&__number {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 600;
-		line-height: 25px;
+		line-height: 20px;
 		text-align: center;
 
-		max-width: 955px;
+		max-width: 650px;
 		margin: 0 auto;
 	}
 
 	&__info {
-		margin-bottom: 25px;
+		margin: 15px auto 10px;
 	}
 }

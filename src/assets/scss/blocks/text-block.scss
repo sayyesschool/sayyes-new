@@ -442,10 +442,11 @@
 
 	&--levels-2-bg {
 		&::before {
-			width: 258px;
-			height: 192px;
-			top: -79px;
-			right: -33px;
+			width: 197px;
+			height: 147px;
+			bottom: -40px;
+			right: -30px;
+			transform: rotate(10deg);
 			background-image: url("../../assets/images/decoration/elements/levels.svg");
 		}
 	}
@@ -493,20 +494,20 @@
 
 	&--lightning-bg {
 		&::before {
-			width: 120px;
-			height: 169px;
-			top: -22px;
-			right: 10px;
+			width: 79px;
+			height: 141px;
+			top: -18px;
+			right: 4px;
 			background-image: url("../../assets/images/decoration/elements/lightning-2.svg");
 		}
 	}
 
 	&--clock-bg {
 		&::before {
-			width: 336px;
-			height: 336px;
-			top: -46px;
-			right: -51px;
+			width: 269px;
+			height: 269px;
+			bottom: -70px;
+			right: -30px;
 			background-image: url("../../assets/images/decoration/elements/clock.svg");
 		}
 	}
@@ -525,18 +526,19 @@
 		&::before {
 			width: 151px;
 			height: 164px;
-			top: -10px;
-			right: 35px;
+			bottom: -27px;
+			right: -7px;
 			background-image: url("../../assets/images/decoration/elements/rubles.svg");
 		}
 	}
 
 	&--calendar-bg {
 		&::before {
-			width: 257px;
-			height: 197px;
-			top: 3px;
-			right: -50px;
+			width: 190px;
+			height: 146px;
+			top: -9px;
+			right: -53px;
+			transform: rotate(20deg);
 			background-image: url("../../assets/images/decoration/elements/calendar.svg");
 		}
 	}
