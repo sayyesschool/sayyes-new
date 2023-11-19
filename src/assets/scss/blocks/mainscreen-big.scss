@@ -24,7 +24,7 @@
 
 	&__description {
 		text-align: center;
-		margin: 15px auto 25px;
+		margin: 15px auto 50px;
 		max-width: 350px;
 	}
 
@@ -83,12 +83,6 @@
 		}
 	}
 
-	&--progress {
-		.mainscreen-big__description {
-			margin-bottom: 30px;
-		}
-	}
-
 	&--progress,
 	&--vacancies {
 		.mainscreen-big__description {
@@ -105,7 +99,6 @@
 	&--methodology {
 		.mainscreen-big__description {
 			max-width: 520px;
-			margin-bottom: 50px;
 		}
 	}
 
