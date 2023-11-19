@@ -13,18 +13,13 @@
 	}
 
 	.btn {
-		display: none;
+		display: block;
 		margin: 0 auto;
-		margin-bottom: 50px;
-	}
-
-	.split-image {
-		display: none;
 	}
 
 	&__description {
 		text-align: center;
-		margin: 15px auto 50px;
+		margin: 15px auto 25px;
 		max-width: 350px;
 	}
 
@@ -34,6 +29,7 @@
 		display: block;
 		object-fit: cover;
 		border-radius: $border-radius;
+		margin-top: 50px;
 	}
 
 	&--companies,
@@ -46,7 +42,6 @@
 
 	&--progress,
 	&--children,
-	&--education,
 	&--adults-courses,
 	&--children-courses,
 	&--offline {
@@ -55,35 +50,12 @@
 		}
 	}
 
-	&--teachers,
-	&--vacancies,
-	&--price,
-	&--education {
-		.btn {
-			display: block;
-		}
-
-		.split-image {
-			display: block;
-		}
-
-		.mainscreen-big__img {
-			display: none;
+	&--progress {
+		.mainscreen-big__description {
+			max-width: 750px;
 		}
 	}
 
-	&--adults,
-	&--children,
-	&--companies,
-	&--adults-courses,
-	&--children-courses,
-	&--offline {
-		.btn {
-			display: block;
-		}
-	}
-
-	&--progress,
 	&--vacancies {
 		.mainscreen-big__description {
 			max-width: 650px;
