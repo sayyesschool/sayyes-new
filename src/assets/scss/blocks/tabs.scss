@@ -5,9 +5,7 @@
 		display: flex;
 		justify-content: space-between;
 
-		font-size: 18px;
 		font-weight: 700;
-		line-height: 20px;
 
 		&--feedback {
 			padding-left: 747px;
@@ -135,9 +133,7 @@
 		align-items: center;
 		background-color: $white;
 		border: none;
-		font-size: 18px;
-		font-weight: 600;
-		line-height: 20px;
+		font-weight: 700;
 
 		&:not(:last-child) {
 			margin-right: 10px;

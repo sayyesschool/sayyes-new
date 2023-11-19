@@ -7,6 +7,7 @@
 	z-index: 100;
 
 	.btn {
+		font-size: 14px;
 		border-width: 1.5px;
 		letter-spacing: 1.4px;
 		transition: 0.3s linear;
@@ -63,6 +64,7 @@
 
 	&__contacts {
 		font-weight: 700;
+		line-height: normal;
 	}
 
 	&__navigation {
@@ -104,6 +106,8 @@
 	&__link,
 	.phone-numbers__link {
 		transition: color 0.3s linear;
+		letter-spacing: 1.4px;
+		line-height: normal;
 
 		&:hover {
 			color: $medium-magenta;
