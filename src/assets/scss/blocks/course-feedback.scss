@@ -28,10 +28,6 @@
 
 	&__description {
 		max-width: 440px;
-
-		font-size: 18px;
-		font-weight: 600;
-		line-height: 20px;
 	}
 
 	&__rating {
@@ -48,9 +44,7 @@
 	}
 
 	&__zoon {
-		font-size: 18px;
 		font-weight: 800;
-		line-height: 20px;
 	}
 
 	&__block {
@@ -79,7 +73,6 @@
 	&__paragraph {
 		font-size: 16px;
 		font-weight: 600;
-		line-height: 20px;
 
 		&:not(:last-of-type) {
 			margin-bottom: 5px;
@@ -92,7 +85,6 @@
 		text-decoration: underline;
 		color: $violent;
 		font-size: 16px;
-		font-weight: 600;
 		line-height: 15px;
 	}
 
@@ -106,13 +98,10 @@
 	&__author {
 		font-size: 16px;
 		font-weight: 800;
-		line-height: 20px;
 	}
 
 	&__date {
 		font-size: 16px;
-		font-weight: 600;
-		line-height: 20px;
 		color: lighten($black, 50%);
 	}
 

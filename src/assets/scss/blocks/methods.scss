@@ -34,14 +34,9 @@
 	&__title {
 		margin-bottom: 15px;
 
+		font-size: 24px;
 		font-weight: 700;
 		line-height: 25px;
-	}
-
-	&__description {
-		font-size: 18px;
-		font-weight: 600;
-		line-height: 20px;
 	}
 
 	&__comment {
@@ -51,9 +46,6 @@
 
 		background-color: $white;
 		border-radius: $border-radius;
-		font-size: 19px;
-		font-weight: 600;
-		line-height: 20px;
 
 		p {
 			margin-bottom: 10px;

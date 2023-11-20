@@ -16,17 +16,18 @@
 		font-weight: 800;
 
 		margin-bottom: 5px;
+		max-width: 230px;
 	}
 
 	&__description {
-		margin-bottom: 15px;
+			margin-bottom: 15px;
 	}
 
 	&__link {
 		display: inline-block;
 		color: $violent;
 		text-decoration: underline;
-		margin-bottom: 23px;
+		margin-bottom: 20px;
 	}
 
 	&__tag {

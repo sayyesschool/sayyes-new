@@ -33,9 +33,6 @@
 		flex-direction: column;
 		min-height: 220px;
 		padding: 24px 31px 36px 39px;
-
-		font-size: 18px;
-		line-height: 20px;
 	}
 
 	&__info {
@@ -49,7 +46,6 @@
 	}
 
 	&__list {
-		font-weight: 600;
 		flex-grow: 1;
 	}
 
@@ -72,7 +68,7 @@
 
 	&--without-list {
 		.big-course__title {
-			max-width: 340px;
+			max-width: 410px;
 			margin-bottom: 10px;
 		}
 
@@ -94,9 +90,10 @@
 		}
 
 		.big-course__title {
-			margin-bottom: 10px;
 			font-size: 18px;
 			line-height: 20px;
+
+			margin-bottom: 10px;
 		}
 
 		.big-course__content {

@@ -26,7 +26,7 @@
 	&__name {
 		font-weight: 800;
 
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 
 	&__post {
@@ -91,12 +91,16 @@
 	}
 
 	&--teacher-card {
+		.card__content {
+			padding-bottom: 50px;
+		}
+
 		.btn {
 			margin-top: auto;
 		}
 
 		.card__description {
-			margin-bottom: 65px;
+			margin-bottom: 20px;
 		}
 	}
 
@@ -117,6 +121,10 @@
 		.card__content {
 			padding: 35px 100px 30px 50px;
 			min-height: 280px;
+		}
+
+		.card__name {
+			margin-bottom: 5px;
 		}
 
 		.card__post {

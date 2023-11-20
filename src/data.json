@@ -25,9 +25,9 @@
 	},
 	"modals": ["feedback", "callback", "successful"],
 	"social": [
-		{ "icon": "icon--tg icon--sm", "href": "#" },
-		{ "icon": "icon--inst icon--sm", "href": "#" },
-		{ "icon": "icon--yt icon--sm", "href": "#" }
+		{ "icon": "icon--tg", "href": "#" },
+		{ "icon": "icon--inst", "href": "#" },
+		{ "icon": "icon--yt", "href": "#" }
 	],
 	"headerNavItems": [
 		{
@@ -191,7 +191,7 @@
 		{
 			"year": "2018",
 			"numbering": "1",
-			"nomination": "в номинации «Инноватор года»",
+			"nomination": "в номинации «Лучшие языковые мероприятия»",
 			"description": "Обеспечиваем студентов практикой языка с носителями в нашем разговорном клубе."
 		},
 		{
@@ -375,7 +375,7 @@
 			]
 		},
 		{
-			"title": "Подготовка к экзаменам",
+			"title": "Курс подготовки к экзаменам",
 			"description": "Подготовит к IELTS, TOEFL и другим экзаменам. ",
 			"class": "course--pink course--fs",
 			"list": [
@@ -476,7 +476,7 @@
 					"lessonTime": "/мес."
 				},
 				{
-					"lessonType": "индивидуально группа",
+					"lessonType": "индивидуально",
 					"lessonPrice": "1540 ₽",
 					"lessonSince": "от",
 					"lessonTime": "/урок"
@@ -2187,7 +2187,7 @@
 		{
 			"parent": {
 				"name": "Ольга",
-				"icon": "icon--inst icon--sm",
+				"icon": "icon--fb",
 				"url": "#"
 			},
 			"baby": "Мама ученицы Кати, 10 лет",
@@ -2199,7 +2199,7 @@
 		{
 			"parent": {
 				"name": "Ирина",
-				"icon": "icon--inst icon--sm",
+				"icon": "icon--inst",
 				"url": "#"
 			},
 			"baby": "Мама ученицы Маши, 12 лет",

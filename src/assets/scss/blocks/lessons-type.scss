@@ -16,6 +16,18 @@
 		z-index: -1;
 	}
 
+	.about-person {
+		padding: 50px 50px 40px;
+
+		.about-person__mini-title {
+			margin-bottom: 15px;
+		}
+
+		.about-person__description {
+				margin-bottom: 10px;
+		}
+	}
+
 	.video {
 		width: 568px;
 		height: 310px;

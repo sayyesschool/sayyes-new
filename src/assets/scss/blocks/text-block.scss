@@ -11,6 +11,7 @@
 	border-radius: $border-radius;
 
 	&__title {
+		font-size: 24px;
 		font-weight: 700;
 		line-height: 25px;
 
@@ -19,15 +20,7 @@
 	}
 
 	&__tip {
-		font-size: 18px;
 		font-weight: 800;
-		line-height: 20px;
-	}
-
-	&__description {
-		font-size: 18px;
-		font-weight: 600;
-		line-height: 20px;
 	}
 
 	&--violent {

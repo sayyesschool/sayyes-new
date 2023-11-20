@@ -10,7 +10,6 @@
 		display: block;
 		margin: 0 auto;
 
-		font-size: 18px;
 		font-weight: 700;
 	}
 
@@ -21,10 +20,6 @@
 	&__description {
 		max-width: 720px;
 		margin-bottom: 10px;
-
-		font-size: 18px;
-		font-weight: 600;
-		line-height: 20px;
 
 		&:last-of-type {
 			margin-bottom: 40px;

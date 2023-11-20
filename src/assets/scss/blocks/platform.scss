@@ -13,9 +13,8 @@
 	}
 
 	&__description {
-		font-weight: 700;
 		max-width: 425px;
-		margin: 23px 0 52px;
+		margin: 20px 0 40px;
 	}
 
 	&__img {
@@ -25,5 +24,4 @@
 		object-fit: cover;
 		border-radius: $border-radius;
 	}
-
 }

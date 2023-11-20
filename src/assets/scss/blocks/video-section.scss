@@ -129,10 +129,6 @@
 		}
 
 		.video-section__description {
-			font-size: 18px;
-			font-weight: 600;
-			line-height: 20px;
-
 			max-width: 350px;
 
 			&:not(:last-of-type) {
@@ -144,6 +140,11 @@
 	&--children-courses-2 {
 		&::before {
 			content: none;
+		}
+
+		.video-section__description {
+			font-weight: 600;
+			line-height: 20px;
 		}
 
 		.video {
