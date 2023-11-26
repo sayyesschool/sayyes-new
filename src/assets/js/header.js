@@ -1,17 +1,58 @@
 export const header = () => {
-	const header = document.querySelector(".main-header__overview");
-	const navigation = document.querySelector(".main-header__navigation");
-	let lastScrollY = window.scrollY;
+  const header = document.querySelector(".main-header");
+  const burger = header.querySelector(".main-header__burger");
+  const list = header.querySelector(".main-header__list");
+  const listItems = list.querySelectorAll(".main-header__item:has(.subnav__content)");
 
-	const toggleHeaderClass = () => {
-		const currentScrollY = window.scrollY;
-		const isScrollingDown = currentScrollY > lastScrollY;
+  let lastScrollY = window.scrollY;
 
-		header.classList.toggle("expanded", currentScrollY !== 0);
-		navigation.classList.toggle("collapsed", isScrollingDown);
+  const closeAllSubnav = () => {
+    listItems.forEach((item) => {
+      const subnav = item.querySelector(".subnav");
 
-		lastScrollY = currentScrollY;
-	};
+      item.classList.remove("active");
+      subnav.style.height = 0;
+    });
+  };
 
-	window.addEventListener("scroll", toggleHeaderClass);
+  const updateHeaderClasses = () => {
+    const currentScrollY = window.scrollY;
+    const isScrollingUp = currentScrollY < lastScrollY;
+    const isSmallScreen = window.innerWidth < 768;
+
+    header.classList.toggle("expanded", currentScrollY !== 0);
+
+    if (isSmallScreen) {
+      closeAllSubnav();
+      header.classList.remove("opened");
+    } else {
+      header.classList.toggle("opened", isScrollingUp);
+    }
+
+    lastScrollY = currentScrollY;
+  };
+
+  window.addEventListener("scroll", updateHeaderClasses);
+
+  burger.addEventListener("click", () => {
+    closeAllSubnav();
+    header.classList.toggle("opened");
+  });
+
+  list.addEventListener("click", (event) => {
+    const target = event.target;
+    const isItem = target.classList.contains("main-header__item");
+    const subnav = target.querySelector(".subnav");
+
+    if (subnav && isItem) {
+      if (subnav.clientHeight) {
+        target.classList.remove("active");
+        subnav.style.height = 0;
+      } else {
+        closeAllSubnav();
+        target.classList.add("active");
+        subnav.style.height = `${subnav.scrollHeight}px`;
+      }
+    }
+  });
 };

@@ -1,16 +1,21 @@
 <header class="main-header">
 	<div class="main-header__overview">
-		<div class="container">
+		<div class="header-container">
 			{% include '../components/logo.twig' with { fill: "#fff" } %}
-			<button class="btn btn--transparent btn--uppercase btn--sm" id="feedback">Бесплатный урок</button>
-			<a href="#" class="main-header__link">Онлайн тест</a>
-			<a href="#" class="main-header__link">Обратный звонок</a>
+			<button class="btn btn--transparent btn--uppercase btn--sm main-header__free-lesson" id="feedback">Бесплатный урок</button>
+			<button class="main-header__test">Онлайн тест</button>
+			<button class="main-header__callback">Обратный звонок</button>
 			{% include '../components/phone-numbers.twig' with {classes: 'icon--white icon--sm'}  %}
 			<div class="main-header__contacts">
 				<div class="main-header__city">Москва</div>
 				<div class="main-header__time">ПН-ПТ с 12:00 до 21:00</div>
 			</div>
-			<a href="#" class="main-header__link">Войти</a>
+			<a href="#" class="main-header__login">Войти</a>
+			<button class="main-header__burger">
+				<div class="main-header__burger-line"></div>
+				<div class="main-header__burger-line"></div>
+				<div class="main-header__burger-line"></div>
+			</button>
 		</div>
 	</div>
 
@@ -23,5 +28,6 @@
 				</li>
 			{% endfor %}
 		</ul>
+		<button class="btn btn--yellow main-header__trial-lesson">Записаться на пробный урок</button>
 	</nav>
 </header>
