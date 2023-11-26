@@ -23,17 +23,18 @@
 					<div class="footer__item">{{meta.address}}</div>
 				</div>
 				<div class="footer__policy">
-					<p>Политика конфиденциальности</p>
-					<p>Договор-оферта</p>
+					{% include '../components/footer-policy.twig' %}
+					{% include '../components/footer-copyright.twig' %}
+					{% include '../components/social.twig' %}
 				</div>
 			</div>
 			<div class="footer__column">
 				<div class="footer__copyright">
-					<p>© 2013–2023 SAY YES!</p>
-					<p>Все права защищены</p>
+					{% include '../components/footer-copyright.twig' %}
 				</div>
 			</div>
 			<div class="footer__column">
+				{% include '../components/logo.twig' with { fill: "#520360" } %}
 				<ul class="footer__about">
 					<div class="footer__title">О SAY YES</div>
 					{% for item in footerNavItems.about %}
@@ -42,43 +43,49 @@
 						</li>
 					{% endfor %}
 				</ul>
+				{% include '../components/footer-courses.twig' %}
 				{% include '../components/social.twig' %}
 				<div class="footer__with-love">
-					Сделано с
-					<img src="./assets/images/decoration/elements/heart-2.svg" alt="С любовью" class="footer__with-love-img">
+					{% include '../components/with-love.twig' %}
 				</div>
 			</div>
 			<div class="footer__column">
-				<div class="footer__title">Курсы и программы школы</div>
-				<div class="footer__courses">
-					<ul class="footer__subcolumn">
-						{% for item in footerNavItems.courses %}
-							<li class="footer__item">
-								<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
-							</li>
-						{% endfor %}
-					</ul>
-					<ul class="footer__subcolumn">
-						{% for item in footerNavItems.programms %}
-							<li class="footer__item">
-								<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
-							</li>
-						{% endfor %}
-						<div class="footer__results-title">Результаты проведения СОУТ</div>
-					</ul>
-				</div>
-				<div class="license">
-					<img src="./assets/images/pictures/license.png" alt="Лицензия 77 Л01 №0007610" class="license__img">
-					<div class="license__info">
-						<h4 class="license__title">Лицензия на доп. образование</h4>
-						<p class="license__series">серия 77 Л01 №0007610</p>
+				<div class="footer__courses-programms">
+					<div class="footer__title">Курсы и программы школы</div>
+					<div class="footer__courses">
+						<ul class="footer__subcolumn">
+							{% for item in footerNavItems.courses %}
+								<li class="footer__item">
+									<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
+								</li>
+							{% endfor %}
+						</ul>
+						<ul class="footer__subcolumn">
+							{% for item in footerNavItems.programms %}
+								<li class="footer__item">
+									<a href="{{item.url}}" class="footer__link">{{item.text}}</a>
+								</li>
+							{% endfor %}
+							{% include '../components/footer-SAWC.twig' %}
+						</ul>
 					</div>
 				</div>
+				{% include '../components/footer-education-forms.twig' %}
+				{% include '../components/license.twig' %}
 				<div class="footer__designer">
-					<p>Дизайн сайта</p>
-					<p>Насибуллина Екатерина</p>
+					{% include '../components/designer.twig' %}
+					{% include '../components/with-love.twig' %}
+					{% include '../components/footer-copyright.twig' %}
+					{% include '../components/social.twig' %}
 				</div>
 			</div>
+		</div>
+		<div class="footer__mobile-block">
+			{% include '../components/license.twig' %}
+			{% include '../components/footer-SAWC.twig' %}
+			{% include '../components/footer-policy.twig' %}
+			{% include '../components/with-love.twig' %}
+			{% include '../components/footer-copyright.twig' %}
 		</div>
 	</div>
 </footer>
