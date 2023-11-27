@@ -45,6 +45,10 @@ a {
 		margin-right: 62px;
 		margin-left: 62px;
 	}
+
+	@include breakpoint($breakpoint-md) {
+		padding: 0 15px;
+	}
 }
 
 @import "blocks/license";
