@@ -1,17 +1,21 @@
 .tabs,
 .subtabs {
+	position: relative;
+
 	&__nav {
-		max-width: 568px;
+		max-width: 470px;
 		display: flex;
 		justify-content: space-between;
+		gap: 10px;
 
 		font-weight: 700;
 
 		&--feedback {
-			padding-left: 747px;
+			position: absolute;
+			top: -55px;
+			right: 63px;
 
 			.tabs__tab {
-				min-width: 230px;
 				min-height: 55px;
 
 				background-color: $yellow;
@@ -21,10 +25,57 @@
 					background-color: $medium-magenta;
 				}
 			}
+
+			@include breakpoint($breakpoint-md) {
+				max-width: 370px;
+				top: -40px;
+
+				.tabs__tab {
+					min-height: 40px;
+				}
+			}
+
+			@include breakpoint($breakpoint-xxs) {
+				max-width: none;
+				width: 100%;
+				right: auto;
+				left: 0;
+
+				.tabs__tab {
+					width: 100%;
+					position: relative;
+
+					&::before {
+						content: "";
+						position: absolute;
+						bottom: -50px;
+						width: 50px;
+						height: 50px;
+						background-color: $medium-magenta;
+					}
+
+					&:first-child {
+						&::before {
+							content: "";
+							left: 0;
+							background-color: $yellow;
+						}
+					}
+
+					&:last-child {
+						&::before {
+							content: "";
+							right: 0;
+							background-color: $medium-magenta;
+						}
+					}
+				}
+			}
 		}
 
 		&--courses,
 		&--courses-2 {
+			max-width: 560px;
 			margin-bottom: 40px;
 
 			.tabs__tab {
@@ -39,6 +90,16 @@
 				&:not(.active) {
 					background-color: $white;
 				}
+			}
+
+			@include breakpoint($breakpoint-md) {
+				max-width: 520px;
+			}
+
+			@include breakpoint($breakpoint-sm-mobile) {
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 20px;
 			}
 		}
 
@@ -134,10 +195,6 @@
 		background-color: $white;
 		border: none;
 		font-weight: 700;
-
-		&:not(:last-child) {
-			margin-right: 10px;
-		}
 	}
 
 	&__item {

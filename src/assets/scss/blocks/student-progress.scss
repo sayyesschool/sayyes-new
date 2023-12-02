@@ -1,9 +1,13 @@
 .student-progress {
-	margin: 150px 0 85px 60px;
-	width: 1058px;
+	margin-bottom: 130px;
+
+	.section-container {
+		max-width: 1098px;
+	}
 
 	.slider {
 		margin-top: -30px;
+		// overflow: visible;
 	}
 
 	.subtitle {
@@ -14,5 +18,40 @@
 	&__description {
 		margin-top: 10px;
 		max-width: 490px;
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		.subtitle {
+			max-width: 490px;
+			margin-bottom: 15px;
+		}
+
+		.section-container {
+			max-width: 867px;
+		}
+
+		.slider {
+			margin-top: 10px;
+
+			&__arrows {
+				right: 0;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		.subtitle {
+			max-width: 400px;
+		}
+
+		.section-container {
+			max-width: 708px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		.subtitle {
+			max-width: 230px;
+		}
 	}
 }

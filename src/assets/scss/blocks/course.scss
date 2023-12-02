@@ -1,6 +1,5 @@
 .course {
-	width: 568px;
-	margin-bottom: 20px;
+	width: calc(50% - 10px);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -44,7 +43,7 @@
 	}
 
 	&__lesson-cost {
-		max-width: 150px;
+		max-width: 20%;
 	}
 
 	&__lesson-type {
@@ -91,6 +90,99 @@
 	&--violent {
 		.course__header {
 			background-color: $violent;
+		}
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		&__title {
+			font-size: 32px;
+			font-weight: 700;
+			line-height: 30px;
+
+			margin-bottom: 12px;
+		}
+
+		&__header {
+			padding-top: 29px;
+			min-height: 175px;
+		}
+
+		&__lesson-cost {
+			display: none;
+		}
+
+		&__content {
+			min-height: 125px;
+			padding: 25px 20px 25px 40px;
+		}
+
+		&__list {
+			width: 100%;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		&__title {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		&__header {
+			padding: 24px 30px;
+			min-height: 145px;
+		}
+
+		&__content {
+			min-height: 105px;
+			padding: 22px 15px 22px 24px;
+		}
+
+		&__item {
+			line-height: 15px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		width: 100%;
+
+		&__title {
+			font-size: 32px;
+			line-height: 30px;
+		}
+
+		&__description {
+			max-width: none;
+		}
+
+		&__lesson-cost {
+			display: block;
+		}
+
+		&__list {
+			width: auto;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__title {
+			font-size: 24px;
+			line-height: 25px;
+		}
+
+		&__header {
+			padding: 24px 30px;
+		}
+
+		&__lesson-cost {
+			display: none;
+		}
+
+		&__lesson-type {
+			padding-right: 0;
+		}
+
+		&__list {
+			width: 100%;
 		}
 	}
 }

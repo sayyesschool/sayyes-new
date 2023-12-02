@@ -3,6 +3,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
+	height: 0;
 	width: 100%;
 	z-index: 100;
 
@@ -281,7 +282,7 @@
 		}
 	}
 
-	@include breakpoint($breakpoint-xs) {
+	@include breakpoint($breakpoint-xxs) {
 		font-size: 16px;
 
 		.phone-numbers {

@@ -6,6 +6,10 @@
 	background-color: $yellow;
 	border-radius: $border-radius;
 
+	.central-text {
+		display: block;
+	}
+
 	&__pen-icon,
 	&__hourglass-icon,
 	&__book-icon,
@@ -25,11 +29,26 @@
 
 	&__book-icon {
 		bottom: -20px;
-    left: -20px;
+		left: -20px;
 	}
 
 	&__statue-of-liberty-icon {
-    bottom: -25px;
-    right: 35px;
+		bottom: -25px;
+		right: 35px;
+	}
+
+	@include breakpoint($breakpoint-md) {
+		padding: 60px 145px 40px;
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		padding: 60px 25px 40px;
+
+		&__pen-icon,
+		&__hourglass-icon,
+		&__book-icon,
+		&__statue-of-liberty-icon {
+			display: none;
+		}
 	}
 }

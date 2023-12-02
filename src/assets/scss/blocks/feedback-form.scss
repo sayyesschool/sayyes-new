@@ -1,7 +1,7 @@
 .feedback-form {
 	.btn {
+		min-width: auto;
 		width: 100%;
-		min-height: 50px;
 	}
 
 	&__format {
@@ -11,7 +11,7 @@
 	}
 
 	&__radio-buttons {
-		width: 390px;
+		max-width: 390px;
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 18px;

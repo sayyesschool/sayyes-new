@@ -4,20 +4,17 @@
 			<a href="#" class="text text--violent">лицензией и наградами</a>
 			рейтинга Schoolrate</h2>
 
-		<div class="history__columns">
-			<ul class="history__left">
-				{% for item in rewards %}
-					<li class="reward">
-						<h3 class="reward__title">{{item.year}}</h3>
-						<h4 class="reward__subtitle">
-							№{{item.numbering}}
-							{{item.nomination}}</h4>
-						<p class="reward__description">{{item.description}}</p>
-					</li>
-				{% endfor %}
-			</ul>
-
-			<div class="history__right">
+		<ul class="history__content">
+			{% for item in rewards %}
+				<li class="reward">
+					<h3 class="reward__title">{{item.year}}</h3>
+					<h4 class="reward__subtitle">
+						№{{item.numbering}}
+						{{item.nomination}}</h4>
+					<p class="reward__description">{{item.description}}</p>
+				</li>
+			{% endfor %}
+			<div class="history__add-reward">
 				<img src="./assets/images/pictures/founders-1.png" alt="Основатели" class="history__img">
 				<img src="./assets/images/decoration/notes/founders.svg" alt="Основатели" class="history__note">
 				<div class="comment">
@@ -26,6 +23,6 @@
 					<p class="comment__description">Вы также сможете получить налоговый вычет.</p>
 				</div>
 			</div>
-		</div>
+		</ul>
 	</div>
 </section>

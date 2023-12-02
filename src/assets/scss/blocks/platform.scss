@@ -24,4 +24,33 @@
 		object-fit: cover;
 		border-radius: $border-radius;
 	}
+
+	@include breakpoint($breakpoint-lg) {
+		&__description {
+			max-width: 400px;
+			margin: 20px 0 40px;
+		}
+
+		.video {
+			height: 385px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		.video {
+			height: 285px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		.video {
+			height: 215px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		.video {
+			height: 160px;
+		}
+	}
 }

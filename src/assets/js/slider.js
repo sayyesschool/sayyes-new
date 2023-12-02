@@ -8,5 +8,10 @@ export const slider = () => {
 		pagination: {
 			el: ".slider__pagination",
 		},
+		// breakpoints: {
+		// 	1300: {
+		// 		spaceBetween: 100,
+		// 	},
+		// },
 	});
 };

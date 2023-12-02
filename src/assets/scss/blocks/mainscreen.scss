@@ -149,7 +149,7 @@
 		}
 	}
 
-	@include breakpoint($breakpoint-xs) {
+	@include breakpoint($breakpoint-xxs) {
 		height: 671px;
 		border-radius: $border-radius-sm;
 

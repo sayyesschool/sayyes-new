@@ -2,8 +2,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 470px;
-	height: 110px;
 	padding: 35px;
 	margin-bottom: 20px;
 
@@ -28,5 +26,22 @@
 		margin-left: auto;
 		text-align: right;
 		max-width: 200px;
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		padding: 20px 25px;
+		font-size: 16px;
+		line-height: 18px;
+		margin-bottom: 15px;
+
+		&__numbering {
+			padding-right: 10px;
+			font-size: 31px;
+			line-height: 40px;
+		}
+
+		&__title {
+			max-width: 100px;
+		}
 	}
 }

@@ -34,4 +34,82 @@
 
 		border-radius: $border-radius;
 	}
+
+	&__advangees {
+		width: 470px;
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		&__content {
+			justify-content: space-between;
+			margin-top: 15px;
+		}
+
+		&__info {
+			max-width: 295px;
+			margin-right: 0;
+		}
+
+		&__img {
+			width: 138px;
+			height: 265px;
+		}
+
+		&__advangees {
+			width: 368px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		&__info {
+			max-width: 195px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		&__content {
+			flex-direction: column;
+		}
+
+		&__info {
+			max-width: 700px;
+		}
+
+		&__img {
+			width: 50%;
+			height: 100%;
+			align-self: center;
+		}
+
+		&__advangees {
+			align-self: center;
+			width: 70%;
+			.advantage {
+				margin-bottom: 0;
+				border-radius: 0;
+
+				&:first-child {
+					border-top-left-radius: $border-radius;
+					border-top-right-radius: $border-radius;
+				}
+
+				&:last-child {
+					border-bottom-left-radius: $border-radius;
+					border-bottom-right-radius: $border-radius;
+				}
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		&__img {
+			width: 100%;
+			height: 100%;
+			align-self: center;
+		}
+
+		&__advangees {
+			width: 100%;
+		}
+	}
 }
