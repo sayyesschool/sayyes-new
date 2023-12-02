@@ -104,4 +104,67 @@
 			max-width: 380px;
 		}
 	}
+
+	@include breakpoint($breakpoint-xl) {
+		&__img {
+			height: 500px;
+		}
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		&__img {
+			height: 460px;
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		.title {
+			font-size: 36px;
+			line-height: 35px;
+		}
+
+		&__description {
+			margin: 10px auto 25px;
+		}
+
+		&__img {
+			height: 400px;
+			margin-top: 25px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		&__img {
+			height: 360px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xs) {
+		.title {
+			font-size: 28px;
+			line-height: 30px;
+		}
+
+		&__img {
+			height: 315px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		&__img {
+			height: 280px;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__img {
+			height: 240px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		&__img {
+			height: 190px;
+		}
+	}
 }
