@@ -1,5 +1,4 @@
 .card {
-	max-width: 372px;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -26,11 +25,11 @@
 	&__name {
 		font-weight: 800;
 
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 
 	&__post {
-		margin-bottom: 55px;
+		margin-bottom: 35px;
 	}
 
 	&__description {
@@ -140,6 +139,52 @@
 
 			display: flex;
 			gap: 15px;
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		&__content {
+			padding: 25px;
+		}
+
+		&__img {
+			height: 315px;
+		}
+
+		&--text-card {
+			&::before {
+				width: 145px;
+				height: 93px;
+			}
+		}
+
+		&--team-card {
+			&::before {
+				width: 30px;
+				height: 41px;
+				left: -15px;
+			}
+		}
+
+		&--comment-card {
+			padding: 25px;
+
+			&:last-of-type {
+				margin-top: 0;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		min-width: 213px;
+
+		&__img {
+			height: 215px;
+		}
+
+		&__text {
+			font-size: 14px;
+			line-height: 15px;
 		}
 	}
 }
