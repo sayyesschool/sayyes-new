@@ -18,7 +18,7 @@ export const header = () => {
   const updateHeaderClasses = () => {
     const currentScrollY = window.scrollY;
     const isScrollingUp = currentScrollY < lastScrollY;
-    const isSmallScreen = window.innerWidth < 768;
+    const isSmallScreen = window.innerWidth < 769;
 
     header.classList.toggle("expanded", currentScrollY !== 0);
 
