@@ -40,6 +40,10 @@
 	}
 
 	@include breakpoint($breakpoint-lg) {
+		.btn {
+			max-width: 100%;
+		}
+
 		&__content {
 			justify-content: space-between;
 			margin-top: 15px;

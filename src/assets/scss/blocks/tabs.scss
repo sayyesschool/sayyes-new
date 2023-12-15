@@ -139,6 +139,16 @@
 					color: $white;
 					background-color: $medium-magenta;
 				}
+
+				@include breakpoint($breakpoint-md) {
+					max-width: 520px;
+				}
+
+				@include breakpoint($breakpoint-sm-mobile) {
+					font-size: 14px;
+					font-weight: 700;
+					line-height: 20px;
+				}
 			}
 		}
 

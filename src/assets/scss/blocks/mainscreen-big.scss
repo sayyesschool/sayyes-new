@@ -106,12 +106,14 @@
 	}
 
 	@include breakpoint($breakpoint-xl) {
+		.split-image,
 		&__img {
 			height: 500px;
 		}
 	}
 
 	@include breakpoint($breakpoint-lg) {
+		.split-image,
 		&__img {
 			height: 460px;
 		}
@@ -127,6 +129,7 @@
 			margin: 10px auto 25px;
 		}
 
+		.split-image,
 		&__img {
 			height: 400px;
 			margin-top: 25px;
@@ -134,6 +137,7 @@
 	}
 
 	@include breakpoint($breakpoint-sm) {
+		.split-image,
 		&__img {
 			height: 360px;
 		}
@@ -145,24 +149,28 @@
 			line-height: 30px;
 		}
 
+		.split-image,
 		&__img {
 			height: 315px;
 		}
 	}
 
 	@include breakpoint($breakpoint-xxs) {
+		.split-image,
 		&__img {
 			height: 280px;
 		}
 	}
 
 	@include breakpoint($breakpoint-mobile) {
+		.split-image,
 		&__img {
 			height: 240px;
 		}
 	}
 
 	@include breakpoint($breakpoint-sm-mobile) {
+		.split-image,
 		&__img {
 			height: 190px;
 		}

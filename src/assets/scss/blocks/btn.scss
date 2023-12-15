@@ -1,7 +1,8 @@
 .btn {
 	display: inline-block;
 	min-height: 50px;
-	min-width: 372px;
+	width: 100%;
+	max-width: 372px;
 	text-align: center;
 
 	font-family: "Raleway", sans-serif;
@@ -43,12 +44,14 @@
 	}
 
 	&--md {
-		min-width: 273px;
+		width: 100%;
+		max-width: 273px;
 		min-height: 40px;
 	}
 
 	&--sm {
-		min-width: 200px;
+		width: 100%;
+		max-width: 200px;
 		min-height: 40px;
 	}
 
