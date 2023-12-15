@@ -1094,40 +1094,6 @@
 			"bg": "default"
 		}
 	],
-	"gallery": [
-		{
-			"title": "Say Yes",
-			"img": "bts-1"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-2"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-3"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-4"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-5"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-6"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-7"
-		},
-		{
-			"title": "Say Yes",
-			"img": "bts-8"
-		}
-	],
 	"teacherCards1": [
 		{
 			"name": "Сабина Шейхова",
