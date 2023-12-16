@@ -10,9 +10,7 @@
 				{% for lesson in item.list %}
 					<li class="course__item">
 						<div class="course__lesson-type">{{lesson.lessonType}}</div>
-						<div class="course__lesson-price">{{lesson.lessonSince}}
-							<span class="course__accent">{{lesson.lessonPrice}}</span>
-							{{lesson.lessonTime}}</div>
+						<div class="course__lesson-price">{{lesson.lessonSince}}<span class="course__accent">{{lesson.lessonPrice}}</span>{{lesson.lessonTime}}</div>
 					</li>
 				{% endfor %}
 			</ul>
