@@ -2,7 +2,7 @@
 	// чтобы не разбивать цикл в twig файле, мне пришлось использовать тут трансформацию, так как в другом случае потребывалось бы делить цикл и добавлять несколько контейнеров в вёрстку
 	display: flex;
 	flex-direction: column;
-	width: 372px;
+	width: calc(33% - 11px);
 	min-height: 190px;
 	padding: 40px 50px 45px 48px;
 	position: relative;
@@ -564,5 +564,188 @@
 			right: -6px;
 			background-image: url("../../assets/images/decoration/elements/casting.svg");
 		}
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		padding: 25px;
+	}
+
+	@include breakpoint($breakpoint-md) {
+		width: calc(50% - 8px);
+
+		&__title {
+			font-size: 18px;
+			line-height: 18px;
+		}
+
+		&--heart-bg {
+			&::before {
+				width: 105px;
+				height: 100px;
+				top: -10px;
+				right: -6px;
+			}
+		}
+
+		&--diploma-bg {
+			&::before {
+				width: 122px;
+				height: 122px;
+				top: -12px;
+				right: 0px;
+			}
+		}
+
+		&--clock-2-bg {
+			&::before {
+				width: 100px;
+				height: 100px;
+				top: -11px;
+				right: 2px;
+			}
+		}
+
+		&--comment-bg {
+			&::before {
+				top: -10px;
+				right: -14px;
+			}
+		}
+
+		&--leaves-bg {
+			&::before {
+				width: 96px;
+				height: 97px;
+				top: -12px;
+				right: 0px;
+			}
+		}
+
+		&--books-bg {
+			&::before {
+				width: 223px;
+				height: 181px;
+				bottom: -22px;
+				right: -39px;
+			}
+		}
+
+		&--contacts-bg {
+			&::before {
+				width: 192px;
+				height: 145px;
+				right: -58px;
+			}
+		}
+
+		&--notes-bg {
+			&::before {
+				width: 150px;
+				height: 140px;
+				right: -37px;
+			}
+		}
+
+		&--webcam-bg {
+			&::before {
+				width: 152px;
+				height: 140px;
+				top: -30px;
+				right: -55px;
+			}
+		}
+
+		&--note-2-bg {
+			&::before {
+				width: 197px;
+				height: 198px;
+				top: -59px;
+				right: -55px;
+			}
+		}
+
+		&--video-bg {
+			&::before {
+				width: 239px;
+				height: 211px;
+				top: auto;
+				bottom: 0;
+				right: -91px;
+			}
+		}
+
+		&--lightning-bg {
+			&::before {
+				width: 70px;
+				height: 124px;
+				top: -17px;
+				right: 12px;
+			}
+		}
+
+		&--levels-2-bg {
+			&::before {
+				width: 150px;
+				height: 112px;
+				bottom: -20px;
+				right: -20px;
+			}
+		}
+
+		&--calendar-bg {
+			&::before {
+				width: 150px;
+				height: 115px;
+				top: -8px;
+				right: -25px;
+				transform: rotate(18deg);
+			}
+		}
+
+		&--rubles-bg {
+			&::before {
+				width: 123px;
+				height: 133px;
+				bottom: -27px;
+				right: 6px;
+			}
+		}
+
+		&--clock-bg {
+			&::before {
+				width: 174px;
+				height: 174px;
+				bottom: -18px;
+				right: -5px;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		width: 100%;
+
+		&--video-bg {
+			&::before {
+				width: 136px;
+				height: 120px;
+				top: -18px;
+				bottom: auto;
+				right: -41px;
+			}
+		}
+
+		&--clock-bg {
+			&::before {
+				width: 100px;
+				height: 100px;
+				bottom: auto;
+				top: -15px;
+				right: -15px;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		padding: 25px;
 	}
 }
