@@ -17,8 +17,8 @@
 				<ul class="big-cards__list">
 					{% for cardItem in card.list %}
 						<li class="big-cards__item">{{cardItem.property}}
-							<br>
-							{{cardItem.value}}</li>
+							<span class="big-cards__value">{{cardItem.value}}</span>
+						</li>
 					{% endfor %}
 				</ul>
 			</div>
