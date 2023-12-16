@@ -18,4 +18,71 @@
 		border-radius: $border-radius;
 		object-fit: cover;
 	}
+
+	@include breakpoint($breakpoint-xl) {
+		&__img {
+			height: 500px;
+		}
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		.subtitle {
+			max-width: 550px;
+			margin-bottom: 15px;
+		}
+
+		&__description {
+			max-width: 550px;
+			margin-bottom: 25px;
+		}
+
+		&__img {
+			height: 460px;
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		&__img {
+			height: 400px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		&__img {
+			height: 360px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xs) {
+		&__img {
+			height: 315px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		.subtitle {
+			max-width: 450px;
+			margin-bottom: 15px;
+		}
+
+		&__description {
+			max-width: 480px;
+		}
+
+		&__img {
+			height: 280px;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__img {
+			height: 240px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		&__img {
+			height: 190px;
+		}
+	}
 }
