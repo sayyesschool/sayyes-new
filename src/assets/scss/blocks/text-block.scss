@@ -746,6 +746,41 @@
 				right: -13px;
 			}
 		}
+
+		&--cap-2-bg {
+			&::before {
+				width: 158px;
+				height: 126px;
+				top: -6px;
+				right: -23px;
+			}
+		}
+
+		&--briefcase-bg {
+			&::before {
+				width: 176px;
+				height: 126px;
+				top: -10px;
+				right: -51px;
+			}
+		}
+
+		&--person-bg {
+			&::before {
+				width: 121px;
+				height: 121px;
+				right: -18px;
+			}
+		}
+
+		&--comments-bg {
+			&::before {
+				width: 166px;
+				height: 130px;
+				top: -16px;
+				right: -20px;
+			}
+		}
 	}
 
 	@include breakpoint($breakpoint-xxs) {
@@ -768,6 +803,43 @@
 				bottom: auto;
 				top: -15px;
 				right: -15px;
+			}
+		}
+
+		&--cap-2-bg {
+			&::before {
+				width: 140px;
+				height: 112px;
+				top: -12px;
+				right: -27px;
+			}
+		}
+
+		&--briefcase-bg {
+			&::before {
+				width: 158px;
+				height: 113px;
+				top: -6px;
+				right: -65px;
+			}
+		}
+
+		&--person-bg {
+			&::before {
+				width: 113px;
+				height: 113px;
+				top: -20px;
+				right: -34px;
+				transform: rotate(-11deg);
+			}
+		}
+
+		&--comments-bg {
+			&::before {
+				width: 147px;
+				height: 115px;
+				top: -9px;
+				right: -29px;
 			}
 		}
 	}
