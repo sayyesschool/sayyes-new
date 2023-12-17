@@ -59,4 +59,28 @@
 			max-width: 470px;
 		}
 	}
+
+	@include breakpoint($breakpoint-lg) {
+		.subtitle {
+			max-width: 440px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		&--education {
+			.big-course__content {
+				min-height: 200px;
+			}
+
+			.big-course__lesson-type {
+				width: auto;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		&__blocks {
+			gap: 15px;
+		}
+	}
 }
