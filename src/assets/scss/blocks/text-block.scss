@@ -2,7 +2,7 @@
 	// чтобы не разбивать цикл в twig файле, мне пришлось использовать тут трансформацию, так как в другом случае потребывалось бы делить цикл и добавлять несколько контейнеров в вёрстку
 	display: flex;
 	flex-direction: column;
-	width: calc(33% - 11px);
+	width: calc((100% - 40px) / 3);
 	min-height: 190px;
 	padding: 40px 50px 45px 48px;
 	position: relative;
@@ -571,7 +571,7 @@
 	}
 
 	@include breakpoint($breakpoint-md) {
-		width: calc(50% - 8px);
+		width: calc(50% - 7.5px);
 
 		&__title {
 			font-size: 18px;
@@ -717,6 +717,33 @@
 				height: 174px;
 				bottom: -18px;
 				right: -5px;
+			}
+		}
+
+		&--books-2-bg {
+			&::before {
+				width: 161px;
+				height: 130px;
+				top: -25px;
+				right: -52px;
+			}
+		}
+
+		&--student-bg {
+			&::before {
+				width: 116px;
+				height: 122px;
+				top: -20px;
+				right: -5px;
+			}
+		}
+
+		&--family-bg {
+			&::before {
+				width: 142px;
+				height: 134px;
+				top: -12px;
+				right: -13px;
 			}
 		}
 	}

@@ -20,6 +20,8 @@
 
 	&__blocks {
 		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
 		justify-content: space-between;
 	}
 
@@ -28,5 +30,68 @@
 		margin: 35px auto 0;
 
 		text-align: center;
+	}
+
+	@include breakpoint($breakpoint-md) {
+		.subtitle {
+			margin: 0 0 20px;
+			max-width: calc(50% - 7.5px);
+			text-align: left;
+		}
+
+		&__description {
+			max-width: 200px;
+			margin: 0;
+
+			text-align: left;
+		}
+
+		.text-block {
+			min-height: 185px;
+
+			&::after {
+				display: none;
+			}
+
+			&:first-child {
+				margin-left: calc(50% + 7.5px);
+			}
+		}
+
+		&__blocks {
+			margin-top: -85px;
+			gap: 15px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		.text-block {
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+
+		&__blocks {
+			margin-top: 0;
+		}
+
+		&__description {
+			max-width: none;
+			margin-bottom: 20px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		.subtitle {
+			max-width: none;
+		}
+
+		.text-block {
+			padding-right: 65px;
+
+			.text-block__title {
+				max-width: 130px;
+			}
+		}
 	}
 }
