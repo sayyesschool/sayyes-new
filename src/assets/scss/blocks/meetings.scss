@@ -2,7 +2,7 @@
 	background-color: $yellow;
 	border-radius: $border-radius;
 
-	padding: 65px 0 90px;
+	padding: 65px 62px 90px;
 	margin-bottom: 100px;
 
 	.subtitle {
@@ -10,18 +10,7 @@
 	}
 
 	.slider {
-		padding-top: 40px;
-	}
-
-	.slider__pagination {
-		bottom: -35px;
-		right: 50%;
-		transform: translateX(50%);
-		width: 40px;
-	}
-
-	.slider__arrows {
-		top: -30px;
+		overflow: hidden;
 	}
 
 	&__description {
@@ -31,5 +20,38 @@
 	&__cards {
 		display: flex;
 		justify-content: space-between;
+		gap: 20px;
+	}
+
+	@include breakpoint($breakpoint-xl) {
+		padding: 40px 35px;
+	}
+
+	@include breakpoint($breakpoint-md) {
+		.slider__arrows,
+		.slider__pagination {
+			display: none;
+		}
+
+		.swiper-wrapper {
+			overflow-x: auto;
+			padding-bottom: 5px;
+
+			&::-webkit-scrollbar {
+				height: 3px;
+			}
+
+			&::-webkit-scrollbar-track {
+				border-radius: 10px;
+			}
+			&::-webkit-scrollbar-thumb {
+				background: $black;
+				border-radius: 10px;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		padding: 20px 15px;
 	}
 }

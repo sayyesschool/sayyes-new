@@ -49,4 +49,24 @@ export const slider = () => {
 			},
 		},
 	});
+
+	const swiperMeetings = new Swiper(".swiper-meetings", {
+		enabled: false,
+		spaceBetween: 15,
+		width: 900,
+		navigation: {
+			nextEl: ".slider__right-arrow",
+			prevEl: ".slider__left-arrow",
+		},
+		pagination: {
+			el: ".slider__pagination",
+		},
+		breakpoints: {
+			1024: {
+				enabled: true,
+				spaceBetween: 150,
+				width: null,
+			},
+		},
+	});
 };
