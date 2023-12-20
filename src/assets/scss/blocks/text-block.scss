@@ -781,6 +781,45 @@
 				right: -20px;
 			}
 		}
+
+		&--levels-bg {
+			&::before {
+				width: 175px;
+				height: 131px;
+				top: auto;
+				bottom: -33px;
+				right: -13px;
+			}
+		}
+
+		&--fire-bg {
+			&::before {
+				width: 125px;
+				height: 173px;
+				top: auto;
+				bottom: -20px;
+				right: -4px;
+			}
+		}
+
+		&--webcam-2-bg {
+			&::before {
+				width: 173px;
+				height: 129px;
+				top: auto;
+				bottom: -33px;
+				right: -44px;
+				transform: rotate(-10deg);
+			}
+		}
+
+		&--format-bg {
+			&::before {
+				top: auto;
+				bottom: -36px;
+				right: -27px;
+			}
+		}
 	}
 
 	@include breakpoint($breakpoint-xxs) {
