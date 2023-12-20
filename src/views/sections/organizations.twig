@@ -1,19 +1,30 @@
 <section class="organizations">
 	<div class="section-container">
 		<h2 class="subtitle">Нас уже выбрали:</h2>
-		<div class="slider">
+		<div class="slider swiper-organizations">
 			<div class="slider__arrows">
 				<button class="slider__left-arrow"></button>
 				<button class="slider__right-arrow"></button>
 			</div>
-			<div class="slider__slide">
-				<ul class="organizations__list">
-					{% for item in organizations %}
-						<li class="organizations__item">
-							<img src="./assets/images/organizations/{{item.img}}.png" alt="{{item.name}}">
-						</li>
-					{% endfor %}
-				</ul>
+			<div class="swiper-wrapper">
+				<div class="slider__slide swiper-slide">
+					<ul class="organizations__list">
+						{% for item in organizations %}
+							<li class="organizations__item">
+								<img src="./assets/images/organizations/{{item.img}}.png" alt="{{item.name}}" class="organizations__img">
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="slider__slide swiper-slide">
+					<ul class="organizations__list">
+						{% for item in organizations %}
+							<li class="organizations__item">
+								<img src="./assets/images/organizations/{{item.img}}.png" alt="{{item.name}}" class="organizations__img">
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
 			</div>
 			<ul class="slider__pagination"></ul>
 		</div>
