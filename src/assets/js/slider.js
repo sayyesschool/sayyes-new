@@ -25,7 +25,27 @@ export const slider = () => {
 			768: {
 				enabled: true,
 				spaceBetween: 150,
-				width: null
+				width: null,
+			},
+		},
+	});
+
+	const swiperReviews = new Swiper(".swiper-reviews", {
+		enabled: false,
+		spaceBetween: 15,
+		width: 1080,
+		navigation: {
+			nextEl: ".slider__right-arrow",
+			prevEl: ".slider__left-arrow",
+		},
+		pagination: {
+			el: ".slider__pagination",
+		},
+		breakpoints: {
+			768: {
+				enabled: true,
+				spaceBetween: 150,
+				width: null,
 			},
 		},
 	});

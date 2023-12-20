@@ -6,17 +6,11 @@
 	}
 
 	.slider {
-		padding-top: 30px;
-	}
-
-	.slider__arrows {
-		top: -25px;
+		overflow: hidden;
 	}
 
 	.slider__pagination {
-		bottom: -70px;
-		right: 50%;
-		transform: translateX(50%);
+		margin-top: 40px;
 	}
 
 	&__list {
@@ -26,19 +20,50 @@
 	}
 
 	&__item {
-		width: 274px;
+		width: 25%;
 	}
 
 	&__img {
-		width: 274px;
-		height: 380px;
+		width: 100%;
 		display: block;
-		object-fit: cover;
+		object-fit: contain;
+		border-radius: $border-radius;
 	}
 
 	&__name {
 		font-weight: 800;
 
-		margin-left: 5px;
+		margin-top: 20px;
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		.subtitle {
+			max-width: 550px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		.slider__arrows,
+		.slider__pagination {
+			display: none;
+		}
+
+		.swiper-wrapper {
+			overflow-x: auto;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		&__list {
+			display: grid;
+			grid-template-columns: repeat(4, 255px);
+			gap: 15px;
+		}
+
+		&__item {
+			width: 255px;
+		}
 	}
 }

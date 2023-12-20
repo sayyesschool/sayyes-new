@@ -3,20 +3,32 @@
 		<h2 class="subtitle">Благодарственные
 			<span class="text text--violent">письма и отзывы</span>
 			руководителей компаний</h2>
-		<div class="slider">
+		<div class="slider swiper-reviews">
 			<div class="slider__arrows">
 				<button class="slider__left-arrow"></button>
 				<button class="slider__right-arrow"></button>
 			</div>
-			<div class="slider__slide">
-				<ul class="reviews__list">
-					{% for item in reviews %}
-						<li class="reviews__item">
-							<img src="./assets/images/reviews/{{item.img}}.png" alt="{{item.name}}" class="reviews__img">
-							<h4 class="reviews__name">{{item.name}}</h4>
-						</li>
-					{% endfor %}
-				</ul>
+			<div class="swiper-wrapper">
+				<div class="slider__slide swiper-slide">
+					<ul class="reviews__list">
+						{% for item in reviews %}
+							<li class="reviews__item">
+								<img src="./assets/images/reviews/{{item.img}}.png" alt="{{item.name}}" class="reviews__img">
+								<h4 class="reviews__name">{{item.name}}</h4>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="slider__slide swiper-slide">
+					<ul class="reviews__list">
+						{% for item in reviews %}
+							<li class="reviews__item">
+								<img src="./assets/images/reviews/{{item.img}}.png" alt="{{item.name}}" class="reviews__img">
+								<h4 class="reviews__name">{{item.name}}</h4>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
 			</div>
 			<ul class="slider__pagination"></ul>
 		</div>
