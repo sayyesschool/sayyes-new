@@ -69,4 +69,35 @@ export const slider = () => {
 			},
 		},
 	});
+
+	const swiperFeedback = new Swiper(".swiper-feedback", {
+		enabled: false,
+		spaceBetween: 15,
+		width: null,
+		navigation: {
+			nextEl: ".slider__right-arrow",
+			prevEl: ".slider__left-arrow",
+		},
+		pagination: {
+			el: ".slider__pagination",
+		},
+		breakpoints: {
+			768: {
+				enabled: true,
+				width: null,
+			},
+			540: {
+				width: 895,
+			},
+			480: {
+				width: 815,
+			},
+			360: {
+				width: 595,
+			},
+			320: {
+				width: 595,
+			},
+		},
+	});
 };
