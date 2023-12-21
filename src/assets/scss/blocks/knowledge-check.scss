@@ -19,7 +19,7 @@
 		position: relative;
 		padding: 0;
 		margin-left: 55px;
-		max-width: 280px;
+		width: 280px;
 
 		background-color: transparent;
 
@@ -32,7 +32,7 @@
 			width: 254px;
 			height: 148px;
 			position: absolute;
-			top: 144px;
+			top: 50%;
 			left: 198px;
 			background: url("../../assets/images/decoration/notes/free-2.svg")
 				center center/cover no-repeat;
@@ -42,11 +42,12 @@
 	&__content {
 		display: flex;
 		justify-content: space-between;
+		gap: 20px;
 	}
 
 	&__form {
 		padding: 50px;
-		max-width: 568px;
+		width: 568px;
 
 		background-color: #ffdf76;
 		border-radius: $border-radius;
@@ -70,5 +71,65 @@
 	&__policy {
 		font-size: 13px;
 		font-weight: 600;
+	}
+
+	@include breakpoint($breakpoint-xl) {
+		.list {
+			&::after {
+				width: 172px;
+				height: 100px;
+				left: 40px;
+			}
+
+			&--ul-sm {
+				.list__item {
+					&::before {
+						top: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		padding: 40px;
+
+		.subtitle {
+			max-width: 650px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		.list {
+			width: 80%;
+			margin-left: 35px;
+
+			&::after {
+				display: none;
+			}
+		}
+
+		&__content {
+			flex-direction: column;
+		}
+
+		&__form {
+			width: 100%;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		padding: 30px;
+
+		&__form {
+			padding: 25px;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__form {
+			background-color: inherit;
+			padding: 0;
+		}
 	}
 }
