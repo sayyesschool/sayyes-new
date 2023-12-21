@@ -100,4 +100,35 @@ export const slider = () => {
 			},
 		},
 	});
+
+	const swiperCourseFeedback = new Swiper(".swiper-course-feedback", {
+		enabled: false,
+		spaceBetween: 15,
+		width: null,
+		navigation: {
+			nextEl: ".slider__right-arrow",
+			prevEl: ".slider__left-arrow",
+		},
+		pagination: {
+			el: ".slider__pagination",
+		},
+		breakpoints: {
+			800: {
+				enabled: true,
+				width: null,
+			},
+			700: {
+				width: 614,
+			},
+			600: {
+				width: 514,
+			},
+			540: {
+				width: 450,
+			},
+			320: {
+				width: null,
+			},
+		},
+	});
 };

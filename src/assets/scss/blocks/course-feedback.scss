@@ -12,18 +12,8 @@
 	}
 
 	.slider {
-		padding-top: 45px;
-	}
-
-	.slider__arrows {
-		top: -80px;
-		right: -5px;
-	}
-
-	.slider__pagination {
-		bottom: -100px;
-		left: 50%;
-		transform: translateX(-50%);
+		overflow: hidden;
+		// padding-top: 45px;
 	}
 
 	&__description {
@@ -57,10 +47,11 @@
 	&__cards {
 		display: flex;
 		justify-content: space-between;
+		gap: 20px;
 	}
 
 	&__card {
-		width: 568px;
+		width: calc(50% - 10px);
 		min-height: 460px;
 		padding: 46px 40px 44px 49px;
 		display: flex;
@@ -124,6 +115,90 @@
 	&__adults-courses {
 		.subtitle {
 			max-width: 550px;
+		}
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		.subtitle {
+			max-width: 400px;
+			margin-bottom: 15px;
+		}
+
+		&__block {
+			padding: 30px;
+		}
+
+		&__cards {
+			gap: 15px;
+		}
+
+		&__card {
+			width: calc(50% - 7.5px);
+			padding: 25px 30px;
+		}
+
+		&__rating-value {
+			font-size: 36px;
+			line-height: 35px;
+		}
+
+		&__rating {
+			margin-left: 0;
+		}
+	}
+
+	@include breakpoint($breakpoint-xs) {
+		.slider__arrows,
+		.slider__pagination {
+			display: none;
+		}
+
+		.swiper-wrapper {
+			overflow-x: auto;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		&__cards {
+			flex-direction: column;
+		}
+
+		&__card {
+			width: 100%;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		.slider {
+			overflow: visible;
+		}
+
+		.swiper-wrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			overflow: visible;
+		}
+
+		&__block {
+			padding: 25px;
+		}
+
+		&__cards {
+			flex-direction: row;
+			width: calc(100% + 40px);
+			overflow-x: auto;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		&__card {
+			padding: 15px;
+			min-width: 85%;
 		}
 	}
 }
