@@ -820,6 +820,47 @@
 				right: -27px;
 			}
 		}
+
+		&--heart-2-bg {
+			&::before {
+				width: 127px;
+				height: 120px;
+				bottom: auto;
+				top: 0px;
+				right: -32px;
+				transform: rotate(-26deg);
+			}
+		}
+
+		&--woman-bg {
+			&::before {
+				width: 104px;
+				height: 121px;
+				bottom: auto;
+				top: -10px;
+				right: -7px;
+			}
+		}
+
+		&--comments-2-bg {
+			&::before {
+				width: 178px;
+				height: 130px;
+				bottom: auto;
+				top: -18px;
+				right: -40px;
+			}
+		}
+
+		&--target-bg {
+			&::before {
+				width: 132px;
+				height: 119px;
+				bottom: auto;
+				top: -19px;
+				right: -18px;
+			}
+		}
 	}
 
 	@include breakpoint($breakpoint-xxs) {

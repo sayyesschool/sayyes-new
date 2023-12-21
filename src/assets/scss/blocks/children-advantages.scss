@@ -10,7 +10,7 @@
 		justify-content: flex-start;
 		min-height: 245px;
 		padding-top: 44px;
-		flex-basis: 568px;
+		flex-basis: calc(50% - 10px);
 
 		.text-block__title {
 			position: absolute;
@@ -22,7 +22,7 @@
 
 		.text-block__description {
 			margin-top: 55px;
-			max-width: 336px;
+			max-width: 299px;
 		}
 	}
 
@@ -31,5 +31,41 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 		gap: 20px;
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		.subtitle {
+			max-width: 650px;
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		.text-block {
+			flex-basis: calc(50% - 7.5px);
+
+			.text-block__title {
+				position: static;
+				max-width: 190px;
+				margin: 0;
+			}
+
+			.text-block__description {
+				max-width: 400px;
+			}
+		}
+
+		&__blocks {
+			gap: 15px;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		.subtitle {
+			max-width: 520px;
+		}
+
+		.text-block {
+			flex-basis: 100%;
+		}
 	}
 }
