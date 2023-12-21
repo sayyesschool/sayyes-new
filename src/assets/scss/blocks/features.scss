@@ -16,7 +16,7 @@
 		height: 46px;
 		position: absolute;
 		top: -75px;
-		right: 240px;
+		right: 25%;
 		background: url("../../assets/images/decoration/notes/results-report.svg")
 			center center/cover no-repeat;
 	}
@@ -29,22 +29,24 @@
 		position: absolute;
 		z-index: -1;
 		top: -130px;
-		right: -185px;
+		right: -15%;
 		background: url("../../assets/images/decoration/elements/diary.svg")
 			center center/cover no-repeat;
 	}
 
 	&__img {
 		display: block;
-		width: 372px;
-		height: 500px;
+		width: calc(33% - 10px);
 		object-fit: cover;
 		border-radius: $border-radius;
 	}
 
 	&__info {
-		width: 764px;
-		padding: 60px 147px;
+		width: calc(67% - 10px);
+		padding: 30px 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
 		background-color: $white;
 		border-radius: $border-radius;
@@ -74,6 +76,46 @@
 
 			background-color: $black;
 			border-radius: 50%;
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		&::before {
+			width: 293px;
+			height: 37px;
+		}
+
+		&::after {
+			width: 298px;
+			height: 214px;
+			top: -20%;
+			right: -10%;
+		}
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		flex-direction: column;
+		gap: 15px;
+
+		&::before,
+		&::after {
+			display: none;
+		}
+
+		&__img {
+			width: 100%;
+			height: 350px;
+			object-position: center 35%;
+		}
+
+		&__info {
+			width: 100%;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__img {
+			height: 215px;
 		}
 	}
 }
