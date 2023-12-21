@@ -263,6 +263,12 @@
 	}
 
 	@include breakpoint($breakpoint-mobile) {
+		&--profitable-cooperation {
+			.list {
+				padding: 0 0 0 40px;
+			}
+		}
+
 		&--getting-started {
 			.list {
 				padding: 0 0 0 70px;
