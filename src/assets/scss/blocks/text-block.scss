@@ -861,6 +861,34 @@
 				right: -18px;
 			}
 		}
+
+		&--casting-bg {
+			&::before {
+				width: 123px;
+				height: 128px;
+				top: -7px;
+				right: 0px;
+				transform: rotate(-5deg);
+			}
+		}
+
+		&--diploma-2-bg {
+			&::before {
+				width: 152px;
+				height: 152px;
+				top: -21px;
+				right: -16px;
+			}
+		}
+
+		&--comment-2-bg {
+			&::before {
+				width: 147px;
+				height: 125px;
+				top: -11px;
+				right: -23px;
+			}
+		}
 	}
 
 	@include breakpoint($breakpoint-xxs) {
@@ -920,6 +948,27 @@
 				height: 115px;
 				top: -9px;
 				right: -29px;
+			}
+		}
+
+		&--casting-bg {
+			&::before {
+				width: 110px;
+				height: 115px;
+			}
+		}
+
+		&--diploma-2-bg {
+			&::before {
+				width: 123px;
+				height: 123px;
+			}
+		}
+
+		&--comment-2-bg {
+			&::before {
+				width: 120px;
+				height: 102px;
 			}
 		}
 	}

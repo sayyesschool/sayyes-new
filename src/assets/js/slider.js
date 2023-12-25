@@ -131,4 +131,41 @@ export const slider = () => {
 			},
 		},
 	});
+
+	const swiperPersonalApproach = new Swiper(".swiper-personal-approach", {
+		enabled: false,
+		spaceBetween: 15,
+		width: null,
+		navigation: {
+			nextEl: ".slider__right-arrow",
+			prevEl: ".slider__left-arrow",
+		},
+		pagination: {
+			el: ".slider__pagination",
+		},
+		breakpoints: {
+			769: {
+				enabled: true,
+				width: null,
+			},
+			700: {
+				width: 600,
+			},
+			600: {
+				width: 500,
+			},
+			540: {
+				width: 440,
+			},
+			400: {
+				width: 300,
+			},
+			360: {
+				width: 260,
+			},
+			320: {
+				width: null,
+			},
+		},
+	});
 };
