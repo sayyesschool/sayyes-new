@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 568px;
 	min-height: 510px;
 
 	background-color: $white;
@@ -43,5 +42,41 @@
 		display: inline-block;
 		margin-top: auto;
 		padding: 0;
+	}
+
+	@include breakpoint($breakpoint-lg) {
+		.video {
+			height: 230px;
+		}
+	}
+
+	@include breakpoint($breakpoint-md) {
+		min-height: 460px;
+
+		.video {
+			height: 200px;
+		}
+
+		&__content {
+			padding: 25px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm) {
+		min-height: 430px;
+
+		.video {
+			height: 175px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		.video {
+			height: 160px;
+		}
+
+		&__content {
+			padding: 20px;
+		}
 	}
 }

@@ -168,4 +168,31 @@ export const slider = () => {
 			},
 		},
 	});
+
+	const swiperResultChildren = new Swiper(".swiper-result-children", {
+		breakpoints: {
+			769: {
+				slidesPerView: 2,
+				enabled: true,
+				spaceBetween: 20,
+				width: null,
+				navigation: {
+					nextEl: ".slider__right-arrow",
+					prevEl: ".slider__left-arrow",
+				},
+				pagination: {
+					el: ".slider__pagination",
+				},
+			},
+			400: {
+				width: 327,
+				enabled: false,
+				slidesPerView: 1,
+				spaceBetween: 15,
+			},
+			320: {
+				width: 290,
+			},
+		},
+	});
 };
