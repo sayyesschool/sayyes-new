@@ -28,6 +28,10 @@
 	}
 
 	@include breakpoint($breakpoint-md) {
+		.slider {
+			width: calc(100% + 35px);
+		}
+
 		.slider__arrows,
 		.slider__pagination {
 			display: none;
@@ -53,5 +57,9 @@
 
 	@include breakpoint($breakpoint-sm-mobile) {
 		padding: 20px 15px;
+
+		.slider {
+			width: calc(100% + 15px);
+		}
 	}
 }

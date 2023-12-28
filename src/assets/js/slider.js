@@ -14,18 +14,18 @@ export const slider = () => {
 		enabled: false,
 		spaceBetween: 15,
 		width: 795,
-		navigation: {
-			nextEl: ".slider__right-arrow",
-			prevEl: ".slider__left-arrow",
-		},
-		pagination: {
-			el: ".slider__pagination",
-		},
 		breakpoints: {
-			768: {
+			769: {
 				enabled: true,
 				spaceBetween: 150,
 				width: null,
+				navigation: {
+					nextEl: ".slider__right-arrow",
+					prevEl: ".slider__left-arrow",
+				},
+				pagination: {
+					el: ".slider__pagination",
+				},
 			},
 		},
 	});
@@ -34,18 +34,18 @@ export const slider = () => {
 		enabled: false,
 		spaceBetween: 15,
 		width: 1080,
-		navigation: {
-			nextEl: ".slider__right-arrow",
-			prevEl: ".slider__left-arrow",
-		},
-		pagination: {
-			el: ".slider__pagination",
-		},
 		breakpoints: {
-			768: {
+			769: {
 				enabled: true,
 				spaceBetween: 150,
 				width: null,
+				navigation: {
+					nextEl: ".slider__right-arrow",
+					prevEl: ".slider__left-arrow",
+				},
+				pagination: {
+					el: ".slider__pagination",
+				},
 			},
 		},
 	});
@@ -54,18 +54,18 @@ export const slider = () => {
 		enabled: false,
 		spaceBetween: 15,
 		width: 900,
-		navigation: {
-			nextEl: ".slider__right-arrow",
-			prevEl: ".slider__left-arrow",
-		},
-		pagination: {
-			el: ".slider__pagination",
-		},
 		breakpoints: {
-			1024: {
+			1025: {
 				enabled: true,
 				spaceBetween: 150,
 				width: null,
+				navigation: {
+					nextEl: ".slider__right-arrow",
+					prevEl: ".slider__left-arrow",
+				},
+				pagination: {
+					el: ".slider__pagination",
+				},
 			},
 		},
 	});
@@ -82,7 +82,7 @@ export const slider = () => {
 			el: ".slider__pagination",
 		},
 		breakpoints: {
-			768: {
+			769: {
 				enabled: true,
 				width: null,
 			},
@@ -113,7 +113,7 @@ export const slider = () => {
 			el: ".slider__pagination",
 		},
 		breakpoints: {
-			800: {
+			801: {
 				enabled: true,
 				width: null,
 			},
@@ -192,6 +192,9 @@ export const slider = () => {
 			},
 			320: {
 				width: 290,
+				enabled: false,
+				slidesPerView: 1,
+				spaceBetween: 15,
 			},
 		},
 	});

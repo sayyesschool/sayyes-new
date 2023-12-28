@@ -13,7 +13,6 @@
 
 	.slider {
 		overflow: hidden;
-		// padding-top: 45px;
 	}
 
 	&__description {
@@ -148,6 +147,10 @@
 	}
 
 	@include breakpoint($breakpoint-xs) {
+		.slider {
+			width: calc(100% + 15px);
+		}
+
 		.slider__arrows,
 		.slider__pagination {
 			display: none;
@@ -173,6 +176,7 @@
 	@include breakpoint($breakpoint-mobile) {
 		.slider {
 			overflow: visible;
+			width: 100%;
 		}
 
 		.swiper-wrapper {
@@ -188,7 +192,9 @@
 
 		&__cards {
 			flex-direction: row;
-			width: calc(100% + 40px);
+			width: calc(100% + 50px);
+			transform: translateX(-25px);
+			padding: 0 25px;
 			overflow-x: auto;
 
 			&::-webkit-scrollbar {

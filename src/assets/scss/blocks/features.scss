@@ -21,18 +21,18 @@
 			center center/cover no-repeat;
 	}
 
-	&::after {
-		content: "";
-		width: 498px;
-		height: 357px;
-		transform: rotate(-4deg);
-		position: absolute;
-		z-index: -1;
-		top: -130px;
-		right: -15%;
-		background: url("../../assets/images/decoration/elements/diary.svg")
-			center center/cover no-repeat;
-	}
+	// &::after {
+	// 	content: "";
+	// 	width: 498px;
+	// 	height: 357px;
+	// 	transform: rotate(-4deg);
+	// 	position: absolute;
+	// 	z-index: -1;
+	// 	top: -130px;
+	// 	right: -15%;
+	// 	background: url("../../assets/images/decoration/elements/diary.svg")
+	// 		center center/cover no-repeat;
+	// }
 
 	&__img {
 		display: block;

@@ -42,6 +42,10 @@
 	}
 
 	@include breakpoint($breakpoint-xxs) {
+		.slider {
+			width: calc(100% + 15px);
+		}
+
 		.slider__arrows,
 		.slider__pagination {
 			display: none;
