@@ -1,4 +1,8 @@
 .feedback-form {
+	.custom-select {
+		margin: 5px 0 30px;
+	}
+
 	&__format {
 		margin-bottom: 13px;
 
@@ -22,16 +26,6 @@
 		width: 100%;
 		padding: 10px 20px;
 		margin-bottom: 10px;
-
-		border-radius: $border-radius;
-		border: none;
-	}
-
-	&__input-select {
-		display: block;
-		width: 100%;
-		padding: 10px 20px;
-		margin: 5px 0 30px;
 
 		border-radius: $border-radius;
 		border: none;

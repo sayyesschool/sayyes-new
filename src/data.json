@@ -29,6 +29,12 @@
 		{ "icon": "icon--inst", "href": "#" },
 		{ "icon": "icon--yt", "href": "#" }
 	],
+	"communicationOptions": [
+		"Позвоните мне",
+		"Напишите мне в WhatsApp",
+		"Напишите мне в Telegram"
+	],
+	"meetingOptions": ["О встречах", "Об оплате", "О технических проблемах"],
 	"headerNavItems": [
 		{
 			"text": "О Say Yes",

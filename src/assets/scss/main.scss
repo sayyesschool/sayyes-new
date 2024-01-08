@@ -32,8 +32,10 @@ body {
 	line-height: 45px;
 }
 
-a {
+a,
+button {
 	text-decoration: none;
+	font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -69,6 +71,7 @@ a {
 	}
 }
 
+@import "blocks/custom-select";
 @import "blocks/license";
 @import "blocks/about-teacher";
 @import "blocks/feedback-block";

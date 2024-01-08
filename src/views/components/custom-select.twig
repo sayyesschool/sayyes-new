@@ -1,0 +1,16 @@
+{% if mixin == 'custom-select--big' %}
+	{% set fill = '#ffffff' %}
+{% else %}
+	{% set fill = '#262626' %}
+{% endif %}
+
+
+<div class="custom-select {{mixin}}">
+	<button class="custom-select__select-button">{{options[0]}}</button>
+	<span class="custom-select__arrow">{% include '../components/check.twig' with { fill } %}</span>
+	<ul class="custom-select__select-dropdown">
+		{% for option in options %}
+			<li class="custom-select__option">{{option}}</li>
+		{% endfor %}
+	</ul>
+</div>
