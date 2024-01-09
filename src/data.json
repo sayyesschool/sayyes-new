@@ -34,6 +34,11 @@
 		"Напишите мне в WhatsApp",
 		"Напишите мне в Telegram"
 	],
+	"communicationRadioButtons": [
+		{ "name": "Очно в Москве", "checked": "checked" },
+		{ "name": "Онлайн" },
+		{ "name": "Не знаю" }
+	],
 	"meetingOptions": ["О встречах", "Об оплате", "О технических проблемах"],
 	"headerNavItems": [
 		{

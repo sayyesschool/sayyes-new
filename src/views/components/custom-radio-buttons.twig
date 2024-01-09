@@ -1,0 +1,8 @@
+<div class="custom-radio-buttons">
+	{% for radioBtn in radioBtns %}
+		<div class="custom-radio-buttons__btn">
+			<input id="{{radioBtn.name}}-{{radioBtnsName}}" type="radio" name="{{radioBtnsName}}" value="{{radioBtn.name}}" {{radioBtn.checked}}>
+			<label for="{{radioBtn.name}}-{{radioBtnsName}}">{{radioBtn.name}}</label>
+		</div>
+	{% endfor %}
+</div>
