@@ -36,6 +36,7 @@ a,
 button {
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
+	color: $black;
 }
 
 .container {
@@ -71,6 +72,7 @@ button {
 	}
 }
 
+@import "blocks/custom-checkbox";
 @import "blocks/custom-radio-buttons";
 @import "blocks/custom-select";
 @import "blocks/license";

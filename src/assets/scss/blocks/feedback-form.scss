@@ -7,6 +7,10 @@
 		margin: 5px 0 30px;
 	}
 
+	.custom-checkbox {
+		margin-top: 12px;
+	}
+
 	&__format {
 		margin-bottom: 5px;
 
@@ -36,12 +40,5 @@
 		font-weight: 700;
 
 		margin-top: 15px;
-	}
-
-	&__policy {
-		font-size: 13px;
-		line-height: 11px;
-
-		margin-top: 11px;
 	}
 }

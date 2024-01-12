@@ -68,11 +68,6 @@
 		}
 	}
 
-	&__policy {
-		font-size: 13px;
-		font-weight: 600;
-	}
-
 	@include breakpoint($breakpoint-xl) {
 		.list {
 			&::after {

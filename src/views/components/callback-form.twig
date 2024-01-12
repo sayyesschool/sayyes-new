@@ -4,8 +4,5 @@
 	Выберите удобный способ связи:
 	{% include '../components/custom-select.twig' with {options: communicationOptions} %}
 </div>
-<button class="btn">Оставить заявку</button>
-<div class="feedback-form__policy">
-	<input type="checkbox">
-	Я согласен с политикой обработки персональных данных
-</div>
+<button class="btn btn--full">Оставить заявку</button>
+{% include '../components/custom-checkbox.twig' with {checkboxName} %}

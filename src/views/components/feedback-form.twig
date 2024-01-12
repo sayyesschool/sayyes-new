@@ -1,5 +1,5 @@
 <form action="POST" class="feedback-form">
 	<h3 class="feedback-form__format">Выберите желаемый формат обучения:</h3>
 	{% include '../components/custom-radio-buttons.twig' with {radioBtns, radioBtnsName} %}
-	{% include '../components/callback-form.twig' %}
+	{% include '../components/callback-form.twig' with {checkboxName, checkboxName} %}
 </form>

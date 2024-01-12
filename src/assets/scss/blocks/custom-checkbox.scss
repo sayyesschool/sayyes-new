@@ -1,0 +1,50 @@
+.custom-checkbox {
+	display: block;
+	position: relative;
+	padding-left: 20px;
+
+	cursor: pointer;
+	user-select: none;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 15px;
+
+	&__input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+
+		&:checked {
+			~ {
+				.custom-checkbox__checkmark {
+					&::before {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	&__checkmark {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 12px;
+		width: 12px;
+		border: 2px solid $black;
+
+		&::before {
+			content: "";
+			display: none;
+			position: absolute;
+			top: -3px;
+			left: 0px;
+			width: 14px;
+			height: 10px;
+			background: url("../../assets/images/icons/check-4.svg") center
+				center/cover no-repeat;
+		}
+	}
+}
