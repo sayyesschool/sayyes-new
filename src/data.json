@@ -34,6 +34,7 @@
 		"Напишите мне в WhatsApp",
 		"Напишите мне в Telegram"
 	],
+	"ageOfChildrenOptions": ["От 6 до 11 лет", "От 11 до 16 лет"],
 	"communicationRadioButtons": [
 		{ "name": "Очно в Москве", "checked": "checked" },
 		{ "name": "Онлайн" },

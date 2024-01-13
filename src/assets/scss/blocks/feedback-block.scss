@@ -1,5 +1,5 @@
 .feedback-block {
-	max-width: 951px;
+	max-width: 960px;
 	display: flex;
 	justify-content: space-between;
 
@@ -22,12 +22,15 @@
 	}
 
 	&__img {
-		width: 431px;
+    max-width: 392px;
+    width: 100%;
+		display: block;
 		object-fit: cover;
 		border-radius: $border-radius 0 0 $border-radius;
 	}
 
 	&__content {
-		padding: 34px 54px;
+		padding: 34px 48px;
+		min-height: 521px;
 	}
 }

@@ -2,8 +2,8 @@
 	{% set radioBtnNames = ['communicationRadioButtonsAdults2', 'communicationRadioButtonsChildren2'] %}
 	{% set checkboxNames = ['communicationCheckboxAdults2', 'communicationCheckboxChildren2'] %}
 {% else %}
-	{% set radioBtnNames = ['communicationRadioButtonsAdults', 'communicationRadioButtonsChildren'] %}
-	{% set checkboxNames = ['communicationCheckboxAdults', 'communicationCheckboxChildren'] %}
+	{% set radioBtnNames = ['communicationRadioButtonsAdults1', 'communicationRadioButtonsChildren1'] %}
+	{% set checkboxNames = ['communicationCheckboxAdults1', 'communicationCheckboxChildren1'] %}
 {% endif %}
 
 <section class="trial-lesson">
@@ -41,7 +41,7 @@
 							<p class="invite__description">Мы свяжемся с вами, запишем на урок, ответим на вопросы, и расскажем о курсах</p>
 						</div>
 						<div class="invite__right">
-							{% include '../components/feedback-form.twig' with {radioBtns: communicationRadioButtons, radioBtnsName: radioBtnNames[1], checkboxName: checkboxNames[1]} %}
+							{% include '../components/feedback-form-children.twig' with {radioBtns: communicationRadioButtons, radioBtnsName: radioBtnNames[1], checkboxName: checkboxNames[1]} %}
 						</div>
 					</div>
 					<img src="./assets/images/pictures/invite-2.png" alt="Invite" class="invite__bg">

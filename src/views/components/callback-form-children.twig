@@ -1,0 +1,12 @@
+<div class="feedback-form__children">
+	<input type="text" placeholder="Имя ребёнка" name="children-name" class="feedback-form__input-text"/>
+	{% include '../components/custom-select.twig' with {options: ageOfChildrenOptions} %}
+</div>
+<input type="text" placeholder="Имя родителя " name="parent-name" class="feedback-form__input-text"/>
+<input type="tel" placeholder="+7 (999) 999-99-99" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}" name="phone" class="feedback-form__input-text"/>
+<div class="feedback-form__communication">
+	Выберите удобный способ связи:
+	{% include '../components/custom-select.twig' with {options: communicationOptions} %}
+</div>
+<button class="btn btn--full">Оставить заявку</button>
+{% include '../components/custom-checkbox.twig' with {checkboxName} %}
