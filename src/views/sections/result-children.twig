@@ -14,7 +14,7 @@
 							<div class="video-block-2">
 								<div class="video">
 									<img src="./assets/images/children-reviews/{{item.img}}.jpg" alt="Say Yes" class="video__bg">
-									<button class="play" id="{{item.videoId}}"></button>
+									<button class="play video-btn" data-url="{{item.videoUrl}}"></button>
 								</div>
 								<div class="video-block-2__content">
 									<a href="{{item.parent.url}}" class="video-block-2__title">
@@ -26,13 +26,11 @@
 									<button class="video-block-2__btn">Развернуть</button>
 								</div>
 							</div>
-							{% include '../components/modal.twig' with {modal: 'video', url: item.videoUrl, id: item.videoId} %}
-
 						</div>
 					</div>
 				{% endfor %}
 			</div>
-			<ul class="sli der__pagination"></ul>
+			<ul class="slider__pagination"></ul>
 		</div>
 	</div>
 </section>

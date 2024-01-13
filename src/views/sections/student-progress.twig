@@ -21,7 +21,7 @@
 							<div class="feedback__video">
 								<div class="video">
 									<img src="./assets/images/student-progress/{{item.img}}.jpg" alt="Анастасия Король" class="video__bg">
-									<button class="play" id="{{item.videoId}}"></button>
+									<button class="play video-btn" data-url="{{item.videoUrl}}"></button>
 								</div>
 								<div class="comment comment--sm comment--angle">
 									<p class="commet__description">{{item.comment}}</p>
@@ -39,7 +39,6 @@
 							</div>
 						</div>
 					</div>
-					{% include '../components/modal.twig' with {modal: 'video', url: item.videoUrl, id: item.videoId} %}
 				{% endfor %}
 			</div>
 			<div class="slider__pagination"></div>

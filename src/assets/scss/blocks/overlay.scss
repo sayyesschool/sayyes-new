@@ -55,4 +55,9 @@
 		font-size: 40px;
 		transform: rotate(45deg);
 	}
+
+	&--video,
+	&--feedback {
+		z-index: 1001;
+	}
 }

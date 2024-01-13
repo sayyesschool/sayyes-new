@@ -19,10 +19,9 @@
 									{{merits.description}}</li>
 							{% endfor %}
 						</ul>
-						<button class="btn btn--transparent btn--transparent-black btn--md" id="{{person.teacherId}}">Подробнее</button>
+						<button class="btn btn--transparent btn--transparent-black btn--md teacher-btn" data-id="{{person.teacherId}}">Подробнее</button>
 					</div>
 				</div>
-				{% include '../components/modal.twig' with {modal: "teacher", id: person.teacherId, teacher: person} %}
 			{% endfor %}
 		</div>
 		<button class="btn btn--violent">Все преподаватели</button>
