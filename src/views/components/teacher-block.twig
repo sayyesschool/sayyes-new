@@ -18,22 +18,43 @@
 			<div class="subtabs__content">
 				<div class="subtabs__item active">
 					<div class="about-teacher">
-						<div class="about-teacher__scroll">
-							<div class="about-teacher__experience">
-								{% for merits in teacher.merits %}
-									<div class="about-teacher__item">
-										<div>{{merits.merit}}:</div>
-										<div>{{merits.description}}</div>
-									</div>
-								{% endfor %}
+						<div class="about-teacher__experience">
+							{% for merits in teacher.merits %}
+								<div class="about-teacher__item">
+									<div class="about-teacher__item-key">{{merits.merit}}:</div>
+									<div class="about-teacher__item-value">{{merits.description}}</div>
+								</div>
+							{% endfor %}
+							<div class="about-teacher__item">
+								<div class="about-teacher__item-key">Образование:</div>
+								{% include '../components/education-list.twig' with {education: teacher.education} %}
 							</div>
-							<p class="about-teacher__text">{{teacher.text}}</p>
 						</div>
+						<p class="about-teacher__text">{{teacher.text}}</p>
 					</div>
 				</div>
-				<div class="subtabs__item">test123</div>
-				<div class="subtabs__item">test321</div>
+				<div class="subtabs__item">
+					{% include '../components/specializations.twig' with {list: teacher.specializationsList} %}
+				</div>
+				<div class="subtabs__item">
+					<div class="teacher-reviews">
+						{% for review in teacher.reviews %}
+							<div class="teacher-reviews__review">
+								<div class="teacher-reviews__info">
+									<h4 class="teacher-reviews__name">{{review.name}}</h4>
+									<a href="{{review.social.url}}" class="teacher-reviews__social">
+										{% include '../components/icon.twig' with {class: review.social.icon} %}
+									</a>
+								</div>
+								<p class="teacher-reviews__description">{{review.description}}</p>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
 			</div>
 		</div>
+		<button data-share="{{teacher.shareLink}}" class="teacher-block__share-link">
+			<img src="./assets/images/icons/share.svg" alt="Say Yes">
+		</button>
 	</div>
 {% endfor %}

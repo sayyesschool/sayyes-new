@@ -1,0 +1,8 @@
+<div class="education-list">
+	{% for item in education %}
+		<div class="education-list__item">
+			<div class="education-list__institution">{{item.institution}}</div>
+			<div class="education-list__faculty">{{item.faculty}}</div>
+		</div>
+	{% endfor %}
+</div>
