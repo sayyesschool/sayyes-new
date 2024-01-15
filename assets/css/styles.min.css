@@ -2157,7 +2157,6 @@ button {
 }
 
 .features .btn {
-    display: block;
     margin: 40px auto 0;
 }
 
@@ -2811,7 +2810,6 @@ button {
 
 .course-feedback .btn {
     margin: 30px auto 0;
-    display: block;
 }
 
 .course-feedback .slider {
@@ -3930,7 +3928,6 @@ button {
 }
 
 .advantages-cooperation .btn {
-    display: block;
     margin: 20px auto 0;
 }
 
@@ -3950,7 +3947,6 @@ button {
 }
 
 .all-teachers .btn {
-    display: block;
     margin: 0 auto;
     font-weight: 700;
 }
@@ -3975,7 +3971,6 @@ button {
 }
 
 .cooperation .btn {
-    display: block;
     margin: 30px auto 50px;
     font-size: 18px;
     font-weight: 700;
@@ -5249,7 +5244,6 @@ button {
 }
 
 .student-reviews .btn {
-    display: block;
     margin: 0 auto;
 }
 
@@ -6928,7 +6922,6 @@ button {
 }
 
 .team-of-teachers .btn {
-    display: block;
     margin: 0 auto;
 }
 
@@ -7680,6 +7673,10 @@ button {
 
 .card__subtitle {
     max-width: 287px;
+}
+
+.card__link {
+    color: #7831b2;
 }
 
 .card--comment-card {
@@ -8551,7 +8548,6 @@ button {
 }
 
 .mainscreen-big .btn {
-    display: block;
     margin: 0 auto;
 }
 
@@ -10767,6 +10763,14 @@ button {
     margin: 0 auto;
 }
 
+.central-text__btn {
+    border: none;
+    background-color: transparent;
+    color: #7831b2;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 @media (max-width: 1160px) {
     .central-text {
         font-size: 32px;
@@ -11090,6 +11094,7 @@ button {
 
 .mainscreen__left {
     max-width: 440px;
+    z-index: 1;
 }
 
 .mainscreen__right {
