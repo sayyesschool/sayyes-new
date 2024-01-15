@@ -1,0 +1,35 @@
+<section class="test">
+	<div class="test__card">
+		<ul class="test__progress-bar">
+			<li class="test__progress-bar-item test__progress-bar-item--completed"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+			<li class="test__progress-bar-item"></li>
+		</ul>
+		<h4 class="test__questions">Вопрос 1/20</h4>
+		<div class="test__task">
+			<p class="test__question">Are you on vacation?</p>
+			<p class="test__answer">Yes I am.</p>
+		</div>
+
+		{% include '../components/custom-radio-buttons.twig' with {radioBtns: testRadioButtons, radioBtnsName: 'testRadioButtons'} %}
+
+		<button class="btn btn--violent">Следующий вопрос</button>
+	</div>
+</section>

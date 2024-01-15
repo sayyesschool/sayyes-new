@@ -40,6 +40,13 @@
 		{ "name": "Онлайн" },
 		{ "name": "Не знаю" }
 	],
+	"testRadioButtons": [
+		{ "name": "Yes, I be." },
+		{ "name": "Yes, I do." },
+		{ "name": "Yes, I is." },
+		{ "name": "Yes, I am." },
+		{ "name": "Не знаю" }
+	],
 	"meetingOptions": ["О встречах", "Об оплате", "О технических проблемах"],
 	"teacherOptions": ["Обо мне", "Специализации", "Отзывы"],
 	"headerNavItems": [
@@ -2161,6 +2168,28 @@
 			"description": "Начните сотрудничество с одной из современных школ английского языка",
 			"tip": "Шаг 4",
 			"class": "text-block--note-bg"
+		}
+	],
+	"aboutTest": [
+		{
+			"description": "На каждый вопрос есть только один правильный ответ.",
+			"class": "text-block--check-bg text-block--yellow"
+		},
+		{
+			"description": "Если вы не знаете правильного ответа, выбирайте ответ <div class='text text--italic'>Не знаю</div>",
+			"class": "text-block--question-bg text-block--yellow"
+		},
+		{
+			"description": "Ограничения по времени нет",
+			"class": "text-block--hourglass-2-bg text-block--yellow"
+		},
+		{
+			"description": "Тест состоит из 20 вопросов.",
+			"class": "text-block--list-bg text-block--yellow"
+		},
+		{
+			"description": "В конце теста Вы сможете узнать правильные ответы.",
+			"class": "text-block--correct-bg text-block--yellow"
 		}
 	],
 	"studentReviews": [
