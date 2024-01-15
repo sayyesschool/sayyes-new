@@ -3,7 +3,7 @@
 		<div class="header-container">
 			{% include '../components/logo.twig' with { fill: "#fff" } %}
 			<button class="btn btn--transparent btn--uppercase btn--sm main-header__free-lesson feedback-btn">Бесплатный урок</button>
-			<button class="main-header__test">Онлайн тест</button>
+			<a href="./test-overview.html" class="main-header__test">Онлайн тест</a>
 			<button class="main-header__callback callback-btn">Обратный звонок</button>
 			{% include '../components/phone-numbers.twig' with {classes: 'icon--white icon--sm'}  %}
 			<div class="main-header__contacts">
@@ -28,6 +28,6 @@
 				</li>
 			{% endfor %}
 		</ul>
-		<button class="btn btn--yellow main-header__trial-lesson">Записаться на пробный урок</button>
+		<button class="btn btn--yellow main-header__trial-lesson feedback-btn">Записаться на пробный урок</button>
 	</nav>
 </header>

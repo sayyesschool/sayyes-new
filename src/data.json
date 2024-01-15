@@ -134,7 +134,7 @@
 		},
 		{
 			"text": "Онлайн тест",
-			"url": "./test.html"
+			"url": "./test-overview.html"
 		},
 		{
 			"text": "Контакты",
@@ -2268,13 +2268,17 @@
 				{
 					"icon": "icon--pc",
 					"value": "+7 925 091-58-19",
-					"link": "#"
+					"link": "https://wa.me/9250915819"
 				},
-				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
+				{
+					"icon": "icon--tg",
+					"value": "Telegram",
+					"link": "https://t.me/durov_russia"
+				},
 				{
 					"icon": "icon--email",
 					"value": "r.sorochuk@sayes.ru",
-					"link": "#"
+					"link": "https://mail.ru/"
 				}
 			],
 			"type": "team-card"
@@ -2288,13 +2292,17 @@
 				{
 					"icon": "icon--pc",
 					"value": "+7 929 507-38-55",
-					"link": "#"
+					"link": "https://wa.me/9295073855"
 				},
-				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
+				{
+					"icon": "icon--tg",
+					"value": "Telegram",
+					"link": "https://t.me/durov_russia"
+				},
 				{
 					"icon": "icon--email",
 					"value": "a.jiteleva@sayes.ru ",
-					"link": "#"
+					"link": "https://mail.ru/"
 				}
 			],
 			"type": "team-card"
@@ -2308,13 +2316,17 @@
 				{
 					"icon": "icon--pc",
 					"value": "+7 926 737-11-27",
-					"link": "#"
+					"link": "https://wa.me/9267371127"
 				},
-				{ "icon": "icon--tg", "value": "Telegram", "link": "#" },
+				{
+					"icon": "icon--tg",
+					"value": "Telegram",
+					"link": "https://t.me/durov_russia"
+				},
 				{
 					"icon": "icon--email",
 					"value": "t.andreeva@sayes.ru ",
-					"link": "#"
+					"link": "https://mail.ru/"
 				}
 			],
 			"type": "team-card"
@@ -2805,7 +2817,8 @@
 				"Санкт-Петербургский Госудраственный Университет, Лингвистика, Дискурс и вариативность английского языка",
 				"Разрабатывет собственный программы обучения английскому",
 				"Имеет обширный успешный опыт обучения детей по игровой методике"
-			]
+			],
+			"videoUrl": "https://www.youtube.com/embed/T5G9EauBu0U"
 		},
 		{
 			"name": "Полина Сизова",
@@ -2814,7 +2827,8 @@
 				"Санкт-Петербургский Госудраственный Университет, Лингвистика, Дискурс и вариативность английского языка",
 				"Разрабатывет собственный программы обучения английскому",
 				"Имеет обширный успешный опыт обучения детей по игровой методике"
-			]
+			],
+			"videoUrl": "https://www.youtube.com/embed/T5G9EauBu0U"
 		},
 		{
 			"name": "Полина Сизова",
@@ -2823,7 +2837,8 @@
 				"Санкт-Петербургский Госудраственный Университет, Лингвистика, Дискурс и вариативность английского языка",
 				"Разрабатывет собственный программы обучения английскому",
 				"Имеет обширный успешный опыт обучения детей по игровой методике"
-			]
+			],
+			"videoUrl": "https://www.youtube.com/embed/T5G9EauBu0U"
 		}
 	],
 	"personalApproachList": [

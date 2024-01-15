@@ -60,6 +60,10 @@
 		max-width: 287px;
 	}
 
+	&__link {
+		color: $violent;
+	}
+
 	&--comment-card {
 		min-height: 370px;
 		padding: 50px 35px 50px 50px;

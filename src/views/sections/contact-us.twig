@@ -14,7 +14,7 @@
 								{% for contact in person.contacts %}
 									<li>
 										<span>{% include '../components/icon.twig' with {class: contact.icon} %}</span>
-										<span>{{contact.value}}</span>
+										<a href="{{contact.link}}" class="card__link">{{contact.value}}</a>
 									</li>
 								{% endfor %}
 							</ul>

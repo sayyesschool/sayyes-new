@@ -24,6 +24,14 @@
 		margin: 0 auto;
 	}
 
+	&__btn {
+		border: none;
+		background-color: transparent;
+		color: $violent;
+		text-decoration: underline;
+		font-weight: 700;
+	}
+
 	@include breakpoint($breakpoint-lg) {
 		font-size: 32px;
 		line-height: 30px;
