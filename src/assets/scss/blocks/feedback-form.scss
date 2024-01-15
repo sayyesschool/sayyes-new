@@ -54,4 +54,11 @@
 			margin-bottom: 10px;
 		}
 	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__children {
+			flex-direction: column;
+			gap: 0;
+		}
+	}
 }

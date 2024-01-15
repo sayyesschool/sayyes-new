@@ -1,13 +1,16 @@
 .custom-checkbox {
-	display: block;
-	position: relative;
-	padding-left: 20px;
-
-	cursor: pointer;
-	user-select: none;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 15px;
+	user-select: none;
+
+	&__label {
+		display: block;
+		position: relative;
+		padding-left: 20px;
+
+		cursor: pointer;
+	}
 
 	&__input {
 		position: absolute;
@@ -45,6 +48,24 @@
 			height: 10px;
 			background: url("../../assets/images/icons/check-4.svg") center
 				center/cover no-repeat;
+		}
+	}
+
+	&__description {
+		display: none;
+
+		a {
+			display: block;
+		}
+	}
+
+	@include breakpoint($breakpoint-xs) {
+		.custom-checkbox__label {
+			display: none;
+		}
+
+		.custom-checkbox__description {
+			display: block;
 		}
 	}
 }

@@ -209,12 +209,16 @@
 					background-color: $violent;
 				}
 			}
+
+			@include breakpoint($breakpoint-lg) {
+				margin-bottom: 15px;
+			}
 		}
 
 		&--feedback-modal {
 			position: absolute;
 			top: -55px;
-			right: 98px;
+			left: 42%;
 
 			.tabs__tab {
 				min-height: 55px;
@@ -224,6 +228,37 @@
 
 				&.active {
 					background-color: $pale-white;
+				}
+			}
+
+			@include breakpoint($breakpoint-lg) {
+				.tabs__tab {
+					width: 180px;
+				}
+			}
+
+			@include breakpoint($breakpoint-sm) {
+				left: 38%;
+				top: -40px;
+
+				.tabs__tab {
+					width: 130px;
+					min-height: 40px;
+				}
+			}
+
+			@include breakpoint($breakpoint-xxs) {
+				left: 50%;
+				top: -40px;
+				transform: translateX(-50%);
+			}
+
+			@include breakpoint($breakpoint-sm-mobile) {
+				top: -35px;
+
+				.tabs__tab {
+					width: 100px;
+					min-height: 35px;
 				}
 			}
 		}

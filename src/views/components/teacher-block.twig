@@ -5,15 +5,18 @@
 				<img src="./assets/images//teachers/{{teacher.img}}.jpg" alt="Say Yes" class="video__bg">
 				<button class="play video-btn" data-url="{{teacher.videoUrl}}"></button>
 			</div>
-			<h2 class="teacher-block__title">{{teacher.name}}</h2>
-			<p class="teacher-block__free-lesson">Бесплатный пробный урок с этим преподавателем</p>
-			<button class="btn btn--sm btn--transparent btn--transparent-black feedback-btn">Подробнее</button>
+			<div class="teacher-block__info">
+				<h2 class="teacher-block__title">{{teacher.name}}</h2>
+				<p class="teacher-block__free-lesson">Бесплатный пробный урок с этим преподавателем</p>
+				<button class="btn btn--sm btn--transparent btn--transparent-black feedback-btn">Подробнее</button>
+			</div>
 		</div>
 		<div class="subtabs">
 			<div class="subtabs__nav subtabs__nav--teacher-block">
 				<button class="subtabs__tab active">Обо мне</button>
 				<button class="subtabs__tab">Специализации</button>
 				<button class="subtabs__tab">Отзывы</button>
+				{% include '../components/custom-select.twig' with {options: teacherOptions, mixin: 'custom-select--sm'} %}
 			</div>
 			<div class="subtabs__content">
 				<div class="subtabs__item active">

@@ -23,7 +23,7 @@
 				left: 0;
 				transform: translateY(-50%);
 				border-radius: 50%;
-				border: 2px solid black;
+				border: 2px solid $black;
 			}
 		}
 
@@ -36,13 +36,23 @@
 						&:before {
 							background: radial-gradient(
 								circle at center,
-								black 0,
-								black 3.25px,
+								$black 0,
+								$black 3.25px,
 								transparent 3.25px
 							);
 						}
 					}
 				}
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__btn {
+			label {
+				font-size: 16px;
+				line-height: 18px;
+				padding-left: 18px;
 			}
 		}
 	}

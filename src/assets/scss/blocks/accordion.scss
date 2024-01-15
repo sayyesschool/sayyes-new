@@ -62,4 +62,10 @@
 		font-weight: 500;
 		transition: 0.2s linear height;
 	}
+
+	@include breakpoint($breakpoint-xxs) {
+		&__item {
+			padding: 20px 30px;
+		}
+	}
 }

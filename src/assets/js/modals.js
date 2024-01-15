@@ -50,7 +50,8 @@ export const modals = () => {
 		const triggers = document.querySelectorAll(triggerSelector);
 		const modal = document.querySelector(modalSelector);
 		const close = modal.querySelector(".overlay__close");
-		const iframe = document.querySelector("#youtubeVideo");
+		const youtubeVideo = modal.querySelector(".youtube-video");
+		const iframe = youtubeVideo.querySelector("#iframe-youtube");
 
 		if (!(triggers.length && modal)) return;
 
@@ -58,13 +59,9 @@ export const modals = () => {
 			const openVideo = () => {
 				iframe.src = trigger.dataset.url;
 
-				if (trigger.dataset.vertical) {
-					iframe.width = "406px";
-					iframe.height = "722px";
-				} else {
-					iframe.width = "800px";
-					iframe.height = "450px";
-				}
+				trigger.dataset.vertical
+					? youtubeVideo.classList.add("youtube-video--vertical")
+					: youtubeVideo.classList.remove("youtube-video--vertical");
 
 				openModal(modal);
 			};

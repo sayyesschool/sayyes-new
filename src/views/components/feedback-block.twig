@@ -9,7 +9,7 @@
 	<div class="tabs__content">
 		<div class="tabs__item active">
 			<div class="feedback-block">
-				<img src="./assets/images/pictures/feedback.jpg" alt="Say Yes" class="feedback-block__img">
+				<div class="feedback-block__overview"></div>
 				<div class="feedback-block__content">
 					<p class="feedback-block__description">Мы свяжемся с вами, запишем на урок, ответим на вопросы и расскажем о курсах</p>
 					{% include '../components/feedback-form.twig' with {radioBtns: communicationRadioButtons, radioBtnsName: radioBtnNames[0], checkboxName: checkboxNames[0]} %}
@@ -17,8 +17,8 @@
 			</div>
 		</div>
 		<div class="tabs__item">
-			<div class="feedback-block">
-				<img src="./assets/images/pictures/feedback-2.jpg" alt="Say Yes" class="feedback-block__img">
+			<div class="feedback-block feedback-block--children">
+				<div class="feedback-block__overview"></div>
 				<div class="feedback-block__content">
 					<p class="feedback-block__description">Мы свяжемся с вами, запишем на урок, ответим на вопросы и расскажем о курсах</p>
 					{% include '../components/feedback-form-children.twig' with {radioBtns: communicationRadioButtons, radioBtnsName: radioBtnNames[1], checkboxName: checkboxNames[1]} %}

@@ -8,9 +8,14 @@
 	background-color: $pale-white;
 	border-radius: $border-radius;
 
+	.custom-select {
+		display: none;
+	}
+
 	.subtabs {
 		width: 67%;
 	}
+
 	.video {
 		width: 100%;
 
@@ -60,5 +65,120 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	@include breakpoint($breakpoint-xxs) {
+		width: 470px;
+		height: 550px;
+		flex-direction: column;
+
+		.play {
+			width: 35px;
+			height: 35px;
+			background-size: 40%;
+		}
+
+		.about-teacher,
+		.specializations,
+		.teacher-reviews {
+			height: 310px;
+		}
+
+		.subtabs {
+			width: 100%;
+		}
+
+		.video {
+			width: 35%;
+			margin-bottom: 0;
+		}
+
+		&__person {
+			width: 100%;
+			flex-direction: row;
+			gap: 15px;
+		}
+
+		&__info {
+			width: 65%;
+		}
+
+		&__free-lesson {
+			margin-bottom: 20px;
+		}
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		width: 420px;
+		padding: 20px;
+
+		.video {
+			width: 40%;
+		}
+
+		&__info {
+			width: 60%;
+		}
+
+		&__person {
+			gap: 10px;
+		}
+
+		&__share-link {
+			top: 30px;
+			right: -15px;
+			width: 40px;
+			height: 40px;
+
+			img {
+				width: 70%;
+			}
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		.subtabs__nav {
+			padding: 0;
+			border-radius: $border-radius $border-radius 0 0;
+		}
+
+		.subtabs__tab {
+			display: none;
+		}
+
+		.custom-select {
+			display: block;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		width: 315px;
+		height: 630px;
+
+		.video {
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		.about-teacher,
+		.specializations,
+		.teacher-reviews {
+			height: 220px;
+		}
+
+		&__title,
+		&__free-lesson {
+			margin-bottom: 10px;
+		}
+
+		&__person {
+			width: 100%;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		&__info {
+			width: 100%;
+		}
 	}
 }

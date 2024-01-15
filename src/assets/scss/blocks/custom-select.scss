@@ -41,9 +41,10 @@
 
 	&__arrow {
 		position: absolute;
-    top: 12px;
-    right: 14px;
+		top: 12px;
+		right: 14px;
 		z-index: 2;
+		cursor: pointer;
 		transition: 0.5s ease;
 		transform: scaleY(-1);
 	}
@@ -84,13 +85,57 @@
 			padding: 16px 20px;
 
 			&:hover {
-				background-color: lighten($violent, 15%);;
+				background-color: lighten($violent, 15%);
 			}
 		}
 
 		.custom-select__arrow {
 			top: 17px;
 			right: 35px;
+		}
+	}
+
+	&--sm {
+		max-width: 100%;
+
+		.custom-select__select-button {
+			background-color: $pale-pink;
+			padding: 14px 20px;
+		}
+
+		.custom-select__select-dropdown {
+			background-color: $pale-white;
+		}
+
+		.custom-select__option {
+			padding: 14px 20px;
+
+			&:hover {
+				background-color: $white;
+			}
+		}
+
+		.custom-select__arrow {
+			top: 17px;
+			right: 35px;
+		}
+	}
+
+	@include breakpoint($breakpoint-sm-mobile) {
+		&--big {
+			.custom-select__select-button {
+				text-align: left;
+			}
+		}
+
+		&--sm {
+			.custom-select__select-button {
+				padding: 12px 20px;
+			}
+
+			.custom-select__option {
+				padding: 11px 20px;
+			}
 		}
 	}
 }

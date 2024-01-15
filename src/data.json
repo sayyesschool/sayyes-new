@@ -36,11 +36,12 @@
 	],
 	"ageOfChildrenOptions": ["От 6 до 11 лет", "От 11 до 16 лет"],
 	"communicationRadioButtons": [
-		{ "name": "Очно в Москве", "checked": "checked" },
+		{ "name": "Офлайн", "checked": "checked" },
 		{ "name": "Онлайн" },
 		{ "name": "Не знаю" }
 	],
 	"meetingOptions": ["О встречах", "Об оплате", "О технических проблемах"],
+	"teacherOptions": ["Обо мне", "Специализации", "Отзывы"],
 	"headerNavItems": [
 		{
 			"text": "О Say Yes",

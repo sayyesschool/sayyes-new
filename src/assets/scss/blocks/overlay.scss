@@ -53,11 +53,22 @@
 		background-color: $black;
 		color: $white;
 		font-size: 40px;
+		line-height: 1;
 		transform: rotate(45deg);
 	}
 
 	&--video,
 	&--feedback {
 		z-index: 1001;
+	}
+
+	@include breakpoint($breakpoint-mobile) {
+		&__close {
+			top: -15px;
+			right: -15px;
+			width: 40px;
+			height: 40px;
+			font-size: 40px;
+		}
 	}
 }
