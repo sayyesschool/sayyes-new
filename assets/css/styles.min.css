@@ -10749,15 +10749,6 @@ button {
     margin-bottom: 20px;
 }
 
-@media (max-width: 1160px) {
-    .central-text__title {
-        font-size: 32px;
-        line-height: 30px;
-        max-width: 650px;
-        margin: 0 auto 20px;
-    }
-}
-
 .central-text__description {
     max-width: 580px;
     margin: 0 auto;
@@ -10772,15 +10763,20 @@ button {
 }
 
 @media (max-width: 1160px) {
-    .central-text {
+    .central-text__title {
         font-size: 32px;
         line-height: 30px;
+        max-width: 650px;
+        margin: 0 auto 20px;
     }
 }
 
 @media (max-width: 768px) {
     .central-text {
         display: none;
+    }
+
+    .central-text__title {
         font-size: 26px;
         line-height: 25px;
     }
