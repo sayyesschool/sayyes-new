@@ -10,13 +10,6 @@
 		line-height: 40px;
 
 		margin-bottom: 20px;
-
-		@include breakpoint($breakpoint-lg) {
-			font-size: 32px;
-			line-height: 30px;
-			max-width: 650px;
-			margin: 0 auto 20px;
-		}
 	}
 
 	&__description {
@@ -33,13 +26,20 @@
 	}
 
 	@include breakpoint($breakpoint-lg) {
-		font-size: 32px;
-		line-height: 30px;
+		&__title {
+			font-size: 32px;
+			line-height: 30px;
+			max-width: 650px;
+			margin: 0 auto 20px;
+		}
 	}
 
 	@include breakpoint($breakpoint-xxs) {
 		display: none;
-		font-size: 26px;
-		line-height: 25px;
+
+		&__title {
+			font-size: 26px;
+			line-height: 25px;
+		}
 	}
 }
