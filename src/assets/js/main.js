@@ -4,6 +4,7 @@ import { accordion } from "./accordion.js";
 import { tabs } from "./tabs.js";
 import { slider } from "./slider.js";
 import { customSelect } from "./customSelect.js";
+import { showMore } from "./showMore.js";
 
 console.log(111, "Hello world!");
 
@@ -13,3 +14,4 @@ accordion();
 tabs();
 slider();
 customSelect();
+showMore();

@@ -57,7 +57,7 @@
 
 <section class="team-of-teachers">
 	<div class="section-container">
-		<div class="cards">
+		<div class="cards cards-show-more">
 			{% for person in teacherCards2 %}
 				<div class="card card--{{person.type}}">
 					<img src="./assets/images/teachers/{{person.img}}.jpg" alt="{{person.name}}" class="card__img">
@@ -75,6 +75,6 @@
 				</div>
 			{% endfor %}
 		</div>
-		<button class="btn btn--yellow">Показать ещё</button>
+		<button class="btn btn--yellow" id="show-more-teachers">Показать ещё</button>
 	</div>
 </section>
