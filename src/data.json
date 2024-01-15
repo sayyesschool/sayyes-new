@@ -2578,12 +2578,15 @@
 			],
 			"date": "28 мая в 15:00 МСК",
 			"title": "Friends: a legendary sitcom",
+			"description": "A legendary sitcom that has united generations. A sitcom which many watch over and over again. The life of six friends who encounter various problems but still remain optimistic, carries a special place in everyone’s heart.",
+			"address": "Адрес: г. Москва, метро Павелецкая радиальная (5 минут пешком), Кожевническая, дом 14, корпус 1, строение 2, этаж 3",
 			"teacher": {
 				"name": "Анастасия Стецюк",
 				"url": "#"
 			},
 			"time": "90 минут",
-			"price": "590 руб."
+			"price": "590 руб.",
+			"url": "./meeting.html"
 		},
 		{
 			"img": {
@@ -2601,12 +2604,14 @@
 			],
 			"date": "04 июня в 15:00 МСК",
 			"title": "How to be an interesting person?",
+			"description": "Everyone has the potential to be interesting. You don't have to be a billionaire, or a CEO, or an astronaut to hold people's attention — you can just be you. It's a question of knowing how to highlight the traits that make you different from the person next to you. In this lesson we will learn How to Be an Interesting Person and the themes of personality traits.",
 			"teacher": {
 				"name": "Yahya Ceesay",
 				"url": "#"
 			},
 			"time": "60 минут",
-			"price": "490 руб."
+			"price": "490 руб.",
+			"url": "./meeting.html"
 		},
 		{
 			"img": {
@@ -2624,12 +2629,14 @@
 			],
 			"date": "15 июня в 19:00 МСК",
 			"title": "How to stay calm",
+			"description": "This club is dedicated to exploring the many reasons why people watch television series, from the thrill of a good cliffhanger to the comfort of revisiting familiar characters. We will have lively discussions and debates about our favorite shows and the merits of different genres and formats. Join us!",
 			"teacher": {
 				"name": "Abigail Richards",
 				"url": "#"
 			},
 			"time": "60 минут",
-			"price": "490 руб."
+			"price": "490 руб.",
+			"url": "./meeting.html"
 		}
 	],
 	"participantsFeedback": [

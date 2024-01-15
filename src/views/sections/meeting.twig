@@ -1,0 +1,36 @@
+{% set item = clubMetingCards[0] %}
+<section class="meeting">
+	<div class="meeting-card">
+		<img src="./assets/images/meetings/{{item.img.src}}.jpg" alt="{{item.img.alt}}" class="meeting-card__img"/>
+		<div class="meeting-card__content">
+			<div class="meeting-card__left">
+
+				<div class="meeting-card__header">
+					<p class="meeting-card__info">{{item.date}}</p>
+					<div class="tags">
+						{% for tag in item.tags %}
+							<span class="tag {{tag.class}}">{{tag.text}}</span>
+						{% endfor %}
+					</div>
+				</div>
+				<h3 class="meeting-card__title">{{item.title}}</h3>
+				<p class="meeting-card__description">{{item.description}}</p>
+				<p class="meeting-card__address">{{item.address}}</p>
+				<div class="meeting-card__footer">
+					<ul class="meeting-card__list">
+						<li class="meeting-card__list-item">
+							{% include '../components/icon.twig' with {class: 'icon--teacher'} %}
+							<a href="{{item.teacher.url}}" class="meeting-card__name">{{item.teacher.name}}</a>
+						</li>
+						<li class="meeting-card__list-item">
+							{% include '../components/icon.twig' with {class: 'icon--time icon--white'} %}
+							<span class="meeting-card__time">{{item.time}}</span>
+						</li>
+					</ul>
+					<p class="meeting-card__price">{{item.price}}</p>
+				</div>
+			</div>
+			{% include '../components/registration.twig' %}
+		</div>
+	</div>
+</section>

@@ -1,0 +1,8 @@
+<form action="POST" class="registration">
+	<h3 class="registration__title">Регистрация на встречу</h3>
+	<input type="text" placeholder="Имя" class="input-text"/>
+	<input type="text" placeholder="+7 (999) 999-99-99" class="input-text"/>
+	<input type="text" placeholder="Email" class="input-text"/>
+	<button class="btn btn--full">Оставить заявку</button>
+	{% include '../components/custom-checkbox.twig' with {checkboxName: 'registrationMeetingCheckbox'} %}
+</form>

@@ -15,6 +15,12 @@
 		margin-bottom: 10px;
 	}
 
+	.input-text {
+		&:last-of-type {
+			margin-bottom: 35px;
+		}
+	}
+
 	.list {
 		position: relative;
 		padding: 0;
@@ -51,21 +57,6 @@
 
 		background-color: #ffdf76;
 		border-radius: $border-radius;
-	}
-
-	&__input {
-		background-color: $white;
-		border-radius: $border-radius;
-		border: none;
-		color: $grey;
-
-		padding: 10px 20px;
-		width: 100%;
-		margin-bottom: 10px;
-
-		&:last-of-type {
-			margin-bottom: 35px;
-		}
 	}
 
 	@include breakpoint($breakpoint-xl) {

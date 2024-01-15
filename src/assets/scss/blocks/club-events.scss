@@ -16,6 +16,12 @@
 		margin-bottom: 10px;
 	}
 
+	.input-text {
+		&:last-of-type {
+			margin-bottom: 40px;
+		}
+	}
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -45,22 +51,6 @@
 
 	&__form {
 		max-width: 475px;
-	}
-
-	&__input {
-		background-color: $white;
-		border-radius: $border-radius;
-		border: none;
-		color: $grey;
-		font-weight: normal;
-
-		padding: 11px 20px;
-		width: 100%;
-		margin-bottom: 10px;
-
-		&:last-of-type {
-			margin-bottom: 40px;
-		}
 	}
 
 	@include breakpoint($breakpoint-xl) {

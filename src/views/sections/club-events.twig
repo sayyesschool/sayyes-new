@@ -4,8 +4,8 @@
 		<p class="club-events__description">Подпишитесь на рассылку и первым узнавайте о предстоящих мероприятиях разговорного клуба!</p>
 	</div>
 	<form action="POST" class="club-events__form">
-		<input type="text" placeholder="Имя" class="club-events__input"/>
-		<input type="text" placeholder="+7 (999) 999-99-99" class="club-events__input"/>
+		<input type="text" placeholder="Имя" class="input-text"/>
+		<input type="text" placeholder="+7 (999) 999-99-99" class="input-text"/>
 		<button class="btn btn--full">Подписаться</button>
 		{% include '../components/custom-checkbox.twig' with {checkboxName: 'clubEventsCheckbox'} %}
 	</form>

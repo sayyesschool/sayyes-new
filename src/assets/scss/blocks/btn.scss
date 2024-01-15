@@ -1,5 +1,7 @@
 .btn {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	min-height: 50px;
 	width: 100%;
 	max-width: 372px;
@@ -56,6 +58,6 @@
 	}
 
 	&--full {
-		max-width:100%;
+		max-width: 100%;
 	}
 }
