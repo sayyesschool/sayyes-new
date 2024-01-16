@@ -16,14 +16,16 @@
 		line-height: 1;
 		border-width: 1.5px;
 		letter-spacing: 1.4px;
-		transition: 0.3s linear;
-
 		margin-right: 20px;
 
-		&:hover {
-			color: $medium-magenta;
-			border-color: $medium-magenta;
-		}
+		@include hover-active(
+			background-color,
+			transparent,
+			border-color,
+			$medium-magenta,
+			color,
+			$medium-magenta
+		);
 	}
 
 	.phone-numbers {

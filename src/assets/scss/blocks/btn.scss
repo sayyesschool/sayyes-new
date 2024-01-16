@@ -16,14 +16,20 @@
 	border: none;
 	border-radius: $border-radius-bg;
 
+	@include hover-active(background-color, $black);
+
 	&--yellow {
 		background-color: $yellow;
 		color: $black;
+
+		@include hover-active(background-color, $yellow);
 	}
 
 	&--violent {
 		background-color: $violent;
 		color: $white;
+
+		@include hover-active(background-color, $violent);
 	}
 
 	&--transparent {
@@ -34,6 +40,15 @@
 		&-black {
 			border-color: $black;
 			color: $black;
+
+			@include hover-active(
+				background-color,
+				$black,
+				border-color,
+				$black,
+				color,
+				$white
+			);
 		}
 	}
 

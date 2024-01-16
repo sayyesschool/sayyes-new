@@ -6,6 +6,15 @@
 		margin-bottom: 40px;
 	}
 
+	.big-course {
+		transition: 0.3s all ease;
+		cursor: pointer;
+
+		&:hover {
+			box-shadow: 0px 0px 23.3288px 0px rgba(255, 219, 199, 0.9);
+		}
+	}
+
 	.course-selection {
 		align-self: flex-start;
 		padding: 50px 92px;

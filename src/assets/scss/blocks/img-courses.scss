@@ -6,6 +6,10 @@
 		margin-bottom: 40px;
 	}
 
+	.big-course {
+		pointer-events: none;
+	}
+
 	&__blocks {
 		display: flex;
 		flex-wrap: wrap;

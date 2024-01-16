@@ -55,6 +55,8 @@
 		font-size: 40px;
 		line-height: 1;
 		transform: rotate(45deg);
+		
+		@include hover-active(background-color, $black);
 	}
 
 	&--video,
