@@ -1,7 +1,6 @@
-.central-text {
+.tangible-result {
 	max-width: 876px;
-	margin: 0 auto;
-
+	margin: 0 auto 100px;
 	text-align: center;
 
 	&__title {
@@ -17,14 +16,6 @@
 		margin: 0 auto;
 	}
 
-	&__btn {
-		border: none;
-		background-color: transparent;
-		color: $violent;
-		text-decoration: underline;
-		font-weight: 700;
-	}
-
 	@include breakpoint($breakpoint-lg) {
 		&__title {
 			font-size: 32px;
@@ -36,7 +27,6 @@
 
 	@include breakpoint($breakpoint-xxs) {
 		display: none;
-
 		&__title {
 			font-size: 26px;
 			line-height: 25px;
