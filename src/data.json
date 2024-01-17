@@ -265,7 +265,8 @@
 		{
 			"title": "Курс “Bright ideas”",
 			"description": "Познакомит ребенка с азами языка в игровой форме и привьет любовь к языку.",
-			"class": "course--black",
+			"class": "course--black course--children",
+			"age": { "text": "5-7", "color": "purple" },
 			"list": [
 				{
 					"lessonType": "онлайн индивидуально",
@@ -284,7 +285,8 @@
 		{
 			"title": "Курс “Family and friends”",
 			"description": "Курс английского для начальной школы. Курс соответствует завершенному уровню Elementary.",
-			"class": "course--pink",
+			"class": "course--pink course--children",
+			"age": { "text": "7-10", "color": "black" },
 			"list": [
 				{
 					"lessonType": "онлайн индивидуально",
@@ -302,6 +304,7 @@
 		},
 		{
 			"title": "Курс “Go getter”",
+			"age": { "text": "11-16", "color": "black" },
 			"description": "По окончании курса слушатели владеют языком на уровне Upper-Intermediate.",
 			"class": "course--violent",
 			"list": [

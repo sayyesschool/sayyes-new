@@ -3,6 +3,9 @@
 		<div class="course__header">
 			<h3 class="course__title">{{item.title}}</h3>
 			<p class="course__description">{{item.description}}</p>
+			{% if item.age %}
+				<span class="course__age-tag course__age-tag-{{item.age.color}}">{{item.age.text}} лет</span>
+			{% endif %}
 		</div>
 		<ul class="course__content">
 			<div class="course__lesson-cost">Стоимость обучения:</div>
