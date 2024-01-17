@@ -306,7 +306,7 @@
 			"title": "Курс “Go getter”",
 			"age": { "text": "11-16", "color": "black" },
 			"description": "По окончании курса слушатели владеют языком на уровне Upper-Intermediate.",
-			"class": "course--violent",
+			"class": "course--violent course--children",
 			"list": [
 				{
 					"lessonType": "онлайн индивидуально",
