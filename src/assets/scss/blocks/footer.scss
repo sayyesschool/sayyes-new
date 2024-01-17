@@ -347,7 +347,7 @@
 		}
 	}
 
-	@include breakpoint($breakpoint-xxs) {
+	@include breakpoint($breakpoint-mobile) {
 		.license {
 			background-color: $pearl-white;
 			max-width: 500px;
