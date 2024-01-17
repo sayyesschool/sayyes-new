@@ -17,6 +17,11 @@ body {
 		font-size: 16px;
 		line-height: 18px;
 	}
+
+	
+	@include breakpoint($breakpoint-xxs) {
+		padding-top: 70px;
+	}
 }
 
 *,

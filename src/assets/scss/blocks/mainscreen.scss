@@ -70,6 +70,7 @@
 
 	@include breakpoint($breakpoint-lg) {
 		height: 490px;
+		margin-bottom: 70px;
 
 		.title {
 			font-size: 46px;
@@ -150,8 +151,13 @@
 		}
 	}
 
+	@include breakpoint($breakpoint-xs) {
+		margin-bottom: 60px;
+	}
+
 	@include breakpoint($breakpoint-xxs) {
 		height: 671px;
+		margin-bottom: 50px;
 		border-radius: $border-radius-sm;
 
 		.title {

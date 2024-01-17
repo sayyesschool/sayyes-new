@@ -1,5 +1,5 @@
 .test {
-	padding: 25px 0 100px;
+	margin: 25px 0 100px;
 
 	.btn {
 		margin-top: auto;
@@ -100,7 +100,17 @@
 		}
 	}
 
+	@include breakpoint($breakpoint-lg) {
+		margin-bottom: 70px;
+	}
+
+	@include breakpoint($breakpoint-xs) {
+		margin-bottom: 60px;
+	}
+
 	@include breakpoint($breakpoint-xxs) {
+		margin-bottom: 50px;
+		
 		.custom-radio-buttons {
 			gap: 30px;
 		}

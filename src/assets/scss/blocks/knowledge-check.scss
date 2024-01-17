@@ -78,6 +78,7 @@
 	}
 
 	@include breakpoint($breakpoint-lg) {
+		margin-bottom: 70px;
 		padding: 40px;
 
 		.subtitle {
@@ -104,7 +105,12 @@
 		}
 	}
 
+	@include breakpoint($breakpoint-xs) {
+		margin-bottom: 60px;
+	}
+
 	@include breakpoint($breakpoint-xxs) {
+		margin-bottom: 50px;
 		padding: 30px;
 
 		&__form {
