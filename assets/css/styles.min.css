@@ -10119,6 +10119,8 @@ button {
     background-color: #262626;
     color: #fffcff;
     border-radius: 30px;
+    position: relative;
+    overflow: hidden;
     padding: 36px 40px 37px;
     min-height: 205px;
     flex-grow: 1;
@@ -10140,6 +10142,28 @@ button {
     justify-content: space-between;
     min-height: 145px;
     padding: 38px 40px;
+}
+
+.course__age-tag {
+    position: absolute;
+    bottom: 46px;
+    right: -47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 52px;
+    border-top-right-radius: 15px;
+    background-color: #262626;
+    transform: rotate(-90deg);
+}
+
+.course__age-tag-purple {
+    background-color: #7831b2;
+}
+
+.course__age-tag-black {
+    background-color: #262626;
 }
 
 .course__lesson-cost {
@@ -10210,6 +10234,22 @@ button {
 
     .course__list {
         width: 100%;
+    }
+
+    .course__age-tag {
+        top: 0;
+        left: 0;
+        right: auto;
+        width: 130px;
+        height: 33px;
+        transform: none;
+        border-radius: 0;
+        border-bottom-right-radius: 15px;
+    }
+
+    .course--children .course__header {
+        min-height: 190px;
+        padding-top: 46px;
     }
 }
 
@@ -13039,7 +13079,7 @@ button {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .footer .license {
         background-color: #f9f4f2;
         max-width: 500px;
